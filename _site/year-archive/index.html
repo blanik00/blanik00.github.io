@@ -149,6 +149,9 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/posts/">Posts</a></li>
           
             
+            <li class="masthead__menu-item"><a href="http://localhost:4000/lecture/">Lecture</a></li>
+          
+            
             <li class="masthead__menu-item"><a href="http://localhost:4000/paper_review/">Paper Review</a></li>
           
             
@@ -352,8 +355,43 @@
 
   
   
-    <h2 id="2012" class="archive__subtitle">2012</h2>
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/lecture/prob_stat_05" rel="permalink">확률 및 통계 5강
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-13T00:00:00-07:00">April 13, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="32-expectation">3.2 Expectation</h2>
+<p>$E[X]=\sum_{i}x_iP(x_i)=\int_{-\infty}^{\infty}xf_X(x)dx$</p>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+
+  
   
   
 
@@ -367,7 +405,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/posts/2012/08/blog-post-1/" rel="permalink">Blog Post number 1
+        <a href="http://localhost:4000/posts/taylor_series" rel="permalink">Taylor Series
 </a>
       
     </h2>
@@ -375,11 +413,202 @@
     <!-- 
 
         
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2012-08-14T00:00:00-07:00">August 14, 2012</time></p>
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-13T00:00:00-07:00">April 13, 2020</time></p>
         
 
     
-    <p class="archive__item-excerpt" itemprop="description"><h1 id="headings-are-cool">Headings are cool</h1>
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="테일러-급수">테일러 급수</h2>
+<p>테일러 급수(Taylor Series) 또는 테일러 전개(Taylor Expansion)은 어떤 함수 $f(x)$를 우리가 다루기 쉬운 다항함수 형태로 바꾸어 준다.<br />
+  <br />
+$f(x)=p_{\infty}(x)$  <br />
+$p_n(x)=f(a)+f’(a)(x-a)+{f''(a)\over 2!}(x-a)^2+…+{f^{(n)}(a)\over n!}(x-a)^n$  <br />
+$\qquad\quad=\Sigma_{k=0}^{n}{f^{(k)}(a)\over k!}(x-a)^k$  <br />
+  <br />
+근사다항식의 차수가 높으면 높을수록 $p_n(x)$는 $f(x)$를 잘 근사하게 된다.  <br />
+  <br />
+주의해야 할 사항은 모든 $x$에 대해서 잘 근사하는 것이 아니라 $x=a$ 근처에서만 잘 근사한다는 것이다. 즉, $x$가 $a$로부터 멀어지면 멀어질수록 $f(x)=p(x)$는 큰 오차를 갖게 된다.  <br />
+  <br />
+그렇다면 위에서 봤던 $p_n(x)$는 어떻게 구한 것일까  <br />
+  <br />
+테일러 급수는 미적분의 기본 정리로부터 출발한다.  <br />
+  <br />
+$\int_a^xf’(t)dt=f(x)-f(a)$  <br />
+$f(x)=f(a)+\int_a^xf’(t)dt$  <br />
+  <br />
+이제 우변의 마지막 항인 $\int_a^xf’(t)dt$를 부분적분을 활용해 바꿔줄 것이다.  <br />
+  <br />
+$\int_a^xf’(t)dt=\int_a^x1\cdot f’(t)dt$  <br />
+$\qquad\qquad =[(t+c)f’(t)dt]_a^x-\int_a^x(t+c)f''(t)dt$  <br />
+  <br />
+여기서 $c$는 적분상수이기 때문에 우리가 원하는 값을 넣을 수 있다. $c$에 $-x$를 대입한다.  </p>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/lecture/prob_stat_04" rel="permalink">확률 및 통계 4강
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-12T00:00:00-07:00">April 12, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="26continousrandomvariable">2.6 Continous Random Variable</h2>
+<ul>
+  <li>outcome들을 특정 구간 안에 있는 모든 real number에 대응시키는 것이다. 즉, outcome은 무한하며, 무한한 outcome을 만들기 위해 Sample Space도 무한해야 한다.</li>
+</ul>
+
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbpbeXd%2FbtqCZZSh9c5%2Fej5eae49ORaKE0Zegwiri1%2Fimg.png" alt="" /></p>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/lecture/prob_stat_03" rel="permalink">확률 및 통계 3강
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-11T00:00:00-07:00">April 11, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h1 id="chapter-2-random-variable">Chapter 2 Random Variable</h1>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/lecture/prob_stat_02" rel="permalink">확률 및 통계 2강
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-10T00:00:00-07:00">April 10, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="110-combinational-analysis">1.10 Combinational Analysis</h2>
+<h3 id="1101-permutation순열">1.10.1 Permutation(순열)</h3>
+<ul>
+  <li>Line arrangement of n different objects. (n 개의 서로 다른 물체를 나열하는 방법)</li>
+  <li>arrangement라는 단어에는 순서 개념이 포함되어 있다.</li>
+  <li>$n!$으로 계산</li>
+  <li>0개의 서로 다른 물체를 나열하는 방법은 한 가지가 있다.(아무것도 나열하지 않는 것)</li>
+  <li>n 개의 서로 다른 물체 중 r개를 나열하는 방법(n&gt;=r)<br />
+$_n P_r=\frac{n!}{(n-r)!}$</li>
+</ul>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/lecture/prob_stat_01" rel="permalink">확률 및 통계 1강
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-04-09T00:00:00-07:00">April 09, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="11-sample-space">1.1 Sample Space</h2>
+<ul>
+  <li>“표본 공간”</li>
+  <li>$S$로 표기</li>
+  <li>output이 random하게 나오는 실험(experiment)의 모든 가능한 output의 집합</li>
+  <li>확률 공간을 다루는 데 전제가 된다</li>
+</ul>
 
 </p>
      -->
@@ -422,6 +651,22 @@
     </div>
 
     <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-119202873-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
 
 
 
