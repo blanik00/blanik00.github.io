@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-26T08:21:12-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Recommender System for Ecommerce</title><link href="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce" rel="alternate" type="text/html" title="Recommender System for Ecommerce" /><published>2020-04-23T00:00:00-07:00</published><updated>2020-04-23T00:00:00-07:00</updated><id>http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce</id><content type="html" xml:base="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-27T06:53:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Recommender System for Ecommerce</title><link href="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce" rel="alternate" type="text/html" title="Recommender System for Ecommerce" /><published>2020-04-23T00:00:00-07:00</published><updated>2020-04-23T00:00:00-07:00</updated><id>http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce</id><content type="html" xml:base="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">확률 및 통계 7강</title><link href="http://localhost:4000/lecture/prob_stat_07" rel="alternate" type="text/html" title="확률 및 통계 7강" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%207%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/prob_stat_07">&lt;h2 id=&quot;chebyshev-inequality&quot;&gt;Chebyshev Inequality&lt;/h2&gt;
+
+&lt;p&gt;$P(|X-E[X]|\ge a)\le {\sigma_X^2 \over a^2}$&lt;/p&gt;
+
+&lt;p&gt;어떤 랜덤한 $X$와 $X$의 평균의 차이의 정도를 $a$라 보고, $a$보다 차이가 더 많이 날 확률은 ${\sigma_X^2 \over a^2}$보다 작다.($\sigma_X^2$는 X의 분산)&lt;/p&gt;
+
+&lt;p&gt;즉, 임의로 선택한 $X$는 $X$의 평균과 차이를 보이기 마련인데, 우리가 예측한 것(a)보다 더 크게 차이를 보일 확률은 얼마나 되는지 수치적으로 표현한 것이다.&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-4-special-distribution&quot;&gt;Chapter 4. Special Distribution&lt;/h1&gt;
+&lt;h2 id=&quot;42-bernoulli-distribution베르누이-분포&quot;&gt;4.2 Bernoulli Distribution(베르누이 분포)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;RV X : binary&lt;/li&gt;
+  &lt;li&gt;보통 하나를 success, 다른 하나를 failure라고 한다.&lt;/li&gt;
+  &lt;li&gt;$P(success) = p, P(failure) = 1-p$&lt;/li&gt;
+  &lt;li&gt;보통 success한 경우를 1로 두고, failure한 경우를 0으로 둔다.&lt;/li&gt;
+  &lt;li&gt;$E[X]=p$&lt;/li&gt;
+  &lt;li&gt;$\sigma_X^2=p(1-p)$&lt;/li&gt;
+  &lt;li&gt;Bernoulli Distribution를 바탕으로 많은 Distribution이 만들어진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;43-binomial-distribution이항분포&quot;&gt;4.3 Binomial Distribution(이항분포)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;RV X : number of successes out of n Bernoulli trails(베르누이 시행을 n 번 반복해서 성공한 횟수)&lt;/li&gt;
+  &lt;li&gt;$x=0,1,2,…,n$. 즉, discrete하다.&lt;/li&gt;
+  &lt;li&gt;$P_X(x)={n \choose x}p^x(1-p)^{n-x}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$\sum_{x=0}^nP_X(x)=\sum_{x=0}^n{n \choose x}p^x(1-p)^{n-x}=(p+(1-p))^n=1(\because (a+b)^n=\sum_{x=0}^n{n \choose x}a^xb^{n-x})$&lt;/li&gt;
+  &lt;li&gt;$E[X]=\sum_{x=0}^nx{n \choose x}p^x(1-p)^{n-x}=np$&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">미분적분학 1강</title><link href="http://localhost:4000/lecture/calculus_01" rel="alternate" type="text/html" title="미분적분학 1강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84%ED%95%99%201%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/calculus_01">&lt;h2 id=&quot;1-함수의-정의&quot;&gt;1. 함수의 정의&lt;/h2&gt;
+&lt;h3 id=&quot;함수의-정의&quot;&gt;함수의 정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;$f:X\to Y$&lt;/li&gt;
+  &lt;li&gt;X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수&lt;/li&gt;
+  &lt;li&gt;X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;함수의-조건&quot;&gt;함수의 조건&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;모든 x가 y로 가야 한다.&lt;/li&gt;
+  &lt;li&gt;각 x는 하나의 y로만 가야 한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래 함수들은 앞으로의 예시에서 계속 등장하니 자주 참고해야 한다.&lt;/li&gt;
+  &lt;li&gt;정의역 X는 실수 전체&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$y=e^x$&lt;/li&gt;
+  &lt;li&gt;$y=lnx$&lt;/li&gt;
+  &lt;li&gt;$y=sinx$&lt;/li&gt;
+  &lt;li&gt;$y=x^3$&lt;/li&gt;
+  &lt;li&gt;$x^2+y^2=1$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371682-3e1d4400-88cd-11ea-821f-c97ee6594d23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2번 : 함수가 아니다. $x&amp;lt;0$에서 y값을 대응시킬 수 없다. 즉, 1번 조건을 만족시키지 못한다. 단, 정의역을 $x&amp;gt;0$이라고 제한한다면 함수라고 할 수 있다.&lt;/li&gt;
+  &lt;li&gt;5번 : 하나의 x가 두 개의 y를 가질 수 있다. 즉, 2번 조건을 만족시키지 못한다. 단, $y&amp;gt;=0$이라고 제한한다면 함수라고 할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-일대일-대응함수&quot;&gt;2. 일대일 대응함수&lt;/h2&gt;
+&lt;h3 id=&quot;조건&quot;&gt;조건&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;one-to-one : y축과 평행한 선을 그어 한 점과만 만나야 한다.&lt;/li&gt;
+  &lt;li&gt;onto : 치역과 공역이 같아야 한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3번 : 일대일 대응이 아니다. y축과 평행한 선을 그어보면 여러 점에서 만난다. 즉, 1번 조건을 만족시키지 못한다.&lt;/li&gt;
+  &lt;li&gt;1번 : $y&amp;gt;0$에서만 정의된다. 즉, onto 조건을 만족시키지 못한다. 단, $y&amp;gt;0$이라는 조건이 있다면 onto 조건을 만족시킨다.&lt;/li&gt;
+  &lt;li&gt;4번 : 일대일 대응 조건을 만족&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
+&lt;p&gt;x값을 제한하면 one-to-one 조건을 만족할 수 있도록 만들 수 있으며, y값을 제한하면 onto 조건을 만족할 수 있도록 만들 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;일대일-대응의-의미&quot;&gt;일대일 대응의 의미&lt;/h3&gt;
+&lt;p&gt;$y=f(x)$가 일대일 대응이다 $\Leftrightarrow$ 역함수 존재&lt;/p&gt;
+
+&lt;h2 id=&quot;3-역함수와-도함수&quot;&gt;3. 역함수와 도함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$y=f(x)$의 역함수 : $x=f(y) \Leftrightarrow y=f^{-1}(x)$&lt;/li&gt;
+  &lt;li&gt;X가 치역, Y가 정의역이 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예제---yex&quot;&gt;예제 - $y=e^x$&lt;/h3&gt;
+&lt;p&gt;일대일 대응을 위해 $-\infty &amp;lt; x &amp;lt; \infty, y&amp;gt;0$ 조건을 붙임.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;역함수 : $x=e^y\Leftrightarrow y=lnx$  ($-\infty &amp;lt; y &amp;lt; \infty, x&amp;gt;0$)&lt;/li&gt;
+  &lt;li&gt;도함수 : $y’=e^x$&lt;/li&gt;
+  &lt;li&gt;역함수의 도함수 : $y=lnx \Rightarrow y={1 \over x}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예제---ysinx&quot;&gt;예제 - $y=sinx$&lt;/h3&gt;
+&lt;p&gt;일대일 대응을 위해 $-1 \le y \le 1, -{\pi \over 2} \le x \le {\pi \over 2}$ 조건을 붙임.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;역함수 : $x=siny \Leftrightarrow y=arcsinx$  ($-1 \le x \le 1, -{\pi \over 2} \le y \le {\pi \over 2}$)&lt;/li&gt;
+  &lt;li&gt;도함수 : $y’=cosx$&lt;/li&gt;
+  &lt;li&gt;역함수의 도함수 : $y=arcsinx \Rightarrow y’={1 \over \sqrt{1-x^2}}$&lt;br /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371685-3f4e7100-88cd-11ea-9f23-a9d189454215.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+$y=arcsinx \Rightarrow y’={1 \over \sqrt{1-x^2}}$&lt;br /&gt;
+이 식은 어떻게 도출된 것일까?&lt;br /&gt;
+$y=arcsinx\Leftrightarrow x=siny$
+$\Rightarrow 1=cosy \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
+$\Rightarrow y’={1\over cosy}$&lt;br /&gt;
+$={1\over \sqrt{1-sin^2y}}$($\because sin^2x+cos^2x=1$)&lt;br /&gt;
+$={1\over \sqrt{1-x^2}}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예제---ycosx&quot;&gt;예제 - $y=cosx$&lt;/h3&gt;
+&lt;p&gt;일대일 대응을 위해 $0\le x\le \pi, -1 \le y \le 1$ 조건을 붙임.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;역함수 : $x=cosy \Leftrightarrow y=arccosx$  ($0\le y\le \pi, -1 \le x \le 1$)&lt;/li&gt;
+  &lt;li&gt;도함수 : $y’=-sinx$&lt;/li&gt;
+  &lt;li&gt;역함수의 도함수 : $y=arccosx \Rightarrow y’=-{1 \over \sqrt{1-x^2}}$&lt;br /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371674-3c538080-88cd-11ea-9101-e466cda44a4c.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+$y=arccosx \Rightarrow y’=-{1 \over \sqrt{1-x^2}}$&lt;br /&gt;
+이 식은 어떻게 도출된 것일까?&lt;br /&gt;
+$y=arccosx\Leftrightarrow x=cosy$
+$\Rightarrow 1=-siny \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
+$\Rightarrow y’=-{1\over siny}$&lt;br /&gt;
+$=-{1\over \sqrt{1-cos^2y}}$($\because sin^2x+cos^2x=1$)&lt;br /&gt;
+$=-{1\over \sqrt{1-x^2}}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예제---ytanx&quot;&gt;예제 - $y=tanx$&lt;/h3&gt;
+&lt;p&gt;일대일 대응을 위해 $-{1\over 2}\pi \le x\le {1\over 2}\pi$ 조건을 붙임.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;역함수 : $x=tany \Leftrightarrow y=arctanx$  ($-{1\over 2}\pi \le y\le {1\over 2}\pi$)&lt;/li&gt;
+  &lt;li&gt;도함수 : $y’=sec^2x$&lt;/li&gt;
+  &lt;li&gt;역함수의 도함수 : $y=arctanx \Rightarrow y’={1 \over 1+x^2}$&lt;br /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371671-3b225380-88cd-11ea-87c3-72991eb83b3f.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+$y=arctanx \Rightarrow y’={1 \over 1+x^2}$&lt;br /&gt;
+이 식은 어떻게 도출된 것일까?&lt;br /&gt;
+$y=arctanx \Leftrightarrow x=tany$
+$\Rightarrow 1=sec^2y \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
+$\Rightarrow y’={1\over sec^2y}$&lt;br /&gt;
+$={1\over \sqrt{1+tan^2y}}$($\because sec^2x-tan^2x=1$)&lt;br /&gt;
+$={1\over \sqrt{1+x^2}}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;예제---역함수와-도함수&quot;&gt;예제 - 역함수와 도함수&lt;/h2&gt;
+
+&lt;h2 id=&quot;4-쌍곡선함수와-그-도함수&quot;&gt;4. 쌍곡선함수와 그 도함수&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미분적분학" /><summary type="html">1. 함수의 정의 함수의 정의 $f:X\to Y$ X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수 X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$</summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;RV K: Number of trials until first success&lt;/li&gt;
 &lt;/ul&gt;
@@ -54,70 +202,7 @@ $E[X|A]=\int_{x\in A}xf_X(x|A)$
 이것을 바로 구할 수는 없고, conditional CDF를 활용해 구한다.&lt;br /&gt;
 $f_X(x|A)={d \over dx}F_X(x|A)$&lt;br /&gt;
 $\qquad\qquad ={d \over dx}P(X\le x|A)$&lt;br /&gt;
-$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry><entry><title type="html">미분적분학 1강</title><link href="http://localhost:4000/lecture/calculus_01" rel="alternate" type="text/html" title="미분적분학 1강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84%ED%95%99%201%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/calculus_01">&lt;h2 id=&quot;1-함수의-정의&quot;&gt;1. 함수의 정의&lt;/h2&gt;
-&lt;h3 id=&quot;함수의-정의&quot;&gt;함수의 정의&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;$f:X\to Y$&lt;/li&gt;
-  &lt;li&gt;X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수&lt;/li&gt;
-  &lt;li&gt;X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;함수의-조건&quot;&gt;함수의 조건&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;모든 x가 y로 가야 한다.&lt;/li&gt;
-  &lt;li&gt;각 x는 하나의 y로만 가야 한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;아래 함수들은 앞으로의 예시에서 계속 등장하니 자주 참고해야 한다.&lt;/li&gt;
-  &lt;li&gt;정의역 X는 실수 전체&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$y=e^x$&lt;/li&gt;
-  &lt;li&gt;$y=lnx$&lt;/li&gt;
-  &lt;li&gt;$y=sinx$&lt;/li&gt;
-  &lt;li&gt;$y=x^3$&lt;/li&gt;
-  &lt;li&gt;$x^2+y^2=1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2번 : 함수가 아니다. $x&amp;lt;0$에서 y값을 대응시킬 수 없다. 즉, 1번 조건을 만족시키지 못한다. 단, 정의역을 $x&amp;gt;0$이라고 제한한다면 함수라고 할 수 있다. &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80311415-829bd780-881a-11ea-8f17-6a5a6f3b4c1b.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;5번 : 하나의 x가 두 개의 y를 가질 수 있다. 즉, 2번 조건을 만족시키지 못한다. 단, $y&amp;gt;=0$이라고 제한한다면 함수라고 할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-일대일-대응함수&quot;&gt;2. 일대일 대응함수&lt;/h2&gt;
-&lt;h3 id=&quot;조건&quot;&gt;조건&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;one-to-one : y축과 평행한 선을 그어 한 점과만 만나야 한다.&lt;/li&gt;
-  &lt;li&gt;onto : 치역과 공역이 같아야 한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3번 : 일대일 대응이 아니다. y축과 평행한 선을 그어보면 여러 점에서 만난다. 즉, 1번 조건을 만족시키지 못한다.&lt;/li&gt;
-  &lt;li&gt;1번 : $y&amp;gt;0$에서만 정의된다. 즉, onto 조건을 만족시키지 못한다. 단, $y&amp;gt;0$이라는 조건이 있다면 onto 조건을 만족시킨다.&lt;/li&gt;
-  &lt;li&gt;4번 : 일대일 대응 조건을 만족&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
-&lt;p&gt;x값을 제한하면 one-to-one 조건을 만족할 수 있도록 만들 수 있으며, y값을 제한하면 onto 조건을 만족할 수 있도록 만들 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;일대일-대응의-의미&quot;&gt;일대일 대응의 의미&lt;/h3&gt;
-&lt;p&gt;$y=f(x)$가 일대일 대응이다 $\Leftrightarrow$ 역함수 존재&lt;/p&gt;
-
-&lt;h2 id=&quot;3-역함수와-도함수&quot;&gt;3. 역함수와 도함수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$y=f(x)$의 역함수 : $x=f(y) \Leftrightarrow y=f^{-1}(x)$&lt;/li&gt;
-  &lt;li&gt;X가 치역, Y가 정의역이 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예제---ex&quot;&gt;예제 - $e^x$&lt;/h3&gt;
-&lt;p&gt;일대일 대응을 위해 $-\infty &amp;lt; x &amp;lt; \infty, y&amp;gt;0$ 조건을 붙임.&lt;/p&gt;
-
-&lt;h2 id=&quot;예제---역함수와-도함수&quot;&gt;예제 - 역함수와 도함수&lt;/h2&gt;
-
-&lt;h2 id=&quot;4-쌍곡선함수와-그-도함수&quot;&gt;4. 쌍곡선함수와 그 도함수&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미분적분학" /><summary type="html">1. 함수의 정의 함수의 정의 $f:X\to Y$ X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수 X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$</summary></entry><entry><title type="html">Taylor Series</title><link href="http://localhost:4000/posts/taylor_series" rel="alternate" type="text/html" title="Taylor Series" /><published>2020-04-13T00:00:00-07:00</published><updated>2020-04-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/taylor_series</id><content type="html" xml:base="http://localhost:4000/posts/taylor_series">&lt;h2 id=&quot;테일러-급수&quot;&gt;테일러 급수&lt;/h2&gt;
+$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry><entry><title type="html">Taylor Series</title><link href="http://localhost:4000/posts/taylor_series" rel="alternate" type="text/html" title="Taylor Series" /><published>2020-04-13T00:00:00-07:00</published><updated>2020-04-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/taylor_series</id><content type="html" xml:base="http://localhost:4000/posts/taylor_series">&lt;h2 id=&quot;테일러-급수&quot;&gt;테일러 급수&lt;/h2&gt;
 &lt;p&gt;테일러 급수(Taylor Series) 또는 테일러 전개(Taylor Expansion)은 어떤 함수 $f(x)$를 우리가 다루기 쉬운 다항함수 형태로 바꾸어 준다.&lt;br /&gt;
   &lt;br /&gt;
 $f(x)=p_{\infty}(x)$  &lt;br /&gt;
@@ -444,145 +529,4 @@ $P(x)=&lt;br /&gt;
 {1\over 4} \quad \quad (x=2) \\  &lt;br /&gt;
 \end{cases}$&lt;/p&gt;
 
-&lt;p&gt;위 식 대신에 ${1\over 4}\delta(x)+{1\over 2}\delta(x-1)+{1\over 4}\delta(x-2)$로 표현할 수 있다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chapter 2 Random Variable</summary></entry><entry><title type="html">확률 및 통계 2강</title><link href="http://localhost:4000/lecture/prob_stat_02" rel="alternate" type="text/html" title="확률 및 통계 2강" /><published>2020-04-10T00:00:00-07:00</published><updated>2020-04-10T00:00:00-07:00</updated><id>http://localhost:4000/lecture/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%202%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/prob_stat_02">&lt;h2 id=&quot;110-combinational-analysis&quot;&gt;1.10 Combinational Analysis&lt;/h2&gt;
-&lt;h3 id=&quot;1101-permutation순열&quot;&gt;1.10.1 Permutation(순열)&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Line arrangement of n different objects. (n 개의 서로 다른 물체를 나열하는 방법)&lt;/li&gt;
-  &lt;li&gt;arrangement라는 단어에는 순서 개념이 포함되어 있다.&lt;/li&gt;
-  &lt;li&gt;$n!$으로 계산&lt;/li&gt;
-  &lt;li&gt;0개의 서로 다른 물체를 나열하는 방법은 한 가지가 있다.(아무것도 나열하지 않는 것)&lt;/li&gt;
-  &lt;li&gt;n 개의 서로 다른 물체 중 r개를 나열하는 방법(n&amp;gt;=r)&lt;br /&gt;
-$_n P_r=\frac{n!}{(n-r)!}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;1102-group-permutation중복이-있는-순열&quot;&gt;1.10.2 Group Permutation(중복이 있는 순열)&lt;/h3&gt;
-&lt;p&gt;주머니 안에 빨간공 5개, 흰공 3개, 파란공 2개가 들어있다. 이들을 나열하는 방법은 몇 가지인가?
-우선 다 다르다고 가정하고 나열하면 $10!$이다. 여기에서 중복되는 갯수만큼 중복을 제거하면 $\frac{10!}{5!3!2!}$이 된다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1103-circular-permutation원순열&quot;&gt;1.10.3 Circular Permutation(원순열)&lt;/h3&gt;
-&lt;p&gt;우선 일렬로 나열하면 $n!$이다. 하지만 $n$번 쉬프트 해도 순서는 변함이 없다. 그러므로 $\frac{n!}{n}$이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1104-combination조합&quot;&gt;1.10.4 Combination(조합)&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Select r objects out of n objects. (n 개의 물체 중 r 개의 물체를 고르는 방법)&lt;/li&gt;
-  &lt;li&gt;select 라는 단어에는 순서 개념이 포함되어 있지 않다.&lt;/li&gt;
-  &lt;li&gt;$_n C_r=\frac{_n P_r}{r!}={n \choose r}=\frac{n!}{(n-r)!r!}$로 계산&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;참고&lt;/strong&gt;&lt;br /&gt;
-${n+m \choose r}=\sum_{k=0}^r{n \choose k}{m \choose r-k}$&lt;br /&gt;
-직과적으로 이해하기 어려울 수 있는데 이렇게 이해해보자&lt;br /&gt;
-어느 학교에 n명의 남학생, m명의 여학생이 있다고 하자. 이 때 r 명을 선택하는 경우의 수는 다음과 같다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;남학생&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;여학생&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;경우의 수&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;r&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;${n \choose 0}{m \choose r}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;r-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;${n \choose 1}{m \choose r-1}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;r-2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;${n \choose 2}{m \choose r-2}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;…&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;…&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;…&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;r&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;${n \choose r}{m \choose 0}$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;이 각각은 배반사건이다. 그러므로 전체 경우의 수를 알기 위해서는 배반사건들의 합으로 구해야 한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1105-binomial-theorem이항정리&quot;&gt;1.10.5 Binomial Theorem(이항정리)&lt;/h3&gt;
-
-&lt;p&gt;거듭제곱이 있을 때, 그것의 계수들이 어떤 형태로 이루어지는가를 간략하게 표현한 것&lt;/p&gt;
-
-&lt;p&gt;$(a+b)^n=A_0a^n+A_1a^{n-1}b^1+A_2a^{n-2}b^2+…+A_nb^n$
-$=\sum_{k=0}^n{n \choose k}a^kb^{n-k}=\sum_{k=0}^n{n \choose k}a^{n-k}b^k$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;예시&lt;/strong&gt;&lt;br /&gt;
-$f(x)=(1+x)^n=\sum_{k=0}^n{n \choose k}x^k$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$f(1)=2^n=\sum_{k=0}^n{n \choose k}$&lt;/li&gt;
-  &lt;li&gt;$f(-1)=0=\sum_{k=0}^n{n \choose k}(-1)^k$&lt;/li&gt;
-  &lt;li&gt;$f(1)+f(-1)=2(_n\mathrm{C}_0+_n\mathrm{C}_2+_n\mathrm{C}_4+…)=2^n$&lt;br /&gt;
-$\therefore$  $_n\mathrm{C}_0+_n\mathrm{C}_2+_n\mathrm{C}_4+…=2^{n-1}$&lt;/li&gt;
-  &lt;li&gt;$f(1)-f(-1)=2(_n\mathrm{C}_1+_n\mathrm{C}_3+_n\mathrm{C}_5+…)=2^n$&lt;br /&gt;
-$\therefore$  $_n\mathrm{C}_1+_n\mathrm{C}_3+_n\mathrm{C}_5+…=2^{n-1}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$f’(x)=n(1+x)^{n-1}=\sum_{k=0}^nk{n \choose k}x^{k-1}$&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$f’(1)=n2^{n-1}=\sum_{k=0}^nk{n \choose k}$&lt;br /&gt;
-$=1_{n}\mathrm{C}_{1}+2_{n}\mathrm{C}_{2}+3_{n}\mathrm{C}_{3}+…$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$f''(x)=n(n-1)(1+x)^{n-2}=\sum_{k=0}^nk(k-1){n \choose k}x^{k-2}$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;참고&lt;/strong&gt;&lt;br /&gt;
-$f''(x)$는 이항분포 $B(n, p)$의 평균 $m=np$와 분산 $\sigma^2=np(1-p)$를 유도할 때 필요하다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;멱급수&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;“등차수열 $\times$ 등비수열”로 이루어진 수열의 합&lt;/p&gt;
-
-&lt;p&gt;$f(x)=1+2x+3x^2+4x^3+…$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;풀이 1&lt;br /&gt;
-우선 양변에 $x$를 곱해 위 식에서 빼보자.&lt;br /&gt;
-$xf(x)=x+2x^2+3x^3+4x^4+…$&lt;br /&gt;
-$(1-x)f(x)=1+x+x^2+x^3+…={1 \over 1-x}(\because$ 무한등비수열의 합$)$&lt;br /&gt;
-$f(x)={1 \over (1-x)^2}$&lt;/li&gt;
-  &lt;li&gt;풀이 2&lt;br /&gt;
-$g(x)=\sum_{k=0}^\infty x^k={1 \over 1-x}$&lt;br /&gt;
-$g’(x)=\sum_{k=0}^\infty kx^{k-1}=f(x)=({1 \over 1-x})’$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;1106-stirlings-formula&quot;&gt;1.10.6 Stirling’s Formula&lt;/h3&gt;
-
-&lt;p&gt;$n!$과 같은 큰 숫자를 연산해야 한다고 하자. 이 때 $n$이 조금만 커지더라도 연산이 힘들다. (지수함수보다 급격하게 증가함) 그래서 실제 값을 구하기보다는 근사하는 방법을 사용한다. $n!\approx \sqrt{2\pi n}({n \over e})^n$으로 근사할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;$n$이 작을 때는 어느정도 오차가 있지만, 수가 커질수록 오차가 적어진다.&lt;/p&gt;
-
-&lt;h2 id=&quot;111-reliability&quot;&gt;1.11 Reliability&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;시스템이 어떤 시간($t$)동안 잘(고장나지 않고) 동작하는가 (=duration of useful functioning of system)&lt;/li&gt;
-  &lt;li&gt;$R(t)$ : Probability that a system will be functioning at time t&lt;/li&gt;
-  &lt;li&gt;한 시간 후에 기계가 잘 동작할 가능성이 99%라고 하자. 그렇다면 $R(one hour)=99%$이다. 단, 고장이 났을 때 고장이 나는 시점까지는 알 수 없다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;예시&lt;/strong&gt;&lt;br /&gt;
-여러 모듈로 이루어진 기계장치가 있다. 모듈들의 고장 확률은 독립적이라고 가정했을 때, 연결 방식별 기계장치 고장 확률을 구하라.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Series Connection(직렬행렬)&lt;br /&gt;
-  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FnlMNn%2FbtqC0K7PepD%2F6RwjdJVKCjmoHT7TAjpbi1%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-  전체가 잘 동작하려면 어느 하나도 고장나면 안된다.&lt;br /&gt;
-  $R(t)=\prod_{i=1}^n R_i=R_1*R_2*…*R_n$&lt;/li&gt;
-  &lt;li&gt;Parallel Connection(병렬행렬)&lt;br /&gt;
-  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FeidhVu%2FbtqCZZYsAzU%2FlWbLl2VpebFwpK4uAnqQw1%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-  전체가 잘 동작하려면 전체 중 하나라도 살아있으면 된다.&lt;br /&gt;
-  $R(t)=1-\prod_{i=1}^n R_i=1-(1-R_1)*(1-R_2)*…*(1-R_n)$&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">1.10 Combinational Analysis 1.10.1 Permutation(순열) Line arrangement of n different objects. (n 개의 서로 다른 물체를 나열하는 방법) arrangement라는 단어에는 순서 개념이 포함되어 있다. $n!$으로 계산 0개의 서로 다른 물체를 나열하는 방법은 한 가지가 있다.(아무것도 나열하지 않는 것) n 개의 서로 다른 물체 중 r개를 나열하는 방법(n&amp;gt;=r) $_n P_r=\frac{n!}{(n-r)!}$</summary></entry></feed>
+&lt;p&gt;위 식 대신에 ${1\over 4}\delta(x)+{1\over 2}\delta(x-1)+{1\over 4}\delta(x-2)$로 표현할 수 있다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chapter 2 Random Variable</summary></entry></feed>
