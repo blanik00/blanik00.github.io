@@ -1,7 +1,7 @@
 ---
 title: 'Taylor Series'
 date: 2020-04-13
-permalink: /posts/taylor_series
+permalink: /posts/2020/04/13/taylor_series
 category:
   - posts
 ---
