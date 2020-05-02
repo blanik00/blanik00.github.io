@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-30T09:08:01-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering">&lt;h1 id=&quot;요약&quot;&gt;요약&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T08:36:22-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">최대우도추정(MLE, Maximum Likelihood Estimation)</title><link href="http://localhost:4000/posts/2020/05/03/maximum_likelihood_estimation" rel="alternate" type="text/html" title="최대우도추정(MLE, Maximum Likelihood Estimation)" /><published>2020-05-03T00:00:00-07:00</published><updated>2020-05-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/03/maximum_likelihood_estimation</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/03/maximum_likelihood_estimation">&lt;iframe src=&quot;https://www.youtube.com/embed/XepXtl9YKwc&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;최대우도추정 : 데이터를 가장 잘 설명하는 모델의 모수($\theta$)를 찾는 것&lt;/p&gt;
+
+&lt;p&gt;관측된 데이터 $X_1=x_1$, $X_2=x_2$, …, $X_n=x_n$이 있다고 할 때 $\theta$의 가능도는 다음과 같다.&lt;/p&gt;
+
+&lt;p&gt;$L(\theta)=P(x_1, x_2, …, x_n|\theta)$&lt;/p&gt;
+
+&lt;p&gt;(참고로 여기서 나오는 $P(x_1, x_2, …, x_n|\theta)$에서 $|$는 조건부 확률을 나타내는 기호가 아니다. $|$ 뒤에 있는 기호들이 모델의 모수라는 것을 강조하기 위해 사용되는 기호에 불과하다. $P(x_1, x_2, …, x_n;\theta)$으로 표현하기도 한다.)&lt;/p&gt;
+
+&lt;p&gt;이 때 확률변수가 iid(independent and identically distributed)라면 가능도는 다음과 같이 표현할 수도 있다.&lt;/p&gt;
+
+&lt;p&gt;$L(\theta)=\prod_{i=1}^{n}P(x_i|\theta)$&lt;/p&gt;
+
+&lt;p&gt;가능도를 최대로 만드는 $\theta_{MLE}$는 다음과 같다.&lt;/p&gt;
+
+&lt;p&gt;$\theta_{MLE}=argmax_{\theta}\prod_{i=1}^nP(x_i|\theta)$&lt;/p&gt;
+
+&lt;p&gt;이 때 확률값은 1보다 작기 때문에 계속 곱하면 그 값이 지나치게 작아져 언더플로우(underflow) 문제가 발생하므로 로그를 취한다. 이 때 로그를 취하더라도 가능도를 최대로 만드는 $\theta$가 전과 동일하다는 보장이 있어야 하는데, 로그는 단조증가(monotonically increasing)한다는 성질이 있기 때문에 로그를 취하더라도 가능도를 최대로 만드는 $\theta$는 변하지 않는다.&lt;/p&gt;
+
+&lt;p&gt;$\theta_{MLE}=argmax_{\theta}\sum_{i=1}^nlogP(x_i|\theta)$&lt;/p&gt;
+
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/Dn6b9fCIUpM&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=XepXtl9YKwc&quot;&gt;StatQuest: Maximum Likelihood, clearly explained!!!&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=Dn6b9fCIUpM&quot;&gt;Maximum Likelihood For the Normal Distribution, step-by-step!&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ratsgo.github.io/statistics/2017/09/23/MLE/&quot;&gt;최대우도추정(Maximum Likelihood Estimation)&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">확률(Probability)과 가능도(Likelihood)의 차이</title><link href="http://localhost:4000/posts/2020/05/02/probability_likelihood" rel="alternate" type="text/html" title="확률(Probability)과 가능도(Likelihood)의 차이" /><published>2020-05-02T00:00:00-07:00</published><updated>2020-05-02T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/02/probability_likelihood</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/02/probability_likelihood">&lt;iframe src=&quot;https://www.youtube.com/embed/pYxNSUDSFH4&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;확률과 가능도의 차이를 가장 직관적으로 설명한 영상이라고 생각한다. 한번 보면 감이 올 것이다.&lt;/p&gt;
+
+&lt;p&gt;영상에서는 확률과 가능도를 다음과 같이 요약한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80852722-b4230180-8c65-11ea-9d9f-922949fad27c.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;내-나름의-정리&quot;&gt;내 나름의 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;확률 : 분포를 알고 있을 때, 전체 관측값에서 우리가 관심있는 관측값이 차지하는 비중&lt;/li&gt;
+  &lt;li&gt;가능도 : 분포를 모를 때, 분포 $\theta$가 관측값을 얼마나 잘 설명하는지 수치화한 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw&quot;&gt;StatQuest with Josh Starmer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability&quot;&gt;What is the difference between “likelihood” and “probability”?
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering">&lt;h1 id=&quot;요약&quot;&gt;요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;Implicit Feedback을 활용한 Collaborative Filtering을 다룬다.&lt;/li&gt;
   &lt;li&gt;output이 1이면 User와 Item은 연관성이 있는 것이며, 0이면 User와 Item은 연관성이 없는 것이다. 즉, binary classification 문제이다.&lt;/li&gt;
@@ -244,7 +291,63 @@ $={P(X=n+k)\over P(X&amp;gt;n)}$&lt;br /&gt;
 $={(1-p)^{n+k-1}p\over \sum_{x=n+1}^{\infty}(1-p)^{x-1}p}$&lt;br /&gt;
 $={(1-p)^{n+k-1}p\over {p(1-p)^n\over 1-(1-p)}}$&lt;br /&gt;
 $=p(1-p)^{k-1}$&lt;br /&gt;
-$=P(X=k)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">미분적분학 1강</title><link href="http://localhost:4000/lecture/2020/04/14/calculus_01" rel="alternate" type="text/html" title="미분적분학 1강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84%ED%95%99%201%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/calculus_01">&lt;h2 id=&quot;1-함수의-정의&quot;&gt;1. 함수의 정의&lt;/h2&gt;
+$=P(X=k)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/2020/04/14/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;RV K: Number of trials until first success&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시---tossing-a-dice-until-first-6&quot;&gt;예시 - Tossing a dice until first 6&lt;/h3&gt;
+&lt;p&gt;p: 6이 나올 확률&lt;br /&gt;
+(1-p): 6 이외의 수가 나올 확률&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;첫 번째 시도에서 성공&lt;br /&gt;
+$k=1, p$&lt;/li&gt;
+  &lt;li&gt;두 번째 시도에서 성공&lt;br /&gt;
+$k=2, (1-p)p$&lt;/li&gt;
+  &lt;li&gt;세 번째 시도에서 성공&lt;br /&gt;
+$k=3, (1-p)(1-p)p$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;즉, $P_K(k)=(1-p)^{k-1}p\quad(k=1,2,3,4,…)$&lt;/p&gt;
+
+&lt;h3 id=&quot;mean&quot;&gt;Mean&lt;/h3&gt;
+&lt;p&gt;$E[K]=\sum_{k=1}^{\infty}kp(1-p)^{k-1}$&lt;br /&gt;
+$\sum_{k=1}^{\infty}(1-p)^{k}={1-p \over p}$&lt;br /&gt;
+${d \over dp}\sum_{k=1}^{\infty}(1-p)^{k}={d \over dp}({1-p \over p})$&lt;br /&gt;
+$=-\sum_{k=1}^{\infty}k(1-p)^{k-1}=-{1 \over p^2}$&lt;br /&gt;
+$=\sum_{k=1}^{\infty}k(1-p)^{k-1}={1 \over p^2}$&lt;br /&gt;
+$\therefore E[K]=p{1 \over p^2}={1 \over p}$&lt;/p&gt;
+
+&lt;h3 id=&quot;variance&quot;&gt;Variance&lt;/h3&gt;
+&lt;p&gt;$\sigma_k^2=E[K^2]-\mu^2$&lt;br /&gt;
+$E[K^2]=\sum_{k=1}^{\infty}k^2p(1-p)^{k-1}$&lt;br /&gt;
+$\Rightarrow -{d \over dp}\sum_{k=1}^{\infty}k(1-p)^{k-1}=-{d \over dp}{1 \over p^2}$(Mean 구하는 공식에서 가져옴)&lt;br /&gt;
+$\qquad=-\sum_{k=1}^{\infty}k(k-1)(1-p)^{k-2}=-{2\over p^3}$&lt;br /&gt;
+$\qquad=\sum_{k=1}^{\infty}k(k-1)(1-p)^{k-2}={2\over p^3}$&lt;br /&gt;
+$\Rightarrow \sum_{k=1}^{\infty}k^2(1-p)^{k-2}=\sum_{k=1}^{\infty}k(1-p)^{k-2}+{2\over p^3}$&lt;br /&gt;
+$\qquad =\sum_{k=1}^{\infty}k^2(1-p)^{k-2}p(1-p)=(\sum_{k=1}^{\infty}k(1-p)^{k-2}+{2\over p^3})p(1-p)$&lt;br /&gt;
+$\qquad =\sum_{k=1}^{\infty}k(1-p)^{k-1}p+{2(1-p)\over p^2}$&lt;br /&gt;
+$\qquad ={1\over p}+{2(1-p)\over p^2}$&lt;br /&gt;
+$\therefore \sigma_k^2=E[K^2]-\mu^2={1\over p}+{2(1-p)\over p^2}-{1\over p^2}={1-p \over p^2}$&lt;/p&gt;
+
+&lt;h2 id=&quot;conditional-mean&quot;&gt;Conditional Mean&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$E[X|A]=\sum_{x_i\in A}x_ip(x_i|A)$&lt;/li&gt;
+  &lt;li&gt;A의 조건을 만족하는 변수값들에 대해서만 평균값을 구한 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;이산확률변수의 경우&lt;/strong&gt;&lt;br /&gt;
+$\sum_{x_i\in A}x_i{p(x_i \cap A) \over p(A)}$&lt;br /&gt;
+$\qquad =\sum_{x_i\in A}x_i{p(x_i) \over p(A)}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;연속확률변수의 경우&lt;/strong&gt;&lt;br /&gt;
+$E[X|A]=\int_{x\in A}xf_X(x|A)$
+연속형이기 때문에 density를 구해줘야 하는데, 이 경우에는 conditional density($f_X(x|A)$)를 구해야 한다.&lt;br /&gt;
+이것을 바로 구할 수는 없고, conditional CDF를 활용해 구한다.&lt;br /&gt;
+$f_X(x|A)={d \over dx}F_X(x|A)$&lt;br /&gt;
+$\qquad\qquad ={d \over dx}P(X\le x|A)$&lt;br /&gt;
+$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry><entry><title type="html">미분적분학 1강</title><link href="http://localhost:4000/lecture/2020/04/14/calculus_01" rel="alternate" type="text/html" title="미분적분학 1강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84%ED%95%99%201%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/calculus_01">&lt;h2 id=&quot;1-함수의-정의&quot;&gt;1. 함수의 정의&lt;/h2&gt;
 &lt;h3 id=&quot;함수의-정의&quot;&gt;함수의 정의&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;$f:X\to Y$&lt;/li&gt;
@@ -362,63 +465,7 @@ $={1\over \sqrt{1+x^2}}$&lt;/li&gt;
 
 &lt;h2 id=&quot;예제---역함수와-도함수&quot;&gt;예제 - 역함수와 도함수&lt;/h2&gt;
 
-&lt;h2 id=&quot;4-쌍곡선함수와-그-도함수&quot;&gt;4. 쌍곡선함수와 그 도함수&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미분적분학" /><summary type="html">1. 함수의 정의 함수의 정의 $f:X\to Y$ X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수 X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$</summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/2020/04/14/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;RV K: Number of trials until first success&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예시---tossing-a-dice-until-first-6&quot;&gt;예시 - Tossing a dice until first 6&lt;/h3&gt;
-&lt;p&gt;p: 6이 나올 확률&lt;br /&gt;
-(1-p): 6 이외의 수가 나올 확률&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;첫 번째 시도에서 성공&lt;br /&gt;
-$k=1, p$&lt;/li&gt;
-  &lt;li&gt;두 번째 시도에서 성공&lt;br /&gt;
-$k=2, (1-p)p$&lt;/li&gt;
-  &lt;li&gt;세 번째 시도에서 성공&lt;br /&gt;
-$k=3, (1-p)(1-p)p$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;즉, $P_K(k)=(1-p)^{k-1}p\quad(k=1,2,3,4,…)$&lt;/p&gt;
-
-&lt;h3 id=&quot;mean&quot;&gt;Mean&lt;/h3&gt;
-&lt;p&gt;$E[K]=\sum_{k=1}^{\infty}kp(1-p)^{k-1}$&lt;br /&gt;
-$\sum_{k=1}^{\infty}(1-p)^{k}={1-p \over p}$&lt;br /&gt;
-${d \over dp}\sum_{k=1}^{\infty}(1-p)^{k}={d \over dp}({1-p \over p})$&lt;br /&gt;
-$=-\sum_{k=1}^{\infty}k(1-p)^{k-1}=-{1 \over p^2}$&lt;br /&gt;
-$=\sum_{k=1}^{\infty}k(1-p)^{k-1}={1 \over p^2}$&lt;br /&gt;
-$\therefore E[K]=p{1 \over p^2}={1 \over p}$&lt;/p&gt;
-
-&lt;h3 id=&quot;variance&quot;&gt;Variance&lt;/h3&gt;
-&lt;p&gt;$\sigma_k^2=E[K^2]-\mu^2$&lt;br /&gt;
-$E[K^2]=\sum_{k=1}^{\infty}k^2p(1-p)^{k-1}$&lt;br /&gt;
-$\Rightarrow -{d \over dp}\sum_{k=1}^{\infty}k(1-p)^{k-1}=-{d \over dp}{1 \over p^2}$(Mean 구하는 공식에서 가져옴)&lt;br /&gt;
-$\qquad=-\sum_{k=1}^{\infty}k(k-1)(1-p)^{k-2}=-{2\over p^3}$&lt;br /&gt;
-$\qquad=\sum_{k=1}^{\infty}k(k-1)(1-p)^{k-2}={2\over p^3}$&lt;br /&gt;
-$\Rightarrow \sum_{k=1}^{\infty}k^2(1-p)^{k-2}=\sum_{k=1}^{\infty}k(1-p)^{k-2}+{2\over p^3}$&lt;br /&gt;
-$\qquad =\sum_{k=1}^{\infty}k^2(1-p)^{k-2}p(1-p)=(\sum_{k=1}^{\infty}k(1-p)^{k-2}+{2\over p^3})p(1-p)$&lt;br /&gt;
-$\qquad =\sum_{k=1}^{\infty}k(1-p)^{k-1}p+{2(1-p)\over p^2}$&lt;br /&gt;
-$\qquad ={1\over p}+{2(1-p)\over p^2}$&lt;br /&gt;
-$\therefore \sigma_k^2=E[K^2]-\mu^2={1\over p}+{2(1-p)\over p^2}-{1\over p^2}={1-p \over p^2}$&lt;/p&gt;
-
-&lt;h2 id=&quot;conditional-mean&quot;&gt;Conditional Mean&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X|A]=\sum_{x_i\in A}x_ip(x_i|A)$&lt;/li&gt;
-  &lt;li&gt;A의 조건을 만족하는 변수값들에 대해서만 평균값을 구한 것&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;이산확률변수의 경우&lt;/strong&gt;&lt;br /&gt;
-$\sum_{x_i\in A}x_i{p(x_i \cap A) \over p(A)}$&lt;br /&gt;
-$\qquad =\sum_{x_i\in A}x_i{p(x_i) \over p(A)}$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;연속확률변수의 경우&lt;/strong&gt;&lt;br /&gt;
-$E[X|A]=\int_{x\in A}xf_X(x|A)$
-연속형이기 때문에 density를 구해줘야 하는데, 이 경우에는 conditional density($f_X(x|A)$)를 구해야 한다.&lt;br /&gt;
-이것을 바로 구할 수는 없고, conditional CDF를 활용해 구한다.&lt;br /&gt;
-$f_X(x|A)={d \over dx}F_X(x|A)$&lt;br /&gt;
-$\qquad\qquad ={d \over dx}P(X\le x|A)$&lt;br /&gt;
-$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry><entry><title type="html">Taylor Series</title><link href="http://localhost:4000/posts/2020/04/13/taylor_series" rel="alternate" type="text/html" title="Taylor Series" /><published>2020-04-13T00:00:00-07:00</published><updated>2020-04-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/04/13/taylor_series</id><content type="html" xml:base="http://localhost:4000/posts/2020/04/13/taylor_series">&lt;h2 id=&quot;테일러-급수&quot;&gt;테일러 급수&lt;/h2&gt;
+&lt;h2 id=&quot;4-쌍곡선함수와-그-도함수&quot;&gt;4. 쌍곡선함수와 그 도함수&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미분적분학" /><summary type="html">1. 함수의 정의 함수의 정의 $f:X\to Y$ X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수 X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$</summary></entry><entry><title type="html">Taylor Series</title><link href="http://localhost:4000/posts/2020/04/13/taylor_series" rel="alternate" type="text/html" title="Taylor Series" /><published>2020-04-13T00:00:00-07:00</published><updated>2020-04-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/04/13/taylor_series</id><content type="html" xml:base="http://localhost:4000/posts/2020/04/13/taylor_series">&lt;h2 id=&quot;테일러-급수&quot;&gt;테일러 급수&lt;/h2&gt;
 &lt;p&gt;테일러 급수(Taylor Series) 또는 테일러 전개(Taylor Expansion)은 어떤 함수 $f(x)$를 우리가 다루기 쉬운 다항함수 형태로 바꾸어 준다.&lt;br /&gt;
   &lt;br /&gt;
 $f(x)=p_{\infty}(x)$  &lt;br /&gt;
@@ -586,163 +633,4 @@ $=\lambda^2+\lambda$  ($\because \sum_{k=0}^{\infty}{\lambda^k \over k!}=e^\lamb
 
 &lt;p&gt;$\sigma_K^2=E[K^2]-\mu^2=\mu$&lt;/p&gt;
 
-&lt;p&gt;즉, 평균과 분산이 $\mu$로 같다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">3.2 Expectation $E[X]=\sum_{i}x_iP(x_i)=\int_{-\infty}^{\infty}xf_X(x)dx$</summary></entry><entry><title type="html">확률 및 통계 4강</title><link href="http://localhost:4000/lecture/2020/04/12/prob_stat_04" rel="alternate" type="text/html" title="확률 및 통계 4강" /><published>2020-04-12T00:00:00-07:00</published><updated>2020-04-12T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/12/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%204%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/12/prob_stat_04">&lt;h2 id=&quot;26continousrandomvariable&quot;&gt;2.6 Continous Random Variable&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;outcome들을 특정 구간 안에 있는 모든 real number에 대응시키는 것이다. 즉, outcome은 무한하며, 무한한 outcome을 만들기 위해 Sample Space도 무한해야 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbpbeXd%2FbtqCZZSh9c5%2Fej5eae49ORaKE0Zegwiri1%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Continous Random Variable이 [0, 1] 사이에 존재하며, 이 중에서 0.5를 뽑아낸다고 하자. 분자에는 0.5 하나가 들어가고, 분모에는 무한히 많은 숫자가 들어간다. 즉, $P(0.5)={1 \over \infty}=0$이다. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fb7dWmo%2FbtqC3qVnXVz%2FZsb4yZ48Zhl5kZc1uf0hfK%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이것은 Continous Random Variable에서 특정 값에서의 확률($P(X=x_i)$)을 정의하기가 힘들다는 것을 보여준다. 그렇기 때문에 새로운 방법으로 Continous Random Variable라는 확률 변수에 대한 확률 분포를 나타내는 함수를 정의해줘야 한다. 그래서 누적분포함수(CDF)를 활용한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;for Continous RVs, $P(x)\to 0$. It is not possible to define a probability value for each $x$.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;아주 작은 구간의 확률을 구하는 문제로 바꿔보자. 즉, $\lim_{\Delta x \to 0}P(x&amp;lt;X\le x+\Delta x)=F_X(x+\Delta x)-F_X(x)$를 구하면 된다. 하지만 이것도 $\Delta x$가 0으로 수렴 할수록 0으로 수렴할 것이다. 0으로 수렴하는 것을 방지하기 위해 $\Delta x$로 나눠준다. 즉, $\lim_{\Delta x \to 0}{P(x&amp;lt;X\le x+\Delta x)\over \Delta x}=\lim_{\Delta x \to 0}{F_X(x+\Delta x)-F_X(x) \over \Delta x}$로 하면 결과가 특정 값으로 수렴해간다.&lt;/p&gt;
-
-&lt;p&gt;이를 $f_X(x)=\lim_{\Delta x \to 0}{F_X(x+\Delta x)-F_X(x) \over \Delta x}=F_X’(x)$로 표현한다. $\lim_{\Delta x \to 0}{P(x&amp;lt;X\le x+\Delta x)\over \Delta x}$의 물리적 의미를 생각해보자. 분자는 확률(probability)이며, 분모는 단위 길이(density)다. 그래서 $f(x)$를 Probability Density Function(PDF)이라고 부른다. 이것으로 우리는 Continous RV의 확률분포를 정의해볼 수 있다.&lt;/p&gt;
-
-&lt;p&gt;정리하자면 $f_X(x)=F’_X(x)$이며, 역으로 $F_X(x)=\int_{-\infty}^xf(\tilde{x})d\tilde{x}=P(X \le x)$이다.($\tilde{x}$는 $\int_{-\infty}^x$의 $x$와 구분하기 위해 ~를 붙인 것이다.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;PDF의 성질&lt;/strong&gt;&lt;br /&gt;
-- CDF를 미분한 것이다. CDF가 non-decreasing 함수이므로, PDF $F’_X(x)=f_X(x)\ge 0$이다. 즉, non-negative이다.&lt;br /&gt;
-- $f_X(x)$는 확률값이므로 $\int_{-\infty}^{\infty}f_X(x)dx=1$&lt;br /&gt;
-- $P(a&amp;lt;X\le b)=F_X(b)-F_X(a)=\int_{-\infty}^{b}f_X(x)dx-\int_{-\infty}^{a}f_X(x)dx=\int_{a}^{b}f_X(x)dx$&lt;br /&gt;
-- $P(X &amp;lt; a)=P(X\le a)$ ($\because P(X=a)\to 0$)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;예제 1&lt;/strong&gt;&lt;br /&gt;
-$f_X(x)=&lt;br /&gt;
-\begin{cases}&lt;br /&gt;
-A(2x-x^2) \qquad 0 &amp;lt; x &amp;lt; 2 \\&lt;br /&gt;
-0 \qquad \qquad \qquad else&lt;br /&gt;
-\end{cases}$&lt;/p&gt;
-
-&lt;p&gt;(1) A = ?&lt;br /&gt;
-PDF가 되기 위해서는 $\int_{-\infty}^{\infty}f_X(x)dx=1$을 만족해야 한다. (2번 성질)  
-$\int_{0}^{2}A(2x-x^2)dx=1$을 풀면 $A={3 \over 4}$가 나온다.&lt;/p&gt;
-
-&lt;p&gt;(2) $P(X&amp;gt;1) = ?$&lt;br /&gt;
-$=\int_{1}^{\infty}f_X(x)dx$&lt;br /&gt;
-$=\int_{1}^{2}f_X(x)dx$&lt;br /&gt;
-$=\int_{1}^{2}{3 \over 4}(2x-x^2)dx$&lt;br /&gt;
-$={1 \over 2}$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;예제 2 - Uniform Distribution&lt;/strong&gt;&lt;br /&gt;
-$f_T(t)=&lt;br /&gt;
-\begin{cases}&lt;br /&gt;
-{1 \over 6} \qquad 2\le t\le 8 \\&lt;br /&gt;
-0 \qquad  else&lt;br /&gt;
-\end{cases}$&lt;/p&gt;
-
-&lt;p&gt;구간 내의 확률값이 모두 동일하다.&lt;/p&gt;
-
-&lt;p&gt;$F_T(t)$&lt;br /&gt;
-$=\int_{-\infty}^{t}f_T(\tilde{t})d\tilde{t}$&lt;br /&gt;
-$=\begin{cases}&lt;br /&gt;
-0 \qquad \qquad \qquad \qquad \quad t&amp;lt;2 \\&lt;br /&gt;
-\int_{2}^{t}{1\over 6}d\tilde{t}={1\over 6}(t-2) \qquad 2\le t\le 8 \\&lt;br /&gt;
-1 \qquad  \qquad \qquad \qquad \quad t &amp;gt; 8 \\&lt;br /&gt;
-\end{cases}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">2.6 Continous Random Variable outcome들을 특정 구간 안에 있는 모든 real number에 대응시키는 것이다. 즉, outcome은 무한하며, 무한한 outcome을 만들기 위해 Sample Space도 무한해야 한다.</summary></entry><entry><title type="html">확률 및 통계 3강</title><link href="http://localhost:4000/lecture/2020/04/11/prob_stat_03" rel="alternate" type="text/html" title="확률 및 통계 3강" /><published>2020-04-11T00:00:00-07:00</published><updated>2020-04-11T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/11/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%203%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/11/prob_stat_03">&lt;h1 id=&quot;chapter-2-random-variable&quot;&gt;Chapter 2 Random Variable&lt;/h1&gt;
-
-&lt;h2 id=&quot;22-definition-of-random-variable&quot;&gt;2.2 Definition of Random Variable&lt;/h2&gt;
-&lt;p&gt;Random Variable: Mapping each outcome of random experiment to a &lt;strong&gt;real numbers&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;예시---tossing-a-coin&quot;&gt;예시 - tossing a coin&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;X: H, T&lt;/li&gt;
-  &lt;li&gt;H를 1로, T를 0으로 매핑한다면, 1, 0은 확률면수가 된다.&lt;/li&gt;
-  &lt;li&gt;$P(H)=P(1)={1 \over 2}$&lt;/li&gt;
-  &lt;li&gt;지금까지는 확률을 구할 때 P(A)와 같이 사건을 대입했지만 지금부터는 확률변수인 $X$를 넣어 P(X)로 할 수 있다.(함수처럼 다룰 수 있다)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예시---tossing-two-coins&quot;&gt;예시 - tossing two coins&lt;/h3&gt;
-&lt;p&gt;RV: number of heads&lt;br /&gt;
-0 =&amp;gt; {TT}&lt;br /&gt;
-1 =&amp;gt; {HT, TH}&lt;br /&gt;
-2 =&amp;gt; {HH}&lt;br /&gt;
-$P(0)=P(\{TT\})={1\over 4}$&lt;br /&gt;
-$P(1)=P(\{HT, TH\})={1\over 2}$&lt;br /&gt;
-$P(2)=P(\{HH\})={1\over 4}$&lt;br /&gt;
-확률변수는 $X$, $Y$, $Z$와 같이 대문자를 써서 표현하며, 확률변수의 특정 값은 $x$, $y$, $z$와 같이 표현한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;23-event-defined-by-rv&quot;&gt;2.3 Event defined by RV&lt;/h2&gt;
-&lt;p&gt;$A_x$를 outcome의 집합이라 하자. 그렇다면 $A_x=\{w|X(w)=x\}$처럼 표현할 수 있다. 동전 두 개 던지는 예를 다시 가져와보면 $A_0=\{TT\}$, $A_1=\{TH, HT\}$, $A_2=\{HH\}$이다. $A_x$의 확률은 $P(A_x)=P(X=x)$다. 이제 우리는 $P(A_x)$와 같은 표현 보다는 $P(X=x)$ 혹은 x에 값을 넣어서 $P(1)$과 같은 표현을 많이 쓸 것이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;24-distribution-functions&quot;&gt;2.4 Distribution Functions&lt;/h2&gt;
-&lt;p&gt;RV를 X, RV의 값을 x라 하자. 이 때 Culmulative Distribution Function(CDF)는 $F_X(x)=P(X\le x)$이다. 예를 들어, $F_X(1)=P(X \le 1)$이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FclrmhK%2FbtqCZZ5g5qv%2FRKwS6KoxI8ApsiGdjEwbzk%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;CDF는 다음과 같은 성질을 가진다.&lt;/p&gt;
-
-&lt;p&gt;1. if $x_1 &amp;lt; x_2, F_X(x_1)\le F_X(x_2)$&lt;br /&gt;
-2. $0\le F_X(x)\le1$&lt;br /&gt;
-3. $F_X(\infty)=\lim_{n \to \infty}F_X(x)=1$&lt;br /&gt;
-4. $F_X(-\infty)=\lim_{n \to -\infty}F_X(x)=0$&lt;br /&gt;
-5. $P(a \le x \le b)=F_X(b)-F_X(a)$&lt;br /&gt;
-6. $P(x&amp;gt;a)=1-F_X(a)$ (equality는 정의에 의해 $&amp;lt;$에만 붙여야 한다)&lt;/p&gt;
-
-&lt;h3 id=&quot;예시--&quot;&gt;예시 -&lt;/h3&gt;
-&lt;p&gt;$F_X(x)=&lt;br /&gt;
-\begin{cases}&lt;br /&gt;
-0 \quad\quad\quad\quad (x&amp;lt;0) \\&lt;br /&gt;
-x+{1 \over 2}\quad\quad (0 \le x \le {1 \over 2}) \\&lt;br /&gt;
-1 \quad \quad\quad\quad (x &amp;gt; {1 \over 2}) \\&lt;br /&gt;
-\end{cases}$&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F0GXFp%2FbtqC1HiLH1H%2FPusSacFRIgsxPt1aqFKDk1%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$P(X&amp;gt;{1\over 4})=1-P(X \le {1\over 4})=1-F_X({1\over 4})={1\over 4}$&lt;/li&gt;
-  &lt;li&gt;$P(X&amp;gt;0)=1-P(X \le 0)=1-F_X(0)=1-{1\over 2}={1\over 2}$&lt;/li&gt;
-  &lt;li&gt;$P(X\ge0)=1$&lt;/li&gt;
-  &lt;li&gt;$P(X=0)={1\over 2}$&lt;/li&gt;
-  &lt;li&gt;$P(X\ge{1\over 4})=1-P(X&amp;lt;{1\over 4})=1-\lim_{x \to {1\over 4}}F_X(x)=1-{3\over 4}={1\over 4}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;25-discrete-rv&quot;&gt;2.5 Discrete RV&lt;/h2&gt;
-
-&lt;p&gt;discrete: non-continuous(ex. integer)&lt;/p&gt;
-
-&lt;p&gt;Probability Mass Function(PMF)&lt;/p&gt;
-
-&lt;p&gt;$P_X(x)=P(X=x)$&lt;/p&gt;
-
-&lt;p&gt;$F_X(x)=P(X \le x)=\sum_{x_i \le x}P_X(x_i)$&lt;/p&gt;
-
-&lt;h3 id=&quot;예시---tossing2coins&quot;&gt;예시 - tossing 2 coins&lt;/h3&gt;
-&lt;p&gt;RV: number of heads&lt;br /&gt;
-0 =&amp;gt; $P_X(0)={1 \over 4}$&lt;br /&gt;
-1 =&amp;gt; $P_X(1)={1 \over 2}$&lt;br /&gt;
-2 =&amp;gt; $P_X(2)={1 \over 4}$&lt;/p&gt;
-
-&lt;p&gt;$F_X(1)=P(X\le 1)=P(X=0)+P(X=1)={3 \over 4}$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CDF와 PMF의 관계&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FdewxRf%2FbtqC4tDCyEB%2FzVAisoGsBCSksCi1tmi011%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;CDF를 알면 PMF를 알 수 있고, PMF를 알면 CDF를 알 수 있다.&lt;/p&gt;
-
-&lt;p&gt;PMF의 표현은 다음과 같다.&lt;/p&gt;
-
-&lt;p&gt;$x$가 0이고, 높이가 1일 때 $\delta(x)$라고 한다. 그렇다면 $x$가 1이고, 높이가 ${1\over 2}$이라면 ${1\over 2}\delta(x-1)$이다. 또한 그렇다면 $x$가 -2이고, 높이가 ${3\over 2}$이라면 ${3\over 2}\delta(x+2)$이다.&lt;br /&gt;
-&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcCZ43H%2FbtqCYGLV43J%2FSQp2fOOEPSmtEaHmsfoz31%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이 모든 것들을 하나의 함수처럼 쓰고 싶다면 $f(x)=\delta(x)+{1\over 2}\delta(x-1)+{3\over 2}\delta(x+2)$로 할 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;예시---tossing-two-coins-1&quot;&gt;예시 - tossing two coins&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FWOukZ%2FbtqCX9m9kdD%2FBpFaADCEEcCAtjl4w0Uvb0%2Fimg.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-$P(x)=&lt;br /&gt;
-\begin{cases}  &lt;br /&gt;
-{1\over 4} \quad\quad (x=0) \\  &lt;br /&gt;
-{1\over 2} \quad\quad (x=1) \\  &lt;br /&gt;
-{1\over 4} \quad \quad (x=2) \\  &lt;br /&gt;
-\end{cases}$&lt;/p&gt;
-
-&lt;p&gt;위 식 대신에 ${1\over 4}\delta(x)+{1\over 2}\delta(x-1)+{1\over 4}\delta(x-2)$로 표현할 수 있다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chapter 2 Random Variable</summary></entry></feed>
+&lt;p&gt;즉, 평균과 분산이 $\mu$로 같다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">3.2 Expectation $E[X]=\sum_{i}x_iP(x_i)=\int_{-\infty}^{\infty}xf_X(x)dx$</summary></entry></feed>
