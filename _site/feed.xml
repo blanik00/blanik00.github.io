@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-11T05:08:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">CNN</title><link href="http://localhost:4000/posts/2020/05/09/cnn" rel="alternate" type="text/html" title="CNN" /><published>2020-05-09T00:00:00-07:00</published><updated>2020-05-09T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/09/CNN</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/09/cnn">&lt;h2 id=&quot;cnn이란&quot;&gt;CNN이란?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-13T04:55:21-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">YOLO, SSD, YOLO 9000</title><link href="http://localhost:4000/posts/2020/05/10/yolo" rel="alternate" type="text/html" title="YOLO, SSD, YOLO 9000" /><published>2020-05-11T00:00:00-07:00</published><updated>2020-05-11T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/10/yolo</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/10/yolo">&lt;h2 id=&quot;yolo&quot;&gt;YOLO&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;You only look once!&lt;/li&gt;
+  &lt;li&gt;성능 자체는 Faster R-CNN과 비슷하나, 속도가 훨씬 빠름&lt;/li&gt;
+  &lt;li&gt;기존의 방법에서는 bounding box를 만들어서 그것을 Neural Network에 넣어 분류를 하는 방법을 사용했다면 YOLO에서는 bounding box를 찾는 것과 classification을 동시에 수행한다. (detection 문제를 regression 문제로 바꿈)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;flow&quot;&gt;Flow&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;이미지를 입력받으면 $S\times S$로 줄인다.(Max Pooling을 통해서 줄임, 여기서 $S$=7) 각 칸을 그리드라고 부른다.&lt;/li&gt;
+  &lt;li&gt;각 그리드마다  class probability를 C개씩, bounding box를 B개씩 부여한다. 각 bounding box는 [x, y, w, h, conf]로 이루어져 있다. 마지막에 있는 conf(confidence)는 이 bounding box가 쓸모있는 것인지 아닌지를 나타낸다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;만약 S=7, B=2, C=20이라면 마지막 layer는 $7\times 7\times 30$이다.($30=20+2\times 5$)&lt;/p&gt;
+
+&lt;h3 id=&quot;yolo의-한계&quot;&gt;YOLO의 한계&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;각 그리드가 B개 만의 bounding box만을 만드므로 조그마한 물체들이 뭉쳐 있을 때는 좋은 성능을 발휘하지 못한다.&lt;/li&gt;
+  &lt;li&gt;bounding box의 정보가 정확하지 않을 수 있다.&lt;/li&gt;
+  &lt;li&gt;Loss Function이 작은 box와 큰 box를 동일하게 다뤄 에러를 측정하므로 점수를 메길 때 불리하다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ssd&quot;&gt;SSD&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Single Shot MultiBox Detector&lt;/li&gt;
+  &lt;li&gt;YOLO의 컨셉(Single Shot)과 Faster R-CNN의 Region Proposal(MultiBox)을 합친 것&lt;/li&gt;
+  &lt;li&gt;Predicting category scores from each cell of multiple convolutional feature maps.&lt;/li&gt;
+  &lt;li&gt;Predicting Box offsets for a fixed set of default boxes from each cell of multiple convolutional feature maps.&lt;/li&gt;
+  &lt;li&gt;즉, 각 feature map의 셀 마다 k개의 default box(anchor box)를 가지며, 각 box는 c개의 class score와 4개의 offset을 가지고 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;yolo-9000&quot;&gt;YOLO 9000&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;SSD보다 좋은 성능을 내기 위해 이것저것 많은 시도를 한 논문. 실용적인 내용이 많다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;yolo가-잘-안됐던-이유&quot;&gt;YOLO가 잘 안됐던 이유&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Localization Errors&lt;/li&gt;
+  &lt;li&gt;Low recall compared region proposal based method
+box를 적게 뽑았으니 recall 성능이 낮았다는 말임.
+&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81780462-85443f80-9531-11ea-9085-b056bb24514d.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;개선-방법faster&quot;&gt;개선 방법(Faster)&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Batch Normalization
+2% 성능 개선(웬만하면 Batch Normalization 쓰는 것이 좋음)&lt;/li&gt;
+  &lt;li&gt;High Resolution
+original YOLO는 $224\times 224$를 썼는데, 여기서는 $448\times 448$을 썼다.&lt;/li&gt;
+  &lt;li&gt;Anchor Boxes
+Region Proposal Network에서 사용된 anchor box와 비슷한 것을 사용
+anchor box마다 class와 objectiveness를 예측&lt;/li&gt;
+  &lt;li&gt;Dimension Cluster
+기존에는 anchor box의 pre-defined 크기를 정할 때 실제 데이터셋의 box 크기르 고려하지 않고 사람이 임의로 정했다. YOLO 9000에서는 실제 데이터셋에서 bounding box를 클러스터링해서 거기에 많이 쓰이는 bounding box 크기를 사용&lt;/li&gt;
+  &lt;li&gt;Location Prediction
+YOLO 9000은 box offset과 scaling을 예측한다. 즉, 사이즈를 몇 배 키울지 혹은 줄일지를 예측&lt;/li&gt;
+  &lt;li&gt;Fine-grained Features&lt;/li&gt;
+  &lt;li&gt;Multi-scale Training&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;개선-방법stronger&quot;&gt;개선 방법(Stronger)&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Hierarchical classification
+YOLO 9000은 9000개의 클래스를 구분할 수 있다는 말이다. 9000개 중 하나를 찾는 것은 매우 힘든 일이다. 그래서 여기서는 Hierarchical classification을 적용한다. 예를 들어, 요커셔 테리어를 생각해보면 “physical object” - “animal” - “mammal” - … - “hunting dog” - “terrior” - Yorkshire terriror”라는 식으로 parent에 해당하는 라벨도 생각해낼 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81780457-837a7c00-9531-11ea-8b3c-177b763d78ae.PNG&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위 그림처럼  위계마다 하나의 클래스를 선택한다. 결과적으로는 한 이미지를 입력하면 여러 개의 클래스를 가지는 결과가 나온다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">YOLO You only look once! 성능 자체는 Faster R-CNN과 비슷하나, 속도가 훨씬 빠름 기존의 방법에서는 bounding box를 만들어서 그것을 Neural Network에 넣어 분류를 하는 방법을 사용했다면 YOLO에서는 bounding box를 찾는 것과 classification을 동시에 수행한다. (detection 문제를 regression 문제로 바꿈)</summary></entry><entry><title type="html">R-CNN, SPP, Fast R-CNN, Faster R-CNN</title><link href="http://localhost:4000/posts/2020/05/10/r-cnn" rel="alternate" type="text/html" title="R-CNN, SPP, Fast R-CNN, Faster R-CNN" /><published>2020-05-10T00:00:00-07:00</published><updated>2020-05-10T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/10/r-cnn</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/10/r-cnn">&lt;h2 id=&quot;r-cnn&quot;&gt;R-CNN&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81771298-92573380-951d-11ea-8aea-25f440c43aec.PNG&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;최초로 딥러닝을 활용해 detection 문제에 접근&lt;/li&gt;
+  &lt;li&gt;매우 간단&lt;/li&gt;
+  &lt;li&gt;이미지 안에서 여러 개의 bounding box를 뽑아냄.(region proposal) 이 부분은 딥러닝을 사용하지 않았으며, 속도가 느리기 때문에 bottle neck이 된다. selective search 방법을 사용한다.&lt;/li&gt;
+  &lt;li&gt;모든 bounding box를 같은 사이즈로 resize하고, resize된 box를 CNN에 넣어 feature를 추출한다. (모든 box에 대해 CNN을 수행하므로 속도가 느림)&lt;/li&gt;
+  &lt;li&gt;추출된 feature를 SVM으로 분류한다.&lt;/li&gt;
+  &lt;li&gt;분류 카테고리가 $n$개라면 실제로는 “background”까지 포함해 $n+1$개가 되어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;spp&quot;&gt;SPP&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81771299-93886080-951d-11ea-81d7-9e532edc17ed.PNG&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;RCNN은 한 이미지의 region proposals의 수만큼 CNN이 돌아야 했다. 이 부분 때문에 bottle neck이 생겼는데, SPP는 한 번만 돌면 되도록 개선시켰다.&lt;/li&gt;
+  &lt;li&gt;SPP는 convolution 연산을 한 후에 나오는 convolutional feature map 위에서 원하는 정보를 찾는다. convolutional feature map에서 뽑히는 박스의 위치는 이미지에서 뽑힌 bounding box의 위치에서 뽑는다.(이 때도 딥러닝을 사용하지는 않는다) box를 뽑았다면 Spatial Pyramid Pooling을 사용한다. Spatial Pyramid Pooling의 목적은 fixed-length representation을 찾는 것이다.&lt;/li&gt;
+  &lt;li&gt;Spatial Pyramid Pooling이란 무엇일까?
+만약 우리가 뽑은 convolution feature map에서 뽑은 박스의 사이즈가 $2\times 4$라고 하자.&lt;br /&gt;
+우리가 구하고자 하는 fixed-length가 $1\times 1$이라고 한다면 $2\times 4$의 값들을 평균내어 사용한다.&lt;br /&gt;
+또한 우리가 구하고자 하는 fixed-length가 $2\times 2$라고 한다면 $2\times 4$를 네 부분으로 나누어 각각을 평균내어 사용한다. 즉, Pooling을 통해 같은 사이즈로 바꾸는 작업이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fast-r-cnn&quot;&gt;Fast R-CNN&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81771301-9420f700-951d-11ea-988e-1f6f110c6c02.PNG&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fast R-CNN과 SPP는 구조가 거의 같다.&lt;/li&gt;
+  &lt;li&gt;굳이 차이점이 있다면 fixed-length representation을 찾는 방식에 차이가 있다. SPP는 Spatial Pyramid Pooling을 사용하였고, Fast R-CNN은 ROI Pooling을 통해 찾는다. 사실 이 둘도 비슷하긴 하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;flow&quot;&gt;Flow&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;입력 이미지를 받고, 입력 이미지로부터 bounding box를 뽑는다.(딥러닝을 사용하지 않는다.)&lt;/li&gt;
+  &lt;li&gt;CNN을 통해 convolutional feature map을 생성한다.&lt;/li&gt;
+  &lt;li&gt;ROI Pooling을 통해 각 bounding box의 fixed-length feature vector를 만든다.&lt;/li&gt;
+  &lt;li&gt;결과는 두 가지가 되는데, 하나는 “background”를 고려한 (k+1) classification이고, 다른 하나는 bounding box regression이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;roi-pooling&quot;&gt;ROI Pooling&lt;/h3&gt;
+&lt;p&gt;입력을 미리 정해둔 사이즈로 쪼갠 후, 해당 하는 부분을 평균내서 벡터로 만든다. 예를 들어, $3\times 3$으로 쪼개는 것으로 정해뒀다면 입력을 $3\times 3$으로 쪼개고, 각각을 평균낸 후 이어붙여 길이가 9인 벡터로 만든다.&lt;/p&gt;
+
+&lt;h2 id=&quot;faster-r-cnn&quot;&gt;Faster R-CNN&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81771304-94b98d80-951d-11ea-9505-6f5ac079ca4d.PNG&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;지금까지 배운 것은 나이브한 방법에 딥러닝을 바로 적용한 detection 방법론이었다. 하지만 여기부터는 딥러닝을 활용한 region proposal이 시작된다. (기존에는 이 부분이 bottleneck이었음)&lt;/li&gt;
+  &lt;li&gt;Faster R-CNN = Region Proposal Network + Fast R-CNN&lt;/li&gt;
+  &lt;li&gt;어떠한 이미지의 사이즈와 스케일이 다를 때 고려할 수 있는 방법은 세 가지가 있다. 첫 번째 방법은 Pyramids of images이며, Spatial Pyramid Pooling이 여기에 해당된다. 이미지 자체의 사이즈를 줄여서 줄어든 multiple scaled image를 한 번에 고려하는 것이다. 두 번째 방법은 Pyramids of filters이며, 이 방법은 필터의 사이즈를 바꾸는 것이다. 세 번째 방법이 &lt;strong&gt;Pyramids of anchors&lt;/strong&gt;이다. Anchor는 미리 정해져있는 bounding box의 크기를 의미한다. 미리 bounding box의 크기가 어느정도 될 것인지를 생각을 해두고, 이 box를 얼만큼 바꿔야지 target box가 되는지에 해당하는 offset을 학습한다.&lt;/li&gt;
+  &lt;li&gt;Region Proposal Network는 이미지나 convolutional feature map을 입력으로 받는다. 각 픽셀마다 Anchor를 정의한다. 각 점을 중앙으로 하는 k개의 Anchor box를 만든다. 각 Anchor box마다 2개의 점수를 할당하는데(2k scores) 앞의 것이 크면 positive(쓸만한 Anchor box), 뒤의 것이 크면 negative(쓸모없는 Anchor box)이다. 또한 4k coordinates는 각 Anchor boxes를 어떻게 움직여야 target box에 가까워질 것인지에 대한 숫자가 들어있다.&lt;/li&gt;
+  &lt;li&gt;즉, Region Proposal Network는 총 $k\times (4+2)$ 사이즈의 벡터를 출력한다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">R-CNN 최초로 딥러닝을 활용해 detection 문제에 접근 매우 간단 이미지 안에서 여러 개의 bounding box를 뽑아냄.(region proposal) 이 부분은 딥러닝을 사용하지 않았으며, 속도가 느리기 때문에 bottle neck이 된다. selective search 방법을 사용한다. 모든 bounding box를 같은 사이즈로 resize하고, resize된 box를 CNN에 넣어 feature를 추출한다. (모든 box에 대해 CNN을 수행하므로 속도가 느림) 추출된 feature를 SVM으로 분류한다. 분류 카테고리가 $n$개라면 실제로는 “background”까지 포함해 $n+1$개가 되어야 한다.</summary></entry><entry><title type="html">CNN</title><link href="http://localhost:4000/posts/2020/05/09/cnn" rel="alternate" type="text/html" title="CNN" /><published>2020-05-09T00:00:00-07:00</published><updated>2020-05-09T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/09/CNN</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/09/cnn">&lt;h2 id=&quot;cnn이란&quot;&gt;CNN이란?&lt;/h2&gt;
 &lt;p&gt;CNN은 아래 세 가지 요소로 이루어져 있다.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -282,7 +399,13 @@ $q_i^M$ : Item Embedding for MLP&lt;/p&gt;
 
 &lt;h1 id=&quot;참고&quot;&gt;참고&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.05031.pdf&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html">요약 Implicit Feedback을 활용한 Collaborative Filtering을 다룬다. output이 1이면 User와 Item은 연관성이 있는 것이며, 0이면 User와 Item은 연관성이 없는 것이다. 즉, binary classification 문제이다. Collaborative Filtering에서 Matrix Factorization은 많이 쓰이는 기법이다. 기존의 Matrix Factorization은 User Latent Factor와 Item Latent Factor를 구하고, 두 Latent Factor를 내적하는 방법을 통해 Rating Matrix를 복원한다. 하지만 이 방법은 User-Item Interaction을 충분히 표현하지 못한다. 저자는 내적이라는 지나치게 단순한 방법으로 Rating Matrix를 복원했기 때문이라고 본다. 대안으로 뉴럴 네트워크의 사용을 권한다. 뉴럴 네트워크를 도입함으로써 Matrix Factorization이 가지는 Linearity와 뉴럴 네트워크가 가지는 Non-Linearity를 모두 가질 수 있다.</summary></entry><entry><title type="html">Recommender System for Ecommerce</title><link href="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce" rel="alternate" type="text/html" title="Recommender System for Ecommerce" /><published>2020-04-23T00:00:00-07:00</published><updated>2020-04-23T00:00:00-07:00</updated><id>http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce</id><content type="html" xml:base="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">확률 및 통계 7강</title><link href="http://localhost:4000/lecture/2020/04/16/prob_stat_07" rel="alternate" type="text/html" title="확률 및 통계 7강" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/16/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%207%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/16/prob_stat_07">&lt;h2 id=&quot;chebyshev-inequality&quot;&gt;Chebyshev Inequality&lt;/h2&gt;
+&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html">요약 Implicit Feedback을 활용한 Collaborative Filtering을 다룬다. output이 1이면 User와 Item은 연관성이 있는 것이며, 0이면 User와 Item은 연관성이 없는 것이다. 즉, binary classification 문제이다. Collaborative Filtering에서 Matrix Factorization은 많이 쓰이는 기법이다. 기존의 Matrix Factorization은 User Latent Factor와 Item Latent Factor를 구하고, 두 Latent Factor를 내적하는 방법을 통해 Rating Matrix를 복원한다. 하지만 이 방법은 User-Item Interaction을 충분히 표현하지 못한다. 저자는 내적이라는 지나치게 단순한 방법으로 Rating Matrix를 복원했기 때문이라고 본다. 대안으로 뉴럴 네트워크의 사용을 권한다. 뉴럴 네트워크를 도입함으로써 Matrix Factorization이 가지는 Linearity와 뉴럴 네트워크가 가지는 Non-Linearity를 모두 가질 수 있다.</summary></entry><entry><title type="html">Recommender System for Ecommerce</title><link href="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce" rel="alternate" type="text/html" title="Recommender System for Ecommerce" /><published>2020-04-23T00:00:00-07:00</published><updated>2020-04-23T00:00:00-07:00</updated><id>http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce</id><content type="html" xml:base="http://localhost:4000/project/2020/04/23/Recommender_System_for_Ecommerce">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;식자재 마트의 온라인 쇼핑몰 추천 시스템 개발&lt;/li&gt;
+  &lt;li&gt;프로젝트 시작은 2020년 03월&lt;/li&gt;
+  &lt;li&gt;기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천&lt;/li&gt;
+  &lt;li&gt;매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html">개요 식자재 마트의 온라인 쇼핑몰 추천 시스템 개발 프로젝트 시작은 2020년 03월 기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천 매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐</summary></entry><entry><title type="html">확률 및 통계 7강</title><link href="http://localhost:4000/lecture/2020/04/16/prob_stat_07" rel="alternate" type="text/html" title="확률 및 통계 7강" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/16/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%207%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/16/prob_stat_07">&lt;h2 id=&quot;chebyshev-inequality&quot;&gt;Chebyshev Inequality&lt;/h2&gt;
 
 &lt;p&gt;$P(|X-E[X]|\ge a)\le {\sigma_X^2 \over a^2}$&lt;/p&gt;
 
@@ -357,125 +480,7 @@ $={P(X=n+k)\over P(X&amp;gt;n)}$&lt;br /&gt;
 $={(1-p)^{n+k-1}p\over \sum_{x=n+1}^{\infty}(1-p)^{x-1}p}$&lt;br /&gt;
 $={(1-p)^{n+k-1}p\over {p(1-p)^n\over 1-(1-p)}}$&lt;br /&gt;
 $=p(1-p)^{k-1}$&lt;br /&gt;
-$=P(X=k)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">미분적분학 1강</title><link href="http://localhost:4000/lecture/2020/04/14/calculus_01" rel="alternate" type="text/html" title="미분적분학 1강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84%ED%95%99%201%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/calculus_01">&lt;h2 id=&quot;1-함수의-정의&quot;&gt;1. 함수의 정의&lt;/h2&gt;
-&lt;h3 id=&quot;함수의-정의&quot;&gt;함수의 정의&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;$f:X\to Y$&lt;/li&gt;
-  &lt;li&gt;X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수&lt;/li&gt;
-  &lt;li&gt;X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;함수의-조건&quot;&gt;함수의 조건&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;모든 x가 y로 가야 한다.&lt;/li&gt;
-  &lt;li&gt;각 x는 하나의 y로만 가야 한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;아래 함수들은 앞으로의 예시에서 계속 등장하니 자주 참고해야 한다.&lt;/li&gt;
-  &lt;li&gt;정의역 X는 실수 전체&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$y=e^x$&lt;/li&gt;
-  &lt;li&gt;$y=lnx$&lt;/li&gt;
-  &lt;li&gt;$y=sinx$&lt;/li&gt;
-  &lt;li&gt;$y=x^3$&lt;/li&gt;
-  &lt;li&gt;$x^2+y^2=1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371682-3e1d4400-88cd-11ea-821f-c97ee6594d23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2번 : 함수가 아니다. $x&amp;lt;0$에서 y값을 대응시킬 수 없다. 즉, 1번 조건을 만족시키지 못한다. 단, 정의역을 $x&amp;gt;0$이라고 제한한다면 함수라고 할 수 있다.&lt;/li&gt;
-  &lt;li&gt;5번 : 하나의 x가 두 개의 y를 가질 수 있다. 즉, 2번 조건을 만족시키지 못한다. 단, $y&amp;gt;=0$이라고 제한한다면 함수라고 할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-일대일-대응함수&quot;&gt;2. 일대일 대응함수&lt;/h2&gt;
-&lt;h3 id=&quot;조건&quot;&gt;조건&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;one-to-one : y축과 평행한 선을 그어 한 점과만 만나야 한다.&lt;/li&gt;
-  &lt;li&gt;onto : 치역과 공역이 같아야 한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3번 : 일대일 대응이 아니다. y축과 평행한 선을 그어보면 여러 점에서 만난다. 즉, 1번 조건을 만족시키지 못한다.&lt;/li&gt;
-  &lt;li&gt;1번 : $y&amp;gt;0$에서만 정의된다. 즉, onto 조건을 만족시키지 못한다. 단, $y&amp;gt;0$이라는 조건이 있다면 onto 조건을 만족시킨다.&lt;/li&gt;
-  &lt;li&gt;4번 : 일대일 대응 조건을 만족&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
-&lt;p&gt;x값을 제한하면 one-to-one 조건을 만족할 수 있도록 만들 수 있으며, y값을 제한하면 onto 조건을 만족할 수 있도록 만들 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;일대일-대응의-의미&quot;&gt;일대일 대응의 의미&lt;/h3&gt;
-&lt;p&gt;$y=f(x)$가 일대일 대응이다 $\Leftrightarrow$ 역함수 존재&lt;/p&gt;
-
-&lt;h2 id=&quot;3-역함수와-도함수&quot;&gt;3. 역함수와 도함수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$y=f(x)$의 역함수 : $x=f(y) \Leftrightarrow y=f^{-1}(x)$&lt;/li&gt;
-  &lt;li&gt;X가 치역, Y가 정의역이 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예제---yex&quot;&gt;예제 - $y=e^x$&lt;/h3&gt;
-&lt;p&gt;일대일 대응을 위해 $-\infty &amp;lt; x &amp;lt; \infty, y&amp;gt;0$ 조건을 붙임.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;역함수 : $x=e^y\Leftrightarrow y=lnx$  ($-\infty &amp;lt; y &amp;lt; \infty, x&amp;gt;0$)&lt;/li&gt;
-  &lt;li&gt;도함수 : $y’=e^x$&lt;/li&gt;
-  &lt;li&gt;역함수의 도함수 : $y=lnx \Rightarrow y={1 \over x}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예제---ysinx&quot;&gt;예제 - $y=sinx$&lt;/h3&gt;
-&lt;p&gt;일대일 대응을 위해 $-1 \le y \le 1, -{\pi \over 2} \le x \le {\pi \over 2}$ 조건을 붙임.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;역함수 : $x=siny \Leftrightarrow y=arcsinx$  ($-1 \le x \le 1, -{\pi \over 2} \le y \le {\pi \over 2}$)&lt;/li&gt;
-  &lt;li&gt;도함수 : $y’=cosx$&lt;/li&gt;
-  &lt;li&gt;역함수의 도함수 : $y=arcsinx \Rightarrow y’={1 \over \sqrt{1-x^2}}$&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371685-3f4e7100-88cd-11ea-9f23-a9d189454215.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-$y=arcsinx \Rightarrow y’={1 \over \sqrt{1-x^2}}$&lt;br /&gt;
-이 식은 어떻게 도출된 것일까?&lt;br /&gt;
-$y=arcsinx\Leftrightarrow x=siny$
-$\Rightarrow 1=cosy \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
-$\Rightarrow y’={1\over cosy}$&lt;br /&gt;
-$={1\over \sqrt{1-sin^2y}}$($\because sin^2x+cos^2x=1$)&lt;br /&gt;
-$={1\over \sqrt{1-x^2}}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예제---ycosx&quot;&gt;예제 - $y=cosx$&lt;/h3&gt;
-&lt;p&gt;일대일 대응을 위해 $0\le x\le \pi, -1 \le y \le 1$ 조건을 붙임.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;역함수 : $x=cosy \Leftrightarrow y=arccosx$  ($0\le y\le \pi, -1 \le x \le 1$)&lt;/li&gt;
-  &lt;li&gt;도함수 : $y’=-sinx$&lt;/li&gt;
-  &lt;li&gt;역함수의 도함수 : $y=arccosx \Rightarrow y’=-{1 \over \sqrt{1-x^2}}$&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371674-3c538080-88cd-11ea-9101-e466cda44a4c.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-$y=arccosx \Rightarrow y’=-{1 \over \sqrt{1-x^2}}$&lt;br /&gt;
-이 식은 어떻게 도출된 것일까?&lt;br /&gt;
-$y=arccosx\Leftrightarrow x=cosy$
-$\Rightarrow 1=-siny \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
-$\Rightarrow y’=-{1\over siny}$&lt;br /&gt;
-$=-{1\over \sqrt{1-cos^2y}}$($\because sin^2x+cos^2x=1$)&lt;br /&gt;
-$=-{1\over \sqrt{1-x^2}}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예제---ytanx&quot;&gt;예제 - $y=tanx$&lt;/h3&gt;
-&lt;p&gt;일대일 대응을 위해 $-{1\over 2}\pi \le x\le {1\over 2}\pi$ 조건을 붙임.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;역함수 : $x=tany \Leftrightarrow y=arctanx$  ($-{1\over 2}\pi \le y\le {1\over 2}\pi$)&lt;/li&gt;
-  &lt;li&gt;도함수 : $y’=sec^2x$&lt;/li&gt;
-  &lt;li&gt;역함수의 도함수 : $y=arctanx \Rightarrow y’={1 \over 1+x^2}$&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80371671-3b225380-88cd-11ea-87c3-72991eb83b3f.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-$y=arctanx \Rightarrow y’={1 \over 1+x^2}$&lt;br /&gt;
-이 식은 어떻게 도출된 것일까?&lt;br /&gt;
-$y=arctanx \Leftrightarrow x=tany$
-$\Rightarrow 1=sec^2y \cdot y’$(양 변을 $x$로 미분)&lt;br /&gt;
-$\Rightarrow y’={1\over sec^2y}$&lt;br /&gt;
-$={1\over \sqrt{1+tan^2y}}$($\because sec^2x-tan^2x=1$)&lt;br /&gt;
-$={1\over \sqrt{1+x^2}}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;예제---역함수와-도함수&quot;&gt;예제 - 역함수와 도함수&lt;/h2&gt;
-
-&lt;h2 id=&quot;4-쌍곡선함수와-그-도함수&quot;&gt;4. 쌍곡선함수와 그 도함수&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미분적분학" /><summary type="html">1. 함수의 정의 함수의 정의 $f:X\to Y$ X라는 집합에 있는 원소를 어떻게 Y로 보내느냐, 그 규칙을 결정하는 것이 함수 X를 정의역, Y를 공역이라 한다. 즉, $x \to f(x)=y$</summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/2020/04/14/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
+$=P(X=k)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry><entry><title type="html">확률 및 통계 6강</title><link href="http://localhost:4000/lecture/2020/04/14/prob_stat_06" rel="alternate" type="text/html" title="확률 및 통계 6강" /><published>2020-04-14T00:00:00-07:00</published><updated>2020-04-14T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/14/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%206%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/14/prob_stat_06">&lt;h2 id=&quot;예시---geometric-distribution기하분포&quot;&gt;예시 - Geometric Distribution(기하분포)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;RV K: Number of trials until first success&lt;/li&gt;
 &lt;/ul&gt;
@@ -531,83 +536,4 @@ $E[X|A]=\int_{x\in A}xf_X(x|A)$
 이것을 바로 구할 수는 없고, conditional CDF를 활용해 구한다.&lt;br /&gt;
 $f_X(x|A)={d \over dx}F_X(x|A)$&lt;br /&gt;
 $\qquad\qquad ={d \over dx}P(X\le x|A)$&lt;br /&gt;
-$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry><entry><title type="html">Taylor Series</title><link href="http://localhost:4000/posts/2020/04/13/taylor_series" rel="alternate" type="text/html" title="Taylor Series" /><published>2020-04-13T00:00:00-07:00</published><updated>2020-04-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/04/13/taylor_series</id><content type="html" xml:base="http://localhost:4000/posts/2020/04/13/taylor_series">&lt;h2 id=&quot;테일러-급수&quot;&gt;테일러 급수&lt;/h2&gt;
-&lt;p&gt;테일러 급수(Taylor Series) 또는 테일러 전개(Taylor Expansion)은 어떤 함수 $f(x)$를 우리가 다루기 쉬운 다항함수 형태로 바꾸어 준다.&lt;br /&gt;
-  &lt;br /&gt;
-$f(x)=p_{\infty}(x)$  &lt;br /&gt;
-$p_n(x)=f(a)+f’(a)(x-a)+{f''(a)\over 2!}(x-a)^2+…+{f^{(n)}(a)\over n!}(x-a)^n$  &lt;br /&gt;
-$\qquad\quad=\Sigma_{k=0}^{n}{f^{(k)}(a)\over k!}(x-a)^k$  &lt;br /&gt;
-  &lt;br /&gt;
-근사다항식의 차수가 높으면 높을수록 $p_n(x)$는 $f(x)$를 잘 근사하게 된다.  &lt;br /&gt;
-  &lt;br /&gt;
-주의해야 할 사항은 모든 $x$에 대해서 잘 근사하는 것이 아니라 $x=a$ 근처에서만 잘 근사한다는 것이다. 즉, $x$가 $a$로부터 멀어지면 멀어질수록 $f(x)=p(x)$는 큰 오차를 갖게 된다.  &lt;br /&gt;
-  &lt;br /&gt;
-그렇다면 위에서 봤던 $p_n(x)$는 어떻게 구한 것일까  &lt;br /&gt;
-  &lt;br /&gt;
-테일러 급수는 미적분의 기본 정리로부터 출발한다.  &lt;br /&gt;
-  &lt;br /&gt;
-$\int_a^xf’(t)dt=f(x)-f(a)$  &lt;br /&gt;
-$f(x)=f(a)+\int_a^xf’(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-이제 우변의 마지막 항인 $\int_a^xf’(t)dt$를 부분적분을 활용해 바꿔줄 것이다.  &lt;br /&gt;
-  &lt;br /&gt;
-$\int_a^xf’(t)dt=\int_a^x1\cdot f’(t)dt$  &lt;br /&gt;
-$\qquad\qquad =[(t+c)f’(t)dt]_a^x-\int_a^x(t+c)f''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-여기서 $c$는 적분상수이기 때문에 우리가 원하는 값을 넣을 수 있다. $c$에 $-x$를 대입한다.  &lt;/p&gt;
-
-&lt;p&gt;$\qquad\qquad =[(t-x)f’(t)dt]_a^x-\int_a^x(t-x)f''(t)dt$  &lt;br /&gt;
-$\qquad\qquad =(x-x)f’(x)-(a-x)f’(a)-\int_a^x(t-x)f''(t)dt$  &lt;br /&gt;
-$\qquad\qquad =(x-a)f’(a)-\int_a^x(t-x)f''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-정리하면 다음과 같다.  &lt;br /&gt;
-  &lt;br /&gt;
-$p_1(x)=f(a)+(x-a)f’(a)-\int_a^x(t-x)f''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-마찬가지로 마지막 항인 $-\int_a^x(t-x)f''(t)dt$를 부분적분을 활용해 바꿔줄 것이다.  &lt;br /&gt;
-$-\int_a^x(t-x)f''(t)dt=-([{(t-x)^2\over 2}f''(t)]_a^x-\int_a^x{(t-x)^2\over 2}f'''(t)dt)$  &lt;br /&gt;
-$\qquad\qquad\qquad\qquad ={(x-a)^2 \over 2}f''(a)+\int_a^x{(t-x)^2\over 2}f'''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-정리하면 다음과 같다.  &lt;br /&gt;
-  &lt;br /&gt;
-$p_2(x)=f(a)+(x-a)f’(a)+{(x-a)^2 \over 2}f''(a)+\int_a^x{(t-x)^2\over 2}f'''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-마찬가지로 마지막 항인 $\int_a^x{(t-x)^2\over 2}f'''(t)dt$를 부분적분을 활용해 바꿔줄 것이다.  &lt;br /&gt;
-  &lt;br /&gt;
-$\int_a^x{(t-x)^2\over 2}f'''(t)dt=[{(t-x)^3\over 2\cdot 3}f'''(t)]_a^x-\int_a^x{(t-x)^3\over 2\cdot 3}f''''(t)dt$  &lt;br /&gt;
-$\qquad\qquad\qquad\quad ={(x-a)^3 \over 2\cdot 3}f'''(a)-\int_a^x{(t-x)^2\over 2\cdot 3}f''''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-정리하면 다음과 같다.  &lt;br /&gt;
-  &lt;br /&gt;
-$p_3(x)=f(a)+(x-a)f’(a)+{(x-a)^2 \over 2}f''(a)+{(x-a)^3 \over 2\cdot 3}f'''(a)-\int_a^x{(t-x)^2\over 2\cdot 3}f''''(t)dt$  &lt;br /&gt;
-  &lt;br /&gt;
-이 정도 해보면 패턴이 눈에 보일 것이다. $p_n(x)$는 다음과 같다.  &lt;br /&gt;
-  &lt;br /&gt;
-$p_n(x)=f(a)+f’(a)(x-a)+{f''(a)\over 2!}(x-a)^2+…+{f^{(n)}(a)\over n!}(x-a)^n$  &lt;br /&gt;
-$\qquad\quad=\Sigma_{k=0}^{n}{f^{(k)}(a)\over k!}(x-a)^k$  &lt;/p&gt;
-
-&lt;p&gt;참고로 테일러 급수는 보통 $a$에 0을 넣어서 사용하는데, 이를 매클로린 급수(Maclaurin Series)라고 한다.  &lt;/p&gt;
-
-&lt;p&gt;또한, 일반적으로 테일러 급수는 1차 또는 2차까지만 하는 경우가 많다. 1차, 2차 다항함수로 근사할 경우에는  &lt;br /&gt;
-  &lt;br /&gt;
-$f(x)\approx p_1=f(a)+(x-a)f’(a)+Q_2(x)$  &lt;br /&gt;
-$f(x)\approx p_2=f(a)+(x-a)f’(a)+{(x-a)^2 \over 2}f''(a)+Q_3(x)$  &lt;br /&gt;
-  &lt;br /&gt;
-와 같이 놓고, $Q(x)$를 0으로 간주해 무시한다. 이 경우, $f(x)$를 무한차수 다항함수로 근사하는 것 보다는 근사오차가 크지만, $x$가 충분히 $a$에 가까운 경우에는 근사오차가 거의 없다.&lt;/p&gt;
-
-&lt;h2 id=&quot;테일러급수가필요한이유&quot;&gt;테일러 급수가 필요한 이유&lt;/h2&gt;
-
-&lt;p&gt;1. 잘 모르거나 복잡한 함수를 다루기 쉽고 이해하기 쉬운 다항함수로 대체&lt;br /&gt;
-2. 함수의 특성을 분석하기 용이&lt;/p&gt;
-
-&lt;h2 id=&quot;예시---e&quot;&gt;예시 - $e$&lt;/h2&gt;
-&lt;p&gt;$e^x = 1 + {x \over 1!} + {x^2 \over 2!} + {x^3 \over 3!} + …$&lt;br /&gt;
-$\quad =\sum_{k=0}^{\infty}{x^k \over k!}$&lt;/p&gt;
-
-&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;매클로린 급수&lt;br /&gt;
-$f(x)=\sum_{k=0}^{\infty}{f^{(k)}(0) \over k!}x^k$&lt;/li&gt;
-  &lt;li&gt;테일러 급수&lt;br /&gt;
-$f(x-a)=\sum_{k=0}^{\infty}{f^{(k)}(a) \over k!}(x-a)^k$&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">테일러 급수 테일러 급수(Taylor Series) 또는 테일러 전개(Taylor Expansion)은 어떤 함수 $f(x)$를 우리가 다루기 쉬운 다항함수 형태로 바꾸어 준다.    $f(x)=p_{\infty}(x)$   $p_n(x)=f(a)+f’(a)(x-a)+{f''(a)\over 2!}(x-a)^2+…+{f^{(n)}(a)\over n!}(x-a)^n$   $\qquad\quad=\Sigma_{k=0}^{n}{f^{(k)}(a)\over k!}(x-a)^k$      근사다항식의 차수가 높으면 높을수록 $p_n(x)$는 $f(x)$를 잘 근사하게 된다.      주의해야 할 사항은 모든 $x$에 대해서 잘 근사하는 것이 아니라 $x=a$ 근처에서만 잘 근사한다는 것이다. 즉, $x$가 $a$로부터 멀어지면 멀어질수록 $f(x)=p(x)$는 큰 오차를 갖게 된다.      그렇다면 위에서 봤던 $p_n(x)$는 어떻게 구한 것일까      테일러 급수는 미적분의 기본 정리로부터 출발한다.      $\int_a^xf’(t)dt=f(x)-f(a)$   $f(x)=f(a)+\int_a^xf’(t)dt$      이제 우변의 마지막 항인 $\int_a^xf’(t)dt$를 부분적분을 활용해 바꿔줄 것이다.      $\int_a^xf’(t)dt=\int_a^x1\cdot f’(t)dt$   $\qquad\qquad =[(t+c)f’(t)dt]_a^x-\int_a^x(t+c)f''(t)dt$      여기서 $c$는 적분상수이기 때문에 우리가 원하는 값을 넣을 수 있다. $c$에 $-x$를 대입한다.  </summary></entry></feed>
+$\qquad\qquad ={d \over dx}{P(X\le x\cap A)\over P(A)}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">예시 - Geometric Distribution(기하분포) RV K: Number of trials until first success</summary></entry></feed>

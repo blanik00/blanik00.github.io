@@ -345,6 +345,18 @@
 <!-- If not equal to previous then it must be unique as sorted -->
 
 
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
+
+
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+
 <!-- Push to group_names -->
 
 
@@ -734,6 +746,90 @@ $_n P_r=\frac{n!}{(n-r)!}$</li>
 
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="http://localhost:4000/posts/2020/05/10/yolo" rel="permalink">YOLO, SSD, YOLO 9000
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-05-11T00:00:00-07:00">May 11, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="yolo">YOLO</h2>
+<ul>
+  <li>You only look once!</li>
+  <li>성능 자체는 Faster R-CNN과 비슷하나, 속도가 훨씬 빠름</li>
+  <li>기존의 방법에서는 bounding box를 만들어서 그것을 Neural Network에 넣어 분류를 하는 방법을 사용했다면 YOLO에서는 bounding box를 찾는 것과 classification을 동시에 수행한다. (detection 문제를 regression 문제로 바꿈)</li>
+</ul>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/2020/05/10/r-cnn" rel="permalink">R-CNN, SPP, Fast R-CNN, Faster R-CNN
+</a>
+      
+    </h2>
+    
+    <!-- 
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-05-10T00:00:00-07:00">May 10, 2020</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="r-cnn">R-CNN</h2>
+<p><img src="https://user-images.githubusercontent.com/26649034/81771298-92573380-951d-11ea-8aea-25f440c43aec.PNG" alt="1" /></p>
+<ul>
+  <li>최초로 딥러닝을 활용해 detection 문제에 접근</li>
+  <li>매우 간단</li>
+  <li>이미지 안에서 여러 개의 bounding box를 뽑아냄.(region proposal) 이 부분은 딥러닝을 사용하지 않았으며, 속도가 느리기 때문에 bottle neck이 된다. selective search 방법을 사용한다.</li>
+  <li>모든 bounding box를 같은 사이즈로 resize하고, resize된 box를 CNN에 넣어 feature를 추출한다. (모든 box에 대해 CNN을 수행하므로 속도가 느림)</li>
+  <li>추출된 feature를 SVM으로 분류한다.</li>
+  <li>분류 카테고리가 $n$개라면 실제로는 “background”까지 포함해 $n+1$개가 되어야 한다.</li>
+</ul>
+
+</p>
+     -->
+    
+    
+
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="http://localhost:4000/posts/2020/05/09/cnn" rel="permalink">CNN
 </a>
       
@@ -914,7 +1010,13 @@ $\qquad\qquad =[(t+c)f’(t)dt]_a^x-\int_a^x(t+c)f''(t)dt$  <br />
         
 
     
-    <p class="archive__item-excerpt" itemprop="description">
+    <p class="archive__item-excerpt" itemprop="description"><h2 id="개요">개요</h2>
+<ul>
+  <li>식자재 마트의 온라인 쇼핑몰 추천 시스템 개발</li>
+  <li>프로젝트 시작은 2020년 03월</li>
+  <li>기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천</li>
+  <li>매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐</li>
+</ul>
 </p>
      -->
     
