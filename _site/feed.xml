@@ -1,4 +1,177 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-14T06:49:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Poisson Distribution</title><link href="http://localhost:4000/posts/2020/05/14/poisson_distribution" rel="alternate" type="text/html" title="Poisson Distribution" /><published>2020-05-14T00:00:00-07:00</published><updated>2020-05-14T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/14/poisson_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/14/poisson_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/HJZ5Ev_p8Uo&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-15T07:57:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Conditional Probability</title><link href="http://localhost:4000/posts/2020/05/14/conditional_probability" rel="alternate" type="text/html" title="Conditional Probability" /><published>2020-05-15T00:00:00-07:00</published><updated>2020-05-15T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/14/conditional_probability</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/14/conditional_probability">&lt;iframe src=&quot;https://www.youtube.com/embed/Cj25K_leYZw&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;conditional-probability&quot;&gt;Conditional Probability&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$F$라는 이벤트가 일어났다는 조건 하에 이벤트 $E$가 일어날 확률&lt;/li&gt;
+  &lt;li&gt;$P(E|F)={P(EF)\over P(F)}, \quad P(F) &amp;gt; 0$&lt;/li&gt;
+  &lt;li&gt;“Probability of E given F” 혹은 “Probability of E conditional on F”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;if $E$ and $F$ are mutually exclusive&lt;br /&gt;
+$P(E|F)={P(EF)\over P(F)}={0\over P(F)}=0$&lt;/p&gt;
+
+&lt;p&gt;if $F\subset E$&lt;br /&gt;
+$P(E|F)={P(EF)\over P(F)}={P(F)\over P(F)}=1$&lt;/p&gt;
+
+&lt;h2 id=&quot;conditional-probability---example-1&quot;&gt;Conditional Probability - Example 1&lt;/h2&gt;
+&lt;p&gt;한 마을에 있는 인구를 성별과 고용 상태에 따라 나눈 것이다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Employed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Unemployed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Totals&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;M&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;460&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;40&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;140&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;260&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;400&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Totals&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;600&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;300&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;900&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;$P(M|U)={P(MU)\over P(U)}={40 \over 300}$&lt;/p&gt;
+
+&lt;h2 id=&quot;conditional-probability---example-2&quot;&gt;Conditional Probability - Example 2&lt;/h2&gt;
+&lt;p&gt;$P(E|F)={P(EF)\over P(F)}$&lt;br /&gt;
+$P(EF)=P(F)P(E|F)$&lt;br /&gt;
+$P(E|FG)={P(EFG)\over P(FG)}$&lt;/p&gt;
+
+&lt;p&gt;Celine는 French 혹은 Chemistry 수업 중 어떤 것을 들을지 고민하고 있다. 그녀가 French를 수강하고 A학점을 받을 확률은 $1/2$이며, Chemistry를 수강하고 A학점을 받을 확률은 $2/3$이다. 만약 그녀가 동전던지기를 통해 어떤 수업을 들을지 결정한다면, 그녀가 Chemistry 수업을 듣고, A학점을 받게될 확률은 무엇인가?&lt;/p&gt;
+
+&lt;p&gt;event C : Chemistry 수업을 수강하는 사건&lt;br /&gt;
+event A : A학점을 받는 사건&lt;/p&gt;
+
+&lt;p&gt;구하고자 하는 확률은 $P(CA)$이다.&lt;/p&gt;
+
+&lt;p&gt;$P(CA)=P(C)P(A|C)=({1\over 2})({2\over 3})={1\over3}$&lt;/p&gt;
+
+&lt;h2 id=&quot;multiplicative-rules-in-probability&quot;&gt;Multiplicative Rules in Probability&lt;/h2&gt;
+&lt;p&gt;조건부 확률의 정의로부터 다음을 도출할 수 있다.&lt;br /&gt;
+$P(AB)=P(A)P(B|A)=P(B)P(A|B)$&lt;br /&gt;
+$P(ABC)=P(AB)P(C|AB)=P(A)P(B|A)P(C|AB)$&lt;br /&gt;
+$P(ABCD)=P(ABC)P(D|ABC)=P(A)P(B|A)P(C|AB)P(D|ABC)$&lt;/p&gt;
+
+&lt;p&gt;이것을 일반화하면 사건 $A_1$, $A_2$, … $A_k$에 대해 &lt;script type=&quot;math/tex&quot;&gt;P(A_1A_2...A_k)=P(A_1)P(A_2\|A_1)P(A_3\|A_1A_2)...P(A_k\|A_1A_2...A_k-1)&lt;/script&gt;을 만족한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;참고&lt;/strong&gt; 각 사건이 독립이라는 조건이 있다면 위 연산이 간단해진다.&lt;/p&gt;
+
+&lt;h2 id=&quot;bayes-rule&quot;&gt;Bayes’ Rule&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82064341-9777d680-9707-11ea-9727-4353740824c2.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$A_1$, $A_2$, $A_3$은 표본 공간 S의 Partition이다(Mutually Exclusive &amp;amp; Collectively Exhaustive).&lt;/li&gt;
+  &lt;li&gt;$B$는 event이다.&lt;br /&gt;
+$P(B)=P(A_1B)+P(A_2B)+P(A_3B)$&lt;br /&gt;
+$\qquad=P(A_1)P(B|A_1)+P(A_2)P(B|A_2)+P(A_3)P(B|A_3)$&lt;br /&gt;
+$\qquad=\sum_{i=1}^{3}P(A_i)P(B|A_i)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$P(B)$ 즉, 우리가 관심있는 이벤트에 대한 확률은 &lt;strong&gt;조건부 확률의 합&lt;/strong&gt;으로 표현할 수 있다.(Law of Total Probability) 이것이 Bayes’ Rule의 시작점이다.&lt;/p&gt;
+
+&lt;p&gt;이제 본격적으로 Bayes’ Rule에 대해 알아본다.&lt;/p&gt;
+
+&lt;p&gt;다음과 같은 확률들을 알고있다고 가정하자.&lt;br /&gt;
+$P(A_1)$, $P(A_2)$, $P(A_3)$&lt;br /&gt;
+$P(B|A_1)$, $P(B|A_2)$, $P(B|A_3)$&lt;/p&gt;
+
+&lt;p&gt;이 정보들을 가지고 다음과 같은 확률을 알아내야 한다고 하자.&lt;/p&gt;
+
+&lt;p&gt;$P(A_1|B)$, $P(A_2|B)$, $P(A_3|B)$&lt;/p&gt;
+
+&lt;p&gt;이 작업을 해내는 것이 Bayes’ Rule이다.&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;P(A_1|B)={P(A_1)P(B|A_1)\over P(B)}={P(A_1)P(B|A_1)\over P(A_1)P(B|A_1)+P(A_2)P(B|A_2)+P(A_3)P(B|A_3)}&lt;/script&gt;&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;P(A_2|B)={P(A_2)P(B|A_2)\over P(B)}={P(A_2)P(B|A_2)\over P(A_1)P(B|A_1)+P(A_2)P(B|A_2)+P(A_3)P(B|A_3)}&lt;/script&gt;&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;P(A_3|B)={P(A_3)P(B|A_3)\over P(B)}={P(A_3)P(B|A_3)\over P(A_1)P(B|A_1)+P(A_2)P(B|A_2)+P(A_3)P(B|A_3)}&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;용어-정리&quot;&gt;용어 정리&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82064328-947ce600-9707-11ea-9271-482fb3a038ac.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;정리&quot;&gt;정리&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Prior Probability와 Data Probability를 기반으로 Posterior Probability를 구하는 법칙&lt;/li&gt;
+  &lt;li&gt;$P(A_1|B)$과 $P(A_1)$은 모두 $A_1$에 대한 확률이다. 다만 앞의 것은 $B$가 주어졌을 때의 확률이다. 무엇인가 주어졌다는 것은 정보가 주어졌다는 것이다. 즉, $B$는 정보다. $P(A_1|B)$는 $P(A_1)$이 정보 $B$에 의해 업데이트된 것이다. 그래서 $P(A_1)$은 정보를 받기 전이라서 Prior이고, $P(A_1|B)$은 정보를 받은 후라서 Posterior이다. 정리하자면 Posterior Probability는 Prior Probability의 업데이트된 버전이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;bayes-rule---supplier-example&quot;&gt;Bayes’ Rule - Supplier Example&lt;/h2&gt;
+&lt;p&gt;완성차 제조업체 A는 두 타이어 업체로부터 타이어를 공급받는다. 타이어 업체는 1, 2 두 가지가 있으며, 업체 1에서 공급받은 타이어의 10%가 불량품이며, 업체 2에서 공급받은 타이어의 10%가 불량품이다. 현재 A에서 보유하고 있는 타이어 재고의 40%가 1에서 공급받은 것이다. 이 때 불량 타이어가 발견되었을 때, 그것이 업체 1에서 공급받은 타이어일 확률을 구하라.&lt;/p&gt;
+
+&lt;p&gt;$P(S_1 | D)$&lt;/p&gt;
+
+&lt;p&gt;우선 Prior Probability와 Data Probability를 알아야 한다.
+$P(S_1)=0.4, P(S_2)=0.6$
+$P(D | S_1)=0.1, P(D| S_2)=0.05$&lt;/p&gt;
+
+&lt;p&gt;$P(S_1 | D)={P(S_1 \cap D)\over P(D)}$&lt;br /&gt;
+$\qquad \qquad={P(S_1 \cap D)\over P(S_1 \cap D) + P(S_2 \cap D)}$&lt;br /&gt;
+$\qquad \qquad={P(S_1)P(D|S_1)\over P(S_1)P(D|S_1) + P(S_2)P(D|S_2)}$&lt;br /&gt;
+$\qquad \qquad=0.57$&lt;/p&gt;
+
+&lt;h2 id=&quot;bayes-rule---criminal-investigation&quot;&gt;Bayes’ Rule - Criminal Investigation&lt;/h2&gt;
+&lt;p&gt;경찰관이 수사를 통해 60%의 확신을 가지고 용의자를 추려냈는데, 이 상황에서 새로운 증거가 발견되었다. 그것은 범인이 대머리라는 사실이다. 만약 전체 인구의 20%가 대머리일 때, 대머리인 사람이 범인일 확률을 구하라.&lt;/p&gt;
+
+&lt;p&gt;마찬가지로 Prior Probability와 Data Probability를 알아야 하는데, 조금 헷갈리는 부분이 있어 잘 생각해봐야 한다.&lt;/p&gt;
+
+&lt;p&gt;$P(S)$ : 유죄일 확률&lt;br /&gt;
+$P(\sim S)$ : 무죄일 확률&lt;br /&gt;
+$P(B| S)$ : 유죄이면서 대머리일 확률&lt;br /&gt;
+$P(B| \sim S)$ : 무죄이면서 대머리일 확률&lt;/p&gt;
+
+&lt;p&gt;$P(S)=0.6, P(\sim S)=0.4$&lt;br /&gt;
+$P(B| S)=1, P(B| \sim S)=0.2$&lt;/p&gt;
+
+&lt;p&gt;처음에는 전체 인구의 20%가 대머리라고 해서 $P(B| S)$과 $P(B| \sim S)$의 확률이 모두 0.2이라고 생각했다. 하지만 문제에서 범인이 대머리라는 사실이 밝혀졌다고 명시했으므로 $P(B| S)=1$이다. 즉, 범인은 반드시 대머리다.&lt;/p&gt;
+
+&lt;p&gt;$P(S | B)={P(S \cap B)\over P(B)}$&lt;br /&gt;
+$\qquad \qquad={P(B|S)P(S)\over P(B|S)P(S) + P(B|\sim S)P(\sim S)}$&lt;br /&gt;
+$\qquad \qquad=0.882$&lt;/p&gt;
+
+&lt;h2 id=&quot;bayes-rule---disease-example&quot;&gt;Bayes’ Rule - Disease Example&lt;/h2&gt;
+&lt;p&gt;전체 인구의 1%가 희귀병에 앓고 있다. A사가 개발한 혈액 테스트는 97%의 확률로 이 희귀병을 진단할 수 있다(희귀병에 걸린 사람에게 희귀병에 걸렸다고 진단). 하지만 건강한 사람이 희귀병을 앓고 있다고 잘못 진단할 확률도 6% 있다.&lt;/p&gt;
+
+&lt;p&gt;우선 Prior Probability와 Data Probability를 알아두자.&lt;/p&gt;
+
+&lt;p&gt;$D$ : 희귀병&lt;br /&gt;
+$P$ : 양성&lt;br /&gt;
+$N$ : 음성&lt;/p&gt;
+
+&lt;p&gt;$P(D)=0.01, P(\sim D)=0.99$&lt;br /&gt;
+$P(P| D)=0.97, P(N| D)=0.03$&lt;br /&gt;
+$P(P| \sim D)=0.06, P(N| \sim D)=0.94$&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P(P)$&lt;br /&gt;
+$P(P)=P(D\cap P) + P(\sim D\cap P)$&lt;br /&gt;
+$\qquad=P(D)P(P|D)+P(\sim D)P(P|\sim D)$&lt;br /&gt;
+$\qquad=0.0691$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P(D| P)$&lt;br /&gt;
+$P(D| P)={P(D\cap P)\over P(P)}=0.14$  (위에서 다 구했던 것들임)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P(\sim D| N)$&lt;br /&gt;
+$P(\sim D| N)={P(\sim D\cap N)\over P(N)}={P(\sim D)P(N|\sim D)\over 1-P(P)}=0.999$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Poisson Distribution</title><link href="http://localhost:4000/posts/2020/05/14/poisson_distribution" rel="alternate" type="text/html" title="Poisson Distribution" /><published>2020-05-14T00:00:00-07:00</published><updated>2020-05-14T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/14/poisson_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/14/poisson_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/HJZ5Ev_p8Uo&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;복습&quot;&gt;복습&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Sample Space(표본 공간)&lt;/strong&gt; : 실험으로 나오는 모든 결과를 담고 있는 집합&lt;/p&gt;
@@ -584,79 +757,4 @@ $q_i^M$ : Item Embedding for MLP&lt;/p&gt;
   &lt;li&gt;프로젝트 시작은 2020년 03월&lt;/li&gt;
   &lt;li&gt;기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천&lt;/li&gt;
   &lt;li&gt;매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html">개요 식자재 마트의 온라인 쇼핑몰 추천 시스템 개발 프로젝트 시작은 2020년 03월 기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천 매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐</summary></entry><entry><title type="html">확률 및 통계 7강</title><link href="http://localhost:4000/lecture/2020/04/16/prob_stat_07" rel="alternate" type="text/html" title="확률 및 통계 7강" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/04/16/%ED%99%95%EB%A5%A0%20%EB%B0%8F%20%ED%86%B5%EA%B3%84%207%EA%B0%95</id><content type="html" xml:base="http://localhost:4000/lecture/2020/04/16/prob_stat_07">&lt;h2 id=&quot;chebyshev-inequality&quot;&gt;Chebyshev Inequality&lt;/h2&gt;
-
-&lt;p&gt;$P(|X-E[X]|\ge a)\le {\sigma_X^2 \over a^2}$&lt;/p&gt;
-
-&lt;p&gt;어떤 랜덤한 $X$와 $X$의 평균의 차이의 정도를 $a$라 보고, $a$보다 차이가 더 많이 날 확률은 ${\sigma_X^2 \over a^2}$보다 작다.($\sigma_X^2$는 X의 분산)&lt;/p&gt;
-
-&lt;p&gt;즉, 임의로 선택한 $X$는 $X$의 평균과 차이를 보이기 마련인데, 우리가 예측한 것(a)보다 더 크게 차이를 보일 확률은 얼마나 되는지 수치적으로 표현한 것이다.&lt;/p&gt;
-
-&lt;h1 id=&quot;chapter-4-special-distribution&quot;&gt;Chapter 4. Special Distribution&lt;/h1&gt;
-&lt;h2 id=&quot;42-bernoulli-distribution베르누이-분포&quot;&gt;4.2 Bernoulli Distribution(베르누이 분포)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;RV X : binary&lt;/li&gt;
-  &lt;li&gt;보통 하나를 success, 다른 하나를 failure라고 한다.&lt;/li&gt;
-  &lt;li&gt;$P(success) = p, P(failure) = 1-p$&lt;/li&gt;
-  &lt;li&gt;보통 success한 경우를 1로 두고, failure한 경우를 0으로 둔다.&lt;/li&gt;
-  &lt;li&gt;$E[X]=p$&lt;/li&gt;
-  &lt;li&gt;$\sigma_X^2=p(1-p)$&lt;/li&gt;
-  &lt;li&gt;Bernoulli Distribution를 바탕으로 많은 Distribution이 만들어진다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;43-binomial-distribution이항분포&quot;&gt;4.3 Binomial Distribution(이항분포)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;RV X : number of successes out of n Bernoulli trails(베르누이 시행을 n 번 반복해서 성공한 횟수)&lt;/li&gt;
-  &lt;li&gt;$x=0,1,2,…,n$. 즉, discrete하다.&lt;/li&gt;
-  &lt;li&gt;$P_X(x)={n \choose x}p^x(1-p)^{n-x}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$\sum_{x=0}^nP_X(x)=\sum_{x=0}^n{n \choose x}p^x(1-p)^{n-x}=(p+(1-p))^n=1(\because (a+b)^n=\sum_{x=0}^n{n \choose x}a^xb^{n-x})$&lt;/li&gt;
-  &lt;li&gt;$E[X]=\sum_{x=0}^nx{n \choose x}p^x(1-p)^{n-x}=np$&lt;br /&gt;
-$\qquad =\sum_{x=0}^n{xn! \over (n-x)!x!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=0}^n{n! \over (n-x)!(x-1)!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=0}^n{n(n-1)! \over (n-x)!(x-1)!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=0}^n{n(n-1)!p \over (n-1-(x-1))!(x-1)!}p^{x-1}(1-p)^{(n-1-(x-1))}$&lt;br /&gt;
-$\qquad =\sum_{x=0}^n{n(n-1)!p \over (n-1-(x-1))!(x-1)!}p^{x-1}(1-p)^{(n-1-(x-1))}$&lt;br /&gt;
-$\qquad x’=x-1$로 치환&lt;br /&gt;
-$\qquad =\sum_{x=0}^{n-1}np{(n-1)!px’(1-p)^{n-1-x’} \over (n-1-x’)!(x’)!}$&lt;br /&gt;
-$\qquad =np(p+(1-p))^{n-1}$&lt;br /&gt;
-$\qquad =np$&lt;/li&gt;
-  &lt;li&gt;$\sigma_X^2[X]=E[X^2]-(E[X])^2$&lt;br /&gt;
-$E[X^2]=\sum_{x=0}^n{x^2n!\over (n-x)!x!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=1}^n{xn!\over (n-x)!(x-1)!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=1}^n{(x-1)n!\over (n-x)!(x-1)!}p^x(1-p)^{n-x}+\sum_{x=1}^n{n!\over (n-x)!(x-1)!}p^x(1-p)^{n-x}$&lt;br /&gt;
-$\qquad =\sum_{x=1}^n{(x-1)n!\over (n-x)!(x-1)!}p^x(1-p)^{n-x}+np$&lt;br /&gt;
-$\qquad =\sum_{x=2}^n{n!\over (n-x)!(x-2)!}p^x(1-p)^{n-x}+np$&lt;br /&gt;
-$\qquad =\sum_{x=2}^n{n(n-1)(n-2)!\over ((n-2)-(x-2))!(x-2)!}p^2p^{x-2}(1-p)^{(n-x)-(x-2)}+np$&lt;br /&gt;
-$\qquad x’=x-2$로 치환&lt;br /&gt;
-$\qquad =\sum_{x=2}^n{n-2 \choose x’}p^{x’}(1-p)^{n-2-x’}n(n-1)p^2+np$&lt;br /&gt;
-$\qquad =(p+(1-p))^{n-2}n(n-1)p^2+np$&lt;br /&gt;
-$\qquad \therefore \sigma_X^2=E[X^2]-n^2p^2$&lt;br /&gt;
-$\qquad =np(1-p)$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;44-geometrid-distribution기하분포&quot;&gt;4.4 Geometrid Distribution(기하분포)&lt;/h2&gt;
-&lt;p&gt;RV X : Number of Bernoulli trials until first success&lt;br /&gt;
-$P_X(x)=(1-p)^{x-1}p$, $x=1,2,3,…$&lt;br /&gt;
-$E[X]={1\over p}$&lt;br /&gt;
-$\sigma_X^2={1-p\over p^2}$&lt;/p&gt;
-
-&lt;h3 id=&quot;forgetfulnessmemoryless&quot;&gt;Forgetfulness(Memoryless)&lt;/h3&gt;
-&lt;p&gt;6이 나올 때 까지 주사위를 던지는 확률 변수라고 하자.&lt;br /&gt;
-10번을 던졌는데 6이 안나왔다. 이 경우에 다섯 번을 더 던져 6이 나올 확률은 얼마일까? 이것은 기하분포 공식을 통해 계산해낼 수 있다. $(1-p)^4p$이다.&lt;br /&gt;
-이번에는 15번을 던졌는데 6이 안나왔다. 이 경우에도 다섯 번을 더 던져 6이 나올 확률은 얼마인지 계산해보자. $(1-p)^4p$이다.&lt;br /&gt;
-이 예시는 기하 분포가 과거 기록에 영향을 받지 않는다는 것을 보여준다. 이런 성질을 Forgetfulness라고 한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Consider K additional trials until the first success, given n trials fail.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$P(X=n+k|X&amp;gt;n)$&lt;br /&gt;
-$={P(X=n+k\cap X&amp;gt;n)\over P(X&amp;gt;n)}$&lt;br /&gt;
-$={P(X=n+k)\over P(X&amp;gt;n)}$&lt;br /&gt;
-$={(1-p)^{n+k-1}p\over \sum_{x=n+1}^{\infty}(1-p)^{x-1}p}$&lt;br /&gt;
-$={(1-p)^{n+k-1}p\over {p(1-p)^n\over 1-(1-p)}}$&lt;br /&gt;
-$=p(1-p)^{k-1}$&lt;br /&gt;
-$=P(X=k)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="확률 및 통계" /><summary type="html">Chebyshev Inequality</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><summary type="html">개요 식자재 마트의 온라인 쇼핑몰 추천 시스템 개발 프로젝트 시작은 2020년 03월 기존에는 MD들이 선택한 상품을 쇼핑몰에 띄우는 방식으로 추천 매출액 중 온라인 쇼핑몰이 차지하는 비중이 늘어남에 따라 추천 시스템 개발 필요해짐</summary></entry><entry><title type="html">Collaborative Filtering for Implicit Feedback Datasets</title><link href="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets" rel="alternate" type="text/html" title="Collaborative Filtering for Implicit Feedback Datasets" /><published>2020-04-16T00:00:00-07:00</published><updated>2020-04-16T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/16/Collaborative_Filtering_for_Implicit_Feedback_Datasets"></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html"></summary></entry></feed>
