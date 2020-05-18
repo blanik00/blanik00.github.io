@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-16T20:37:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-18T06:10:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
 &lt;ul&gt;
@@ -132,7 +132,33 @@ $P(X=0)=e^{-\lambda}\lambda^0/0!=e^{-\lambda}$&lt;/li&gt;
 $=1-P(X\le 2)$&lt;br /&gt;
 $=1-(P(X=0)+P(X=1)+P(X=2))$&lt;br /&gt;
 $=e^{-\lambda}+e^{-\lambda}\lambda^1/1!+e^{-\lambda}\lambda^2/2!$&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Independence</title><link href="http://localhost:4000/posts/2020/05/16/independence" rel="alternate" type="text/html" title="Independence" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/16/independence</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/16/independence">&lt;iframe src=&quot;https://www.youtube.com/embed/dHTkIna_hFk&quot;&gt; &lt;/iframe&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to deal with Absence of Negative Feedback</title><link href="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback" rel="alternate" type="text/html" title="How to deal with Absence of Negative Feedback" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback">&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;점수가 1~5점 사이에 분포해 있는 Explicit Feedback의 경우 1점은 “유저가 아이템을 좋아하지 않는다”는 것을 나타내며, 5점은 “유저가 아이템을 좋아한다”는 것을 나타낸다.&lt;/p&gt;
+
+&lt;p&gt;하지만 Implicit Feedback의 경우 0점을 기록(ex. 유저가 해당 아이템을 구매한 적이 없음)하더라도 “유저가 해당 아이템을 좋아하지 않는다”고 말할 수 없다. 유저가 실제로 아이템을 좋아하지 않는 경우 이외에도 유저가 아이템을 인지하지 못했던 경우가 있기 때문이다. 이러한 문제를 부정적인 피드백의 부재(absence of negative feedback)라고 한다.&lt;/p&gt;
+
+&lt;p&gt;만약 부정적인 피드백를 모두 포함시켜 학습을 시킨다면 부정적인 피드백의 수가 긍정적인 피드백보다 훨씬 많아 긍정적인 피드백 무시하는 방향으로 학습이 진행될 것이다. 반대로 부정적인 피드백를 모두 제외시킨다면 긍정적인 피드백만 학습이 진행되어 우리의 최종 목표인 binary classification을 수행하지 못할 것이다.&lt;/p&gt;
+
+&lt;p&gt;이 문제를 해결하기 위한 두 가지 방법을 제안한다. 하나는 Neural Collaborative Filtering에서 사용한 방법이고, 다른 하나는 Collaborative Filtering for Implicit Feedback Datasets에서 사용한 방법이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-negative-sampling&quot;&gt;1. Negative Sampling&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.05031.pdf&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;유저가 긍정적인 피드백을 준 것 이외에 유저가 아직 피드백을 주지 않은 k개의 아이템을 포함시켜 Training Set을 구성한다.(k는 하이퍼 파라미터이며, 이 논문에서는 $k=4$)&lt;/li&gt;
+  &lt;li&gt;긍정적인 피드백이 $n$개라면 Training Set은 $n(k+1)$개가 된다.&lt;/li&gt;
+  &lt;li&gt;즉, Negative Feedback의 일부만 샘플링해 훈련에 사용하는 방법이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-confidence-level&quot;&gt;2. Confidence Level&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Confidence Level이라는 개념을 도입한다. 유저가 아이템과 연관성이 있는지 정도를 수치적으로 표현하기 위한 것이다.&lt;/li&gt;
+  &lt;li&gt;$c_{ui}=1+\alpha r_{ui}$로 계산할 수 있다. $c_ui$가 클수록 유저와 아이템은 연관성이 큰 것이다.&lt;/li&gt;
+  &lt;li&gt;$r_{ui}$는 긍정적인 피드백의 수이며, $r_{ui}$가 증가할수록 $c_ui$도 커진다. (증가하는 정도를 나타낸 것이 $\alpha$다. $\alpha$는 하이퍼 파라미터이며, 이 논문에서는 $\alpha=40$)&lt;/li&gt;
+  &lt;li&gt;$c_{ui}$는 모두 1 이상의 값을 갖게 된다.&lt;/li&gt;
+  &lt;li&gt;즉, Negative Feedback도 모두 사용해 훈련에 사용하는 방법이다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.</summary></entry><entry><title type="html">Independence</title><link href="http://localhost:4000/posts/2020/05/16/independence" rel="alternate" type="text/html" title="Independence" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/16/independence</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/16/independence">&lt;iframe src=&quot;https://www.youtube.com/embed/dHTkIna_hFk&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;independence&quot;&gt;Independence&lt;/h2&gt;
 &lt;p&gt;$A$, $B$ 사건이 다음과 같은 조건을 만족하면 독립이라고 한다.&lt;/p&gt;
@@ -785,175 +811,4 @@ out_channels는 필터의 개수&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw&quot;&gt;StatQuest with Josh Starmer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability&quot;&gt;What is the difference between “likelihood” and “probability”?
 &lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Neural Collaborative Filtering</title><link href="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering" rel="alternate" type="text/html" title="Neural Collaborative Filtering" /><published>2020-04-24T00:00:00-07:00</published><updated>2020-04-24T00:00:00-07:00</updated><id>http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering</id><content type="html" xml:base="http://localhost:4000/paper_review/2020/04/24/Neural_Collaborative_Filtering">&lt;h1 id=&quot;요약&quot;&gt;요약&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implicit Feedback을 활용한 Collaborative Filtering을 다룬다.&lt;/li&gt;
-  &lt;li&gt;output이 1이면 User와 Item은 연관성이 있는 것이며, 0이면 User와 Item은 연관성이 없는 것이다. 즉, binary classification 문제이다.&lt;/li&gt;
-  &lt;li&gt;Collaborative Filtering에서 Matrix Factorization은 많이 쓰이는 기법이다.&lt;/li&gt;
-  &lt;li&gt;기존의 Matrix Factorization은 User Latent Factor와 Item Latent Factor를 구하고, 두 Latent Factor를 내적하는 방법을 통해 Rating Matrix를 복원한다.&lt;/li&gt;
-  &lt;li&gt;하지만 이 방법은 User-Item Interaction을 충분히 표현하지 못한다.&lt;/li&gt;
-  &lt;li&gt;저자는 &lt;strong&gt;내적&lt;/strong&gt;이라는 지나치게 단순한 방법으로 Rating Matrix를 복원했기 때문이라고 본다.&lt;/li&gt;
-  &lt;li&gt;대안으로 &lt;strong&gt;뉴럴 네트워크&lt;/strong&gt;의 사용을 권한다.&lt;/li&gt;
-  &lt;li&gt;뉴럴 네트워크를 도입함으로써 Matrix Factorization이 가지는 Linearity와 뉴럴 네트워크가 가지는 Non-Linearity를 모두 가질 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;문제-제시&quot;&gt;문제 제시&lt;/h1&gt;
-&lt;p&gt;기존의 Matrix Factorization은 SGD나 ALS 등의 방법을 사용해서 User-Item Interaction($M\times N$)을 User Latent Factor($M\times K$)와 Item Latent Factor($K\times N$)로 분해한다(K « M, N).&lt;/p&gt;
-
-&lt;p&gt;그 후 두 Latent Factor를 내적해 Rating Matrix를 복원하는 방법을 통해 User가 Item을 얼마나 선호하는지 등을 예측한다.&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499831-6a59c300-89a8-11ea-9e96-de5ff1654354.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;내적의 의미를 생각해보면 내적을 한다는 것은 User Latent Factor와 Item Latent Factor를 선형 결합해서 Rating Matrix를 복원한다는 것이다(Linear). 하지만 Linear한 방법은 단순한 예제에서는 잘 작동하지만, User-Item Interaction과 같이 복잡한 관계를 가지는 것을 잘 표현하지 못한다는 단점이 있다.&lt;/p&gt;
-
-&lt;h1 id=&quot;대안-제시&quot;&gt;대안 제시&lt;/h1&gt;
-&lt;p&gt;저자는 이 문제를 해결하기 위해 두 가지 방법이 있다고 말한다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Latent Factor의 Dimension(K)을 늘리는 것&lt;/li&gt;
-  &lt;li&gt;Non-Linear한 방법을 통해 모델 구축&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;둘 다 좋은 방법이지만 1번 방법의 경우 오버피팅이 발생한다는 문제가 있어 2번 방법을 채택했으며, Non-Linearity를 추가하기 위한 방법으로 Neural Network를 도입한 것이다.&lt;/p&gt;
-
-&lt;h1 id=&quot;뉴럴-네트워크-도입으로-인해-달라지는-것들&quot;&gt;뉴럴 네트워크 도입으로 인해 달라지는 것들&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-embedding-layer&quot;&gt;1. Embedding Layer&lt;/h2&gt;
-&lt;p&gt;Embedding Layer를 한 문장으로 표현하면 다음과 같다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Turns positive integers (indexes) into dense vectors of fixed size.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;즉, categorical한 input을 고정된 사이즈의 dense한 벡터로 바꿔주는 Layer이다. 이 논문에서는 User Latent Factor와 Item Latent Factor를 표현하는 데 사용한다.&lt;/p&gt;
-&lt;h2 id=&quot;2-필요한-모델&quot;&gt;2. 필요한 모델&lt;/h2&gt;
-&lt;h3 id=&quot;0-neural-collaborative-filtering-framework&quot;&gt;(0) Neural Collaborative Filtering Framework&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499827-69c12c80-89a8-11ea-920a-969720de8bec.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;뒤에 나오는 모델들의 뼈대가 되는 것이다. 다음과 같은 과정을 거친다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Input Layer&lt;/li&gt;
-  &lt;li&gt;Embedding Layer&lt;/li&gt;
-  &lt;li&gt;Neural CF Layers&lt;/li&gt;
-  &lt;li&gt;Output Layer&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;1-mlpmulti-layer-perceptron&quot;&gt;(1) MLP(Multi-Layer Perceptron)&lt;/h3&gt;
-
-&lt;p&gt;앞의 Neural Collaborative Filtering Framework을 충실히 재현한 모델이다. User Latent Factor와 Item Latent Factor를 여러 Layer를 거치게 해 결과를 낸다.(Layer의 activation function을 relu로 해 Non-Linearity를 얻는다.)&lt;/p&gt;
-
-&lt;p&gt;수식으로 표현하면 다음과 같다.&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499829-6a59c300-89a8-11ea-97fb-11ba105acc76.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;$W_x$ : weight matrix for x-th layer&lt;br /&gt;
-$b_x$ : bias vector for x-th layer&lt;br /&gt;
-$a_x$ : activation function for x-th layer&lt;br /&gt;
-$h$ : edge weights of the output layer&lt;/p&gt;
-
-&lt;p&gt;수식에서 볼 수 있듯이 첫 번째 layer는 User Latent Factor와 Item Latent Factor를 Concatenate한 것이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-gmfgeneralized-matrix-factorization&quot;&gt;(2) GMF(Generalized Matrix Factorization)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499823-69289600-89a8-11ea-959a-3d6377197ead.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번에는 앞에서 본 Neural Collaborative Filtering Framework의 특별한 케이스 중 하나를 다룰 것이다.&lt;/p&gt;
-
-&lt;p&gt;수식으로 표현하면 다음과 같다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499822-688fff80-89a8-11ea-8ca8-fa287685f3d2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;$a_{out}$ : activation function&lt;br /&gt;
-$h$ : edge weights of the output layer&lt;br /&gt;
-$\odot$ : element-wise product&lt;/p&gt;
-
-&lt;p&gt;만약 activation function으로 non-linear한 함수를 사용하면 non-linear한 	모델로도 사용할 수 있다. 하지만 논문에서 저자는 GMF 모델이 Linearity를 가지게 한다(저자가 작성한 &lt;a href=&quot;https://github.com/hexiangnan/neural_collaborative_filtering/blob/master/GMF.py&quot;&gt;코드&lt;/a&gt;를 보면 확인할 수 있다).&lt;/p&gt;
-
-&lt;p&gt;$a_{out}$이 identity function($y=x$)이며, $h$가 1로 이루어진 벡터라면, Matrix Factorization과 똑같아진다.&lt;/p&gt;
-
-&lt;p&gt;실제로는 $a_{out}$과 $h$를 없애고, $p_u^G\odot p_u^M$만을 사용한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-neumfneural-matrix-factorization&quot;&gt;(3) NeuMF(Neural Matrix Factorization)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499819-67f76900-89a8-11ea-9f46-525a6837a031.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;NeuMF는 GMF와 MLP에서 얻은 최종 Layer를 Concatenate하여 결과를 낸다. GMF와 MLP를 결합해 Linearity와 Non-Linearity 모두를 얻고자 하는 모델이다.&lt;/p&gt;
-
-&lt;p&gt;수식으로 표현하면 다음과 같다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499815-67f76900-89a8-11ea-984f-43480da9eb07.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;$p_u^G$ : User Embedding for GMF&lt;br /&gt;
-$p_u^M$ : User Embedding for MLP&lt;br /&gt;
-$q_i^G$ : Item Embedding for GMF&lt;br /&gt;
-$q_i^M$ : Item Embedding for MLP&lt;/p&gt;
-
-&lt;h1 id=&quot;결과&quot;&gt;결과&lt;/h1&gt;
-&lt;h2 id=&quot;1-다른-모델과의-비교&quot;&gt;1. 다른 모델과의 비교&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499809-675ed280-89a8-11ea-8e8d-49c6c72d7ea3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-pre-training의-성과&quot;&gt;2. Pre-training의 성과&lt;/h2&gt;
-&lt;p&gt;Pre-training에 대한 내용은 뒤에 나온다.&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499805-662da580-89a8-11ea-97a6-29afd932fd3d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-3가지-모델의-성능-비교&quot;&gt;3. 3가지 모델의 성능 비교&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499803-65950f00-89a8-11ea-925d-f29d1bca75af.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-negative-sample의-수에-따른-성능-비교&quot;&gt;4. Negative Sample의 수에 따른 성능 비교&lt;/h2&gt;
-&lt;p&gt;Negative Sampling에 대한 내용은 뒤에 나온다.&lt;br /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499801-6463e200-89a8-11ea-9ad3-1ff6c31a7290.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;5-mlp-layer의-수에-따른-성능-비교&quot;&gt;5. MLP Layer의 수에 따른 성능 비교&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80499792-62018800-89a8-11ea-92d8-3ed1cd21bbf9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;기타&quot;&gt;기타&lt;/h1&gt;
-&lt;h2 id=&quot;1-pre-training&quot;&gt;1. Pre-training&lt;/h2&gt;
-&lt;p&gt;NCF의 Loss Function은 non-convex하기 때문에 GD를 사용하면 Local Optimum에 수렴할 가능성이 있다. 이러한 경우 초기값을 어떻게 주는지가 딥러닝 모델의 성능에 큰 영향을 미친다. 저자는 미리 훈련된(pretrained) GMF, MLP 모델을 사용하여 NeuMF의 weights를 초기화하는 방식을 제안한다.&lt;/p&gt;
-
-&lt;p&gt;방법은 다음과 같다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;GMF와 MLP 모델을 수렴할 때 까지 훈련시킨다.&lt;/li&gt;
-  &lt;li&gt;GMF와 MLP의 파라미터를 NeuMF의 해당하는 부분에 초기값으로 대입한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;2-how-to-deal-with-absence-of-negative-feedback&quot;&gt;2. How to deal with Absence of Negative Feedback&lt;/h2&gt;
-&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
-
-&lt;p&gt;점수가 1~5점 사이에 분포해 있는 Explicit Feedback의 경우 1점은 “유저가 아이템을 좋아하지 않는다”는 것을 나타내며, 5점은 “유저가 아이템을 좋아한다”는 것을 나타낸다.&lt;/p&gt;
-
-&lt;p&gt;하지만 Implicit Feedback의 경우 0점을 기록(ex. 유저가 해당 아이템을 구매한 적이 없음)하더라도 “유저가 해당 아이템을 좋아하지 않는다”고 말할 수 없다. 유저가 실제로 아이템을 좋아하지 않는 경우 이외에도 유저가 아이템을 인지하지 못했던 경우가 있기 때문이다. 이러한 문제를 부정적인 피드백의 부재(absence of negative feedback)라고 한다.&lt;/p&gt;
-
-&lt;p&gt;만약 부정적인 피드백를 모두 포함시켜 학습을 시킨다면 부정적인 피드백의 수가 긍정적인 피드백보다 훨씬 많아 긍정적인 피드백 무시하는 방향으로 학습이 진행될 것이다. 반대로 부정적인 피드백를 모두 제외시킨다면 긍정적인 피드백만 학습이 진행되어 우리의 최종 목표인 binary classification을 수행하지 못할 것이다.&lt;/p&gt;
-
-&lt;p&gt;이 문제를 해결하기 위한 두 가지 방법을 제안한다. 하나는 이번 논문인 Neural Collaborative Filtering에서 사용한 방법이고, 다른 하나는 Collaborative Filtering for Implicit Feedback Datasets이라는 논문에서 사용한 방법이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-negative-sampling&quot;&gt;1. Negative Sampling&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Neural Collaborative Filtering&lt;/li&gt;
-  &lt;li&gt;유저가 긍정적인 피드백을 준 것 이외에 유저가 아직 피드백을 주지 않은 k개의 아이템을 포함시켜 Training Set을 구성한다.(k는 하이퍼 파라미터이며, 이 논문에서는 $k=4$)&lt;/li&gt;
-  &lt;li&gt;긍정적인 피드백이 $n$개라면 Training Set은 $n(k+1)$개가 된다.&lt;/li&gt;
-  &lt;li&gt;즉, Negative Feedback의 일부만 샘플링해 훈련에 사용하는 방법이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-confidence-level&quot;&gt;2. Confidence Level&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/li&gt;
-  &lt;li&gt;Confidence Level이라는 개념을 도입한다. 유저가 아이템과 연관성이 있는지 정도를 수치적으로 표현하기 위한 것이다.&lt;/li&gt;
-  &lt;li&gt;$c_{ui}=1+\alpha r_{ui}$로 계산할 수 있다. $c_ui$가 클수록 유저와 아이템은 연관성이 큰 것이다.&lt;/li&gt;
-  &lt;li&gt;$r_{ui}$는 긍정적인 피드백의 수이며, $r_{ui}$가 증가할수록 $c_ui$도 커진다. (증가하는 정도를 나타낸 것이 $\alpha$다. $\alpha$는 하이퍼 파라미터이며, 이 논문에서는 $\alpha=40$)&lt;/li&gt;
-  &lt;li&gt;$c_{ui}$는 모두 1 이상의 값을 갖게 된다.&lt;/li&gt;
-  &lt;li&gt;즉, Negative Feedback도 모두 사용해 훈련에 사용하는 방법이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-loss-function&quot;&gt;3. Loss Function&lt;/h2&gt;
-&lt;p&gt;이 모델에서 output은 0과 1이므로 Bernoulli Distribution을 따른다.&lt;/p&gt;
-
-&lt;p&gt;베르누이 분포에서 가능도는 다음과 같이 표현할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80507963-659a0c80-89b2-11ea-9c1a-a85714fa00d1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;가능도의 negative logarithm은 다음과 같다. 이 식을 활용해서 loss를 최소화하는 방향으로 학습을 진행시킬 수 있다(식이 binary cross-entropy와 같다).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/80507967-6763d000-89b2-11ea-8d63-b4fc7d23c660.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;참고&quot;&gt;참고&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.05031.pdf&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;review&quot;]" /><summary type="html">요약 Implicit Feedback을 활용한 Collaborative Filtering을 다룬다. output이 1이면 User와 Item은 연관성이 있는 것이며, 0이면 User와 Item은 연관성이 없는 것이다. 즉, binary classification 문제이다. Collaborative Filtering에서 Matrix Factorization은 많이 쓰이는 기법이다. 기존의 Matrix Factorization은 User Latent Factor와 Item Latent Factor를 구하고, 두 Latent Factor를 내적하는 방법을 통해 Rating Matrix를 복원한다. 하지만 이 방법은 User-Item Interaction을 충분히 표현하지 못한다. 저자는 내적이라는 지나치게 단순한 방법으로 Rating Matrix를 복원했기 때문이라고 본다. 대안으로 뉴럴 네트워크의 사용을 권한다. 뉴럴 네트워크를 도입함으로써 Matrix Factorization이 가지는 Linearity와 뉴럴 네트워크가 가지는 Non-Linearity를 모두 가질 수 있다.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
