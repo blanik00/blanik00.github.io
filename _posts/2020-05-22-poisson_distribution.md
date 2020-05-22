@@ -1,7 +1,7 @@
 ---
 title: 'Poisson Distribution'
-date: 2020-05-14
-permalink: /posts/2020/05/14/poisson_distribution
+date: 2020-05-22
+permalink: /posts/2020/05/22/poisson_distribution
 category:
   - posts
 ---

@@ -72,10 +72,6 @@
 <lastmod>2020-05-11T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/2020/05/14/poisson_distribution</loc>
-<lastmod>2020-05-14T00:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/posts/2020/05/14/conditional_probability</loc>
 <lastmod>2020-05-15T00:00:00-07:00</lastmod>
 </url>
@@ -94,6 +90,14 @@
 <url>
 <loc>http://localhost:4000/posts/2020/05/19/expectation_variance</loc>
 <lastmod>2020-05-17T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/2020/05/21/bern_bin</loc>
+<lastmod>2020-05-21T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/2020/05/22/poisson_distribution</loc>
+<lastmod>2020-05-22T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/publication/2009-10-01-paper-title-number-1</loc>
