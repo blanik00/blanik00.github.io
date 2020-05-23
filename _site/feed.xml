@@ -1,4 +1,165 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-22T06:39:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Poisson Distribution</title><link href="http://localhost:4000/posts/2020/05/22/poisson_distribution" rel="alternate" type="text/html" title="Poisson Distribution" /><published>2020-05-22T00:00:00-07:00</published><updated>2020-05-22T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/22/poisson_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/22/poisson_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/HJZ5Ev_p8Uo&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-23T07:41:59-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Geometric, Negative Binomial, Hypergeometric distribution</title><link href="http://localhost:4000/posts/2020/05/23/geo_neg_hyp" rel="alternate" type="text/html" title="Geometric, Negative Binomial, Hypergeometric distribution" /><published>2020-05-23T00:00:00-07:00</published><updated>2020-05-23T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/23/geo_neg_hyp</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/23/geo_neg_hyp">&lt;iframe src=&quot;https://www.youtube.com/embed/IYJFMjYRMgM&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;geometric-distribution기하-분포&quot;&gt;Geometric Distribution(기하 분포)&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Random Variable X : 첫 번째 성공이 일어날 때 까지 필요한 시행 횟수&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;베르누이 시행 활용&lt;/li&gt;
+  &lt;li&gt;예를 들어, 다섯 번째 시행에서 첫 성공이 일어났다면, 확률은 $(1-p)^4p$이다.&lt;/li&gt;
+  &lt;li&gt;$P(X=n)=(1-p)^{n-1}p, \;\;n=1,2,3,…$&lt;/li&gt;
+  &lt;li&gt;기하 확률 함수의 합은 1이 될까?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$\sum_{n=1}^{\infty}P(X=n)=p\sum_{n=1}^{\infty}(1-p)^{n-1}={p\over1-(1-p)}=1$&lt;/p&gt;
+
+&lt;h2 id=&quot;mean-and-variance-of-geometric-distribution&quot;&gt;Mean and Variance of Geometric Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$E[X]=1/p,\;\;V[X]=(1-p)/p^2$&lt;/li&gt;
+  &lt;li&gt;$E[X]$&lt;br /&gt;
+$=\sum_{i=1}^{\infty}i(1-p)^{i-1}p$&lt;br /&gt;
+$=p\sum_{i=1}^{\infty}i(1-p)^{i-1}$&lt;br /&gt;
+$Let\;\; 1-p=k$&lt;br /&gt;
+$=p\sum_{i=1}^{\infty}ik^{i-1}$&lt;br /&gt;
+$=p\sum_{i=1}^{\infty}{d\over dk}k^i$&lt;br /&gt;
+$=p{d\over dk}\sum_{i=1}^{\infty}k^i$&lt;br /&gt;
+$=p{d\over dk}{k\over 1-k}$&lt;br /&gt;
+$=p{1-k+k\over (1-k)^2}$&lt;br /&gt;
+$=p{1\over p^2}$&lt;br /&gt;
+$={1\over p}$&lt;/li&gt;
+  &lt;li&gt;$E[X^2]={2-p\over p^2}$&lt;/li&gt;
+  &lt;li&gt;$V[X]=E[X^2]-E[X]^2={1-p\over p^2}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geometric-distribution---example&quot;&gt;Geometric Distribution - Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;항아리에 $N$개의 흰공과 $M$개의 검은공이 있다. 검은공을 뽑을 때 까지 반복해서 뽑는 작업을 한다. (공을 뽑고 나면 다시 항아리에 넣어야 한다)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RV X : 검은 공을 뽑을 때 까지 뽑기를 한 횟수&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$P(W)={N\over N+M}$&lt;/li&gt;
+  &lt;li&gt;$P(B)={M\over N+M}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$P(X=n)$
+$=P(W)^{n-1}P(B)=({N\over N+M})^{n-1}{M\over N+M}={MN^{n-1}\over (N+M)^{n}}$&lt;/li&gt;
+  &lt;li&gt;검은공이 뽑힐 때 까지 적어도 $k$번의 시행이 필요할 확률
+$P(X\ge k)$&lt;br /&gt;
+$={M\over N+M}\sum_{n=k}^{\infty}({N\over N+M})^{n-1}$&lt;br /&gt;
+$={M\over N+M}({N\over N+M})^{k-1}/(1-{N\over N+M})$&lt;br /&gt;
+$=({N\over N+M})^{k-1}$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;즉, “k-1번 동안 흰공만 뽑는 확률”과 “검은공을 처음으로 뽑은 것이 k번째인 확률”은 동일하다.&lt;/p&gt;
+
+&lt;h2 id=&quot;negative-binomial-distribution음이항-분포&quot;&gt;Negative Binomial Distribution(음이항 분포)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;기하 분포를 일반화 시킨 분포&lt;/li&gt;
+  &lt;li&gt;확률 함수가 이항 분포와 유사해 이렇게 이름을 지은 것으로 보임&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Random Variable X : $r$번째 성공을 보기 위해 베르누이 시행을 몇 번 해야 하는가?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예를 들어, 5번째 베르누이 시행에서 3번째 성공을 볼 확률은, 앞의 네 번 동안 2번의 성공이 있어야 하며, 마지막인 다섯 번째 시행에서 성공하면 된다. ${4 \choose 2}p^2(1-p)^2p={4 \choose 2}p^3(1-p)^2$&lt;/li&gt;
+  &lt;li&gt;parameter는 $r$과 성공 확률인 $p$이다.&lt;/li&gt;
+  &lt;li&gt;$P(X=n)={n-1 \choose r-1}p^r(1-p)^{n-r},\;\; n=r,r+1,r+2,…$&lt;/li&gt;
+  &lt;li&gt;$r=1$이면 앞에서 배운 기하분포와 같다.&lt;/li&gt;
+  &lt;li&gt;$E[X]={r\over p}$&lt;/li&gt;
+  &lt;li&gt;$V[X]={r(1-p)\over p^2}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;확률 변수의 기대값과 분산은 확률 함수의 파라미터의 함수 꼴로 표현된다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;negative-binomial-distribution---example&quot;&gt;Negative Binomial Distribution - Example&lt;/h2&gt;
+&lt;p&gt;주사위를 6이 세 번 나올 때 까지 던진다고 하자. 5번째 시행에서 세 번째 6이 나올 확률은 얼마인가?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RV X : 6이 세 번 나올 때 까지 주사위를 던진 횟수($x\ge3$)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4번 중 2번은 6이 나와야 하고, 2번은 6이 나오면 안된다. 마지막인 다섯 번째 시행에서는 6이 나와야 한다.&lt;/p&gt;
+
+&lt;p&gt;$P(X=5)$&lt;br /&gt;
+$={4\choose 2}(1/6)^2(5/6)^{4-2}(1/6)$&lt;br /&gt;
+$={4\choose 2}(1/6)^3(5/6)^{4-2}$&lt;br /&gt;
+$={4\choose 2}(1/6)^3(5/6)^{4-2}$&lt;/p&gt;
+
+&lt;h2 id=&quot;negative-binomial-distribution---hiring-example&quot;&gt;Negative Binomial Distribution - Hiring Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;회사에서 직원을 3명 고용하려고 한다. 지원자와 인터뷰를 해서 합격시킬 확률이 0.6이라고 할 때, 몇 번의 인터뷰가 필요한가?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RV X : 3명을 뽑을 때 까지 필요한 인터뷰 횟수($x \ge 3$)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$P(X=6)={5\choose 2}0.6^30.4^3=0.138$&lt;/li&gt;
+  &lt;li&gt;회사가 6명을 인터뷰할 예산만 가지고 있을 때, 6번 인터뷰 동안 3명을 고용할 수 있는 확률을 구하라.
+$P(X\le 6)=P(X=3)+P(X=4)+P(X=5)+P(X=6)$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;hypergeometric-distribution초기하-분포&quot;&gt;Hypergeometric Distribution(초기하 분포)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;주머니에 $N$개의 공이 있는데, $m$개는 흰 공이고, $N-m$개는 빨간 공이다. 주머니에서 $n$개를 비복원 추출로 뽑는다. 이 때 흰색 공의 갯수가 몇 개인지 나타내는 것이 초기하 분포이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RV X : 샘플링한 $n$개 중 흰색 공의 갯수(X=0,1,2,…n)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$P(X=i)={m\choose i}{N-m\choose n-i} / {N \choose n},\;\;i=0,1,2,…n$&lt;/li&gt;
+  &lt;li&gt;분모 - $N$개 중 $n$개를 뽑는다.&lt;/li&gt;
+  &lt;li&gt;분자 - $m$개 중 $i$개가 흰색 공이고, $N-m$개 중 $n-i$가 빨간 공이다.&lt;/li&gt;
+  &lt;li&gt;파라미터는 $N$, $n$, $m$이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mean-and-variance-of-hypergeometric-distribution&quot;&gt;Mean and Variance of Hypergeometric Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$E[X]=nm/N$&lt;/li&gt;
+  &lt;li&gt;$V[X]=n{m\over N}{(N-m)\over N}{N-n\over N-1}$&lt;/li&gt;
+  &lt;li&gt;기대값과 분선은 파라미터의 함수인 것을 확인할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hypergeometric-distribution---bad-unit-example&quot;&gt;Hypergeometric Distribution - Bad Unit Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;공장에서는 제품을 30개씩 제조한다. 여기에 5개의 불량품이 포함되어 있다고 하자. 30개 중 4개를 추출하여 품질 테스트를 수행한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;RV X : 4개의 샘플 중 불량품의 갯수&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;불량품이 2개일 확률은 얼마인가?&lt;br /&gt;
+$P(X=2)={5\choose 2}{30-5\choose 4-2} / {30\choose 4}$&lt;/li&gt;
+  &lt;li&gt;불량품이 2개 미만일 확률은 얼마인가?&lt;br /&gt;
+$P(X&amp;lt;2)=P(X=0)+P(X=1)$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;hypergeometric-distribution---lot-defect-example&quot;&gt;Hypergeometric Distribution - Lot Defect Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;한 소비자가 물건을 사려고 한다. 이 소비자는 사려고 하는 10개의 물건 중 3개를 추출하여 이들이 모두 불량품이 아니라면 구매한다. 물건의 30%는 10개 중 4개의 불량이 있고, 70%는 10개 중 1개의 불량이 있다. 소비자가 물건을 구매하지 않을 확률을 구하라.&lt;/li&gt;
+  &lt;li&gt;구매할 확률을 구해 1에서 빼주는 것이 계산하기 편하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RV X : 3개 중 불량품의 갯수&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;$P(X=0)=P(defective=4)P(X=0|defective=4)+P(defective=1)P(X=0|defective=1)$&lt;br /&gt;
+$=54/100$&lt;br /&gt;
+$\therefore 1-P(X=0)=46/100$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Poisson Distribution</title><link href="http://localhost:4000/posts/2020/05/22/poisson_distribution" rel="alternate" type="text/html" title="Poisson Distribution" /><published>2020-05-22T00:00:00-07:00</published><updated>2020-05-22T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/22/poisson_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/22/poisson_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/HJZ5Ev_p8Uo&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;복습&quot;&gt;복습&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Sample Space(표본 공간)&lt;/strong&gt; : 실험으로 나오는 모든 결과를 담고 있는 집합&lt;/p&gt;
@@ -177,7 +338,7 @@ $V[X]=E[X^2]-{E[X]}^2=\lambda^2 + \lambda - \lambda^2=\lambda$&lt;/p&gt;
 
 &lt;p&gt;우리가 알고 있는 것은 ms 동안 4개의 입자가 나온다는 것이다. 이를 2.5ms로 바꾸면 10개의 입자가 나온다는 것이 된다. 즉, $\lambda=\lambda’t=4\times 2.5=10$이다.(보통 Poisson Distribution 문제를 풀 때 단위 시간을 1로 주는데 이 문제는 1이 아니라는 점을 주의해야 한다)&lt;/p&gt;
 
-&lt;p&gt;$P(X=15)=f(15;10)={e^{-10}10^{15}\over 15!}=0.0348$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Bernoulli &amp;amp; Binomial Distribution</title><link href="http://localhost:4000/posts/2020/05/21/bern_bin" rel="alternate" type="text/html" title="Bernoulli &amp; Binomial Distribution" /><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/21/bern_bin</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/21/bern_bin">&lt;iframe src=&quot;https://www.youtube.com/embed/fP_udxUJez8&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;$P(X=15)=f(15;10)={e^{-10}10^{15}\over 15!}=0.0348$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Bernoulli, Binomial Distribution</title><link href="http://localhost:4000/posts/2020/05/21/bern_bin" rel="alternate" type="text/html" title="Bernoulli, Binomial Distribution" /><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/21/bern_bin</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/21/bern_bin">&lt;iframe src=&quot;https://www.youtube.com/embed/fP_udxUJez8&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;bernoulli-distribution&quot;&gt;Bernoulli Distribution&lt;/h2&gt;
 &lt;ul&gt;
@@ -263,7 +424,141 @@ $=(10+1)0.5$&lt;br /&gt;
 $=11\times 0.5$&lt;br /&gt;
 $=5.5$&lt;/p&gt;
 
-&lt;p&gt;$k=5$일 때 가장 큰 확률을 가진다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to deal with Absence of Negative Feedback</title><link href="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback" rel="alternate" type="text/html" title="How to deal with Absence of Negative Feedback" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback">&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
+&lt;p&gt;$k=5$일 때 가장 큰 확률을 가진다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;표본 공간의 원소들(실험의 결과들)을 입력으로 받아 실수로 바꿔주는 함수&lt;/li&gt;
+  &lt;li&gt;$Real \;Number=f(Elements \;of \;the \;sample \;space)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;random-variables---coin-example&quot;&gt;Random Variables - Coin Example&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;tossing 3 coins&lt;/li&gt;
+  &lt;li&gt;Sample Space = {(HHH),(HHT),(HTH),(THH),(HTT),(THT),(TTH),(TTT)}&lt;/li&gt;
+  &lt;li&gt;Random Variable Y : Number of heads&lt;/li&gt;
+  &lt;li&gt;Y={0,1,2,3}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135062-78796180-9839-11ea-8b4b-12e0951ffe58.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;우리가 일반적으로 사용하는 데이터는 다음과 같은 형태를 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135114-d4dc8100-9839-11ea-9fda-00abf4f23c29.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이것을 확률 변수의 개념을 적용하면 “샘플들이 $X_1$이라는 확률 변수를 만나면 $x_{11},x_{21},…x_{n1}$이라는 실수로 바뀌고, $X_p$이라는 확률 변수를 만나면 $x_{1p},x_{2p},…x_{np}$이라는 실수로 바뀐다.”고 볼 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;discrete--continous-random-variables&quot;&gt;Discrete / Continous Random Variables&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Random Variable의 결과는 실수인데, 실수는 두 가지 종류가 있다.&lt;/li&gt;
+  &lt;li&gt;Discrete(이산형) : 셀 수 있다(동전을 세 개 던졌을 때 앞면이 나온 경우의 수, 코로나 바이러스 확진자 수)&lt;/li&gt;
+  &lt;li&gt;Continous(연속형) : 셀 수 없다(시간과 돈이 대표적인 연속형 데이터. 서울 주민들의 평균 연봉)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;probability-function&quot;&gt;Probability Function&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;확률 변수로부터 나온 실수를 입력으로 받아 확률로 바꿔주는 함수&lt;/li&gt;
+  &lt;li&gt;$p=f(Real \; Number)$&lt;/li&gt;
+  &lt;li&gt;Random Variables의 결과가 Discrete, Continous 두 가지가 있다고 했다. 이것인 즉슨 Probability Function의 입력도 Discrete, Continous 두 가지가 있다는 것이다. 이 때문에 Probability Function은 입력의 종류에 따라 두 가지로 나뉘게 된다.&lt;/li&gt;
+  &lt;li&gt;입력이 Discrete한 경우 : Probability Mass Function(PMF, 확률질량함수)&lt;/li&gt;
+  &lt;li&gt;입력이 Continous한 경우 : Probability Density Function(PDF, 확률밀도함수)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;probability-mass-function&quot;&gt;Probability Mass Function&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discrete Random Variable $X$을 입력으로 받음&lt;/li&gt;
+  &lt;li&gt;$x$를 $X$의 원소라고 하자.&lt;/li&gt;
+  &lt;li&gt;이산형 실수인 $x$에 대해 확률이 부여됨&lt;/li&gt;
+  &lt;li&gt;$p(x)=P[X=x]$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135065-7adbbb80-9839-11ea-9f09-7649b020585a.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;X축에 있는 것은 $X$라는 확률 변수가 가질 수 있는 이산형 값들이 되며, 거기에 해당하는 확률이며, 이를 막대 그래프로 표현한 것이다.&lt;/li&gt;
+  &lt;li&gt;$0\le p(x) \le 1$   for all $x$&lt;/li&gt;
+  &lt;li&gt;$\sum_xp(x)=1$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;probability-mass-function---coin-example&quot;&gt;Probability Mass Function - Coin Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;tossing 2 coins&lt;/li&gt;
+  &lt;li&gt;Sample Space S={(HH), (HT), (TH), (TT)}&lt;/li&gt;
+  &lt;li&gt;Random Variable X = Number of heads&lt;/li&gt;
+  &lt;li&gt;Possible values of X = {0, 1, 2}&lt;/li&gt;
+  &lt;li&gt;What is probability mass function?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;$P(X=0)=1/4$&lt;/li&gt;
+      &lt;li&gt;$P(X=1)=1/2$&lt;/li&gt;
+      &lt;li&gt;$P(X=2)=1/4$&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;probability-mass-function---accident-example&quot;&gt;Probability Mass Function - Accident Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;한 공장에서는 매년 낙상 사고가 일어난다.&lt;/li&gt;
+  &lt;li&gt;Random Variable X : 일 년 동안 일어나는 낙상 사고의 수&lt;/li&gt;
+  &lt;li&gt;$X=0,1,2,3,…$&lt;/li&gt;
+  &lt;li&gt;$P(X=x)={1\over 2^{x+1}}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 때, $P(X=x)$는 Probability Mass Function이라고 할 수 있는가?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;확률 변수 X는 셀 수 있으므로 이산형이 맞다.&lt;/li&gt;
+  &lt;li&gt;$0\le p(x)\le 1$&lt;br /&gt;
+$P(X=0)=1/2$&lt;br /&gt;
+$P(X=1)=1/2^2$&lt;br /&gt;
+$P(X=2)=1/2^3$&lt;br /&gt;
+…이므로 모든 확률은 0과 1 사이에 있다.&lt;/li&gt;
+  &lt;li&gt;$\sum_{x}P(X=x)=1$
+$1/2+1/2^2+1/2^3+…={1/2 \over 1-{1/2}}=1$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;모든 조건을 만족하므로 Probability Mass Function이라고 할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;probability-mass-function---coin-example-2&quot;&gt;Probability Mass Function - Coin Example 2&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;동전을 던져 앞면이 나오거나 던진 횟수가 $n$이 되면 동전 던지기를 멈춘다고 하자.&lt;/li&gt;
+  &lt;li&gt;$P(head)=p$&lt;/li&gt;
+  &lt;li&gt;Random Variable $X$ : 동전을 던진 횟수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$X$는 Random Variable이 될 수 있는가?&lt;br /&gt;
+X={1,2,3,…n}&lt;br /&gt;
+x=1 =&amp;gt; 동전 던지기 한 번에 앞 면이 나옴&lt;br /&gt;
+x=2 =&amp;gt; 동전 던지기 첫 번째에는 뒷 면이 나오고, 두 번째에는 앞 면이 나옴.&lt;br /&gt;
+x=3 =&amp;gt; 동전 던지기 두 번째까지 뒷 면이 나오고, 세 번째에는 앞 면이 나옴.&lt;br /&gt;
+x=n =&amp;gt; 동전 던지기 (n-1)까지 뒷 면이 나오고, n 번째에는 앞 면이든 상관없다.(어차피 멈춰야 함)&lt;br /&gt;
+원소들을 실수로 바꿨으므로 확률변수라고 할 수 있다.&lt;/li&gt;
+  &lt;li&gt;X의 원소를 확률에 대응시켜라&lt;br /&gt;
+$P(X=1)=p(H)=p$&lt;br /&gt;
+$P(X=2)=p(TH)=(1-p)p$&lt;br /&gt;
+$P(X=3)=p(TTH)=(1-p)^2p$&lt;br /&gt;
+$P(X=n-1)=(1-p)^{n-2}p$&lt;br /&gt;
+$P(X=n)=(1-p)^{n-1}p+(1-p)^{n-1}(1-p)$   이 부분 주의해야 함&lt;/li&gt;
+  &lt;li&gt;$\sum_{i=1}^{n}P(X=i)=1$을 만족하는지 확인하라&lt;br /&gt;
+$\sum_{i=1}^{n-1}P(X=i)+P(X=n)$&lt;br /&gt;
+$=\sum_{i=1}^{n-1}(1-p)^{i-1}p+(1-p)^{n-1}$&lt;br /&gt;
+$=p{1-(1-p)^{n-1}\over 1-(1-p)}+(1-p)^{n-1}$&lt;br /&gt;
+$=1$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;probability-mass-function-with-infinitely-many-possible-values&quot;&gt;Probability Mass Function with Infinitely Many Possible Values&lt;/h2&gt;
+&lt;p&gt;PMF : $p(X=i)=c\lambda^i/i!, \;\; i=0,1,2,…, \;\; \lambda는 양수$&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$c$를 구하라.&lt;br /&gt;
+$\sum_{i=1}^{\infty}P(X=i)=c\sum_{i=1}^{\infty}{\lambda^i\over i!}=c(1+\lambda+{\lambda^2\over 2!}+{\lambda^3\over 3!}+…)=ce^\lambda=1$&lt;br /&gt;
+$c=e^{-\lambda}$&lt;/li&gt;
+  &lt;li&gt;$P(X=0)$&lt;br /&gt;
+$P(X=0)=e^{-\lambda}\lambda^0/0!=e^{-\lambda}$&lt;/li&gt;
+  &lt;li&gt;$P(X&amp;gt;2)$&lt;br /&gt;
+$=1-P(X\le 2)$&lt;br /&gt;
+$=1-(P(X=0)+P(X=1)+P(X=2))$&lt;br /&gt;
+$=e^{-\lambda}+e^{-\lambda}\lambda^1/1!+e^{-\lambda}\lambda^2/2!$&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to deal with Absence of Negative Feedback</title><link href="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback" rel="alternate" type="text/html" title="How to deal with Absence of Negative Feedback" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback">&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
 
 &lt;p&gt;점수가 1~5점 사이에 분포해 있는 Explicit Feedback의 경우 1점은 “유저가 아이템을 좋아하지 않는다”는 것을 나타내며, 5점은 “유저가 아이템을 좋아한다”는 것을 나타낸다.&lt;/p&gt;
 
@@ -406,141 +701,7 @@ $V(X)=E(X^2)-{E[X]}^2=3/2-1^2=1/2$&lt;/p&gt;
 
 &lt;h2 id=&quot;standard-deviation&quot;&gt;Standard Deviation&lt;/h2&gt;
 &lt;p&gt;분산의 제곱근&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt;SD[X]=\sqrt{V[X]}&lt;/script&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;표본 공간의 원소들(실험의 결과들)을 입력으로 받아 실수로 바꿔주는 함수&lt;/li&gt;
-  &lt;li&gt;$Real \;Number=f(Elements \;of \;the \;sample \;space)$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;random-variables---coin-example&quot;&gt;Random Variables - Coin Example&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;tossing 3 coins&lt;/li&gt;
-  &lt;li&gt;Sample Space = {(HHH),(HHT),(HTH),(THH),(HTT),(THT),(TTH),(TTT)}&lt;/li&gt;
-  &lt;li&gt;Random Variable Y : Number of heads&lt;/li&gt;
-  &lt;li&gt;Y={0,1,2,3}&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135062-78796180-9839-11ea-8b4b-12e0951ffe58.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;우리가 일반적으로 사용하는 데이터는 다음과 같은 형태를 가지고 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135114-d4dc8100-9839-11ea-9fda-00abf4f23c29.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이것을 확률 변수의 개념을 적용하면 “샘플들이 $X_1$이라는 확률 변수를 만나면 $x_{11},x_{21},…x_{n1}$이라는 실수로 바뀌고, $X_p$이라는 확률 변수를 만나면 $x_{1p},x_{2p},…x_{np}$이라는 실수로 바뀐다.”고 볼 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;discrete--continous-random-variables&quot;&gt;Discrete / Continous Random Variables&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Random Variable의 결과는 실수인데, 실수는 두 가지 종류가 있다.&lt;/li&gt;
-  &lt;li&gt;Discrete(이산형) : 셀 수 있다(동전을 세 개 던졌을 때 앞면이 나온 경우의 수, 코로나 바이러스 확진자 수)&lt;/li&gt;
-  &lt;li&gt;Continous(연속형) : 셀 수 없다(시간과 돈이 대표적인 연속형 데이터. 서울 주민들의 평균 연봉)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probability-function&quot;&gt;Probability Function&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;확률 변수로부터 나온 실수를 입력으로 받아 확률로 바꿔주는 함수&lt;/li&gt;
-  &lt;li&gt;$p=f(Real \; Number)$&lt;/li&gt;
-  &lt;li&gt;Random Variables의 결과가 Discrete, Continous 두 가지가 있다고 했다. 이것인 즉슨 Probability Function의 입력도 Discrete, Continous 두 가지가 있다는 것이다. 이 때문에 Probability Function은 입력의 종류에 따라 두 가지로 나뉘게 된다.&lt;/li&gt;
-  &lt;li&gt;입력이 Discrete한 경우 : Probability Mass Function(PMF, 확률질량함수)&lt;/li&gt;
-  &lt;li&gt;입력이 Continous한 경우 : Probability Density Function(PDF, 확률밀도함수)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probability-mass-function&quot;&gt;Probability Mass Function&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Discrete Random Variable $X$을 입력으로 받음&lt;/li&gt;
-  &lt;li&gt;$x$를 $X$의 원소라고 하자.&lt;/li&gt;
-  &lt;li&gt;이산형 실수인 $x$에 대해 확률이 부여됨&lt;/li&gt;
-  &lt;li&gt;$p(x)=P[X=x]$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82135065-7adbbb80-9839-11ea-9f09-7649b020585a.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;X축에 있는 것은 $X$라는 확률 변수가 가질 수 있는 이산형 값들이 되며, 거기에 해당하는 확률이며, 이를 막대 그래프로 표현한 것이다.&lt;/li&gt;
-  &lt;li&gt;$0\le p(x) \le 1$   for all $x$&lt;/li&gt;
-  &lt;li&gt;$\sum_xp(x)=1$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probability-mass-function---coin-example&quot;&gt;Probability Mass Function - Coin Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;tossing 2 coins&lt;/li&gt;
-  &lt;li&gt;Sample Space S={(HH), (HT), (TH), (TT)}&lt;/li&gt;
-  &lt;li&gt;Random Variable X = Number of heads&lt;/li&gt;
-  &lt;li&gt;Possible values of X = {0, 1, 2}&lt;/li&gt;
-  &lt;li&gt;What is probability mass function?&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;$P(X=0)=1/4$&lt;/li&gt;
-      &lt;li&gt;$P(X=1)=1/2$&lt;/li&gt;
-      &lt;li&gt;$P(X=2)=1/4$&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probability-mass-function---accident-example&quot;&gt;Probability Mass Function - Accident Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;한 공장에서는 매년 낙상 사고가 일어난다.&lt;/li&gt;
-  &lt;li&gt;Random Variable X : 일 년 동안 일어나는 낙상 사고의 수&lt;/li&gt;
-  &lt;li&gt;$X=0,1,2,3,…$&lt;/li&gt;
-  &lt;li&gt;$P(X=x)={1\over 2^{x+1}}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 때, $P(X=x)$는 Probability Mass Function이라고 할 수 있는가?&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;확률 변수 X는 셀 수 있으므로 이산형이 맞다.&lt;/li&gt;
-  &lt;li&gt;$0\le p(x)\le 1$&lt;br /&gt;
-$P(X=0)=1/2$&lt;br /&gt;
-$P(X=1)=1/2^2$&lt;br /&gt;
-$P(X=2)=1/2^3$&lt;br /&gt;
-…이므로 모든 확률은 0과 1 사이에 있다.&lt;/li&gt;
-  &lt;li&gt;$\sum_{x}P(X=x)=1$
-$1/2+1/2^2+1/2^3+…={1/2 \over 1-{1/2}}=1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;모든 조건을 만족하므로 Probability Mass Function이라고 할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;probability-mass-function---coin-example-2&quot;&gt;Probability Mass Function - Coin Example 2&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;동전을 던져 앞면이 나오거나 던진 횟수가 $n$이 되면 동전 던지기를 멈춘다고 하자.&lt;/li&gt;
-  &lt;li&gt;$P(head)=p$&lt;/li&gt;
-  &lt;li&gt;Random Variable $X$ : 동전을 던진 횟수&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$X$는 Random Variable이 될 수 있는가?&lt;br /&gt;
-X={1,2,3,…n}&lt;br /&gt;
-x=1 =&amp;gt; 동전 던지기 한 번에 앞 면이 나옴&lt;br /&gt;
-x=2 =&amp;gt; 동전 던지기 첫 번째에는 뒷 면이 나오고, 두 번째에는 앞 면이 나옴.&lt;br /&gt;
-x=3 =&amp;gt; 동전 던지기 두 번째까지 뒷 면이 나오고, 세 번째에는 앞 면이 나옴.&lt;br /&gt;
-x=n =&amp;gt; 동전 던지기 (n-1)까지 뒷 면이 나오고, n 번째에는 앞 면이든 상관없다.(어차피 멈춰야 함)&lt;br /&gt;
-원소들을 실수로 바꿨으므로 확률변수라고 할 수 있다.&lt;/li&gt;
-  &lt;li&gt;X의 원소를 확률에 대응시켜라&lt;br /&gt;
-$P(X=1)=p(H)=p$&lt;br /&gt;
-$P(X=2)=p(TH)=(1-p)p$&lt;br /&gt;
-$P(X=3)=p(TTH)=(1-p)^2p$&lt;br /&gt;
-$P(X=n-1)=(1-p)^{n-2}p$&lt;br /&gt;
-$P(X=n)=(1-p)^{n-1}p+(1-p)^{n-1}(1-p)$   이 부분 주의해야 함&lt;/li&gt;
-  &lt;li&gt;$\sum_{i=1}^{n}P(X=i)=1$을 만족하는지 확인하라&lt;br /&gt;
-$\sum_{i=1}^{n-1}P(X=i)+P(X=n)$&lt;br /&gt;
-$=\sum_{i=1}^{n-1}(1-p)^{i-1}p+(1-p)^{n-1}$&lt;br /&gt;
-$=p{1-(1-p)^{n-1}\over 1-(1-p)}+(1-p)^{n-1}$&lt;br /&gt;
-$=1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;probability-mass-function-with-infinitely-many-possible-values&quot;&gt;Probability Mass Function with Infinitely Many Possible Values&lt;/h2&gt;
-&lt;p&gt;PMF : $p(X=i)=c\lambda^i/i!, \;\; i=0,1,2,…, \;\; \lambda는 양수$&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;$c$를 구하라.&lt;br /&gt;
-$\sum_{i=1}^{\infty}P(X=i)=c\sum_{i=1}^{\infty}{\lambda^i\over i!}=c(1+\lambda+{\lambda^2\over 2!}+{\lambda^3\over 3!}+…)=ce^\lambda=1$&lt;br /&gt;
-$c=e^{-\lambda}$&lt;/li&gt;
-  &lt;li&gt;$P(X=0)$&lt;br /&gt;
-$P(X=0)=e^{-\lambda}\lambda^0/0!=e^{-\lambda}$&lt;/li&gt;
-  &lt;li&gt;$P(X&amp;gt;2)$&lt;br /&gt;
-$=1-P(X\le 2)$&lt;br /&gt;
-$=1-(P(X=0)+P(X=1)+P(X=2))$&lt;br /&gt;
-$=e^{-\lambda}+e^{-\lambda}\lambda^1/1!+e^{-\lambda}\lambda^2/2!$&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Independence</title><link href="http://localhost:4000/posts/2020/05/16/independence" rel="alternate" type="text/html" title="Independence" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/16/independence</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/16/independence">&lt;iframe src=&quot;https://www.youtube.com/embed/dHTkIna_hFk&quot;&gt; &lt;/iframe&gt;
+&lt;script type=&quot;math/tex&quot;&gt;SD[X]=\sqrt{V[X]}&lt;/script&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Independence</title><link href="http://localhost:4000/posts/2020/05/16/independence" rel="alternate" type="text/html" title="Independence" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/16/independence</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/16/independence">&lt;iframe src=&quot;https://www.youtube.com/embed/dHTkIna_hFk&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;independence&quot;&gt;Independence&lt;/h2&gt;
 &lt;p&gt;$A$, $B$ 사건이 다음과 같은 조건을 만족하면 독립이라고 한다.&lt;/p&gt;
@@ -901,70 +1062,4 @@ YOLO 9000은 9000개의 클래스를 구분할 수 있다는 말이다. 9000개 
   &lt;li&gt;어떠한 이미지의 사이즈와 스케일이 다를 때 고려할 수 있는 방법은 세 가지가 있다. 첫 번째 방법은 Pyramids of images이며, Spatial Pyramid Pooling이 여기에 해당된다. 이미지 자체의 사이즈를 줄여서 줄어든 multiple scaled image를 한 번에 고려하는 것이다. 두 번째 방법은 Pyramids of filters이며, 이 방법은 필터의 사이즈를 바꾸는 것이다. 세 번째 방법이 &lt;strong&gt;Pyramids of anchors&lt;/strong&gt;이다. Anchor는 미리 정해져있는 bounding box의 크기를 의미한다. 미리 bounding box의 크기가 어느정도 될 것인지를 생각을 해두고, 이 box를 얼만큼 바꿔야지 target box가 되는지에 해당하는 offset을 학습한다.&lt;/li&gt;
   &lt;li&gt;Region Proposal Network는 이미지나 convolutional feature map을 입력으로 받는다. 각 픽셀마다 Anchor를 정의한다. 각 점을 중앙으로 하는 k개의 Anchor box를 만든다. 각 Anchor box마다 2개의 점수를 할당하는데(2k scores) 앞의 것이 크면 positive(쓸만한 Anchor box), 뒤의 것이 크면 negative(쓸모없는 Anchor box)이다. 또한 4k coordinates는 각 Anchor boxes를 어떻게 움직여야 target box에 가까워질 것인지에 대한 숫자가 들어있다.&lt;/li&gt;
   &lt;li&gt;즉, Region Proposal Network는 총 $k\times (4+2)$ 사이즈의 벡터를 출력한다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">R-CNN 최초로 딥러닝을 활용해 detection 문제에 접근 매우 간단 이미지 안에서 여러 개의 bounding box를 뽑아냄.(region proposal) 이 부분은 딥러닝을 사용하지 않았으며, 속도가 느리기 때문에 bottle neck이 된다. selective search 방법을 사용한다. 모든 bounding box를 같은 사이즈로 resize하고, resize된 box를 CNN에 넣어 feature를 추출한다. (모든 box에 대해 CNN을 수행하므로 속도가 느림) 추출된 feature를 SVM으로 분류한다. 분류 카테고리가 $n$개라면 실제로는 “background”까지 포함해 $n+1$개가 되어야 한다.</summary></entry><entry><title type="html">CNN</title><link href="http://localhost:4000/posts/2020/05/09/cnn" rel="alternate" type="text/html" title="CNN" /><published>2020-05-09T00:00:00-07:00</published><updated>2020-05-09T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/09/CNN</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/09/cnn">&lt;h2 id=&quot;cnn이란&quot;&gt;CNN이란?&lt;/h2&gt;
-&lt;p&gt;CNN은 아래 세 가지 요소로 이루어져 있다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Convolution : Input Image에 Convolution 연산을 하면 “Convolutional Feature Map”이 나온다.&lt;/li&gt;
-  &lt;li&gt;Subsampling : sampling을 통해 image 혹은 feature map의 크기(spatial한 정보)가 줄어듦.&lt;/li&gt;
-  &lt;li&gt;Full Connection(Dense)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Convolution과 Subsampling은 &lt;strong&gt;특성 추출(feature extraction)&lt;/strong&gt;을 수행한다. 즉, CNN은 feature들의 조합으로 물체를 구분한다.&lt;/p&gt;
-
-&lt;p&gt;또한 Full Connection은 feature들을 기반으로 분류를 수행한다.&lt;/p&gt;
-
-&lt;p&gt;즉, CNN은 이미지로부터 특징을 추출해내고, 이를 기반으로 분류를 하는 모델이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;왜-cnn이-잘-될까&quot;&gt;왜 CNN이 잘 될까?&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Local Invariance
-동일한 사이즈의 filter가 이미지의 모든 부분을 돌아다니기 때문에 찾고자 하는 이미지가 어디에 있는지는 중요하지 않다.&lt;/li&gt;
-  &lt;li&gt;Compositionality
-CNN을 여러 층 쌓으면 계층 구조가 생겨 성능이 좋다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;convolution이란&quot;&gt;Convolution이란&lt;/h2&gt;
-&lt;p&gt;이미지의 특정 부분과 filter가 얼마나 유사한지 연산하는 것이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81528300-572af800-9397-11ea-9833-d7abea9d8664.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 그림에서 Image의 진한 파란 부분과 filter의 convolution 연산을 수행한다면 두 행렬을 element-wise product하고 sum하면 된다. (=51)&lt;/p&gt;
-
-&lt;p&gt;해당 부분에 대한 convolution을 완료했다면, 다음 칸으로 옮겨 동일한 연산을 수행한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;zero-padding&quot;&gt;Zero-Padding&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81528296-54c89e00-9397-11ea-9864-7c430aa6c784.gif&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Convolution을 해야 하는데, 이를 위해서는 원본 이미지의 사이즈를 좀 더 크게 만들어야 할 때 zero-padding을 한다. 위 그림에서 실선 부분이 zero-padding한 곳이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;stride&quot;&gt;Stride&lt;/h2&gt;
-&lt;p&gt;Convolution 연산을 마치고 몇 칸을 뛰는지를 결정하는 것이 Stride이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/81528298-56926180-9397-11ea-9723-a2f49c6c2d26.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 그림에서 왼쪽은 stride=1이고, 오른쪽은 stride=2이다.&lt;/p&gt;
-
-&lt;p&gt;stride의 수와 filter의 Width, Height가 같다면 Overlapping없이 feature map을 생성할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;input-image&quot;&gt;Input Image&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;[batch, in_height, in_width, in_channels]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;batch : batch size
-in_channels : RGB인 경우 3, Grey인 경우 1&lt;/p&gt;
-
-&lt;h2 id=&quot;filter&quot;&gt;Filter&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;[filter_height, filter_width, in_channels, out_channels]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;input_ image의 in_channels와 filter의 in_channels는 항상 같아야 한다.
-out_channels는 필터의 개수&lt;/p&gt;
-
-&lt;h2 id=&quot;파라미터의-수&quot;&gt;파라미터의 수&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;모델 보면 파리미터의 수를 셀 줄 알아야 한다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$4\times 4\times 3$ 이미지를 $3\times 3\times 3$ filter로 convolution해서 $4\times 4\times 7$인 feature map이 나왔다고 하자. 이 경우 filter_height=3, filter_width=3, in_channels=3, out_channels=7이므로, 파라미터의 수는 $3\times 3\times 3 \times 7=189$이다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">CNN이란? CNN은 아래 세 가지 요소로 이루어져 있다.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">R-CNN 최초로 딥러닝을 활용해 detection 문제에 접근 매우 간단 이미지 안에서 여러 개의 bounding box를 뽑아냄.(region proposal) 이 부분은 딥러닝을 사용하지 않았으며, 속도가 느리기 때문에 bottle neck이 된다. selective search 방법을 사용한다. 모든 bounding box를 같은 사이즈로 resize하고, resize된 box를 CNN에 넣어 feature를 추출한다. (모든 box에 대해 CNN을 수행하므로 속도가 느림) 추출된 feature를 SVM으로 분류한다. 분류 카테고리가 $n$개라면 실제로는 “background”까지 포함해 $n+1$개가 되어야 한다.</summary></entry></feed>
