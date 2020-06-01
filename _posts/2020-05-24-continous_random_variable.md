@@ -13,7 +13,7 @@ category:
 	- 모든 summation($\sum$)은 integral($\int$)이 된다.
 	- 확률 변수가 가질 수 있는 값이 연속형이다.
 
-<그림 1>
+![1](https://user-images.githubusercontent.com/26649034/82829633-b12ad200-9eee-11ea-917e-19e9100ee16b.png)
 
 - 연속 확률 변수의 예
 	1. 대한민국 국민들의 소득
