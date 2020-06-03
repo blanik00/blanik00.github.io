@@ -10,6 +10,7 @@ category:
 
 ## Uniform Distributin
 - 다음과 같이 정의된 확률 분포를 Uniform Distribution이라고 한다.
+
 $$f(x)=
 \begin{cases}
 {1\over \beta-\alpha} & if\; \alpha < x < \beta \\
