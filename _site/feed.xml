@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-03T05:57:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Normal Distribution</title><link href="http://localhost:4000/posts/2020/06/03/normal_distribution" rel="alternate" type="text/html" title="Normal Distribution" /><published>2020-06-03T00:00:00-07:00</published><updated>2020-06-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/03/normal_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/03/normal_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/e3ZAl1CS3t8&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-05T07:08:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Exponential Distribution</title><link href="http://localhost:4000/posts/2020/06/05/exponential_distribution" rel="alternate" type="text/html" title="Exponential Distribution" /><published>2020-06-05T00:00:00-07:00</published><updated>2020-06-05T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/05/exponential_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/05/exponential_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/3C0yKJhMwek&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;exponential-distribution&quot;&gt;Exponential Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;정규 분포 다음으로 많이 쓰임&lt;/li&gt;
+  &lt;li&gt;시간과 관련된 분포&lt;/li&gt;
+  &lt;li&gt;지수 분포의 확률 함수(PDF)&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+f(x)=
+\begin{cases}
+\lambda e^{-\lambda x} &amp; if\;\;x\ge0\\
+0 &amp; if\;\;x&lt;0
+\end{cases} %]]&gt;&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;지수 분포의 누적 확률 함수(CDF)&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+F(x)=\int_{0}^{x}\lambda e^{-\lambda x}dx=
+\begin{cases}
+1-e^{-\lambda x} &amp; if\;\;x\ge0\\
+0 &amp; if\;\;x&lt;0
+\end{cases} %]]&gt;&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;지수 분포는 포아송 분포에 의해 생성된 두 이벤트 사이의 거리를 모델링한다.&lt;/li&gt;
+  &lt;li&gt;파라미터는 $\lambda$이며, 단위 시간 당 발생한 이벤트의 평균 수를 의미한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;exponential-distribution---mean-and-variance&quot;&gt;Exponential Distribution - Mean and Variance&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$E[X]=1/\lambda$&lt;/li&gt;
+  &lt;li&gt;$E[X^2]=2/\lambda^2$&lt;/li&gt;
+  &lt;li&gt;$V[X]=1/\lambda^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;exponential-distribution---example-1&quot;&gt;Exponential Distribution - Example 1&lt;/h2&gt;
+&lt;p&gt;어떤 사람이 통화를 하는 데 걸리는 시간을 X로 두자. 그리고 이 사람의 통화 시간은 $\lambda=1/10$인 지수 분포를 따른다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;이 사람의 통화 시간이 10분 이상이 될 확률을 구하라.&lt;br /&gt;
+$P[X&amp;gt;10]=P[X\le10]=1-F(10)=1-(1-e^{-\lambda 10})=e^{-1}\approx0.368$&lt;/li&gt;
+  &lt;li&gt;10분에서 20분 통화할 확률을 구하라.&lt;br /&gt;
+$P[10&amp;lt; X&amp;lt; 20]$&lt;br /&gt;
+$=P[X&amp;lt;20]-P[X-10]$&lt;br /&gt;
+$=F(20)-F(10)=$&lt;br /&gt;
+$1-(1-e^{-2})-(1-(1-e^{-1}))=$&lt;br /&gt;
+$e^{-1}-e^{-2}$&lt;br /&gt;
+$\approx=0.233$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;exponential-distribution---example-2&quot;&gt;Exponential Distribution - Example 2&lt;/h2&gt;
+&lt;p&gt;수중 구조 전문팀이 난파선을 찾고 있다. 난파선을 찾는 데 평균적으로 5일이 걸린다면, 1일 이내로 난파선을 찾을 확률은 얼마인가?&lt;/p&gt;
+
+&lt;p&gt;$X$ : 난파선의 위치를 알아내는 데 까지 걸리는 시간&lt;/p&gt;
+
+&lt;p&gt;$\lambda=1/5=0.2$&lt;br /&gt;
+$P[X&amp;lt;1]=F(1)=1-(1-e^{-\lambda 1})\approx0.181$&lt;/p&gt;
+
+&lt;h2 id=&quot;exponential-distribution---memoryless-property&quot;&gt;Exponential Distribution - Memoryless Property&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;기억상실 특성&lt;/li&gt;
+  &lt;li&gt;$P[X\ge s+t]=P[X\ge s]$&lt;/li&gt;
+  &lt;li&gt;즉, 과거에 얼만큼 시간을 보냈든 관계 없이, 앞으로의 확률은 $P[X\ge s]$로 동일하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;exponential-distribution---memoryless-property---example&quot;&gt;Exponential Distribution - Memoryless Property - Example&lt;/h2&gt;
+&lt;p&gt;자동차의 배터리는 평균적으로 10,000 마일을 가면 소진된다고 한다. 어떤 사람이 5,000 마일 여행을 하고 싶은데, 배터리 교환 없이 여행을 마칠 수 있는 확률은 얼마인가?&lt;/p&gt;
+
+&lt;p&gt;여행 시작 전에 이미 t 마일 만큼의 배터리를 사용했다고 하자.&lt;/p&gt;
+
+&lt;p&gt;문제의 조건을 그대로 풀려고 하면 $P[X\ge t+5000|x\ge 5000]$을 풀어야 한다. 하지만 Memoryless Property에 의해 $P[X\ge 5000]$로 간소화시킬 수 있다.&lt;/p&gt;
+
+&lt;p&gt;$\lambda=1/10000$&lt;br /&gt;
+$P[X\ge 5000]$&lt;br /&gt;
+$=1-(1-e^{-5000/10000})$&lt;br /&gt;
+$=e^{-1/2}$&lt;/p&gt;
+
+&lt;h2 id=&quot;poisson-distribution-vs-exponential-distribution&quot;&gt;Poisson Distribution vs Exponential Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;포아송 분포는 특정 시간 동안 몇 번의 사건이 발생했는가에 관심을 가진다.&lt;/li&gt;
+  &lt;li&gt;지수 분포는 이벤트 사이의 시간 간격(Interarrival time)에 관심을 가진다.&lt;/li&gt;
+  &lt;li&gt;콜센터를 예를 들어 이해해보자. 콜센터에 일 분에 3 건의 전화가 온다고 하자. 그렇다면 $\lambda=3$이다.&lt;/li&gt;
+  &lt;li&gt;s와 t 시간 사이에 걸려온 전화의 횟수는 포아송 분포를 따른다. $X\sim Poisson(3(t-s))$&lt;/li&gt;
+  &lt;li&gt;$i-1$번째와 $i$번째 전화 사이의 시간은 지수 분포를 따른다. $W_i\sim Exp(3)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$t=0$, $t=2$ 사이에 전화가 걸려오지 않을 확률을 구하라. 전화가 걸려오지 않을 확률이므로 포아송 분포를 따르며, $P[X=0]$을 구하면 된다.&lt;br /&gt;
+$X\sim Poisson(6)$&lt;br /&gt;
+$P[X=0]=e^{-6}6^0/0!=e^{-6}=0.0025$이다.&lt;/li&gt;
+  &lt;li&gt;첫 번째 전화가 2분이 지나서 올 확률을 구하라. 시간에 관심을 가지므로 지수 분포를 따르며, $P[X\ge 2]$를 구하면 된다.&lt;br /&gt;
+$W_i\sim Exp(3)$&lt;br /&gt;
+$P[X\ge 2]=1-P[X\le 2]=1-(1-e^{-6})=e^{-6}=0.0025$&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Normal Distribution</title><link href="http://localhost:4000/posts/2020/06/03/normal_distribution" rel="alternate" type="text/html" title="Normal Distribution" /><published>2020-06-03T00:00:00-07:00</published><updated>2020-06-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/03/normal_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/03/normal_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/e3ZAl1CS3t8&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;normal-distribution&quot;&gt;Normal Distribution&lt;/h2&gt;
 &lt;ul&gt;
@@ -861,7 +949,33 @@ $V(X)=E(X^2)-{E[X]}^2=3/2-1^2=1/2$&lt;/p&gt;
 
 &lt;h2 id=&quot;standard-deviation&quot;&gt;Standard Deviation&lt;/h2&gt;
 &lt;p&gt;분산의 제곱근&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt;SD[X]=\sqrt{V[X]}&lt;/script&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
+&lt;script type=&quot;math/tex&quot;&gt;SD[X]=\sqrt{V[X]}&lt;/script&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to deal with Absence of Negative Feedback</title><link href="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback" rel="alternate" type="text/html" title="How to deal with Absence of Negative Feedback" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback">&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;점수가 1~5점 사이에 분포해 있는 Explicit Feedback의 경우 1점은 “유저가 아이템을 좋아하지 않는다”는 것을 나타내며, 5점은 “유저가 아이템을 좋아한다”는 것을 나타낸다.&lt;/p&gt;
+
+&lt;p&gt;하지만 Implicit Feedback의 경우 0점을 기록(ex. 유저가 해당 아이템을 구매한 적이 없음)하더라도 “유저가 해당 아이템을 좋아하지 않는다”고 말할 수 없다. 유저가 실제로 아이템을 좋아하지 않는 경우 이외에도 유저가 아이템을 인지하지 못했던 경우가 있기 때문이다. 이러한 문제를 부정적인 피드백의 부재(absence of negative feedback)라고 한다.&lt;/p&gt;
+
+&lt;p&gt;만약 부정적인 피드백를 모두 포함시켜 학습을 시킨다면 부정적인 피드백의 수가 긍정적인 피드백보다 훨씬 많아 긍정적인 피드백 무시하는 방향으로 학습이 진행될 것이다. 반대로 부정적인 피드백를 모두 제외시킨다면 긍정적인 피드백만 학습이 진행되어 우리의 최종 목표인 binary classification을 수행하지 못할 것이다.&lt;/p&gt;
+
+&lt;p&gt;이 문제를 해결하기 위한 두 가지 방법을 제안한다. 하나는 Neural Collaborative Filtering에서 사용한 방법이고, 다른 하나는 Collaborative Filtering for Implicit Feedback Datasets에서 사용한 방법이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-negative-sampling&quot;&gt;1. Negative Sampling&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.05031.pdf&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;유저가 긍정적인 피드백을 준 것 이외에 유저가 아직 피드백을 주지 않은 k개의 아이템을 포함시켜 Training Set을 구성한다.(k는 하이퍼 파라미터이며, 이 논문에서는 $k=4$)&lt;/li&gt;
+  &lt;li&gt;긍정적인 피드백이 $n$개라면 Training Set은 $n(k+1)$개가 된다.&lt;/li&gt;
+  &lt;li&gt;즉, Negative Feedback의 일부만 샘플링해 훈련에 사용하는 방법이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-confidence-level&quot;&gt;2. Confidence Level&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Confidence Level이라는 개념을 도입한다. 유저가 아이템과 연관성이 있는지 정도를 수치적으로 표현하기 위한 것이다.&lt;/li&gt;
+  &lt;li&gt;$c_{ui}=1+\alpha r_{ui}$로 계산할 수 있다. $c_ui$가 클수록 유저와 아이템은 연관성이 큰 것이다.&lt;/li&gt;
+  &lt;li&gt;$r_{ui}$는 긍정적인 피드백의 수이며, $r_{ui}$가 증가할수록 $c_ui$도 커진다. (증가하는 정도를 나타낸 것이 $\alpha$다. $\alpha$는 하이퍼 파라미터이며, 이 논문에서는 $\alpha=40$)&lt;/li&gt;
+  &lt;li&gt;$c_{ui}$는 모두 1 이상의 값을 갖게 된다.&lt;/li&gt;
+  &lt;li&gt;즉, Negative Feedback도 모두 사용해 훈련에 사용하는 방법이다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.</summary></entry><entry><title type="html">Random Variables</title><link href="http://localhost:4000/posts/2020/05/17/random_variables" rel="alternate" type="text/html" title="Random Variables" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/random_variables</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/random_variables">&lt;iframe src=&quot;https://www.youtube.com/embed/GqDy0sInGJ0&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
 &lt;ul&gt;
@@ -995,101 +1109,4 @@ $P(X=0)=e^{-\lambda}\lambda^0/0!=e^{-\lambda}$&lt;/li&gt;
 $=1-P(X\le 2)$&lt;br /&gt;
 $=1-(P(X=0)+P(X=1)+P(X=2))$&lt;br /&gt;
 $=e^{-\lambda}+e^{-\lambda}\lambda^1/1!+e^{-\lambda}\lambda^2/2!$&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to deal with Absence of Negative Feedback</title><link href="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback" rel="alternate" type="text/html" title="How to deal with Absence of Negative Feedback" /><published>2020-05-17T00:00:00-07:00</published><updated>2020-05-17T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/17/absence_of_negative_feedback">&lt;p&gt;Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.&lt;/p&gt;
-
-&lt;p&gt;점수가 1~5점 사이에 분포해 있는 Explicit Feedback의 경우 1점은 “유저가 아이템을 좋아하지 않는다”는 것을 나타내며, 5점은 “유저가 아이템을 좋아한다”는 것을 나타낸다.&lt;/p&gt;
-
-&lt;p&gt;하지만 Implicit Feedback의 경우 0점을 기록(ex. 유저가 해당 아이템을 구매한 적이 없음)하더라도 “유저가 해당 아이템을 좋아하지 않는다”고 말할 수 없다. 유저가 실제로 아이템을 좋아하지 않는 경우 이외에도 유저가 아이템을 인지하지 못했던 경우가 있기 때문이다. 이러한 문제를 부정적인 피드백의 부재(absence of negative feedback)라고 한다.&lt;/p&gt;
-
-&lt;p&gt;만약 부정적인 피드백를 모두 포함시켜 학습을 시킨다면 부정적인 피드백의 수가 긍정적인 피드백보다 훨씬 많아 긍정적인 피드백 무시하는 방향으로 학습이 진행될 것이다. 반대로 부정적인 피드백를 모두 제외시킨다면 긍정적인 피드백만 학습이 진행되어 우리의 최종 목표인 binary classification을 수행하지 못할 것이다.&lt;/p&gt;
-
-&lt;p&gt;이 문제를 해결하기 위한 두 가지 방법을 제안한다. 하나는 Neural Collaborative Filtering에서 사용한 방법이고, 다른 하나는 Collaborative Filtering for Implicit Feedback Datasets에서 사용한 방법이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-negative-sampling&quot;&gt;1. Negative Sampling&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1708.05031.pdf&quot;&gt;Neural Collaborative Filtering&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;유저가 긍정적인 피드백을 준 것 이외에 유저가 아직 피드백을 주지 않은 k개의 아이템을 포함시켜 Training Set을 구성한다.(k는 하이퍼 파라미터이며, 이 논문에서는 $k=4$)&lt;/li&gt;
-  &lt;li&gt;긍정적인 피드백이 $n$개라면 Training Set은 $n(k+1)$개가 된다.&lt;/li&gt;
-  &lt;li&gt;즉, Negative Feedback의 일부만 샘플링해 훈련에 사용하는 방법이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-confidence-level&quot;&gt;2. Confidence Level&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://yifanhu.net/PUB/cf.pdf&quot;&gt;Collaborative Filtering for Implicit Feedback Datasets&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Confidence Level이라는 개념을 도입한다. 유저가 아이템과 연관성이 있는지 정도를 수치적으로 표현하기 위한 것이다.&lt;/li&gt;
-  &lt;li&gt;$c_{ui}=1+\alpha r_{ui}$로 계산할 수 있다. $c_ui$가 클수록 유저와 아이템은 연관성이 큰 것이다.&lt;/li&gt;
-  &lt;li&gt;$r_{ui}$는 긍정적인 피드백의 수이며, $r_{ui}$가 증가할수록 $c_ui$도 커진다. (증가하는 정도를 나타낸 것이 $\alpha$다. $\alpha$는 하이퍼 파라미터이며, 이 논문에서는 $\alpha=40$)&lt;/li&gt;
-  &lt;li&gt;$c_{ui}$는 모두 1 이상의 값을 갖게 된다.&lt;/li&gt;
-  &lt;li&gt;즉, Negative Feedback도 모두 사용해 훈련에 사용하는 방법이다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Implicit Feedback을 활용한 추천 시스템은 아마 unobserved data를 어떻게든 해결해야 할 것이다. 이 문제는 Explicit Feedback과 비교하면 명백하게 알 수 있다.</summary></entry><entry><title type="html">Independence</title><link href="http://localhost:4000/posts/2020/05/16/independence" rel="alternate" type="text/html" title="Independence" /><published>2020-05-16T00:00:00-07:00</published><updated>2020-05-16T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/16/independence</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/16/independence">&lt;iframe src=&quot;https://www.youtube.com/embed/dHTkIna_hFk&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;independence&quot;&gt;Independence&lt;/h2&gt;
-&lt;p&gt;$A$, $B$ 사건이 다음과 같은 조건을 만족하면 독립이라고 한다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(B|A)=P(B)&lt;/script&gt;
-
-&lt;p&gt;이 수식을 해석하면, “사건 $B$가 발생할 확률은 $A$의 발생 여부에 영향을 받지 않는다”이다.&lt;/p&gt;
-
-&lt;p&gt;식을 다시 써보면 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(AB)=P(A)P(B|A)=P(A)P(B)&lt;/script&gt;
-
-&lt;p&gt;즉, 조건부 확률에 해당하는 부분을 없앨 수 있다.&lt;/p&gt;
-
-&lt;p&gt;이를 응용하면 &lt;a href=&quot;https://blanik00.github.io/posts/2020/05/14/conditional_probability&quot;&gt;Conditional Probability&lt;/a&gt;에서 봤던 Multiplicative Rules in Probability을 단순화시킬 수 있다.&lt;/p&gt;
-
-&lt;p&gt;$P(A_1A_2…A_n)$&lt;br /&gt;
-$=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)…P(A_n|A_1A_2…A_{n-1})$&lt;br /&gt;
-$=P(A_1)P(A_2)…P(A_n)$&lt;/p&gt;
-
-&lt;h2 id=&quot;independence-events---example-1&quot;&gt;Independence Events - Example 1&lt;/h2&gt;
-&lt;p&gt;A마을에는 소방차 한 대와 구급차 한 대가 있다. 소방차가 필요할 때 소방차를 사용할 수 있는 확률은 0.98이고, 구급차가 필요할 때 구급차를 사용할 수 있는 확률은 0.92이다. 이 둘을 동시에 호출했을 때 둘 다 사용할 수 있는 확률은 얼마인가?(두 사건은 독립이다)&lt;/p&gt;
-
-&lt;p&gt;A: 소방차&lt;br /&gt;
-B: 앰뷸런스&lt;/p&gt;
-
-&lt;p&gt;$P(AB)=P(A)P(B)=0.9016$&lt;/p&gt;
-
-&lt;h2 id=&quot;independence-events---example-2&quot;&gt;Independence Events - Example 2&lt;/h2&gt;
-&lt;p&gt;두 개의 주사위를 던진다.&lt;br /&gt;
-$E_1= \{ sum\; is\; 6 \} = \{ (1,5),(2,4),(3,3),(4,2),(5,1) \} $&lt;br /&gt;
-$E_2= \{ sum\; is\; 7 \} = \{ (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) \} $&lt;br /&gt;
-$E_3= \{ first\; dice\; is\;4 \} = \{ (4,1),(4,2),(4,3),(4,4),(4,5),(4,6) \} $&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$E_1$과 $E_2$는 독립인가?&lt;br /&gt;
-$E_1$과 $E_2$는 mutually exclusive하기 때문에 $P(E_1E_2)=0$이다.&lt;br /&gt;
-$P(E_1E_2)\neq P(E_1)P(E_2)$&lt;br /&gt;
-mutually exclusive와 independence가 다르다는 점을 주의해야 한다.&lt;/li&gt;
-  &lt;li&gt;$E_1$과 $E_3$는 독립인가? dependent&lt;/li&gt;
-  &lt;li&gt;$E_2$과 $E_3$는 독립인가? independent&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;또한 사건 $E$, $F$가 독립이라면, $E$, $F^C$ 또한 독립이다.&lt;/p&gt;
-
-&lt;p&gt;$P(E)=P(EF)+P(EF^C)$&lt;br /&gt;
-$=P(E)P(F)+P(EF^C)$&lt;/p&gt;
-
-&lt;p&gt;$P(EF^C)=P(E)(1-P(F))$&lt;br /&gt;
-$=P(E)P(F^C)$&lt;/p&gt;
-
-&lt;p&gt;즉, $E$, $F$가 독립이라면, $E$가 발생할 확률은 $F$의 발생 여부에 영향을 받지 않는다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;세 개의 사건 $E$, $F$, $G$가 독립이기 위해서는 다음 조건을 만족해야 한다.&lt;/p&gt;
-
-&lt;p&gt;$P(EFG)=P(E)P(F)P(G)$&lt;br /&gt;
-$P(EF)=P(E)P(F)$&lt;br /&gt;
-$P(EG)=P(E)P(G)$&lt;br /&gt;
-$P(FG)=P(F)P(G)$&lt;/p&gt;
-
-&lt;p&gt;세 사건이 독립이라면, $E$는 $F$와 $G$를 어떻게 조합해도 그 조합한 것과 독립이다. 예를 들어, $E$는 $F\cup G$과 독립이다.&lt;/p&gt;
-
-&lt;p&gt;$P[E(F\cup G)]=P(EF\cup EG)$&lt;br /&gt;
-$=P(EF)+P(EG)-P(EFG)$&lt;br /&gt;
-$=P(E)P(F)+P(E)P(G)-P(E)P(FG)$&lt;br /&gt;
-$=P(E)[P(F)+P(G)-P(FG)]$&lt;br /&gt;
-$=P(E)P(F\cup G)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
