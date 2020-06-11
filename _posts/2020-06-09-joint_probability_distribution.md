@@ -1,7 +1,7 @@
 ---
-title: 'Joint Probability Distribution'
+title: 'Joint Probability Distribution(1)'
 date: 2020-06-09
-permalink: /posts/2020/06/00/joint_probability_distribution
+permalink: /posts/2020/06/09/joint_probability_distribution1
 category:
   - posts
 ---
