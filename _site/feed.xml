@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-11T07:54:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Joint Probability Distribution(2)</title><link href="http://localhost:4000/posts/2020/06/11/joint_probability_distribution2" rel="alternate" type="text/html" title="Joint Probability Distribution(2)" /><published>2020-06-11T00:00:00-07:00</published><updated>2020-06-11T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/11/joint_probability_distribution2</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/11/joint_probability_distribution2">&lt;iframe src=&quot;https://www.youtube.com/embed/XOP_ENqWdJ0&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-12T20:03:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Joint Probability Distribution - Convolution</title><link href="http://localhost:4000/posts/2020/06/13/convolution" rel="alternate" type="text/html" title="Joint Probability Distribution - Convolution" /><published>2020-06-13T00:00:00-07:00</published><updated>2020-06-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/13/convolution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/13/convolution">&lt;iframe src=&quot;https://www.youtube.com/embed/Uc5MuEfGZ6Q&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;sums-of-independent-random-variables&quot;&gt;Sums of Independent Random Variables&lt;/h2&gt;
+&lt;p&gt;확률 변수 $X, Y$는 독립이다. $X + Y$의 확률 분포는 무엇인가&lt;/p&gt;
+
+&lt;p&gt;우선은 $X+Y$의 누적 확률 함수를 구해보자.&lt;/p&gt;
+
+&lt;p&gt;$F_{XY}(a)=P[X+Y &amp;lt; a]$&lt;/p&gt;
+
+&lt;p&gt;$=\int\int_{X+Y &amp;lt; a}f_{XY}(xy)\;dx\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int\int_{X+Y &amp;lt; a}f_{X}(x)f_{Y}(y)\;dx\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{-\infty}^{\infty}\int_{-\infty}^{a-y} f_{X}(x)f_{Y}(y)\;dx\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{-\infty}^{\infty}\int_{-\infty}^{a-y} f_{X}(x)\;dxf_{Y}(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{-\infty}^{\infty}F_X(a-y)f_{Y}(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;$F_{X+Y}$는 $F_X$, $F_Y$의 convolution이라고 한다.&lt;/p&gt;
+
+&lt;p&gt;convolution($F_{X+Y}$)을 미분해서 PDF인 $f_{XY}$를 구할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;$f_{XY}$&lt;/p&gt;
+
+&lt;p&gt;$={d\over da}\int_{-\infty}^{\infty}F_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{-\infty}^{\infty}{d\over da}F_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{-\infty}^{\infty}f_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;즉, 확률 변수 $X, Y$가 독립이라면 $X+Y$의 PDF는 $\int_{-\infty}^{\infty}f_X(a-y)f_Y(y)\;dy$와 같이 표현한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;identically-distributed-uniform-random-variables&quot;&gt;Identically Distributed Uniform Random Variables&lt;/h2&gt;
+&lt;p&gt;X, Y가 독립이며, Uniform Distribution을 따르며, 파라미터는 (0,1)이다. 이 때 $X+Y$의 PDF를 구하라.&lt;/p&gt;
+
+&lt;p&gt;$f_{X+Y}(a)=\int_{0}^{1}f_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{0}^{1}f_X(a-y)\;dy$  ($\because f_Y(y)=1$)&lt;/p&gt;
+
+&lt;p&gt;$Let\;a-y=t,\;dy=-dt$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{a}^{a-1}f_X(t)\;(-dt)$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{a}^{a-1}f_X(t)\;(-dt)$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{a-1}^{a}f_X(t)\;dt$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Case 1.&lt;/strong&gt; $0\le a \le 1$&lt;/p&gt;
+
+&lt;p&gt;$\int_{0}^{a}f_X(t)\;dt=a$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Case 2.&lt;/strong&gt; $1 &amp;lt; a &amp;lt; 2$&lt;/p&gt;
+
+&lt;p&gt;$\int_{a-1}^{1}f_X(t)\;dt=2-a$&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;그림 1&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gamma-random-variables&quot;&gt;Gamma Random Variables&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;서로 독립이며, 파라미터가 $(s,\lambda)$, $(t,\lambda)$인 감마 분포를 따르는 확률 변수 X, Y가 있다. 이 때, X+Y는 파라미터가 $(s+t, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
+  &lt;li&gt;일반화 시켜 보면, 서로 독립이며, 파라미터가 $(t_1,\lambda)$, …, $(t_n,\lambda)$인 감마 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}t_i, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gamma-and-exponential-random-variables&quot;&gt;Gamma and Exponential Random Variables&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;파라미터가 $\lambda$이며, 지수 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(n, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;증명 생략&lt;/p&gt;
+
+&lt;h2 id=&quot;normal-random-distribution&quot;&gt;Normal Random Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;파라미터가 $(\mu_i, \sigma_i)$이며, 정규 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}\mu_i, \sum_{i=1}^{n}\sigma_i^2)$인 감마 분포를 따른다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;poisson-random-distribution&quot;&gt;Poisson Random Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;파라미터가 $\lambda_i$이며, 포아송 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $\sum_{i=1}^{n}\lambda_i$인 포아송 분포 분포를 따른다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;binomial-random-distribution&quot;&gt;Binomial Random Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;파라미터가 $(n_i, p)$이며, 이항 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}n_i, p)$인 이항 분포를 따른다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Joint Probability Distribution(2)</title><link href="http://localhost:4000/posts/2020/06/11/joint_probability_distribution2" rel="alternate" type="text/html" title="Joint Probability Distribution(2)" /><published>2020-06-11T00:00:00-07:00</published><updated>2020-06-11T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/11/joint_probability_distribution2</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/11/joint_probability_distribution2">&lt;iframe src=&quot;https://www.youtube.com/embed/XOP_ENqWdJ0&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;marginal-probability-function주변-확률-변수&quot;&gt;Marginal Probability Function(주변 확률 변수)&lt;/h2&gt;
 &lt;h3 id=&quot;이산형&quot;&gt;이산형&lt;/h3&gt;
@@ -1022,90 +1106,4 @@ $V[X]=E[X^2]-{E[X]}^2=\lambda^2 + \lambda - \lambda^2=\lambda$&lt;/p&gt;
 
 &lt;p&gt;우리가 알고 있는 것은 ms 동안 4개의 입자가 나온다는 것이다. 이를 2.5ms로 바꾸면 10개의 입자가 나온다는 것이 된다. 즉, $\lambda=\lambda’t=4\times 2.5=10$이다.(보통 Poisson Distribution 문제를 풀 때 단위 시간을 1로 주는데 이 문제는 1이 아니라는 점을 주의해야 한다)&lt;/p&gt;
 
-&lt;p&gt;$P(X=15)=f(15;10)={e^{-10}10^{15}\over 15!}=0.0348$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Bernoulli, Binomial Distribution</title><link href="http://localhost:4000/posts/2020/05/21/bern_bin" rel="alternate" type="text/html" title="Bernoulli, Binomial Distribution" /><published>2020-05-21T00:00:00-07:00</published><updated>2020-05-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/21/bern_bin</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/21/bern_bin">&lt;iframe src=&quot;https://www.youtube.com/embed/fP_udxUJez8&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;bernoulli-distribution&quot;&gt;Bernoulli Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;확률 변수가 두 개의 실수값(1,0)만 갖는 확률 분포&lt;/li&gt;
-  &lt;li&gt;확률 변수를 확률로 바꾸려면 확률 함수가 필요(확률 질량 함수)&lt;/li&gt;
-  &lt;li&gt;$f_X(x;p)=p^x(1-p)^{(1-x)},\; x=0,1$&lt;/li&gt;
-  &lt;li&gt;즉, 베르누이 분포는 베르누이 확률 함수로부터 생성되는 확률들의 패턴&lt;/li&gt;
-  &lt;li&gt;모수는 $p$이다.&lt;/li&gt;
-  &lt;li&gt;$E[X]=\sum_{x=0,1} xp^x(1-p)^{(1-x)}=p$&lt;/li&gt;
-  &lt;li&gt;$V[X]$
-$E[X^2]=\sum_{x=0,1} x^2p^x(1-p)^{(1-x)}=p$&lt;br /&gt;
-$V[X]=E[X]^2-E[X^2]=p^2-p=p(1-p)$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;binomial-distribution&quot;&gt;Binomial Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;베르누이 시행을 독립적으로 $n$번 수행&lt;/li&gt;
-  &lt;li&gt;확률 변수 X는 $n$번 수행해서 성공한 횟수이다.&lt;/li&gt;
-  &lt;li&gt;$X=0,1,2,3,…n$&lt;/li&gt;
-  &lt;li&gt;베르누이 분포는 이항 분포의 $n=1$인 특수한 케이스다.&lt;/li&gt;
-  &lt;li&gt;이 실수값들을 확률로 바꿀 확률 함수를 정의해야 한다.&lt;/li&gt;
-  &lt;li&gt;$p(x)={n \choose x}p^x(1-p)^{n-x}$&lt;/li&gt;
-  &lt;li&gt;즉, 이항 분포는 이항 확률 함수로부터 나온 확률들의 패턴&lt;/li&gt;
-  &lt;li&gt;모수는 $n$, $p$이다.&lt;/li&gt;
-  &lt;li&gt;$\sum_{i=0}^{n}{n \choose x}p^x(1-p)^{n-x}=(p+1-p)^n=1^n=1$
-$(\because (x+y)^n=\sum_{i=0}^{n}{n \choose i}x^iy^{n-i})$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;binomial-distribution-with-different-parameters&quot;&gt;Binomial Distribution with different parameters&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;모수 : 확률 분포의 모양을 결정하는 중요한 수&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82673486-e92ade80-9c7c-11ea-80c2-783030e73242.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mean--variance-of-binomial-distribution&quot;&gt;Mean &amp;amp; Variance of Binomial Distribution&lt;/h2&gt;
-&lt;p&gt;$E[X]$&lt;br /&gt;
-$=\sum_{i=0}^nx{n \choose i}p^i(1-p)^{n-i}$&lt;br /&gt;
-$=\sum_{i=0}^n{in! \over (n-i)!i!}p^i(1-p)^{n-i}$&lt;br /&gt;
-$=np\sum_{x=1}^n{i(n-1)! \over (n-i)!i!}p^{i-1}(1-p)^{n-i}$
-$=np\sum_{x=1}^n{(n-1)! \over (n-i)!(i-1)!}p^{i-1}(1-p)^{n-i}$&lt;br /&gt;
-$k=i-1$로 치환
-$=np\sum_{k=1}^n{(n-1)! \over (n-k-1)!k!}p^{k}(1-p)^{n-1-k}$&lt;br /&gt;
-$=np(p+(1-p)^{n-1})^{n-1}$&lt;br /&gt;
-$(\because (x+y)^n=\sum_{i=0}^{n}{n \choose i}x^iy^{n-i})$&lt;br /&gt;
-$=np$&lt;/p&gt;
-
-&lt;p&gt;$V[X]=np(1-p)$&lt;/p&gt;
-
-&lt;h2 id=&quot;binomial-distribution---defect-example-1&quot;&gt;Binomial Distribution - Defect Example 1&lt;/h2&gt;
-&lt;p&gt;검사를 수행한 제품의 수가 $n=10$이고, 제품이 불량일 확률은 $p=0.1$이다. 10개 중 2개가 불량일 확률은 얼마인가?&lt;/p&gt;
-
-&lt;p&gt;RV X : 불량인 제품의 수&lt;br /&gt;
-확률을 구하고 싶으면 확률 함수가 필요&lt;/p&gt;
-
-&lt;p&gt;$p(x)={n \choose x}p^x(1-p)^{n-x}$&lt;/p&gt;
-
-&lt;p&gt;$P[X=2]={10 \choose 2}(0.1)^{2}(0.9)^{8}=0.1937$&lt;/p&gt;
-
-&lt;p&gt;$E[X]=np=(10)(0.1)=1$&lt;br /&gt;
-$V[X]=np(1-p)=(10)(0.1)(0.9)=0.9$&lt;/p&gt;
-
-&lt;h2 id=&quot;binomial-distribution---defect-example-2&quot;&gt;Binomial Distribution - Defect Example 2&lt;/h2&gt;
-&lt;p&gt;$n=50$, $p=0.06$&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;What is Random Variable?
-RV X : 불량인 제품의 수&lt;/li&gt;
-  &lt;li&gt;What is the probability of 3 defective units in the sample?
-$P(X=3)={50 \choose 3}0.06^{3}(1-0.06)^{47}$&lt;/li&gt;
-  &lt;li&gt;What is the probability of more than 3 defective units in the sample?&lt;/li&gt;
-  &lt;li&gt;$P(X&amp;gt;3)=1-P(X=0)-P(X=1)-P(X=2)-P(X=3)$&lt;br /&gt;
-$=1-\sum_{i=0}^{3}{n \choose i}p^i(1-p)^{50-i}$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;binomial-distribution---proposition&quot;&gt;Binomial Distribution - Proposition&lt;/h2&gt;
-&lt;p&gt;이항 분포에서 확률은 증가했다가 감소하는 패턴을 보인다. 이 때, $k$가 $k\le(n+1)p$이며, 정수일 때 가장 높은 확률을 보인다.&lt;/p&gt;
-
-&lt;h3 id=&quot;ex&quot;&gt;ex&lt;/h3&gt;
-&lt;p&gt;$n=10, p=1/2$인 이항분포가 있을 때, 언제 확률이 가장 높은가?&lt;/p&gt;
-
-&lt;p&gt;$k\le (n+1)p$&lt;br /&gt;
-$=(10+1)0.5$&lt;br /&gt;
-$=11\times 0.5$&lt;br /&gt;
-$=5.5$&lt;/p&gt;
-
-&lt;p&gt;$k=5$일 때 가장 큰 확률을 가진다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;$P(X=15)=f(15;10)={e^{-10}10^{15}\over 15!}=0.0348$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
