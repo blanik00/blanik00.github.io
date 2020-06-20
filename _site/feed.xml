@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-14T07:07:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Conditional Distribution</title><link href="http://localhost:4000/posts/2020/06/14/conditional_distribution" rel="alternate" type="text/html" title="Conditional Distribution" /><published>2020-06-14T00:00:00-07:00</published><updated>2020-06-14T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/14/conditional_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/14/conditional_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/6GM_cxHn6FY&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-20T09:01:47-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Variance, Covariance, Correlation</title><link href="http://localhost:4000/posts/2020/06/21/var_cov_cor" rel="alternate" type="text/html" title="Variance, Covariance, Correlation" /><published>2020-06-21T00:00:00-07:00</published><updated>2020-06-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/21/var_cov_cor</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/21/var_cov_cor">&lt;iframe src=&quot;https://www.youtube.com/embed/dpnDuSPM1XU&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;기댓값-복습&quot;&gt;기댓값 복습&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;X가 이산형
+$E[X]=\sum_ix_if_X(x_i)$&lt;br /&gt;
+$E[g(x)]=\sum_ig(x_i)p(x_i)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;X가 연속형
+$E[X]=\int xf(x)\;dx$&lt;br /&gt;
+$E[X]=\int g(x)f(x)\;dx$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;기대값으로부터 유도되는 것들도 있는데, 대표적으로 Variance가 있다.&lt;/p&gt;
+
+&lt;p&gt;$V[X]=E[(X-E[X])^2]$&lt;/p&gt;
+
+&lt;h2 id=&quot;기댓값의-특성---independence&quot;&gt;기댓값의 특성 - Independence&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;독립인 확률 변수 X, Y가 있고, 임의의 함수 h, g가 있을 때, 다음을 만족한다.
+&lt;script type=&quot;math/tex&quot;&gt;E[g(X)h(Y)]=E[g(X)]E[h(Y)]&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;증명&lt;br /&gt;
+$E[g(X)h(Y)]$&lt;br /&gt;
+$=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x)h(y)f_{X,Y}(x,y)dxdy$&lt;br /&gt;
+$=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x)h(y)f_{X}(x)f_{Y}(y)dxdy$&lt;br /&gt;
+$=\int_{-\infty}^{\infty}g(x)f_{X}(x)dx\int_{-\infty}^{\infty}h(y)f_{Y}(y)dy$&lt;br /&gt;
+$=E[g(X)]E[h(Y)]$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;covariance-variance-of-sums-and-correlation&quot;&gt;Covariance, Variance of Sums, and Correlation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 확률 변수의 Covariance(공분산)은 두 확률 변수의 관계를 알려준다.
+&lt;script type=&quot;math/tex&quot;&gt;Cov(X,Y)=E[(X-E[X])(Y-E[Y])]&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;식에서 볼 수 있듯이 Covariance도 Expectation으로부터 나온 것임&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;식을 한번 풀어보자.&lt;br /&gt;
+$Cov(X,Y)$&lt;br /&gt;
+$=E[(X-E[X])(Y-E[Y])]$&lt;br /&gt;
+$=E[XY-XE[Y]-YE[X]+E[X]E[Y]]$&lt;br /&gt;
+$=E[XY]-E[X]E[Y]-E[Y]E[X]+E[X]E[Y]$&lt;br /&gt;
+$=E[XY]-E[X]E[Y]$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;즉, $Cov(X,Y)=E[XY]-E[X]E[Y]$로 표현할 수 있다. 앞으로는 이 공식을 사용할 것이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;properties-of-covariance&quot;&gt;Properties of Covariance&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 확률 변수 X, Y가 독립이라면, $Cov(X, Y)=0$이다.&lt;/li&gt;
+  &lt;li&gt;하지만 $Cov(X, Y)=0$이라고 해서 두 확률 변수 X, Y가 독립인 것은 아니다.&lt;/li&gt;
+  &lt;li&gt;$Cov(X,Y)=Cov(Y,X)$&lt;/li&gt;
+  &lt;li&gt;$Cov(X,X)=Var(X)$&lt;/li&gt;
+  &lt;li&gt;$Cov(aX,Y)=aCov(X,Y)$&lt;/li&gt;
+  &lt;li&gt;$Cov(\sum_{i=1}^{n}X_i+\sum_{j=1}^{m}Y_i)=\sum_{i=1}^{n}\sum_{j=1}^{m}Cov(X_i, Y_j)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables&quot;&gt;Variance of a Sum of Random Variables&lt;/h2&gt;
+&lt;p&gt;확률 변수 $X_1, X_2, …, X_n$의 합의 분산은 다음과 같다.&lt;/p&gt;
+
+&lt;p&gt;$Var(\sum_{i=1}^nX_i)$&lt;br /&gt;
+$=Cov(\sum_{i=1}^nX_i, \sum_{j=1}^nX_j)$&lt;br /&gt;
+$=\sum_{i=1}^n\sum_{j=1}^nCov(X_i, X_j)$&lt;br /&gt;
+$=\sum_{i=1}^nVar(X_i)+\sum_{i\neq j}Cov(X_i, X_j)$&lt;br /&gt;
+$=\sum_{i=1}^nVar(X_i)+2\sum_{i&amp;lt; j}Cov(X_i, X_j)$&lt;br /&gt;
+$(\because Cov(X_i, X_j)=Cov(X_j, X_i))$&lt;/p&gt;
+
+&lt;p&gt;여기서 본것처럼 논문 등에서도 $\sum_{i\neq j}$를 $2\sum_{i&amp;lt; j}$로 많이 표기한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables---example&quot;&gt;Variance of a Sum of Random Variables - Example&lt;/h2&gt;
+&lt;p&gt;$Var(X_1+X_2)$&lt;br /&gt;
+$=Cov(X_1+X_2, X_1+X_2)$&lt;br /&gt;
+$=Cov(X_1+X_2, X_1)+Cov(X_1+X_2, X_2)$&lt;br /&gt;
+$=Cov(X_1, X_1)+Cov(X_1, X_2)+Cov(X_1, X_2)+Cov(X_2, X_2)$&lt;br /&gt;
+$=Var(X_1)+2Cov(X_1,X_2)+Var(X_2)$&lt;/p&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables---independence&quot;&gt;Variance of a Sum of Random Variables - Independence&lt;/h2&gt;
+&lt;p&gt;만약 $X_1, X_2, …, X_n$이 pairwise independent($i\neq j$일 때 $X_i, X_j$는 독립)라면 다음을 만족한다.&lt;/p&gt;
+
+&lt;p&gt;$Var(\sum_{i=1}^nX_i)=Var(X_1)+Var(X_2)+…+Var(X_n)$&lt;/p&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables---sample-variance&quot;&gt;Variance of a Sum of Random Variables - Sample Variance&lt;/h2&gt;
+&lt;p&gt;$X_1, X_2, …, X_n$을 평균이 $\mu$이고, 분산이 $\sigma^2$이며, iid인 확률 변수라고 하자. sample의 평균을 $\bar{X}={1\over n}\sum_{i=1}^nX_i$이라고 할 수 있으며, $X_i-\bar{X}$를 deviation이라고 부른다.&lt;/p&gt;
+
+&lt;p&gt;이 때, 확률 변수 $S^2=\sum_{i=1}^n{(X_i-\bar{X})^2\over n-1}$을 sample variance라고 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables---examle-1&quot;&gt;Variance of a Sum of Random Variables - Examle 1&lt;/h2&gt;
+&lt;p&gt;파라미터 n과 p를 가지는 이항 분포의 분산을 구하라.&lt;/p&gt;
+
+&lt;p&gt;X는 파라미터 p를 가지는 n개의 독립인 베르누이 확률 변수의 합으로 두자. 즉, $X=X_1+X_2+…+X_n$이다.&lt;/p&gt;
+
+&lt;p&gt;$Var(X)$&lt;br /&gt;
+$=Var(X_1)+Var(X_2)+…+Var(X_n)$&lt;br /&gt;
+$=p(1-p)+p(1-p)+…+p(1-p)$&lt;br /&gt;
+$np(1-p)$&lt;/p&gt;
+
+&lt;h2 id=&quot;variance-of-a-sum-of-random-variables---examle-2&quot;&gt;Variance of a Sum of Random Variables - Examle 2&lt;/h2&gt;
+&lt;p&gt;$X_1, X_2, …, X_n$을 iid이며, 분산이 $\sigma^2$이라고 하자. $Cov(X_i-\bar{X}, \bar{X})=0$임을 보여라.&lt;/p&gt;
+
+&lt;p&gt;$Cov(X_i-\bar{X}, \bar{X})$&lt;br /&gt;
+$=Cov(X_i, \bar{X})-Cov(\bar{X},\bar{X})$&lt;br /&gt;
+$=Cov(X_i, {1\over n}\sum_{j=1}^nX_j)-Var(\bar{X})$&lt;br /&gt;
+$={1\over n}\sum_{j=1}^nCov(X_i, X_j)-{\sigma^2\over n}$&lt;br /&gt;
+$={1\over n}Cov(X_i, X_i)-{\sigma^2\over n}$&lt;br /&gt;
+$={1\over n}\sigma^2-{\sigma^2\over n}$&lt;br /&gt;
+$=0$&lt;/p&gt;
+
+&lt;h2 id=&quot;correlation&quot;&gt;Correlation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;상관계수&lt;/li&gt;
+  &lt;li&gt;두 확률 변수 X, Y의 상관계수 $\rho(X, Y)$는 다음과 같이 정의된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rho(X, Y)={Cov(X, Y)\over \sqrt{Var(X)Var(Y)}}, \quad -1\le \rho(X, Y)\le 1&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Covariance와 비슷한 개념으로 생각하면 됨. 다만 Correlation은 -1과 1 사이에 떨어지도록 설계한 값. 즉, Scaled version of Covariance&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Covariance가 10이라고 한다면 그것이 큰 것인지 작은 것인지 알 수 없으나, Correlation이 0.9라고 한다면 이것은 명백하게 큰 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Conditional Distribution</title><link href="http://localhost:4000/posts/2020/06/14/conditional_distribution" rel="alternate" type="text/html" title="Conditional Distribution" /><published>2020-06-14T00:00:00-07:00</published><updated>2020-06-14T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/14/conditional_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/14/conditional_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/6GM_cxHn6FY&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;conditional-distribution&quot;&gt;Conditional Distribution&lt;/h2&gt;
 &lt;ul&gt;
@@ -838,165 +970,4 @@ u \qquad\;\;\;\;\;\; 1 &gt; U &gt; p
 E[L_{P(U)}]
 &amp;amp;=&amp;amp; \int_{0}^{p}(1-u)\;du + \int_{p}^{1}u\;du \\
 &amp;amp;=&amp;amp; 1/2-p^2+p \\
-\end{matrix}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Geometric, Negative Binomial, Hypergeometric distribution</title><link href="http://localhost:4000/posts/2020/05/23/geo_neg_hyp" rel="alternate" type="text/html" title="Geometric, Negative Binomial, Hypergeometric distribution" /><published>2020-05-23T00:00:00-07:00</published><updated>2020-05-23T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/23/geo_neg_hyp</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/23/geo_neg_hyp">&lt;iframe src=&quot;https://www.youtube.com/embed/IYJFMjYRMgM&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;geometric-distribution기하-분포&quot;&gt;Geometric Distribution(기하 분포)&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Random Variable X : 첫 번째 성공이 일어날 때 까지 필요한 시행 횟수&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;베르누이 시행 활용&lt;/li&gt;
-  &lt;li&gt;예를 들어, 다섯 번째 시행에서 첫 성공이 일어났다면, 확률은 $(1-p)^4p$이다.&lt;/li&gt;
-  &lt;li&gt;$P(X=n)=(1-p)^{n-1}p, \;\;n=1,2,3,…$&lt;/li&gt;
-  &lt;li&gt;기하 확률 함수의 합은 1이 될까?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$\sum_{n=1}^{\infty}P(X=n)=p\sum_{n=1}^{\infty}(1-p)^{n-1}={p\over1-(1-p)}=1$&lt;/p&gt;
-
-&lt;h2 id=&quot;mean-and-variance-of-geometric-distribution&quot;&gt;Mean and Variance of Geometric Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]=1/p,\;\;V[X]=(1-p)/p^2$&lt;/li&gt;
-  &lt;li&gt;$E[X]$&lt;br /&gt;
-$=\sum_{i=1}^{\infty}i(1-p)^{i-1}p$&lt;br /&gt;
-$=p\sum_{i=1}^{\infty}i(1-p)^{i-1}$&lt;br /&gt;
-$Let\;\; 1-p=k$&lt;br /&gt;
-$=p\sum_{i=1}^{\infty}ik^{i-1}$&lt;br /&gt;
-$=p\sum_{i=1}^{\infty}{d\over dk}k^i$&lt;br /&gt;
-$=p{d\over dk}\sum_{i=1}^{\infty}k^i$&lt;br /&gt;
-$=p{d\over dk}{k\over 1-k}$&lt;br /&gt;
-$=p{1-k+k\over (1-k)^2}$&lt;br /&gt;
-$=p{1\over p^2}$&lt;br /&gt;
-$={1\over p}$&lt;/li&gt;
-  &lt;li&gt;$E[X^2]={2-p\over p^2}$&lt;/li&gt;
-  &lt;li&gt;$V[X]=E[X^2]-E[X]^2={1-p\over p^2}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;geometric-distribution---example&quot;&gt;Geometric Distribution - Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;항아리에 $N$개의 흰공과 $M$개의 검은공이 있다. 검은공을 뽑을 때 까지 반복해서 뽑는 작업을 한다. (공을 뽑고 나면 다시 항아리에 넣어야 한다)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 검은 공을 뽑을 때 까지 뽑기를 한 횟수&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$P(W)={N\over N+M}$&lt;/li&gt;
-  &lt;li&gt;$P(B)={M\over N+M}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$P(X=n)$
-$=P(W)^{n-1}P(B)=({N\over N+M})^{n-1}{M\over N+M}={MN^{n-1}\over (N+M)^{n}}$&lt;/li&gt;
-  &lt;li&gt;검은공이 뽑힐 때 까지 적어도 $k$번의 시행이 필요할 확률
-$P(X\ge k)$&lt;br /&gt;
-$={M\over N+M}\sum_{n=k}^{\infty}({N\over N+M})^{n-1}$&lt;br /&gt;
-$={M\over N+M}({N\over N+M})^{k-1}/(1-{N\over N+M})$&lt;br /&gt;
-$=({N\over N+M})^{k-1}$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;즉, “k-1번 동안 흰공만 뽑는 확률”과 “검은공을 처음으로 뽑은 것이 k번째인 확률”은 동일하다.&lt;/p&gt;
-
-&lt;h2 id=&quot;negative-binomial-distribution음이항-분포&quot;&gt;Negative Binomial Distribution(음이항 분포)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;기하 분포를 일반화 시킨 분포&lt;/li&gt;
-  &lt;li&gt;확률 함수가 이항 분포와 유사해 이렇게 이름을 지은 것으로 보임&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Random Variable X : $r$번째 성공을 보기 위해 베르누이 시행을 몇 번 해야 하는가?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;예를 들어, 5번째 베르누이 시행에서 3번째 성공을 볼 확률은, 앞의 네 번 동안 2번의 성공이 있어야 하며, 마지막인 다섯 번째 시행에서 성공하면 된다. ${4 \choose 2}p^2(1-p)^2p={4 \choose 2}p^3(1-p)^2$&lt;/li&gt;
-  &lt;li&gt;parameter는 $r$과 성공 확률인 $p$이다.&lt;/li&gt;
-  &lt;li&gt;$P(X=n)={n-1 \choose r-1}p^r(1-p)^{n-r},\;\; n=r,r+1,r+2,…$&lt;/li&gt;
-  &lt;li&gt;$r=1$이면 앞에서 배운 기하분포와 같다.&lt;/li&gt;
-  &lt;li&gt;$E[X]={r\over p}$&lt;/li&gt;
-  &lt;li&gt;$V[X]={r(1-p)\over p^2}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;확률 변수의 기대값과 분산은 확률 함수의 파라미터의 함수 꼴로 표현된다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;negative-binomial-distribution---example&quot;&gt;Negative Binomial Distribution - Example&lt;/h2&gt;
-&lt;p&gt;주사위를 6이 세 번 나올 때 까지 던진다고 하자. 5번째 시행에서 세 번째 6이 나올 확률은 얼마인가?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 6이 세 번 나올 때 까지 주사위를 던진 횟수($x\ge3$)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;4번 중 2번은 6이 나와야 하고, 2번은 6이 나오면 안된다. 마지막인 다섯 번째 시행에서는 6이 나와야 한다.&lt;/p&gt;
-
-&lt;p&gt;$P(X=5)$&lt;br /&gt;
-$={4\choose 2}(1/6)^2(5/6)^{4-2}(1/6)$&lt;br /&gt;
-$={4\choose 2}(1/6)^3(5/6)^{4-2}$&lt;br /&gt;
-$={4\choose 2}(1/6)^3(5/6)^{4-2}$&lt;/p&gt;
-
-&lt;h2 id=&quot;negative-binomial-distribution---hiring-example&quot;&gt;Negative Binomial Distribution - Hiring Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;회사에서 직원을 3명 고용하려고 한다. 지원자와 인터뷰를 해서 합격시킬 확률이 0.6이라고 할 때, 몇 번의 인터뷰가 필요한가?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 3명을 뽑을 때 까지 필요한 인터뷰 횟수($x \ge 3$)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$P(X=6)={5\choose 2}0.6^30.4^3=0.138$&lt;/li&gt;
-  &lt;li&gt;회사가 6명을 인터뷰할 예산만 가지고 있을 때, 6번 인터뷰 동안 3명을 고용할 수 있는 확률을 구하라.
-$P(X\le 6)=P(X=3)+P(X=4)+P(X=5)+P(X=6)$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;hypergeometric-distribution초기하-분포&quot;&gt;Hypergeometric Distribution(초기하 분포)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;주머니에 $N$개의 공이 있는데, $m$개는 흰 공이고, $N-m$개는 빨간 공이다. 주머니에서 $n$개를 비복원 추출로 뽑는다. 이 때 흰색 공의 갯수가 몇 개인지 나타내는 것이 초기하 분포이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 샘플링한 $n$개 중 흰색 공의 갯수(X=0,1,2,…n)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$P(X=i)={m\choose i}{N-m\choose n-i} / {N \choose n},\;\;i=0,1,2,…n$&lt;/li&gt;
-  &lt;li&gt;분모 - $N$개 중 $n$개를 뽑는다.&lt;/li&gt;
-  &lt;li&gt;분자 - $m$개 중 $i$개가 흰색 공이고, $N-m$개 중 $n-i$가 빨간 공이다.&lt;/li&gt;
-  &lt;li&gt;파라미터는 $N$, $n$, $m$이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mean-and-variance-of-hypergeometric-distribution&quot;&gt;Mean and Variance of Hypergeometric Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]=nm/N$&lt;/li&gt;
-  &lt;li&gt;$V[X]=n{m\over N}{(N-m)\over N}{N-n\over N-1}$&lt;/li&gt;
-  &lt;li&gt;기대값과 분선은 파라미터의 함수인 것을 확인할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hypergeometric-distribution---bad-unit-example&quot;&gt;Hypergeometric Distribution - Bad Unit Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;공장에서는 제품을 30개씩 제조한다. 여기에 5개의 불량품이 포함되어 있다고 하자. 30개 중 4개를 추출하여 품질 테스트를 수행한다.
-    &lt;blockquote&gt;
-      &lt;p&gt;RV X : 4개의 샘플 중 불량품의 갯수&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;불량품이 2개일 확률은 얼마인가?&lt;br /&gt;
-$P(X=2)={5\choose 2}{30-5\choose 4-2} / {30\choose 4}$&lt;/li&gt;
-  &lt;li&gt;불량품이 2개 미만일 확률은 얼마인가?&lt;br /&gt;
-$P(X&amp;lt;2)=P(X=0)+P(X=1)$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;hypergeometric-distribution---lot-defect-example&quot;&gt;Hypergeometric Distribution - Lot Defect Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;한 소비자가 물건을 사려고 한다. 이 소비자는 사려고 하는 10개의 물건 중 3개를 추출하여 이들이 모두 불량품이 아니라면 구매한다. 물건의 30%는 10개 중 4개의 불량이 있고, 70%는 10개 중 1개의 불량이 있다. 소비자가 물건을 구매하지 않을 확률을 구하라.&lt;/li&gt;
-  &lt;li&gt;구매할 확률을 구해 1에서 빼주는 것이 계산하기 편하다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 3개 중 불량품의 갯수&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$P(X=0)=P(defective=4)P(X=0|defective=4)+P(defective=1)P(X=0|defective=1)$&lt;br /&gt;
-$=54/100$&lt;br /&gt;
-$\therefore 1-P(X=0)=46/100$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+\end{matrix}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
