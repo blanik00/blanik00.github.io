@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-20T09:01:47-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Variance, Covariance, Correlation</title><link href="http://localhost:4000/posts/2020/06/21/var_cov_cor" rel="alternate" type="text/html" title="Variance, Covariance, Correlation" /><published>2020-06-21T00:00:00-07:00</published><updated>2020-06-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/21/var_cov_cor</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/21/var_cov_cor">&lt;iframe src=&quot;https://www.youtube.com/embed/dpnDuSPM1XU&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-27T07:45:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Moment Functions</title><link href="http://localhost:4000/posts/2020/06/27/moment_functions" rel="alternate" type="text/html" title="Moment Functions" /><published>2020-06-27T00:00:00-07:00</published><updated>2020-06-27T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/moment_functions</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/moment_functions">&lt;iframe src=&quot;https://www.youtube.com/embed/V6a3MPrv0dM&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;moment-functions&quot;&gt;Moment Functions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;확률 변수 X의 Moment Function(적률 함수)은 다음과 같이 정의된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+E[X^r]=
+\begin{cases}
+\sum_{x}X^rp(x) &amp; if\;X\;is\;discrete\\
+\int_{-\infty}^{\infty}X^rf(x)dx  &amp; if\;X\;is\;continuous
+\end{cases} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;$r$의 값에 따라 적률 함수의 성격이 달라진다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;moment(r)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Moment Function&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;전처리한 결과&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;전처리한 결과&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[X]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[X]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;기댓값(평균)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[X^2]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[(x-\mu)^2]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;분산&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[X^3]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[(x-\mu)^3]/\sigma^3$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;왜도(Skewness)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[X^4]$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$E[(x-\mu)^3]/\sigma^4$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;첨도(Kurtosis)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$r=2$부터는 mean centering 전처리를 한 결과이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;왜도 - 얼마나 기울여져 있는가&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;첨도 - 분포가 얼마나 뾰족한가&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;moment-generating-functionmgf&quot;&gt;Moment Generating Function(MGF)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;바로 앞에서 배운 Moment Function을 생성하는 함수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+M_X(t)=E[e^{tX}]=
+\begin{cases}
+\sum_{x}e^{tX}p(x) &amp; if\;X\;is\;discrete\\
+\int_{-\infty}^{\infty}e^{tX}f(x)dx  &amp; if\;X\;is\;continuous
+\end{cases} %]]&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;MGF가 생성하는 분포는 unique하다. 즉, 두 개의 확률 변수가 같은 확률 변수를 가지고 있다면, 이 둘은 같은 확률 분포를 가진다. 즉, MGF와 확률 분포는 일대일 대응. 중요&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MGF를 t에 대해 한 번 미분해서 $t=0$을 대입하면 첫 번째 모멘트이고, t에 대해 두 번 미분해서 $t=0$을 대입하면 두 번째 모멘트이다. 일반화 시켜보면 t에 대해 n번 미분해서 $t=0$을 대입하면 n 번째 모멘트이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;첫-번째-모멘트를-구해보자&quot;&gt;첫 번째 모멘트를 구해보자.&lt;/h3&gt;
+
+&lt;p&gt;$E[e^{tx}]=M_X(t)$&lt;/p&gt;
+
+&lt;p&gt;$M_X’(t)={d\over dt}E[e^{tx}]=E[{d\over dt}e^{tx}]=E[xe^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$M_X’(t=0)=E[x]$&lt;/p&gt;
+
+&lt;h3 id=&quot;두-번째-모멘트를-구해보자&quot;&gt;두 번째 모멘트를 구해보자.&lt;/h3&gt;
+&lt;p&gt;$M_X’‘(t)={d\over dt}M_X’(t)={d\over dt}E[xe^{tx}]=E[{d\over dt}xe^{tx}]=E[x^2e^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$M_X’‘(t=0)=E[x^2]$&lt;/p&gt;
+
+&lt;h3 id=&quot;n-번째-모멘트를-구해보자&quot;&gt;n 번째 모멘트를 구해보자.&lt;/h3&gt;
+&lt;p&gt;$M_X^{(n)}(t)={d^n\over dt^n}M_X(t)=E[x^ne^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$M_X^{(0)}(t=0)=E[x^n]$&lt;/p&gt;
+
+&lt;h3 id=&quot;그렇다면-왜-mgf를-n번-미분하면-n번째-모멘트가-나올까&quot;&gt;그렇다면 왜 MGF를 n번 미분하면 n번째 모멘트가 나올까?&lt;/h3&gt;
+&lt;p&gt;$e^x=1+x+{x^2\over2!}+{x^3\over3!}+…+{x^n\over n!}$&lt;/p&gt;
+
+&lt;p&gt;$e^{tx}=1+tx+{(tx)^2\over2!}+{(tx)^3\over3!}+…+{(tx)^n\over n!}$&lt;/p&gt;
+
+&lt;p&gt;$E[e^{tx}]=E(1+tx+{(tx)^2\over2!}+{(tx)^3\over3!}+…+{(tx)^n\over n!})$&lt;/p&gt;
+
+&lt;p&gt;$=E[1]+tE[x]+{t^2\over2!}E[x^2]+{t^3\over3!}E[x^3]+…+{t^n\over n!}E[x^n]$&lt;/p&gt;
+
+&lt;p&gt;${d\over dt}E[e^{tx}]={d\over dt}(E[1]+tE[x]+{t^2\over2!}E[x^2]+{t^3\over3!}E[x^3]+…+{t^n\over n!}E[x^n])$&lt;/p&gt;
+
+&lt;p&gt;$t=0$&lt;/p&gt;
+
+&lt;p&gt;${d\over dt}E[e^{tx}]=E[x]$&lt;/p&gt;
+
+&lt;h2 id=&quot;moment-generating-functions---binomial&quot;&gt;Moment Generating Functions - Binomial&lt;/h2&gt;
+&lt;p&gt;$M_X(t)=E[e^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$=\sum_{x=0}^{n}e^{tx}{n\choose x}p^x(1-p)^{n-x}$&lt;/p&gt;
+
+&lt;p&gt;$=\sum_{x=0}^{n}{n\choose x}(pe^t)^x(1-p)^{n-x}$&lt;/p&gt;
+
+&lt;p&gt;$=(pe^t+1-p)^n(\because 이항정리)$&lt;/p&gt;
+
+&lt;h3 id=&quot;첫-번째-모멘트&quot;&gt;첫 번째 모멘트&lt;/h3&gt;
+&lt;p&gt;$M’_X(t)=n(pe^t+1-p)pe^t$&lt;/p&gt;
+
+&lt;p&gt;$M’_X(t=0)=n(p+1-p)p=np$&lt;/p&gt;
+
+&lt;p&gt;Binomial Distribution에서 배웠던 기댓값과 같다는 것을 확인해볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;두 번째 모멘트 또한 같은 방법으로 구할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;moment-generating-functions---poisson&quot;&gt;Moment Generating Functions - Poisson&lt;/h2&gt;
+&lt;p&gt;$M_X(t)=E[e^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$=\sum_{x=0}^{\infty}e^{tx}(e^{-\lambda}\lambda^x/x!)$&lt;/p&gt;
+
+&lt;p&gt;$=e^{-\lambda}\sum_{x=0}^{\infty}((\lambda e^t)^x/x!)$&lt;/p&gt;
+
+&lt;p&gt;$=e^{-\lambda}(e^{\lambda})^{e^t}(\because Taylor\;Series)$&lt;/p&gt;
+
+&lt;h3 id=&quot;첫-번째-모멘트-1&quot;&gt;첫 번째 모멘트&lt;/h3&gt;
+&lt;p&gt;$M’_X(t)=e^{-\lambda}\lambda e^t(e^{\lambda})^{e^t}$&lt;/p&gt;
+
+&lt;p&gt;$M’_X(t=0)=e^{-\lambda}\lambda e^{\lambda}=\lambda$&lt;/p&gt;
+
+&lt;h2 id=&quot;moment-generating-functions---geometric&quot;&gt;Moment Generating Functions - Geometric&lt;/h2&gt;
+&lt;h2 id=&quot;moment-generating-functions---exponential&quot;&gt;Moment Generating Functions - Exponential&lt;/h2&gt;
+&lt;p&gt;$M_X(t)=E[e^{tx}]$&lt;/p&gt;
+
+&lt;p&gt;$=\int_{x=0}^{\infty}e^{tx}\lambda e^{-\lambda x}dx$&lt;/p&gt;
+
+&lt;p&gt;$=\lambda\int_{x=0}^{\infty}e^{-(\lambda-t)}dx$&lt;/p&gt;
+
+&lt;p&gt;$=\lambda/\lambda-t\quad(\lambda&amp;gt;t)$&lt;/p&gt;
+
+&lt;h3 id=&quot;첫-번째-모멘트-2&quot;&gt;첫 번째 모멘트&lt;/h3&gt;
+&lt;p&gt;$M’_X(t)=-\lambda (-1)/(\lambda-t)^2=\lambda/(\lambda-t)^2$&lt;/p&gt;
+
+&lt;p&gt;$M’_X(t=0)=1/\lambda$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Variance, Covariance, Correlation</title><link href="http://localhost:4000/posts/2020/06/21/var_cov_cor" rel="alternate" type="text/html" title="Variance, Covariance, Correlation" /><published>2020-06-21T00:00:00-07:00</published><updated>2020-06-21T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/21/var_cov_cor</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/21/var_cov_cor">&lt;iframe src=&quot;https://www.youtube.com/embed/dpnDuSPM1XU&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;기댓값-복습&quot;&gt;기댓값 복습&lt;/h2&gt;
 &lt;ul&gt;
@@ -790,184 +954,4 @@ f(x)=
   &lt;li&gt;고객은 7시~7시 30분 사이에 도착하므로 특정 시간에 도착할 확률은 1/30이다.&lt;/li&gt;
   &lt;li&gt;고객이 5분 미만으로만 기다리기 위해서는 7시 10분~7시 15분 사이, 7시 25분~7시 30분 사이에 도착해야 한다.&lt;/li&gt;
   &lt;li&gt;$P(10&amp;lt;X&amp;lt;15)+P(25&amp;lt;X&amp;lt;30)=1/3$&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Continous Random Variable, Distrubution</title><link href="http://localhost:4000/posts/2020/05/24/continous_random_variable" rel="alternate" type="text/html" title="Continous Random Variable, Distrubution" /><published>2020-05-24T00:00:00-07:00</published><updated>2020-05-24T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/24/continous_random_variable</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/24/continous_random_variable">&lt;iframe src=&quot;https://www.youtube.com/embed/d58jRlAcUkg&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;continous-random-variable&quot;&gt;Continous Random Variable&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;이산형 확률 변수와 크게 다르지 않음. 차이점은 아래와 같다.
-    &lt;ul&gt;
-      &lt;li&gt;모든 summation($\sum$)은 integral($\int$)이 된다.&lt;/li&gt;
-      &lt;li&gt;확률 변수가 가질 수 있는 값이 연속형이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/82829633-b12ad200-9eee-11ea-917e-19e9100ee16b.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;연속 확률 변수의 예
-    &lt;ol&gt;
-      &lt;li&gt;대한민국 국민들의 소득&lt;/li&gt;
-      &lt;li&gt;대학생들의 키&lt;/li&gt;
-      &lt;li&gt;다우존스 지수&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probability-density-function&quot;&gt;Probability Density Function&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;입력이 연속형 실수이며, 출력이 [0, 1]인  확률 함수&lt;/li&gt;
-  &lt;li&gt;연속형 확률 함수 $X$가 가질 수 있는 값들을 $x$라고 한다.&lt;/li&gt;
-  &lt;li&gt;이 PDF의 분포를 Continous Probability Distribution이라고 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;조금 더 자세히 알아보자.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이산형 확률 변수의 경우, PMF는 다음과 같았다.&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt;P(a\le X\le b)=\sum_{a\le x \le b}P(X=x)&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;연속형 확률 변수의 경우, 확률 변수 $X$의 PDF는 다음 수식의 $f(x)$이다.
-&lt;script type=&quot;math/tex&quot;&gt;P(a\le X\le b)=\int_{a}^{b}f(x)\;dx&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;즉, 연속형 확률 변수에서 확률은 특정 구간의 PDF 아래 부분의 면적이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;properties-of-pdf&quot;&gt;Properties of PDF&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;$f(x)\ge 0, \;\;\forall x$&lt;/li&gt;
-  &lt;li&gt;$\int_{-\infty}^{\infty}f(x)\; dx=1$&lt;/li&gt;
-  &lt;li&gt;$P[X=a]P[a\le X \le a]=\int_{a}^{a}f(x)\; dx=0$
-    &lt;ul&gt;
-      &lt;li&gt;연속형 확률 함수에서 특정 값에 대한 확률은 0이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$P[a-{\epsilon\over 2}\le X\le a+{\epsilon\over 2}]=\int_{a-{\epsilon\over 2}}^{a+{\epsilon\over 2}}f(x)\; dx \approx \epsilon f(a)$
-    &lt;ul&gt;
-      &lt;li&gt;$\epsilon$은 아주 작은 실수&lt;/li&gt;
-      &lt;li&gt;$f(a)$는 확률 변수 $X$가 $a$ 근처에서 얼마나 발생하는지를 나타내는 측도&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;다음 확률들은 모두 동일하다. 특정 값에서의 확률은 0이기 때문에 연속형 확률 변수의 확률을 구할 때는 등호의 포함 여부는 영향을 미치지 못한다.
-    &lt;ul&gt;
-      &lt;li&gt;$P(a\le X\le b)$&lt;/li&gt;
-      &lt;li&gt;$P(a&amp;lt; X\le b)$&lt;/li&gt;
-      &lt;li&gt;$P(a\le X&amp;lt; b)$&lt;/li&gt;
-      &lt;li&gt;$P(a&amp;lt; X&amp;lt; b)$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;example-of-pdf&quot;&gt;Example of PDF&lt;/h2&gt;
-&lt;p&gt;컴퓨터가 고장나기 까지의 시간은 연속형 확률 변수 $X$를 따른다고 한다. $X$의 PDF는 다음과 같이 정의된다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-f(x)=
-\begin{cases}
-\lambda e^ \qquad x\ge 0 \\
-0 \qquad\;\;\;\;\;\; x&lt;0
-\end{cases} %]]&gt;&lt;/script&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$\lambda$는 무엇인가?
-이 문제는 PDF가 가진 성질을 활용해 풀어야 한다.(적분하면 1)&lt;br /&gt;
-$1=\int_{0}^{\infty}f(x)\;dx$&lt;br /&gt;
-$=\lambda[-100e^{-x/100}]_{0}^{\infty}$  (지수함수의 적분)&lt;br /&gt;
-$=-100\lambda(0-1)$&lt;br /&gt;
-$=100\lambda$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$\therefore \lambda=1/100$&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;컴퓨터가 50시간에서 150시간 정도 고장 없이 동작할 확률은 얼마인가?
-$P(50\le X\le 150)$&lt;br /&gt;
-$=\int_{50}^{150}f(x)\;dx$&lt;br /&gt;
-$=1/100[-100e^{-x/100}]^{150}_{150}$&lt;br /&gt;
-$=-e^{-150/100}-(-e^{-50/100})$&lt;br /&gt;
-$=-e^{-3/2}-(-e^{-1/2})$&lt;br /&gt;
-$\approx 0.384$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;cumulative-density-function누적-분포-함수&quot;&gt;Cumulative Density Function(누적 분포 함수)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;PDF는 $f(x)$였고, 이번에 배울 CDF는 $F(x)$이다.&lt;/li&gt;
-  &lt;li&gt;확률 변수가 특정한 값 $x$보다 작을 확률을 뜻한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;F(x)=P(X\le x)=\int_{-\infty}^{x}f(t)\; dt&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;즉, PDF를 적분한 것이 CDF이고, CDF를 적분한 것이 PDF이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;probabilities-of-cdf&quot;&gt;Probabilities of CDF&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;$0\le F(x)\le 1, \;\; \forall x$&lt;/li&gt;
-  &lt;li&gt;if $b\ge a$, then $F(b)\ge F(a)$이다. 이런 함수를 단조 증가 함수(monotonic increasing function)라고 한다.&lt;/li&gt;
-  &lt;li&gt;$\bigstar \;\;F(b)-F(a)=P[a\le X\le b]\;\;\;\;\;$    중요!
-$\begin{matrix}
-P[a\le X\le b] 
-&amp;amp;=&amp;amp; \int_{b}^{a}f(x)\;dx \\
-&amp;amp;=&amp;amp; \int_{-\infty}^{b}f(x)\;dx - \int_{-\infty}^{a}f(x)\;dx \\
-&amp;amp;=&amp;amp; F(b)-F(a) \\
-\end{matrix}$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;example-of-cdf&quot;&gt;Example of CDF&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 라디오 튜브의 수명&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_X(x)=
-\begin{cases}
-{100 \over x^2} \qquad x\ge 100 \\
-0 \qquad\;\;\;\;\;\; else
-\end{cases}&lt;/script&gt;
-
-&lt;p&gt;$F(150)=?$&lt;/p&gt;
-
-&lt;h3 id=&quot;풀이-1&quot;&gt;풀이 1&lt;/h3&gt;
-
-&lt;p&gt;$\begin{matrix}
-F(150)
-&amp;amp;=&amp;amp; P[X&amp;lt;10] \\
-&amp;amp;=&amp;amp; \int_{-\infty}^{150}f(x)\;dx \\
-&amp;amp;=&amp;amp; \int_{100}^{150}f(x)\;dx \\
-&amp;amp;=&amp;amp; 100\int_{100}^{150}x^{-2}\;dx \\
-&amp;amp;=&amp;amp; [-100/x]_{100}^{150} \\
-&amp;amp;=&amp;amp; -100/150+100/100 \\
-&amp;amp;=&amp;amp; 1/3 \\
-\end{matrix}$&lt;/p&gt;
-
-&lt;h3 id=&quot;풀이-2&quot;&gt;풀이 2&lt;/h3&gt;
-&lt;p&gt;$\begin{matrix}
-F(x)
-&amp;amp;=&amp;amp; P[X &amp;lt; x] \\
-&amp;amp;=&amp;amp; \int_{100}^{x}f(x)\;dx \\
-&amp;amp;=&amp;amp; [-100/x]_{100}^{x} \\
-&amp;amp;=&amp;amp; -100/x+1 \\
-\end{matrix}$&lt;/p&gt;
-
-&lt;p&gt;$\therefore F(150)=1/3$&lt;/p&gt;
-
-&lt;h2 id=&quot;expectation-of-continous-random-variable&quot;&gt;Expectation of Continous Random Variable&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]=\int_{-\infty}^{\infty} xf(x)\; dx$&lt;/li&gt;
-  &lt;li&gt;확률 변수에 대한 함수의 기대값&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$E[g(x)] = \int_{-\infty}^{\infty} g(x) f(x) \; dx$&lt;/p&gt;
-
-&lt;h3 id=&quot;예제&quot;&gt;예제&lt;/h3&gt;
-&lt;p&gt;길이가 1인 막대기를 두 개로 잘랐다($U$를 기준으로, $U$는 uniformly distributed over (0,1)). 또한 0과 1 사이에는 포인트 $p$가 있다고 하자. 포인트 $p$가 포함된 막대의 길이의 기대값은 얼마인가?&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-L_{P(U)}=
-\begin{cases}
-1-u \qquad 0 &lt; U &lt; p \\\
-u \qquad\;\;\;\;\;\; 1 &gt; U &gt; p
-\end{cases} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;$\begin{matrix}
-E[L_{P(U)}]
-&amp;amp;=&amp;amp; \int_{0}^{p}(1-u)\;du + \int_{p}^{1}u\;du \\
-&amp;amp;=&amp;amp; 1/2-p^2+p \\
-\end{matrix}$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
