@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-27T07:45:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Moment Functions</title><link href="http://localhost:4000/posts/2020/06/27/moment_functions" rel="alternate" type="text/html" title="Moment Functions" /><published>2020-06-27T00:00:00-07:00</published><updated>2020-06-27T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/moment_functions</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/moment_functions">&lt;iframe src=&quot;https://www.youtube.com/embed/V6a3MPrv0dM&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-27T22:18:27-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Sample Distribution</title><link href="http://localhost:4000/posts/2020/06/27/sample_distribution" rel="alternate" type="text/html" title="Sample Distribution" /><published>2020-06-28T00:00:00-07:00</published><updated>2020-06-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/Sample%20Distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/sample_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/EjQq2s9C9Sc&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;population-sample&quot;&gt;Population, Sample&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Population : 전체(모집단)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sample : 부분(모집단의 부분집합, 표본)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sampling&quot;&gt;Sampling&lt;/h2&gt;
+&lt;p&gt;모집단에서 표본을 추출하는 작업을 의미&lt;/p&gt;
+
+&lt;h3 id=&quot;표기&quot;&gt;표기&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Mean&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Variance&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Population&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$\mu$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$\sigma^2$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sample&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$\bar{X}$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$S^2$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;statistic통계량&quot;&gt;Statistic(통계량)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Statistic : 샘플들의 함수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;통계량의 복수형인 Statistics를 통계학을 의미하는 Statistics와 혼동하기 쉽다. 문맥을 보고 파악하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;통계학에서 배우는 가장 중요한 함수가 세 가지 있다.
+    &lt;ul&gt;
+      &lt;li&gt;확률 변수(Random Variable)&lt;/li&gt;
+      &lt;li&gt;확률 함수(Probability Function)&lt;/li&gt;
+      &lt;li&gt;통계량(Statistic)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대표적인 통계량은 다음과 같다.
+    &lt;ul&gt;
+      &lt;li&gt;$\bar{X}=(x_1+x_2+…+x_n)/n$&lt;/li&gt;
+      &lt;li&gt;$S^2={1\over n-1}\sum_{i=1}^{n}(x_1-\bar{X})^2$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sampling-distribution&quot;&gt;Sampling Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sampling Distribution : 통계량의 분포&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그렇다면 Sampling Distribution은 $\bar{X}$, $S^2$의 분포를 말한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;여기서 Sampling된 것들은 서로 독립이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sampling-distribution-of-sample-mean&quot;&gt;Sampling Distribution of Sample Mean&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\bar{X}=(x_1+x_2+…+x_n)/n$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그렇다면 $\bar{X}$의 기댓값은 얼마일까&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$E[\bar{X}]=E[(x_1+x_2+…+x_n)/n]$&lt;/p&gt;
+
+&lt;p&gt;$=E[x_1]/n+E[x_2]/n+…+E[x_n]/n$&lt;/p&gt;
+
+&lt;p&gt;$=\mu/n+\mu/n+…+\mu/n$&lt;/p&gt;
+
+&lt;p&gt;$=n(\mu/n)=\mu$&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;또한 $\bar{X}$의 분산은 얼마일까&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$V[\bar{X}]=V[(x_1+x_2+…+x_n)/n]$&lt;/p&gt;
+
+&lt;p&gt;$=V[x_1]/n^2+V[x_2]/n^2+…+V[x_n]/n^2$&lt;/p&gt;
+
+&lt;p&gt;$=\sigma^2/n^2+\sigma^2/n^2+…+\sigma^2/n^2$&lt;/p&gt;
+
+&lt;p&gt;$=n(\sigma^2/n^2)=\sigma^2/n$&lt;/p&gt;
+
+&lt;h3 id=&quot;정규-분포를-예로-들어보자&quot;&gt;정규 분포를 예로 들어보자.&lt;/h3&gt;
+&lt;p&gt;모집단이 $N(\mu, \sigma^2)$를 따른다고 하자. 여기서 iid인 샘플 n개를 추출했다.($X_1$, $X_2$, …, $X_n$) 그렇다면 $\bar{X}$는 $N(\mu, \sigma^2/n)$를 따른다. 표준정규분포로 바꾸려면 $Z=(\bar{X}-\mu)/(\sigma/\sqrt{n})$로 두면 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;central-limit-theorem중심극한정리&quot;&gt;Central Limit Theorem(중심극한정리)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;평균이 $\mu$이고 분산이 $\sigma^2$인 임의의 모집단에서 표본의 크기인 $n$이 충분히 크면($n\ge 30$), 표본 평균 $\bar{X}$는 근사적으로 정규분포 $N(\mu, \sigma^2/n)$를 따른다. (여기서 n은 한 표본 안에 들어있는 원소의 수를 뜻한다.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sampling-distribution-of-sample-mean---two-population&quot;&gt;Sampling Distribution of Sample Mean - Two Population&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 개의 독립적인 모집단의 평균의 차이를 알고 싶다. 하지만 모집단을 모두 파악하는 것은 불가능하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;두 개의 모집단(어떤 분포를 따르든 상관 없다.)으로부터 샘플을 추출해 비교하는 방법을 취한다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Pop1. ($\mu_1$, $\sigma_1^2$) $\rightarrow$ $n_1$개 샘플링 $\rightarrow$ $\bar{X_1}$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Pop2. ($\mu_2$, $\sigma_2^2$) $\rightarrow$ $n_2$개 샘플링 $\rightarrow$ $\bar{X_2}$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\bar{X_1}-\bar{X_2}$의 기댓값과 분산을 보고 두 모집단의 차이를 확인할 수 있다.
+    &lt;ul&gt;
+      &lt;li&gt;$E[\bar{X_1}-\bar{X_2}]=E[\bar{X_1}]-E[\bar{X_2}]=\mu_1-\mu_2$&lt;/li&gt;
+      &lt;li&gt;$V[\bar{X_1}-\bar{X_2}]=V[\bar{X_1}]+V[\bar{X_2}]=\sigma_1^2/n_1+\sigma_2^2/n_2$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;즉, $\bar{X_1}-\bar{X_2}$는 $N(\mu_1-\mu_2, \sigma_1^2/n_1+\sigma_2^2/n_2)$를 따른다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Moment Functions</title><link href="http://localhost:4000/posts/2020/06/27/moment_functions" rel="alternate" type="text/html" title="Moment Functions" /><published>2020-06-27T00:00:00-07:00</published><updated>2020-06-27T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/moment_functions</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/moment_functions">&lt;iframe src=&quot;https://www.youtube.com/embed/V6a3MPrv0dM&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;moment-functions&quot;&gt;Moment Functions&lt;/h2&gt;
 &lt;ul&gt;
@@ -903,55 +1039,4 @@ $P(44.5\le Y \le 55.5)$&lt;br /&gt;
 $=P({44.5-50\over 5}\le {Y-50\over 5})\le {55.5-50\over 5})$&lt;br /&gt;
 $=P(1.1\le Z\le 1.1)$&lt;br /&gt;
 $=\Phi(1.1)-\Phi(-1.1)$&lt;br /&gt;
-$=0.7286$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Uniform Distribution</title><link href="http://localhost:4000/posts/2020/05/31/uniform_distribution" rel="alternate" type="text/html" title="Uniform Distribution" /><published>2020-05-31T00:00:00-07:00</published><updated>2020-05-31T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/05/31/uniform_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/05/31/uniform_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/6xonZUbFSZ8&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;uniform-distributin&quot;&gt;Uniform Distributin&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;다음과 같이 정의된 확률 분포를 Uniform Distribution이라고 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-f(x)=
-\begin{cases}
-{1\over \beta-\alpha} &amp; if\; \alpha &lt; x &lt; \beta \\
-0 &amp; otherwise
-\end{cases} %]]&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;uniform-distribution---cdf&quot;&gt;Uniform Distribution - CDF&lt;/h2&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;F(a)=\int_{-\infty}^{a}f(x)dx&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;$x$의 범위를 나눠서 생각해보자.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$a\le\alpha$
-$F(a)=\int_{-\infty}^{a}f(x)dx=\int_{-\infty}^{a}0dx=0$&lt;/li&gt;
-  &lt;li&gt;$\alpha\le a\le\beta$
-$F(a)=\int_{-\infty}^{a}f(x)dx=\int_{\alpha}^{a}{1\over \beta-\alpha}dx={a-\alpha \over \beta-\alpha}$&lt;/li&gt;
-  &lt;li&gt;$a\le\beta$
-$F(a)=\int_{\infty}^{a}f(x)dx=\int_{\alpha}^{\beta}{1\over \beta-\alpha}dx=1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;즉, Uniform Distribution의 CDF는 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-f(x)=
-\begin{cases}
-0 &amp; a\le \alpha \\
-{a-\alpha \over \beta-\alpha} &amp; \alpha &lt; a &lt; \beta \\
-1 &amp; \beta \le a
-\end{cases} %]]&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;uniform-distribution---mean-and-variance&quot;&gt;Uniform Distribution - Mean and Variance&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]={\alpha+\beta\over 2}$&lt;/li&gt;
-  &lt;li&gt;$E[X^2]={\alpha^2+\alpha\beta+\beta^2 \over 3}$&lt;/li&gt;
-  &lt;li&gt;$E[X]={(\beta-\alpha)^2\over 12}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;uniform-distribution---example&quot;&gt;Uniform Distribution - Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;한 버스가 7시부터 15분 간격으로 정류장에서 출발한다고 한다. 만약 한 고객이 7시~7시 30분 사이에 도착한다면(Uniformly distributed), P(Wait less than 5 minutes)=?&lt;/li&gt;
-  &lt;li&gt;고객은 7시~7시 30분 사이에 도착하므로 특정 시간에 도착할 확률은 1/30이다.&lt;/li&gt;
-  &lt;li&gt;고객이 5분 미만으로만 기다리기 위해서는 7시 10분~7시 15분 사이, 7시 25분~7시 30분 사이에 도착해야 한다.&lt;/li&gt;
-  &lt;li&gt;$P(10&amp;lt;X&amp;lt;15)+P(25&amp;lt;X&amp;lt;30)=1/3$&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+$=0.7286$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
