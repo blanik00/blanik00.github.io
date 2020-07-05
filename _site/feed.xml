@@ -1,4 +1,203 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-27T22:18:27-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Sample Distribution</title><link href="http://localhost:4000/posts/2020/06/27/sample_distribution" rel="alternate" type="text/html" title="Sample Distribution" /><published>2020-06-28T00:00:00-07:00</published><updated>2020-06-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/Sample%20Distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/sample_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/EjQq2s9C9Sc&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-04T21:46:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Chi Square, T, F Distribution</title><link href="http://localhost:4000/posts/2020/07/05/chisq_t_f" rel="alternate" type="text/html" title="Chi Square, T, F Distribution" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/05/chisq_t_f</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/05/chisq_t_f">&lt;iframe src=&quot;https://www.youtube.com/embed/DyBxYsCow9k&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;chi-square-distribution&quot;&gt;Chi-Square Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;iid인 표준 정규 분포가 n개 있다.($Z_1, Z_2, …, Z_n$)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Z=Z_1^2+ Z_2^2+ …+ Z_n^2$는 카이제곱 분포를 따른다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Z\sim \chi^2(v)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;파라미터인 $v$는 자유도를 뜻하며, 카이제곱 분포를 형성할 때 더한 표준 정규 분포의 갯수를 뜻한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;카이제곱 분포의 PDF&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525674-3e395180-bec5-11ea-9a1c-78a13c8d4c3a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$E[X]=v,\;V[X]=2v$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\alpha=v/2, \lambda=2$인 특별한 형태의 감마분포이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;표준 정규 분포가 표준 정규 분포표를 가지고 있듯이, 카이제곱 분포도 카이제곱 분포표를 가지고 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sampling-distribution-of-sample-variance&quot;&gt;Sampling Distribution of Sample Variance&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\mu$는 모평균이다. 
+$\chi^2(n)=\sum_{i=1}^{n}(X_i-\mu)^2/\sigma^2$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\bar{X}$는 표본 평균이다. 표본 평균으로 추정을 했으므로 알고 있는 것이다. 그래서 $n$개 중에서 하나(표본 평균)는 이미 정해진 값이고, 나머지 $n-1$개는 자유롭게 정해질 수 있는 값이다. 그래서 자유도가 $n-1$이다.
+$\chi^2(n-1)=\sum_{i=1}^{n}(X_i-\bar{X})^2/\sigma^2$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;자유도보충설명&quot;&gt;자유도(보충설명)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;자유도를 명확하게 배우기는 쉽지 않다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;많이 접하면서 감을 잡을 수 밖에 없다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X_1=2, X_2=3, X_3=4, X_4=5, X_5=?$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sum_{i=1}^{5}X_i=20$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;위 두 조건을 만족할 때, $X_5$는 얼마인가?&lt;/p&gt;
+
+&lt;p&gt;$\sum_{i=1}^{4}X_i=14$이므로 $X_5$는 6이 될 수 밖에 없다.&lt;/p&gt;
+
+&lt;p&gt;이 문제에서 자유도는 얼마일까?&lt;/p&gt;
+
+&lt;p&gt;문제에서 자유롭게 정해질 수 있는 값은 $X_1, X_2, X_3, X_4$이며, $X_5$는 나머지 값들에게 종속된다. 그러므로 자유도는 4이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;sampling-distribution-of-sample-variance---example&quot;&gt;Sampling Distribution of Sample Variance - Example&lt;/h2&gt;
+&lt;p&gt;$N(\mu=15,\mu^2=100)$인 모집단으로부터 독립적이고 동일하게(iid) 25개의 샘플을 뽑았다($X_1, X_2, …, X_{25}$). 이 때 $Y=(n-1)S^2/\sigma^2$는 $\chi^2(24)$를 따른다(자유도는 24). 즉, $P[Y&amp;gt;\chi^2_{\alpha,24}]=\alpha$라고 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;$P[S^2&amp;gt;c]=0.95$일 때 c의 값을 구하라.&lt;/p&gt;
+
+&lt;p&gt;$S^2$의 분포를 바로 파악하기 힘드므로 양 변에 $(n-1)$을 곱하고, $\sigma^2$으로 나눈다. 즉, $P[(n-1)S^2/\sigma^2&amp;gt;(n-1)c/\sigma^2]=0.95$을 만족하는 c를 찾으면 된다.&lt;/p&gt;
+
+&lt;p&gt;$P[Y&amp;gt;24c/100]=0.95$&lt;/p&gt;
+
+&lt;p&gt;카이제곱 분포표에서 $n$ 24이고, $\alpha$가 0.95인 것을 찾으면 $24c/100=13.848$이 된다. $c=57.7$&lt;/p&gt;
+
+&lt;h2 id=&quot;t-distribution&quot;&gt;t Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Z\sim N(0,1)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Y\sim \chi^2(v)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;T={Z\over\sqrt{Y/v}}&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$T$ 통계량은 자유도가 $v$인 t-분포(t-distribution)를 따른다.($t(v)$로 표기)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;카이제곱 분포의 자유도가 그대로 t-분포의 자유도가 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;t-분포의 기댓값은 0이고, 이를 기준으로 좌우 대칭이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;표준정규분포보다 긴 꼬리를 가지고 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기댓값을 기준으로 좌우 대칭이라는 특성 때문에 아래 수식을 만족한다.
+$P[T&amp;lt;-t_{\alpha, v}]=P[T&amp;gt;t_{\alpha, v}]=\alpha$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525673-3d082480-bec5-11ea-8154-a9d041a0a4df.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;오른쪽 그림에서 알 수 있듯이 표준 정규 분포보다 긴 꼬리를 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;왼쪽 그림에서 알 수 있듯이 자유도가 작을수록 긴 꼬리를 가진다.&lt;/p&gt;
+
+&lt;h3 id=&quot;t-분포-조금-더-자세히&quot;&gt;t-분포 조금 더 자세히&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$N(\mu,\sigma^2)$에서 표본 $n$개를 추출한다($X_1, X_2, …, X_n$).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Z=\bar{X}-\mu/(\sigma/\sqrt{n})$이므로 $N(0,1)$을 따른다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Y=(n-1)S^2/\sigma^2$이므로 $\chi^2(n-1)$을 따른다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;T={Z\over\sqrt{Y/v}}={\bar{X}-\mu/(\sigma/\sqrt{n})\over\sqrt{((n-1)S^2/\sigma^2)/(n-1)}}={\bar{X}-\mu\over S/\sqrt{n}}&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이 때, $T$는 자유도가 $n-1$인 t-분포를 따른다.($T\sim t(n-1)$)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;신기하게도 $T$ 통계량과 표준 정규 분포는 매우 닮았다. 다른 점이 있다면 표준 정규 분포에서는 $\sigma$(모표준편차)가 사용되고, $T$ 통계량에서는 $S$(표본표준편차)가 사용된다는 점이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;그래서 모집단의 표준편차를 알고 있을 때는 표준 정규 분포로 표현하면 되고, 모집단의 표준 편차를 모른다면 t-분포로 표현하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;t-distribution---example&quot;&gt;t Distribution - Example&lt;/h2&gt;
+&lt;p&gt;$N(\mu=15,\mu^2=100)$인 모집단으로부터 독립적이고 동일하게(iid) 25개의 샘플을 뽑았다($X_1, X_2, …, X_{25}$).&lt;/p&gt;
+
+&lt;p&gt;$T={\bar{X}-\mu\over S/\sqrt{n}}$이고, 이는 $t(v=24)$를 따른다.&lt;/p&gt;
+
+&lt;p&gt;$P[T&amp;lt;-t_{\alpha, 24}]=P[T&amp;gt;t_{\alpha, 24}]=\alpha$&lt;/p&gt;
+
+&lt;p&gt;$P[T &amp;lt; c]=0.05$인 $c$를 구하라.&lt;/p&gt;
+
+&lt;p&gt;$t$분포 테이블에서 자유도가 24이고, $\alpha$가 0.05인 것을 찾으면 1.711이다. $c$보다 작을 확률이므로 $c=-1.711$이 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;f-distribution&quot;&gt;F Distribution&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Y_1=\chi^2(v_1)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Y_2=\chi^2(v_2)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;F={Y_1/v_1\over Y_2/v_2}&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이렇게 정의되는 것을 F통계량이라고 하고, 이는 F 분포를 따른다. F분포는 $v_1, v_2$ 두 개의 자유도를 가지며, $F(v_1, v_2)$로 표기한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;F 테이블이 있어 확률값을 쉽게 구할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$P[F&amp;gt;f_a(v_1,v_2)]=f_{1-\alpha}(v_1, v_2)={1\over f_{\alpha}(v_2,v_1)}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525671-39749d80-bec5-11ea-9663-a8bc3cacb227.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;f-distribution---example&quot;&gt;F Distribution - Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;모집단 1 : $N(\mu_1=4,\sigma_1^2=16)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모집단 2 : $N(\mu_2=12,\sigma_2^2=48)$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;모집단 1로부터 동일하고 독립적인 $n_1=15$개의 샘플을 추출하고, 모집단 2로부터 동일하고 독립적인 $n_2=10$개의 샘플을 추출한다.&lt;/p&gt;
+
+&lt;p&gt;$F={S_1^2/\sigma_1^2\over S_2^2/\sigma_2^2}$는 $F(14,9)$를 따른다.&lt;/p&gt;
+
+&lt;p&gt;이 때 $P[S_1^2/S_2^2\le c]=0.05$일 때, c를 구하라.&lt;/p&gt;
+
+&lt;p&gt;$P[S_1^2/S_2^2\le c]=P[S_1^2\sigma_2^2/S_2^2\sigma_1^2\le (\sigma_2^2/\sigma_1^2)c]=P(F&amp;lt;3c)=0.05$&lt;/p&gt;
+
+&lt;p&gt;$P[F&amp;gt;f_{0.95}(14,9)]=0.95$&lt;/p&gt;
+
+&lt;p&gt;$P[F\le f_{0.95}(14,9)]=0.05$&lt;/p&gt;
+
+&lt;p&gt;$3c=f_{0.95}(14,9)=1/f_{0.05}(9,14)=1/2.65$&lt;/p&gt;
+
+&lt;p&gt;$c=0.1258$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Sample Distribution</title><link href="http://localhost:4000/posts/2020/06/27/sample_distribution" rel="alternate" type="text/html" title="Sample Distribution" /><published>2020-06-28T00:00:00-07:00</published><updated>2020-06-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/Sample%20Distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/sample_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/EjQq2s9C9Sc&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;population-sample&quot;&gt;Population, Sample&lt;/h2&gt;
 &lt;ul&gt;
@@ -950,93 +1149,4 @@ $P[X=0]=e^{-6}6^0/0!=e^{-6}=0.0025$이다.&lt;/li&gt;
   &lt;li&gt;첫 번째 전화가 2분이 지나서 올 확률을 구하라. 시간에 관심을 가지므로 지수 분포를 따르며, $P[X\ge 2]$를 구하면 된다.&lt;br /&gt;
 $W_i\sim Exp(3)$&lt;br /&gt;
 $P[X\ge 2]=1-P[X\le 2]=1-(1-e^{-6})=e^{-6}=0.0025$&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Normal Distribution</title><link href="http://localhost:4000/posts/2020/06/03/normal_distribution" rel="alternate" type="text/html" title="Normal Distribution" /><published>2020-06-03T00:00:00-07:00</published><updated>2020-06-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/03/normal_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/03/normal_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/e3ZAl1CS3t8&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;normal-distribution&quot;&gt;Normal Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;정규 확률 변수는 $(-\infty, \infty)$ 범위의 실수를 가진다.&lt;/li&gt;
-  &lt;li&gt;확률 함수&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathcal{N}(x;\mu,\sigma)={1\over\sigma\sqrt{2\pi}}exp(-{1\over2}({x-\mu\over \sigma}))&lt;/script&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/680px-Normal_Distribution_PDF.svg.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;characteristics-of-normal-distribution&quot;&gt;Characteristics of Normal Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;평균을 기준으로 대칭(Symmetric about its mean)&lt;/li&gt;
-  &lt;li&gt;확률은 $X=\mu$일 때 최대가 된다.(unimodal)&lt;/li&gt;
-  &lt;li&gt;커브의 아랫 부분의 면적은 1이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;normal-distribution---mean-and-variance&quot;&gt;Normal Distribution - Mean and Variance&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]=\mu$&lt;/li&gt;
-  &lt;li&gt;$V[X]=\sigma^2$&lt;/li&gt;
-  &lt;li&gt;$Std[X]=\sigma$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;standard-normal-distribution&quot;&gt;Standard Normal Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;정규분포를 표준화한 것&lt;/li&gt;
-  &lt;li&gt;확률 변수 $X$는 정규 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$X\sim \mathcal{N}(\mu, \sigma)$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;새로운 확률 변수 $Z={X-\mu\over\sigma}$를 만든다.&lt;/li&gt;
-  &lt;li&gt;$Z$는 평균이 0이고, 표준편차가 1인 정규분포를 따르게 된다. 이것을 표준 정규분포라고 부른다.&lt;/li&gt;
-  &lt;li&gt;확률 함수&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\varphi(z)={1\over\sqrt{2\pi}}exp(-{1\over2}z^2)&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$Z$의 CDF는 테이블로 정리해놨다.(z table, standard normal table)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Phi(z)=P[Z\le z]&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;종모양이며, 0을 기준으로 대칭이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-normal-approximation-to-the-binomial-distribution&quot;&gt;The Normal Approximation to the Binomial Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;정규 분포는 연속형 확률 분포, 이항 분포는 이산형 확률 분포&lt;/li&gt;
-  &lt;li&gt;이항 분포는 이산형이기 때문에 CDF를 구할 때 계산이 복잡하다. 그래서 연속형 확률 변수인 정규 분포로 근사하면 계산이 간편해진다. &lt;strong&gt;즉, 근사는 이산형 확률 분포의 CDF를 구할 때 좀 더 편리하게 하기 위해 사용한다.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;단, 아무때나 쓰일 수 있는 것은 아니고, $n$이 충분히 커야 하며, $p$는 0 혹은 1에 너무 가까우면 안된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;X\sim Bin(n,p)\approx Y\sim\mathcal{N}(np,np(1-p))&lt;/script&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/83638970-f6cd5600-a5e4-11ea-9ef7-cbd45edb4452.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;이항 분포를 정규 분포에 근사하는 것은 태생적으로 오차를 가지고 있다. 그래서 이것을 계산할 때 그냥 계산하지 말고, $P(X=i)=P(i-0.5 &amp;lt; X &amp;lt; i+0.5)$로 계산하는 것이 낫다.(경험적으로 발견한 것임)&lt;/li&gt;
-  &lt;li&gt;이를 Continuity Correction이라고 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-normal-approximation-to-the-binomial-distribution---example&quot;&gt;The Normal Approximation to the Binomial Distribution - Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;동전을 100번 던진다 하자. 앞면이 나오는 확률 변수는 $X\sim Bin(100,0.5)$이다.&lt;/li&gt;
-  &lt;li&gt;$P(45\le X\le 55)$를 구하라.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 문제를 이산형 확률 분포를 사용해 해결한다고 하자.&lt;/p&gt;
-
-&lt;p&gt;$P(45\le X \le 55)=\sum_{i=45}^{55}{100\choose i}(1/2)^i(1/2)^{100-i}$&lt;/p&gt;
-
-&lt;p&gt;이를 계산하는 것은 꽤나 복잡하며, 특히 100이 아니라 10,000 혹은 100,000번 던진다면 계산은 더욱 복잡해진다.&lt;/p&gt;
-
-&lt;p&gt;이를 정규 분포로 근사해서 계산해보자.&lt;/p&gt;
-
-&lt;p&gt;위에서 배운 Continuity Correction을 적용한다.&lt;/p&gt;
-
-&lt;p&gt;$Y\sim\mathcal{N}(50,25)$&lt;br /&gt;
-$P(44.5\le Y \le 55.5)$&lt;br /&gt;
-$=P({44.5-50\over 5}\le {Y-50\over 5})\le {55.5-50\over 5})$&lt;br /&gt;
-$=P(1.1\le Z\le 1.1)$&lt;br /&gt;
-$=\Phi(1.1)-\Phi(-1.1)$&lt;br /&gt;
-$=0.7286$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
