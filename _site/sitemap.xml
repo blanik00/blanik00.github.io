@@ -156,8 +156,12 @@
 <lastmod>2020-07-05T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/2020/07/05/01_Motivations_and_%20Basics</loc>
+<loc>http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics</loc>
 <lastmod>2020-07-25T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning</loc>
+<lastmod>2020-07-26T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/publication/2009-10-01-paper-title-number-1</loc>

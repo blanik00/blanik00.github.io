@@ -1,7 +1,7 @@
 ---
 title: '01 Motivations and Basics'
 date: 2020-07-25
-permalink: /posts/2020/07/05/01_Motivations_and_ Basics
+permalink: /posts/2020/07/25/01_Motivations_and_Basics
 category:
   - posts
 ---

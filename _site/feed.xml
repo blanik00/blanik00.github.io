@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-25T06:46:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">01 Motivations and Basics</title><link href="http://localhost:4000/posts/2020/07/05/01_Motivations_and_%20Basics" rel="alternate" type="text/html" title="01 Motivations and Basics" /><published>2020-07-25T00:00:00-07:00</published><updated>2020-07-25T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/05/01_Motivations_and_%20Basics</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/05/01_Motivations_and_%20Basics">&lt;iframe src=&quot;https://www.youtube.com/embed/3AwO0O6hWBI&quot;&gt; &lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-26T06:06:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">02 Fundamentals of Machine Learning</title><link href="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning" rel="alternate" type="text/html" title="02 Fundamentals of Machine Learning" /><published>2020-07-26T00:00:00-07:00</published><updated>2020-07-26T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning">&lt;h1 id=&quot;rule-based-learning&quot;&gt;Rule-based Learning&lt;/h1&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/oNTXMgqCv6E&quot;&gt; &lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/gmKvXBBawmk&quot;&gt; &lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;완벽한 세상&lt;/strong&gt;에서만 잘 작동된다.
+    &lt;ol&gt;
+      &lt;li&gt;관측 에러가 없으며, 일관적이지 않은 관측 또한 없다.&lt;/li&gt;
+      &lt;li&gt;랜덤(stochastic) 이벤트가 발생하지 않는다.&lt;/li&gt;
+      &lt;li&gt;모든 경우의 수를 다 설명할 수 있는 수준의 많은 데이터를 확보했다.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;decision-tree&quot;&gt;Decision Tree&lt;/h1&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/dPP60RSEBek&quot;&gt; &lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;error가 있는 데이터에 통계적 기법을 가미해 학습을 할 수 있는 가장 간단한 방법이 Decision Tree&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;기준이 되는 피처를 정해 데이터셋을 나누고, 나눠진 각각에 대해 다시 피처를 정해 데이터셋을 나누는 작업을 반복해 분류 작업을 수행&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;어떤 피처를 선택할지 결정하기 위해 &lt;strong&gt;Entropy, Information Gain&lt;/strong&gt; 개념 도입&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;entropy&quot;&gt;Entropy&lt;/h2&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/kG-IVxyUAUM&quot;&gt; &lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;확률 변수의 불확실성을 측정하기 위한 지표
+    &lt;ul&gt;
+      &lt;li&gt;ex 1) 압정 A를 반복해서 던졌는데, 계속 Head만 나왔다 -&amp;gt; 불확실성이 낮다.&lt;/li&gt;
+      &lt;li&gt;ex 2) 압정 B를 반복해서 던졌는데, Head와 Tail이 반씩 나왔다. -&amp;gt; 불확실성이 높다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;높은 엔트로피는 그 확률 변수가 높은 불확실성을 지니고 있음을 뜻한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;H(X)=-\sum_xP(X=x)log_2P(X=x)&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;압정 던지기 게임의 경우 $x$는 Head, Tail이 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conditional-entropy&quot;&gt;Conditional Entropy&lt;/h3&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+H(Y|X) &amp;=&amp; -\sum_xP(X=x)log_2H(Y|X=x)\\
+	        &amp;=&amp; -\sum_xP(X=x)\{-\sum_yP(Y=y|X=x)log_2P(Y=y|X=x)\}
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;information-gain&quot;&gt;Information Gain&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475631-b9de6980-cf6c-11ea-828f-b28eb23260f5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;먼저 전체 엔트로피를 측정해보자.
+    &lt;ul&gt;
+      &lt;li&gt;위에서 정의한 엔트로피 공식을 그대로 사용하면 된다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+          H(Y) &amp;=&amp; -\sum_{y\in\{+, -\}}P(Y=y)log_2P(Y=y)\\
+          &amp;=&amp; -{307\over307+383}log_2{307\over307+383}-{383\over307+383}log_2{383\over307+383}
+\end{matrix} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이번에는 A1, A9이라는 조건을 주고 엔트로피를 측정해보자.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Conditional Entropy 공식을 사용하면 된다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$H(Y|A_1)=-\sum_{x\in{a, b, ?}}\sum_{y\in{+, -}}P(A_1=x|Y=y)log_2{P(A_1=x)\over P(A_1=x|Y=y)}$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$H(Y|A_9)=-\sum_{x\in{t,f}}\sum_{y\in{+, -}}P(A_9=x|Y=y)log_2{P(A_9=x)\over P(A_9=x|Y=y)}$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리는 각 노드들의 엔트로피를 구할 수 있으며, 이를 통해 불확실성이 얼마나 개선되었는지를 측정할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$IG(Y, A_i)=H(Y)-H(Y|A_i)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$IG(Y, A_9)&amp;gt;IG(Y, A_1)$ 임을 알 수 있다. 즉, $A_9$를 기준으로 나눌 때 불확실성이 더 많이 개선된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;size-of-tree&quot;&gt;Size of Tree&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;분기 작업을 반복하면 거대한 트리를 만들 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;하지만 트리가 너무 거대해지면 학습 데이터셋에는 잘 작동하지만 테스트 데이터셋에서는 잘 작동하지 않는 오버피팅 문제가 발생한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475630-b8ad3c80-cf6c-11ea-8e6b-778e3f5054d3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;강의에서는 Decision Tree를 Rule-based 기법의 하나로 소개하며, 오버피팅 문제 때문에 실제 상황에서는 많이 사용하지 않는다고 소개함.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;linear-regression&quot;&gt;Linear Regression&lt;/h1&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/70tDiv30WrM&quot;&gt; &lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;이제부터 본격적으로 통계를 활용한 머신러닝 기법들이 나옴&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Linear Regression은 많은 머신러닝 기법들에 영향을 미친 중요한 기법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;강의에서는 주택 가격 예측 데이터셋을 활용한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;가정 : 주택 가격은 feature values의 linearly weighted sum으로 표현할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}(x;\theta)=\sum_{i=0}^{n}\theta_ix_i&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n$ : feature의 수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;결국 Linear Regression은 $\theta$를 잘 조정해서 좋은 결과를 내도록 하는 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수식을 행렬로 표현할 수 있다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+X=\begin{bmatrix}
+          1 &amp; \cdots &amp; x_n^1 \\
+          \vdots &amp; \ddots &amp; \vdots \\
+          1 &amp; \cdots &amp; x_n^D
+          \end{bmatrix}, 
+      \theta=\begin{bmatrix}
+                  \theta_0 \\
+                  \vdots \\
+                  \theta_n 
+                  \end{bmatrix} %]]&gt;&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}=X\theta&lt;/script&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\hat{f}$는 예측값이고, 실제값은 다음과 같이 노이즈를 포함시켜 정의한다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;$f=X\theta+e=Y$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Linear Regression의 목표는 실제값과 예측값의 차이를 최소화하는 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+\hat{\theta} &amp;=&amp; argmin_\theta(f-\hat{f})^2 \\
+	        &amp;=&amp; argmin_\theta(Y-X\theta)^2 \\
+	        &amp;=&amp; argmin_\theta(Y-X\theta)^T(Y-X\theta) \\
+	        &amp;=&amp; argmin_\theta (\theta^TX^TX\theta-2\theta^TX^TY+Y^TY) \\
+	        &amp;=&amp; argmin_\theta (\theta^TX^TX\theta-2\theta^TX^TY)
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;미분을 통해 극점을 찾는 방식으로 최적화시킬 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla_\theta(\theta^TX^TX\theta-2\theta^TX^TY)=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2X^TX\theta-2X^TY=0&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta=(X^TX)^{-1}X^TY&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X, Y$ 모두 아는 값이므로 $\theta$를 구할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아래 그림은 feature를 하나만 사용하여 예측을 해본 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475629-b814a600-cf6c-11ea-8365-2b819a6c3bfb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;non-linearity&quot;&gt;Non-Linearity&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Linear Regression은 선형이라는 한계 때문에 표현할 수 없는 부분이 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x$값에 non linearity를 부여해 조금 더 표현력이 높은 모델을 만들 수도 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}(x;\theta)=\sum_{i=0}^n\sum_{j=1}^m\theta_{i,j}\Phi_j(x_i)&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;위 식에서는 $\Phi$라는 non-linear function을 사용해 $x_i$를 변형시킨다. $\Phi$로 $x^2, x^3, x^4, …$ 등을 사용할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475627-b4811f00-cf6c-11ea-80b4-4fbfacf068c6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;위 그림은 $x^2, x^3, …, x^9$까지 포함하여 나타낸 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;주어진 데이터를 더 잘 표현한 것으로 볼 수도 있으나, Decision Tree에서 주어진 데이터를 잘 표현하기 위해 노드를 늘리는 것이 오버피팅 문제를 일으키듯이, 무작정 non-linearity를 부여하는 것도 오버피팅 문제를 일으킬 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Rule-based Learning</summary></entry><entry><title type="html">01 Motivations and Basics</title><link href="http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics" rel="alternate" type="text/html" title="01 Motivations and Basics" /><published>2020-07-25T00:00:00-07:00</published><updated>2020-07-25T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics">&lt;iframe src=&quot;https://www.youtube.com/embed/3AwO0O6hWBI&quot;&gt; &lt;/iframe&gt;
 
 &lt;h1 id=&quot;thumbtack-question&quot;&gt;Thumbtack Question&lt;/h1&gt;
 &lt;ul&gt;
@@ -1159,137 +1384,4 @@ RV B : 주사위가 소수(prime)면 1, 아니면 0&lt;/p&gt;
 &lt;p&gt;$P_{AB}(0,0)=1/6$&lt;br /&gt;
 $P_{AB}(1,0)=2/6$&lt;br /&gt;
 $P_{AB}(0,1)=2/6$&lt;br /&gt;
-$P_{AB}(1,1)=1/6$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Gamma &amp;amp; Beta Distribution</title><link href="http://localhost:4000/posts/2020/06/06/gamma_beta_distribution" rel="alternate" type="text/html" title="Gamma &amp; Beta Distribution" /><published>2020-06-06T00:00:00-07:00</published><updated>2020-06-06T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/06/gamma_beta_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/06/gamma_beta_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/RNkT4YG8B3A&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;gamma-distribution&quot;&gt;Gamma Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;지수 분포를 일반화시킨 개념&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Random Variable X : $k$개의 이벤트가 발생할 때 까지 걸린 시간&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-f(n)=
-\begin{cases}
-{\lambda^{\alpha}\over \Gamma(\alpha)}x^{\alpha-1}e^{-\lambda x} &amp; for\;\;x &gt; 0 \\
-0 &amp; otherwise 
-\end{cases} %]]&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;감마 분포를 설명하기 위해서는 감마 함수를 알아야 한다.&lt;/li&gt;
-  &lt;li&gt;$\Gamma(a)=\int_{0}^{\infty}x^{a-1}e^{-x}\;dx$&lt;/li&gt;
-  &lt;li&gt;$\Gamma(1)=\int_{0}^{\infty}x^{1-1}e^{-x}\;dx=\int_{0}^{\infty}e^{-x}\;dx=1$&lt;/li&gt;
-  &lt;li&gt;$\Gamma(1/2)=\sqrt{\pi}$&lt;/li&gt;
-  &lt;li&gt;$\Gamma(\alpha)=(\alpha-1)\Gamma(\alpha-1)\quad(for\;\;\alpha &amp;gt; 1)$&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\Gamma(n)=(n-1)!\quad(if\;n\;is\;a\;positive\;integer)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Gamma Distribution은 두 개의 파라미터를 가지고 있다. $\alpha$는 shape parameter(형상 모수)라고 하며, $\lambda$는 rate(scale) paramtere(척도 모수)라고 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/83935919-19d05380-a7f9-11ea-9c2b-57335997eaa8.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gamma-distribution---expectation-and-variance&quot;&gt;Gamma Distribution - Expectation and Variance&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]={\alpha\over\lambda}$&lt;/li&gt;
-  &lt;li&gt;$V[X]={\alpha\over\lambda^2}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;more-about-gamma-distribution&quot;&gt;More about Gamma Distribution&lt;/h2&gt;
-&lt;h3 id=&quot;감마-분포는-지수-분포를-일반화한-형태다&quot;&gt;감마 분포는 지수 분포를 일반화한 형태다.&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Gamma(1,\lambda)=Exponential(\lambda)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$X\sim\Gamma(1,\lambda)$&lt;/li&gt;
-  &lt;li&gt;$f_X(x)={\lambda\over \Gamma(1)}x^{1-1}e^{-\lambda x}=\lambda e^{-\lambda x}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;감마-분포는-지수-분포의-합이다&quot;&gt;감마 분포는 지수 분포의 합이다.&lt;/h3&gt;
-&lt;p&gt;$X_1, X_2, …, X_{\alpha}$이 파라미터 $\lambda$를 가지며, 서로 독립적이며 동일한 분포(iid)를 따른다. 이 때 $X=X_1+X_2+…+X_{\alpha}$는 파라미터가 $\alpha, \lambda$인 감마 분포를 따른다.&lt;/p&gt;
-
-&lt;h2 id=&quot;gamma-distribution---example-1&quot;&gt;Gamma Distribution - Example 1&lt;/h2&gt;
-&lt;p&gt;어떤 학생은 30분에 한 마리의 물고기를 잡는다. 이 학생이 네 마리를 잡을 때 까지 걸리는 시간이 2시간에서 4시간 사이일 확률은 얼마인가?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 물고기 네 마리 잡을 때 까지 걸리는 시간&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$X\sim Gamma(4,2)$&lt;/p&gt;
-
-&lt;p&gt;$P[2\le X\le4]=\int_{2}^{4}{2^{4}\over \Gamma(2)}x^{4-1}e^{-2 x}\;\;dx=0.39$&lt;/p&gt;
-
-&lt;h2 id=&quot;gamma-distribution---example-2&quot;&gt;Gamma Distribution - Example 2&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 20개의 철판을 배송할 때 걸리는 시간&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$X$는 다음과 같은 분포를 따른다고 하자.&lt;/p&gt;
-
-&lt;p&gt;$X\sim Gamma(20,1.6)$&lt;/p&gt;
-
-&lt;p&gt;이 때 15분 이내에 배송할 수 있을 확률을 구하라.&lt;/p&gt;
-
-&lt;p&gt;$P[X&amp;lt;15]=\int_{0}^{15}{1.6^{20	}\over \Gamma(20)}x^{20-1}e^{-1.6 x}\;\;dx=0.82$&lt;/p&gt;
-
-&lt;h2 id=&quot;beta-distribution&quot;&gt;Beta Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;비율을 다룰 때 사용&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;불순률, 작동률, 불량률 등&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-f(x)=
-\begin{cases}
-{1\over B(\alpha, \beta)}x^{\alpha-1}(1-x)^{\beta-1} &amp; for\;\;0\le x \le 1 \\
-0 &amp; otherwise 
-\end{cases} %]]&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;베타 분포를 설명하기 위해서는 베타 함수를 알아야 한다.&lt;/li&gt;
-  &lt;li&gt;$B(\alpha, \beta)={\Gamma(\alpha)\Gamma(\beta)\over \Gamma(\alpha+\beta)}$&lt;/li&gt;
-  &lt;li&gt;$B(\alpha, \beta)=B(\beta, \alpha)$&lt;/li&gt;
-  &lt;li&gt;$B(1, \beta)=1/\beta$&lt;/li&gt;
-  &lt;li&gt;$B(\alpha+1, \beta)={\alpha\over\alpha+\beta}B(\alpha, \beta)$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;beta-distribution---expectation-and-variance&quot;&gt;Beta Distribution - Expectation and Variance&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$E[X]={\alpha\over\alpha+\beta}$&lt;/li&gt;
-  &lt;li&gt;$V[X]={\alpha\beta\over(\alpha+\beta)^2(\alpha+\beta+1)}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;beta-distribution---parameter&quot;&gt;Beta Distribution - Parameter&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$\alpha, \beta$ 두 개의 파라미터를 가진다.&lt;/li&gt;
-  &lt;li&gt;$\alpha=\beta$라면 분포는 대칭이다.&lt;/li&gt;
-  &lt;li&gt;$\alpha=\beta&amp;lt;1$은 수명 분포(고장률 등)을 모델링하는 데 사용된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Beta_distribution_pdf.svg/650px-Beta_distribution_pdf.svg.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;beta-distribution---example-1&quot;&gt;Beta Distribution - Example 1&lt;/h2&gt;
-
-&lt;p&gt;DVD를 배송할 때 불량률이 $\alpha=2, \beta=5$인 베타 분포를 따른다. 불량률이 20~30%일 확률을 구하라.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 배송시 발생하는 불량률&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$X\sim B(2,5)$&lt;/p&gt;
-
-&lt;p&gt;$P[0.2\le X\le 0.3]=\int_{0.2}^{0.3}{1\over B(2, 5)}x^{2-1}(1-x)^{5-1}\;\;dx=0.235$&lt;/p&gt;
-
-&lt;h2 id=&quot;beta-distribution---example-2&quot;&gt;Beta Distribution - Example 2&lt;/h2&gt;
-&lt;p&gt;여왕벌이 새로운 벌집을 찾아 나섰다. 일벌들이 여왕벌을 따라 나섰다. 따라가는 일벌들의 비율을 베타 분포로 모델링할 수 있다. $\alpha=2, \beta=4.8$인 베타 분포를 따른다고 할 때 50% 이상의 일벌들이 여왕벌을 따라갈 확률을 구하라.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV X : 여왕벌을 따라가는 일벌들의 비율&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;$X\sim B(2,4.8)$&lt;/p&gt;
-
-&lt;p&gt;$P[X\ge0.5]=\int_{0.5}^{1}{1\over B(2, 4.8)}x^{2-1}(1-x)^{4.8-1}\;\;dx=0.122$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+$P_{AB}(1,1)=1/6$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
