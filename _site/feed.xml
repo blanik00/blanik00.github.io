@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-26T06:06:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">02 Fundamentals of Machine Learning</title><link href="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning" rel="alternate" type="text/html" title="02 Fundamentals of Machine Learning" /><published>2020-07-26T00:00:00-07:00</published><updated>2020-07-26T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning">&lt;h1 id=&quot;rule-based-learning&quot;&gt;Rule-based Learning&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-27T06:34:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Bayes Theroem</title><link href="http://localhost:4000/posts/2020/07/27/bayes_theorem" rel="alternate" type="text/html" title="Bayes Theroem" /><published>2020-07-27T00:00:00-07:00</published><updated>2020-07-27T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/27/bayes_theorem</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/27/bayes_theorem">&lt;h1 id=&quot;베이즈-정리bayes-theorem&quot;&gt;베이즈 정리(Bayes Theorem)&lt;/h1&gt;
+&lt;p&gt;머신러닝을 공부하면서 베이즈 정리에 대해 각잡고 정리한 적이 없었다. 여러 리소스에서 나오는 내용들을 보며 파편적으로 베이즈 정리를 이해하고 있었다. 그런데 베이즈 정리라는게 참 특이하게 자료마다 다르게 설명한다. 크게 두 가지 정도 설명이 기억이 난다.&lt;/p&gt;
+
+&lt;p&gt;1&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$P(B|A)$를 구하는 것이 불가능할 때, $P(A|B)$와 $P(B)$를 활용하여 $P(B|A)$를 구하기 위한 것&lt;/p&gt;
+
+  &lt;p&gt;한양대학교 이상화 교수님 확률 및 통계 수업 1강&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;우리가 가지는 견해(예를 들어, 북극의 얼음은 a속도로 녹는다)에 관측 데이터를 추가하여 우리의 견해를 수정해나갈 수 있도록 해주는 것&lt;/p&gt;
+
+  &lt;p&gt;PRML&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;위 두 내용이 같은 개념을 설명하기 위한 것임을 이해하기는 쉽지 않다. 그래서 베이즈 정리는 볼 때 마다 새롭고, 처음 보는 기분이 들었다.&lt;/p&gt;
+
+&lt;p&gt;이런 애매모호함을 타파하기 위해 베이즈 정리를 정리해봤다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;베이즈 정리는 &lt;strong&gt;사후확률(posterior probability)을 사전확률(prior probability)과 likelihood를 이용해서 계산할 수 있도록 해주는 확률 변환식&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;수식으로 표현하면 다음과 같다.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)={P(X|Y)P(Y)\over P(X)}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$P(Y|X)$ : 사후확률. 사건이 발생한 후 그 사건이 특정 모델에서 발생했을 확률&lt;/li&gt;
+  &lt;li&gt;$P(X|Y)$ : likelihood. 어떤 모델에서 해당 데이터(관측치)가 나올 확률&lt;/li&gt;
+  &lt;li&gt;$P(Y)$ : 사전확률. 관측자가 관측을 하기 전에 시스템 또는 모델에 대해 가지고 있는 선험적 확률&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;베이즈 정리를 이해했고, 나를 헷갈리게 했던 두 가지 설명도 명확히 이해했는지 확인하기 위해 예를 들어 보자.&lt;/p&gt;
+
+&lt;p&gt;당신은 압정을 던져 어떤 면이 나오는지 맞추는 도박에 참가하였다. 이 도박에서 이기기 위해서는 앞면이 나올 확률을 정확히 파악해야 한다. 당신은 믿을만한 도박 전문가로부터 앞, 뒤가 나올 확률은 동등하게 0.5라는 조언을 얻었으며, 5회의 실험을 통해 앞면이 3번 나왔고, 뒷면이 2번 나왔다. 이 때, 앞면이 나올 확률은 얼마인가?&lt;/p&gt;
+
+&lt;p&gt;우리가 구하고자 하는 것은 앞면이 나올 확률인 $\theta$다. 도박 전문가에게 얻은 조언은 사전확률이라고 할 수 있으며, 실험 $D$의 결과로 likelihood를 계산해낼 수 있다. 이 두 가지 정보를 바탕으로 우리는 사후확률 $P(\theta|D)$를 계산할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;1번 설명은 앞면이 나올 확률인 $\theta$를 알 수 없으니 관측을 통한 결과로부터 likelihood를 구하고, 도박 전문가로부터 조언을 얻어(사전확률) $\theta$를 계산해낼 수 있다는 내용이다.&lt;/p&gt;
+
+&lt;p&gt;2번 설명은 사전확률에 조금 더 초점을 맞춰 설명한다. 도박 전문가에게 앞면이 나올 확률(사전확률)이 0.5라는 조언을 얻었지만 이 내용을 완전히 믿을 수는 없으므로, 관측치를 기반으로 해당 확률을 수정해나간다는 내용이다.&lt;/p&gt;
+
+&lt;p&gt;결국 1번, 2번 설명이 사실은 같은 개념에 대한 것이지만 다르게 느껴졌던 이유는 서로 다른 부분에 집중해 설명했기 때문이다. 사후확률, 사전확률, likelihood의 관계를 명확히 파악하면 앞으로 이 개념 때문에 헷갈릴 일은 없을 것 같다.&lt;/p&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://darkpgmr.tistory.com/119&quot;&gt;다크프로그래머 베이지언 확률(Bayesian Probability)&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">베이즈 정리(Bayes Theorem) 머신러닝을 공부하면서 베이즈 정리에 대해 각잡고 정리한 적이 없었다. 여러 리소스에서 나오는 내용들을 보며 파편적으로 베이즈 정리를 이해하고 있었다. 그런데 베이즈 정리라는게 참 특이하게 자료마다 다르게 설명한다. 크게 두 가지 정도 설명이 기억이 난다.</summary></entry><entry><title type="html">02 Fundamentals of Machine Learning</title><link href="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning" rel="alternate" type="text/html" title="02 Fundamentals of Machine Learning" /><published>2020-07-26T00:00:00-07:00</published><updated>2020-07-26T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning">&lt;h1 id=&quot;rule-based-learning&quot;&gt;Rule-based Learning&lt;/h1&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/oNTXMgqCv6E&quot;&gt; &lt;/iframe&gt;
 
@@ -1306,82 +1358,4 @@ $=\theta^{y+1}(1-\theta)^{x-y}$&lt;br /&gt;
 $=\theta^{y}\theta(1-\theta)^{x-1+1-y}$&lt;br /&gt;
 $=\theta^{y}\theta(1-\theta)^{x-1+1-y}$&lt;br /&gt;
 $=(1-\theta)^{x-1}\theta\cdot\theta^{y}(1-\theta)^{1-y}$&lt;br /&gt;
-$=p_X(x)\cdot p_Y(y)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Joint Probability Distribution(1)</title><link href="http://localhost:4000/posts/2020/06/09/joint_probability_distribution1" rel="alternate" type="text/html" title="Joint Probability Distribution(1)" /><published>2020-06-09T00:00:00-07:00</published><updated>2020-06-09T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/09/joint_probability_distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/09/joint_probability_distribution1">&lt;iframe src=&quot;https://www.youtube.com/embed/niob_ZRZeJs&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;joint-probability-distribution결합-확률-분포&quot;&gt;Joint Probability Distribution(결합 확률 분포)&lt;/h2&gt;
-&lt;p&gt;확률 변수 $X, Y$는 표본 공간의 원소를 각각 $a, b$로 매핑시킨다. 결합 확률 함수는 $X, Y$를 동시에 고려해 확률로 바꿔준다. 또한 결합 확률 함수를 통해 나온 확률들의 전반적인 패턴을 결합 확률 분포라고 한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;두 개 이상의 변수들을 고려&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;두 개의 변수를 고려할 때, $f_{XY}(x,y)=P[X=x, Y=y]$로 표기한다. X 확률 변수는 x 값을 가지며, Y 확률 변수는 y 값을 가질 때&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;joint-distribution-function결합-누적-분포-함수&quot;&gt;Joint Distribution Function(결합 누적 분포 함수)&lt;/h2&gt;
-&lt;p&gt;$F_{XY}(a,b)=P[X\le a, Y\le b]$&lt;/p&gt;
-
-&lt;p&gt;이산형일 때는 $\sum$으로, 연속형일 때는 $\int$으로 해결하면 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;joint-distribution-function---example-1&quot;&gt;Joint Distribution Function - Example 1&lt;/h2&gt;
-&lt;p&gt;결합 밀도 함수(pdf) $f_{XY}(x,y)$를 다음과 같이 정의하자.&lt;/p&gt;
-
-&lt;p&gt;$f_{XY}(x,y)=cxy,\;\;\;0 &amp;lt; x &amp;lt; 1,0 &amp;lt; y &amp;lt; 2$로 정의하자.&lt;/p&gt;
-
-&lt;p&gt;이 때 $c$의 값을 구하라.&lt;/p&gt;
-
-&lt;p&gt;$f_{XY}(x,y)$가 확률 함수가 되기 위해서는 적분해서 1이 되어야 한다. 즉, $\int_{0}^{2}\int_{0}^{1}cxy\;dxdy=1$이 되어야 한다.&lt;/p&gt;
-
-&lt;p&gt;$\int_{0}^{2}\int_{0}^{1}cxy\;dxdy=1$
-$=c=1$&lt;/p&gt;
-
-&lt;h2 id=&quot;joint-distribution-function---example-2&quot;&gt;Joint Distribution Function - Example 2&lt;/h2&gt;
-&lt;p&gt;주사위를 던져 두 가지 실험을 한다고 하자.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RV A : 주사위가 짝수가 나오면 1, 아니면 0
-RV B : 주사위가 소수(prime)면 1, 아니면 0&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt;1&lt;/th&gt;
-      &lt;th&gt;2&lt;/th&gt;
-      &lt;th&gt;3&lt;/th&gt;
-      &lt;th&gt;4&lt;/th&gt;
-      &lt;th&gt;5&lt;/th&gt;
-      &lt;th&gt;6&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;B&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;이 때, Joint Probability Mass Function을 구하라.&lt;/p&gt;
-
-&lt;p&gt;$P_{AB}(0,0)=1/6$&lt;br /&gt;
-$P_{AB}(1,0)=2/6$&lt;br /&gt;
-$P_{AB}(0,1)=2/6$&lt;br /&gt;
-$P_{AB}(1,1)=1/6$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+$=p_X(x)\cdot p_Y(y)$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
