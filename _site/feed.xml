@@ -1,4 +1,184 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T05:58:04-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">Naive Bayes Classifier</title><link href="http://localhost:4000/posts/2020/07/28/naive_bayes_classifier" rel="alternate" type="text/html" title="Naive Bayes Classifier" /><published>2020-07-28T00:00:00-07:00</published><updated>2020-07-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/28/naive_bayes_classifier</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/28/naive_bayes_classifier">&lt;h1 id=&quot;optimal-classification&quot;&gt;Optimal Classification&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T09:38:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">집합(Set)</title><link href="http://localhost:4000/posts/2020/07/29/set" rel="alternate" type="text/html" title="집합(Set)" /><published>2020-07-29T00:00:00-07:00</published><updated>2020-07-29T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/29/set</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/29/set">&lt;h2 id=&quot;1-정의&quot;&gt;1. 정의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;기준에 대해서 명화가게 구분할 수 있는 대상들의 모임
+    &lt;ul&gt;
+      &lt;li&gt;ex. 짝수의 집합, 홀수의 집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대문자로 나타냄
+    &lt;ul&gt;
+      &lt;li&gt;ex. $A$, $B$, …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대상 하나하나를 원소라고 함
+    &lt;ul&gt;
+      &lt;li&gt;소문자로 나타냄&lt;/li&gt;
+      &lt;li&gt;ex. $a\in A$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-부분집합&quot;&gt;2. 부분집합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A\subset B$ : $A$의 모든 원소가 $B$에 포함되어 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=B$인 경우도 $A\subset B$이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\emptyset$은 모든 집합의 부분집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A\subset B, B\subset C \Rightarrow A\subset C$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;“$A\subset B$”를 다음과 같이 표현할 수도 있다.
+    &lt;ol&gt;
+      &lt;li&gt;$A\cap B=A$&lt;/li&gt;
+      &lt;li&gt;$A\cup B=B$&lt;/li&gt;
+      &lt;li&gt;$A-B=\emptyset$&lt;/li&gt;
+      &lt;li&gt;$A\cup B^c=\emptyset\;\;$(3번과 같은 표현)&lt;/li&gt;
+      &lt;li&gt;$A^c\supset B^c$&lt;/li&gt;
+      &lt;li&gt;$A^c\cup B=U$&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=B\Leftrightarrow A\subset B, B\subset A$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$B$의 진부분집합 $A$ : $A\subset B \And A\neq B$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-부분집합의-갯수nan&quot;&gt;3. 부분집합의 갯수($n(A)=n$)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;부분집합 : $2^n$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;진부분집합 : $2^n-1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$k$개의 특정 원소를 포함 / k개의 특정 원소를 포함하지 않음 : $2^{n-k}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$k$개의 특정 원소 중 적어도 한 개를 포함 / $k$개의 특정 원소 중 아무것도 포함하지 않음 : $2^n-2^{n-k}$&lt;br /&gt;
+ ex. $A={1,2,3}$&lt;br /&gt;
+ 1, 2 중 적어도 한 개를 포함해야 한다고 하자. 가능한 경우는 다음과 같다.&lt;br /&gt;
+ ${1},{2},{1,2}$&lt;br /&gt;
+ ${1,3},{2,3},{1,2,3}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;4-집합의-연산&quot;&gt;4. 집합의 연산&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$A\cup B={x|x\in A\;\;or\;\;x\in B }$
+    &lt;ul&gt;
+      &lt;li&gt;$A\cup B=A$&lt;/li&gt;
+      &lt;li&gt;$A\cup\emptyset=A$&lt;/li&gt;
+      &lt;li&gt;$A\cup U=U$&lt;/li&gt;
+      &lt;li&gt;$A\cup A^c=U$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$A\cap B={x|x\in A\;\;and\;\;x\in B }$
+    &lt;ul&gt;
+      &lt;li&gt;$A\cap A=A$&lt;/li&gt;
+      &lt;li&gt;$A\cap\emptyset=\emptyset$&lt;/li&gt;
+      &lt;li&gt;$A\cap U=A$&lt;/li&gt;
+      &lt;li&gt;$A\cap A^c=\emptyset$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$A-B={x|x\in A\;\;and\;\;x\notin B }$
+    &lt;ul&gt;
+      &lt;li&gt;$A-B$의 다른 표현
+        &lt;ul&gt;
+          &lt;li&gt;$A\cap B^c$&lt;/li&gt;
+          &lt;li&gt;$A-(A\cap B)$&lt;/li&gt;
+          &lt;li&gt;$(A\cup B)-B$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$A^c={x|x\in U\;\;and\;\;x\notin A }$
+    &lt;ul&gt;
+      &lt;li&gt;$A^c=U-A$&lt;/li&gt;
+      &lt;li&gt;$U^c=\emptyset$&lt;/li&gt;
+      &lt;li&gt;$\emptyset^c=U$&lt;/li&gt;
+      &lt;li&gt;$(A^c)^c=A$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;서로소 : $A\cap B=\emptyset$
+    &lt;ul&gt;
+      &lt;li&gt;서로소의 다른 표현
+        &lt;ul&gt;
+          &lt;li&gt;$A-B=A$&lt;/li&gt;
+          &lt;li&gt;$B-A=B$&lt;/li&gt;
+          &lt;li&gt;$A\subset B^c$&lt;/li&gt;
+          &lt;li&gt;$B\subset A^c$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-교환-결합-분배-법칙&quot;&gt;5. 교환, 결합, 분배 법칙&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;교환 법칙
+    &lt;ul&gt;
+      &lt;li&gt;$A\cap B=B\cap A$&lt;/li&gt;
+      &lt;li&gt;$A\cup B=B\cup A$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;결합 법칙 : 같은 연산에 대해 괄호의 위치가 바뀌어도 성립
+    &lt;ul&gt;
+      &lt;li&gt;$A\cap(B\cap C)=(A\cap B)\cap C$&lt;/li&gt;
+      &lt;li&gt;$A\cup(B\cup C)=(A\cup B)\cup C$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;분배 법칙 : 서로 다른 연산에 적용. 역연산도 할줄 알아야 한다.
+    &lt;ul&gt;
+      &lt;li&gt;$A\cap(B\cup C)=(A\cap B)\cup (A\cap C)$&lt;/li&gt;
+      &lt;li&gt;$A\cup(B\cap C)=(A\cup B)\cap (A\cup C)$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;드모르간 법칙
+    &lt;ul&gt;
+      &lt;li&gt;$(A\cap B)^c=A^c\cup B^c$&lt;/li&gt;
+      &lt;li&gt;$(A\cup B)^c=A^c\cap B^c$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;6-집합의-원소의-갯수&quot;&gt;6. 집합의 원소의 갯수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A\cup B)=n(A)+n(B)-n(A\cap B)$
+  $n(A\cap B)=\emptyset \Rightarrow n(A\cup B)=n(A)+n(B)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A^c)=n(U)-n(A)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A-B)=n(A)-n(A\cap B)$&lt;br /&gt;
+  $\qquad\qquad=n(A\cup B)-n(B)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A^c\cap B^c)=n(U)-n(A\cup B)\;\;$(드모르간 법칙 활용)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A^c\cup B^c)=n(U)-n(A\cap B)\;\;$(드모르간 법칙 활용)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A\cup B)\le n(U)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A\cap B)\le n(A) \le n(A\cup B)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n(A\cap B)\le n(B) \le n(A\cup B)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;** 마지막 세 가지는 부등호가 들어있어 최대 / 최소 문제에 많이 나옴&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">1. 정의 기준에 대해서 명화가게 구분할 수 있는 대상들의 모임 ex. 짝수의 집합, 홀수의 집합</summary></entry><entry><title type="html">Naive Bayes Classifier</title><link href="http://localhost:4000/posts/2020/07/28/naive_bayes_classifier" rel="alternate" type="text/html" title="Naive Bayes Classifier" /><published>2020-07-28T00:00:00-07:00</published><updated>2020-07-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/28/naive_bayes_classifier</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/28/naive_bayes_classifier">&lt;h1 id=&quot;optimal-classification&quot;&gt;Optimal Classification&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88505879-a4704a80-d013-11ea-99f7-ccfb65aec413.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
@@ -1340,88 +1520,4 @@ $={P(X=k,X+Y=n)\over P(X+Y=n)}$&lt;br /&gt;
 $={P(X=k,Y=n-k)\over P(X+Y=n)}$&lt;br /&gt;
 $={P(X=k)P(Y=n-k)\over P(X+Y=n)}$&lt;br /&gt;
 $={e^{-\lambda_1}\lambda_1^k\over k!}{e^{-\lambda_2}\lambda_2^{n-k}\over (n-k)!}[{e^{-(\lambda_1+\lambda_2)}(\lambda_1+\lambda_2)^{n}\over n!}]^{-1}\quad (\because X+Y\sim Poisson(\lambda_1, \lambda_2))$&lt;br /&gt;
-$\sim Binomial(n,{1\over\lambda_1+\lambda_2})$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Joint Probability Distribution - Convolution</title><link href="http://localhost:4000/posts/2020/06/13/convolution" rel="alternate" type="text/html" title="Joint Probability Distribution - Convolution" /><published>2020-06-13T00:00:00-07:00</published><updated>2020-06-13T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/13/convolution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/13/convolution">&lt;iframe src=&quot;https://www.youtube.com/embed/Uc5MuEfGZ6Q&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;sums-of-independent-random-variables&quot;&gt;Sums of Independent Random Variables&lt;/h2&gt;
-&lt;p&gt;확률 변수 $X, Y$는 독립이다. $X + Y$의 확률 분포는 무엇인가&lt;/p&gt;
-
-&lt;p&gt;우선은 $X+Y$의 누적 확률 함수를 구해보자.&lt;/p&gt;
-
-&lt;p&gt;$F_{XY}(a)=P[X+Y &amp;lt; a]$&lt;/p&gt;
-
-&lt;p&gt;$=\int\int_{X+Y &amp;lt; a}f_{XY}(xy)\;dx\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int\int_{X+Y &amp;lt; a}f_{X}(x)f_{Y}(y)\;dx\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{-\infty}^{\infty}\int_{-\infty}^{a-y} f_{X}(x)f_{Y}(y)\;dx\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{-\infty}^{\infty}\int_{-\infty}^{a-y} f_{X}(x)\;dxf_{Y}(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{-\infty}^{\infty}F_X(a-y)f_{Y}(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;$F_{X+Y}$는 $F_X$, $F_Y$의 convolution이라고 한다.&lt;/p&gt;
-
-&lt;p&gt;convolution($F_{X+Y}$)을 미분해서 PDF인 $f_{XY}$를 구할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;$f_{XY}$&lt;/p&gt;
-
-&lt;p&gt;$={d\over da}\int_{-\infty}^{\infty}F_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{-\infty}^{\infty}{d\over da}F_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{-\infty}^{\infty}f_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;즉, 확률 변수 $X, Y$가 독립이라면 $X+Y$의 PDF는 $\int_{-\infty}^{\infty}f_X(a-y)f_Y(y)\;dy$와 같이 표현한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;identically-distributed-uniform-random-variables&quot;&gt;Identically Distributed Uniform Random Variables&lt;/h2&gt;
-&lt;p&gt;X, Y가 독립이며, Uniform Distribution을 따르며, 파라미터는 (0,1)이다. 이 때 $X+Y$의 PDF를 구하라.&lt;/p&gt;
-
-&lt;p&gt;$f_{X+Y}(a)=\int_{0}^{1}f_X(a-y)f_Y(y)\;dy$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{0}^{1}f_X(a-y)\;dy$  ($\because f_Y(y)=1$)&lt;/p&gt;
-
-&lt;p&gt;$Let\;a-y=t,\;dy=-dt$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{a}^{a-1}f_X(t)\;(-dt)$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{a}^{a-1}f_X(t)\;(-dt)$&lt;/p&gt;
-
-&lt;p&gt;$=\int_{a-1}^{a}f_X(t)\;dt$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case 1.&lt;/strong&gt; $0\le a \le 1$&lt;/p&gt;
-
-&lt;p&gt;$\int_{0}^{a}f_X(t)\;dt=a$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case 2.&lt;/strong&gt; $1 &amp;lt; a &amp;lt; 2$&lt;/p&gt;
-
-&lt;p&gt;$\int_{a-1}^{1}f_X(t)\;dt=2-a$&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;그림 1&amp;gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gamma-random-variables&quot;&gt;Gamma Random Variables&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;서로 독립이며, 파라미터가 $(s,\lambda)$, $(t,\lambda)$인 감마 분포를 따르는 확률 변수 X, Y가 있다. 이 때, X+Y는 파라미터가 $(s+t, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
-  &lt;li&gt;일반화 시켜 보면, 서로 독립이며, 파라미터가 $(t_1,\lambda)$, …, $(t_n,\lambda)$인 감마 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}t_i, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;gamma-and-exponential-random-variables&quot;&gt;Gamma and Exponential Random Variables&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;파라미터가 $\lambda$이며, 지수 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(n, \lambda)$인 감마 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;증명 생략&lt;/p&gt;
-
-&lt;h2 id=&quot;normal-random-distribution&quot;&gt;Normal Random Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;파라미터가 $(\mu_i, \sigma_i)$이며, 정규 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}\mu_i, \sum_{i=1}^{n}\sigma_i^2)$인 감마 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;poisson-random-distribution&quot;&gt;Poisson Random Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;파라미터가 $\lambda_i$이며, 포아송 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $\sum_{i=1}^{n}\lambda_i$인 포아송 분포 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;binomial-random-distribution&quot;&gt;Binomial Random Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;파라미터가 $(n_i, p)$이며, 이항 분포를 따르는 확률 변수 $X_1$, …, $X_n$이 있다. 이 때, $X_1+…+X_n$는 파라미터가 $(\sum_{i=1}^{n}n_i, p)$인 이항 분포를 따른다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+$\sim Binomial(n,{1\over\lambda_1+\lambda_2})$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
