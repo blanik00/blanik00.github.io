@@ -1,7 +1,7 @@
 ---
-title: 'Naive Bayes Classifier'
+title: '03 Naive Bayes Classifier'
 date: 2020-07-28
-permalink: /posts/2020/07/28/naive_bayes_classifier
+permalink: /posts/2020/07/28/03_naive_bayes_classifier
 category:
   - posts
 ---
@@ -65,7 +65,7 @@ $$f^*(x)=argmax_{Y=y}P(X=x|Y=y)P(Y=y)$$
 
 이 경우 $P(Y=y)$는 경험적으로 알아내거나, 데이터셋에서도 알아낼 수도 있다. 데이터셋 전체에서 $y_1$는 a%, $y_2$는 (1-a)%와 같이 알아낸다.
 
-$P(X=x|Y=y)$도 conditional density를 만들 수 있다. 그런데 이 경우 문제가 되는 것은 X에 여러 개의 Random Variable이 있는 경우이다. 이 때 여러 Random Variable의 상호작용을 고려해 prediction을 해야 하는데, Random Variable의 수가 많아질수록 고려해야 할 상호작용의 수도 많아진다.
+$P(X=x\|Y=y)$도 conditional density를 만들 수 있다. 그런데 이 경우 문제가 되는 것은 X에 여러 개의 Random Variable이 있는 경우이다. 이 때 여러 Random Variable의 상호작용을 고려해 prediction을 해야 하는데, Random Variable의 수가 많아질수록 고려해야 할 상호작용의 수도 많아진다.
 
 이 문제를 해결해주는 것이 Naive Bayes classifier다. Naive Bayes는 Random Variable 간의 상호작용을 무시한다.
 
