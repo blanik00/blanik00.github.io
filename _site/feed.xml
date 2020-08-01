@@ -1,4 +1,557 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-30T09:09:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">함수(Function)</title><link href="http://localhost:4000/posts/2020/07/31/function" rel="alternate" type="text/html" title="함수(Function)" /><published>2020-07-31T00:00:00-07:00</published><updated>2020-07-31T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/31/function</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/31/function">&lt;h2 id=&quot;함수fxrightarrow-y&quot;&gt;함수($f:X\rightarrow Y$)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-01T08:07:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">수학적 귀납법</title><link href="http://localhost:4000/posts/2020/08/05/mathematical_induction" rel="alternate" type="text/html" title="수학적 귀납법" /><published>2020-08-05T00:00:00-07:00</published><updated>2020-08-05T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/05/mathematical_induction</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/05/mathematical_induction">&lt;h2 id=&quot;수열의-귀납적-정의&quot;&gt;수열의 귀납적 정의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;수열의 일부분을 알려준다. 이 이웃하는 항들의 관계로 수열을 정의하는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등차수열의-귀납적-정의&quot;&gt;등차수열의 귀납적 정의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+1}-a_n=d$인 수열을 본다면 “공차가 $d$인 등차수열”이라는 것을 알아야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+1}=a_n+d$도 마찬가지다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+1}-a_n=a_{n+2}-a_{n-1}$의 경우에도 등차수열임을 알 수 있다. 다만, 이 경우에는 공차가 얼마인지는 알 수 없다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$2a_{n+1}=a_n+a_{n+2}$인 경우에도 $a_{n+1}$이 등차중항이므로 등차수열임을 나타낸다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열의-귀납적-정의&quot;&gt;등비수열의 귀납적 정의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;${a_{n+1}\over a_n}=r$인 수열을 본다면 “공비가 $r$인 등비수열”이라는 것을 알아야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+1}=ra_n$도 마찬가지다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;${a_{n+1}\over a_n}={a_{n+2}\over a_{n+1}}$의 경우에도 등비수열임을 알 수 있다. 다만, 이 경우에는 공비가 얼마인지는 알 수 없다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+1}^2=a_na_{n+2}$인 경우에도 $a_{n+1}$이 등비중항이므로 등비수열임을 나타낸다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;수학적-귀납법&quot;&gt;수학적 귀납법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;모든 자연수에 대해 명제 $p(n)$이 성립함을 증명할 때 사용하는 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모든 자연수에 대해 명제가 성립하는지 실제로 보여주는 방법은 효율적이지 않다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이웃하는 두 항의 관계를 고려한다. 즉, $k$번째 항에서 명제 $p(n)$이 성립한다고 가정한다. 이것이 $k+1$번째 항에서도 보인다. 그리고 첫 번째 항이 되는지 확인한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;첫 번째 항이 맞고, $k, k+1$번째 항도 맞으면 모든 자연수에 대해 맞는 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;실제 문제에서는 $n\ge2$ 혹은 $n\ge3$ 등의 조건이 있을 수 있는데 이럴 때는 첫째 항을 2 혹은 3으로 잡아주면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">수열의 귀납적 정의 수열의 일부분을 알려준다. 이 이웃하는 항들의 관계로 수열을 정의하는 것</summary></entry><entry><title type="html">수열의 합</title><link href="http://localhost:4000/posts/2020/08/04/sigma" rel="alternate" type="text/html" title="수열의 합" /><published>2020-08-04T00:00:00-07:00</published><updated>2020-08-04T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/04/sigma</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/04/sigma">&lt;h2 id=&quot;합의-기호&quot;&gt;합의 기호&lt;/h2&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^na_k=S_n&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시작이 꼭 1일 필요가 없다.
+    &lt;ul&gt;
+      &lt;li&gt;$\sum_{i=m}^na_k$과 같이 할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;합의-기호-sum의-성질&quot;&gt;합의 기호 $\sum$의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;실수배, +, -에 대해 자유롭다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sum_{i=1}^nca_k=c(a_1+a_2+…+a_n)=c\sum_{i=1}^na_k$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sum_{i=1}^n(a_k+b_k)=(a_1+b_1)+(a_2+b_2)+…+(a_n+b_n)=(a_1+a_2+…+a_n)+(b_1+b_2+…+b_n)=\sum_{i=1}^na_k+\sum_{i=1}^nb_k$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sum_{i=1}^n(a_k-b_k)=\sum_{i=1}^na_k-\sum_{i=1}^nb_k$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sum_{i=1}^nc=nc$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;곱셈, 나눗셈에 대해서는 자유롭지 않다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;자연수의-거듭제곱의-합&quot;&gt;자연수의 거듭제곱의 합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$\sum_{i=1}^ni={n(n+1)\over 2}$&lt;/li&gt;
+  &lt;li&gt;$\sum_{i=1}^ni^2={n(n+1)(2n+1)\over 6}$&lt;/li&gt;
+  &lt;li&gt;$\sum_{i=1}^ni^3=({n(n+1)\over 2})^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-수열의-합&quot;&gt;여러가지 수열의 합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;${a\over AB}={a\over B-A}({1\over A}-{1\over B})$
+    &lt;ul&gt;
+      &lt;li&gt;$\sum_{k=1}^{10}{1\over k(k+1)}=\sum_{k=1}^{10}({1\over k}-{1\over k+1})$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;무리식의 합이 계산이 바로 안될 때는 주로 근호가 문제가 된다. 근호를 유리화하면 문제를 쉽게 해결할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">합의 기호</summary></entry><entry><title type="html">등차수열, 등비수열</title><link href="http://localhost:4000/posts/2020/08/03/deungcha_deungbi" rel="alternate" type="text/html" title="등차수열, 등비수열" /><published>2020-08-03T00:00:00-07:00</published><updated>2020-08-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/03/deungcha_deungbi</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/03/deungcha_deungbi">&lt;h2 id=&quot;등차수열&quot;&gt;등차수열&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;첫째항부터 차례로 일정한 수를 더하여 얻은 수열&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;첫째항, 둘째항, 셋째항, …의 차가 모두 같다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ex. 1,3,5,7,9&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1, a_2, a_3, …$로 표현&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;등차수열에서 가장 중요한 것은 &lt;strong&gt;공차(d)&lt;/strong&gt;(정의에 나온 일정한 수, 예제에서는 2가 공차)
+    &lt;ul&gt;
+      &lt;li&gt;$d=a_{n+1}-a_n$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;일반항($a_n$)=$a_1+(n-1)d$
+    &lt;ul&gt;
+      &lt;li&gt;$a_1=1$&lt;/li&gt;
+      &lt;li&gt;$a_2=1+d$&lt;/li&gt;
+      &lt;li&gt;$a_3=1+2d$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;등차중항($x$) : 세 수 $a,x,b$가 등차수열일 때, $x$를 등차중항이라고 한다.
+    &lt;ul&gt;
+      &lt;li&gt;$x={a+b\over 2}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등차수열의-특징&quot;&gt;등차수열의 특징&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+k}-a_n=kd$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_{n+k}=a_n+kd$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1+a_7=a_2+a_6=a_3+a_5=2a_4$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1+a_6=a_2+a_5=a_3+a_4$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등차수열의-합&quot;&gt;등차수열의 합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1, a_2, …, a_n$은 등차수열&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$S_n=a_1+a_2+…+a_n=?$&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;$S_n=a_1+a_2+…+a_n$&lt;/li&gt;
+      &lt;li&gt;$S_n=a_n+a_{n-1}+…+a_1$&lt;/li&gt;
+      &lt;li&gt;$2S_n=(a_1+a_n)+(a_2+a_{n-1})+…+(a_n+a_1)$&lt;/li&gt;
+      &lt;li&gt;$2S_n=n(a_1+a_n)$&lt;/li&gt;
+      &lt;li&gt;$S_n={n(a_1+a_n)\over 2}$&lt;/li&gt;
+      &lt;li&gt;첫항과 끝항을 알 때 사용할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_n=a_1+(n-1)d$를 활용하면 위 식을 다르게 전개할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$S_n={n(2a_1+(n-1)d)\over 2}$
+    &lt;ul&gt;
+      &lt;li&gt;첫항과 공차를 알 때 사용할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$a_m+a_{m+1}+…+a_n={(m+n-1)(a_m+a_n)\over 2}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열&quot;&gt;등비수열&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;첫째항부터 차례로 일정한 수를 곱하여 얻은 수열&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;등비수열에서 중요한 것은 &lt;strong&gt;공비($r$)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;$r={a_{n+1}\over a_n}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;일반항($a_n$)=$ar^{n-1}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;등비중항($x$) : 세 수 $a,x,b$가 등비수열일 때, $x$를 등비중항이라고 한다.
+    &lt;ul&gt;
+      &lt;li&gt;$x=\sqrt{ab}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열의-특징&quot;&gt;등비수열의 특징&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;${a_{n+k}\over a_n}={a_1r^{n+k-1}\over a_1r^{n-1}}=r^{n+k-1-(n-1)}=r^k$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;${a_{n+k}}=a_nr^k$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1a_7=a_2a_6=a_3a_5=a_4^2$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1a_6=a_2a_5=a_3a_4$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열의-합&quot;&gt;등비수열의 합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_1, a_2, …, a_n$은 등비수열&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$S_n=a_1+a_2+…+a_n=?$&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;$S_n=a_1+a_2+…+a_n$&lt;/li&gt;
+      &lt;li&gt;$rS_n=a_2+a_3+…+a_{n+1}$&lt;/li&gt;
+      &lt;li&gt;$(1-r)S_n=a_1-a_{n+1}$&lt;/li&gt;
+      &lt;li&gt;$S_n={a_1-a_{n+1}\over (1-r)}={a_1(1-r^n)\over (1-r)}={a_1(r^n-1)\over (r-1)}(r\neq 0)$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$r=1$인 경우 $S_n=na_1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a_m+a_{m+1}+…+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 0)$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry><entry><title type="html">무리함수(Irrational Function)</title><link href="http://localhost:4000/posts/2020/08/02/irrational_function" rel="alternate" type="text/html" title="무리함수(Irrational Function)" /><published>2020-08-02T00:00:00-07:00</published><updated>2020-08-02T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/02/irrational_function</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/02/irrational_function">&lt;h2 id=&quot;무리함수&quot;&gt;무리함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;무리수 : 분수로 나타낼 수 없는 수
+    &lt;ul&gt;
+      &lt;li&gt;$\sqrt{2}, \sqrt{3}, \pi$&lt;/li&gt;
+      &lt;li&gt;$\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;무리식 : 근호 안에 문자가 포함된 식 중 유리식이 아닌 것(&lt;strong&gt;근호 안에 있는 것은 0보다 크거나 같다.&lt;/strong&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;무리함수 : $y=f(x)$, $f(x)$는 $x$에 관한 무리식이다.(&lt;strong&gt;근호 안에 있는 것은 0보다 크거나 같다.&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ysqrtaxa0-xge-0&quot;&gt;$y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093644-3d79d980-d3f7-11ea-8783-39c4a17ad189.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;무리함수의 정의역은 근호 안을 보면 알 수 있다.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;근호 안은 0크거나 같아야 한다.&lt;/li&gt;
+      &lt;li&gt;$a&amp;gt;0$이면 $x\ge 0$이 정의역이 된다.&lt;/li&gt;
+      &lt;li&gt;$a&amp;lt;0$이면 $x\le 0$이 정의역이 된다.&lt;/li&gt;
+      &lt;li&gt;이 경우는 $a&amp;gt;0$이므로, 정의역은 $x\ge 0$이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y={1\over a}x^2(a&amp;gt;0,x\ge 0)$의 역함수이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위 그래프는 $a=2$를 넣어 그린 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;즉, 이들의 관계는 다음과 같다.
+    &lt;ol&gt;
+      &lt;li&gt;역함수&lt;/li&gt;
+      &lt;li&gt;$y=x$를 기준으로 대칭&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ysqrtax-y-sqrtaxaneq-0&quot;&gt;$y=\sqrt{ax}, y=-\sqrt{ax}(a\neq 0)$&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093646-3eab0680-d3f7-11ea-8b2d-669854408622.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 함수는 $a&amp;gt;0$, $a&amp;lt;0$으로 나눠볼 수 있다. 즉 총 네 개의 그래프가 나오며, 각각은 사분면을 하나씩 차지한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모든 그래프는 원점을 지난다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;4사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 x축 대칭한 것($y$에 $-y$ 대입)&lt;/li&gt;
+      &lt;li&gt;2사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 y축 대칭한 것($x$에 $-x$ 대입)&lt;/li&gt;
+      &lt;li&gt;3사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 원점 대칭한 것($x$에 $-x$, $y$에 $-y$ 대입)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;그래프의 모양을 생각해보면 정의역과 치역을 쉽게 구할 수 있다.
+    &lt;ul&gt;
+      &lt;li&gt;1사분면($y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$)
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;정의역 : $\{x&lt;/td&gt;
+                  &lt;td&gt;x\ge 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;치역 : $\{y&lt;/td&gt;
+                  &lt;td&gt;y\ge 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;4사분면($y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$)
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;정의역 : $\{x&lt;/td&gt;
+                  &lt;td&gt;x\ge 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;치역 : $\{y&lt;/td&gt;
+                  &lt;td&gt;y\le 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;2사분면($y=\sqrt{ax}(a&amp;lt;0, x\le 0)$)
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;정의역 : $\{x&lt;/td&gt;
+                  &lt;td&gt;x\le 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;치역 : $\{y&lt;/td&gt;
+                  &lt;td&gt;y\ge 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;4사분면($y=\sqrt{ax}(a&amp;lt;0, x\le 0)$)
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;정의역 : $\{x&lt;/td&gt;
+                  &lt;td&gt;x\le 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;table&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;치역 : $\{y&lt;/td&gt;
+                  &lt;td&gt;y\le 0\}$&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;근호는 반드시 양수이기 때문에 치역은 근호 앞의 부호가 결정한다.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;부호가 +이면 치역은 $\{y&lt;/td&gt;
+              &lt;td&gt;y\ge 0\}$&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;부호가 -이면 치역은 $\{y&lt;/td&gt;
+              &lt;td&gt;y\le 0\}$&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ysqrtax-pq-y-sqrtax-pqaneq-0&quot;&gt;$y=\sqrt{a(x-p)}+q, y=-\sqrt{a(x-p)}+q(a\neq 0)$&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093647-3f439d00-d3f7-11ea-8f20-d2910fb75482.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=\sqrt{ax}, y=-\sqrt{ax}(a\neq 0)$을 $x$축으로 $p$만큼, $y$축으로 $q$만큼 평행 이동시킨 것이다.($x$에 $x-p$ 대입, $y$에 $y-q$ 대입)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;정의역과 치역도 그에 맞게 변경시키면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;무리함수들 또한 유리함수와 역함수 관계를 가진다는 것을 기억해야 한다.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">무리함수 무리수 : 분수로 나타낼 수 없는 수 $\sqrt{2}, \sqrt{3}, \pi$ $\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.</summary></entry><entry><title type="html">유리함수(Rational Function)</title><link href="http://localhost:4000/posts/2020/08/01/rational_function" rel="alternate" type="text/html" title="유리함수(Rational Function)" /><published>2020-08-01T00:00:00-07:00</published><updated>2020-08-01T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/01/rational_function</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/01/rational_function">&lt;h2 id=&quot;평행이동&quot;&gt;평행이동&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;점이나 도형을 일정한 거리만큼 움직이는 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;점의 평행이동과 도형의 평행이동은 다르다.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;점의 평행이동 : $p(a,b)$을 $x$축으로 $p$만큼, $y$축으로 $q$만큼 이동시키면 $p’(a+p, b+q)$가 된다.&lt;/li&gt;
+      &lt;li&gt;도형의 평행이동 : (도형은 $x, y$의 식으로 나타낸다) $f(x,y)=0$을 $x$축으로 $p$만큼, $y$축으로 $q$만큼 이동시키면 $f’(x-p, y-q)=0$이 된다. 즉, 도형의 대칭이동은 $x$에 $x-p$를 대입하고, $y$에 $y-q$를 대입한 것이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;대칭이동&quot;&gt;대칭이동&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;점과 도형이 똑같음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$x$축 대칭 : $(a,b)\rightarrow(a,-b)$ 즉, $y$ 대신 $-y$ 대입&lt;/li&gt;
+  &lt;li&gt;$y$축 대칭 : $(a,b)\rightarrow(-a,b)$ 즉, $x$ 대신 $-x$ 대입&lt;/li&gt;
+  &lt;li&gt;원점 대칭 : $(a,b)\rightarrow(-a,-b)$ 즉, $x$ 대신 $-x$ 대입, $y$ 대신 $-y$ 대입&lt;/li&gt;
+  &lt;li&gt;$y=x$에 대하여 대칭 : $(a,b)\rightarrow(b,a)$ 즉, $x$ 대신 $y$ 대입, $y$ 대신 $x$ 대입(역함수에서 자주 등장)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;유리함수&quot;&gt;유리함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;유리수 : 분수로 나타낼 수 있는 수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;유리식 : 분수로 나타낼 수 있는 식
+    &lt;ul&gt;
+      &lt;li&gt;${A\over B}$의 꼴($A, B$는 다항식, $B\neq 0$)&lt;/li&gt;
+      &lt;li&gt;ex. ${x^2+2x+1\over 2x+1}$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;유리함수 : $y=f(x)$에서 $f(x)$가 $x$에 대한 유리식(분모$\neq0$)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ykover-xkneq-0&quot;&gt;$y={k\over x}(k\neq 0)$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;유리함수의 하나&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$k&amp;gt;0$
+    &lt;ul&gt;
+      &lt;li&gt;1, 3사분면에 존재&lt;/li&gt;
+      &lt;li&gt;$k$의 값이 커질수록 원점에서 멀어진다.
+  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89045472-8b0a2e00-d386-11ea-97e4-7b2a65dd919b.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$k&amp;lt;0$
+    &lt;ul&gt;
+      &lt;li&gt;2, 4사분면에 존재&lt;/li&gt;
+      &lt;li&gt;$k$의 값이 커질수록 원점에서 멀어진다.
+  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89045473-8c3b5b00-d386-11ea-9f2f-a48d80e424bc.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$k&amp;gt;0$인 경우와 $k&amp;lt;0$인 경우는 $x$축, $y$축을 기준으로 대칭이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;정의역 : $\{x|x\neq0인\;모든\;실수\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;치역 : $\{y|y\neq0인\;모든\;실수\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대칭성 :
+    &lt;ul&gt;
+      &lt;li&gt;원점$(0,0)$에 대해 대칭이다.&lt;/li&gt;
+      &lt;li&gt;$y=x$에 대해 대칭이다.&lt;/li&gt;
+      &lt;li&gt;$y=-x$에 대해 대칭이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;점근선 : 함수의 그래프가 어떤 값에 점점 가까워지는데, 절대 만날 수는 없는 것
+    &lt;ul&gt;
+      &lt;li&gt;$y$축($x=0$), $x$축($y=0$)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ykover-x-pqkneq-0&quot;&gt;$y={k\over x-p}+q(k\neq 0)$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$q$를 좌변으로 넘기면 $y-q={k\over x-p}$이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이는 $y={k\over x}$에서 $x$자리에 $x-p$를, $y$자리에 $y-q$를 넣은 것이다. 즉, $y={k\over x}$를 $x$축으로 $p$만큼, $y$축으로 $q$만큼 평행이동한 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89048816-52b91e80-d38b-11ea-921a-5e8ec7110f54.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;(위 그림은 $x$축으로 $1$만큼, $y$축으로 $2$만큼 평행이동한 것이다.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이 경우 원점을 기준으로 대칭인 것이 아니라 $p,q$를 기준으로 대칭이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;또한 점근선은 $x=0, y=0$이 아니라 $x=p, y=q$다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;정의역 : $\{x|x\neq p인\;모든\;실수\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;치역 : $\{y|y\neq q인\;모든\;실수\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대칭성 :
+    &lt;ul&gt;
+      &lt;li&gt;$(p,q)$에 대해 대칭이다.&lt;/li&gt;
+      &lt;li&gt;$y=(x-p)+q$에 대해 대칭이다.&lt;/li&gt;
+      &lt;li&gt;$y=-(x-p)+q$에 대해 대칭이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;점근선 :
+    &lt;ul&gt;
+      &lt;li&gt;$x=p, y=q$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;유리함수는 $p, q$를 알아내는 것이 가장 중요&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">평행이동 점이나 도형을 일정한 거리만큼 움직이는 것</summary></entry><entry><title type="html">함수(Function)</title><link href="http://localhost:4000/posts/2020/07/31/function" rel="alternate" type="text/html" title="함수(Function)" /><published>2020-07-31T00:00:00-07:00</published><updated>2020-07-31T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/31/function</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/31/function">&lt;h2 id=&quot;함수fxrightarrow-y&quot;&gt;함수($f:X\rightarrow Y$)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것&lt;/p&gt;
@@ -175,37 +728,7 @@ f(x)=
 
     &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88946310-0c4fbb00-d2ca-11ea-967a-6b5efde36285.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">함수($f:X\rightarrow Y$) 대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것</summary></entry><entry><title type="html">MLE, MAP</title><link href="http://localhost:4000/posts/2020/07/30/mle_map" rel="alternate" type="text/html" title="MLE, MAP" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/mle_map</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/mle_map">&lt;p&gt;MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.&lt;/p&gt;
-
-&lt;p&gt;이런 목표를 달성하기 위해 보통 베이즈 정리를 사용한다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\underbrace{P(Y|X)}_{\rm posterior} = \frac{\overbrace{P(X|Y)}^{\rm likelihood} \overbrace{P(Y)}^{\rm prior}}{\underbrace{P(X)}_\text{probability of seeing the data}}&lt;/script&gt;
-
-&lt;p&gt;MAP는 위 수식을 충실히 수행한다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)P(Y)&lt;/script&gt;
-
-&lt;p&gt;반면, MLE는 &lt;strong&gt;uniform prior&lt;/strong&gt;를 가정한다. 따라서 위 수식을 아래와 같이 줄일 수 있다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)&lt;/script&gt;
-
-&lt;p&gt;따라서 MLE는 uniform prior를 가정한 MAP의 특수한 케이스다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어보자.&lt;/p&gt;
-
-&lt;p&gt;어떤 마을에서 바닥에 떨어진 머리카락의 길이를 보고 그 머리카락이 남자의 것인지 여자의 것인지 분류하는 문제를 푼다고 하자.&lt;/p&gt;
-
-&lt;p&gt;이 경우, $X$는 머리카락의 길이, $Y$는 성별이다.&lt;/p&gt;
-
-&lt;p&gt;MAP의 경우 likelihood 뿐만 아니라 마을의 남녀 성비도 고려해 분류를 수행한다.&lt;/p&gt;
-
-&lt;p&gt;반면, MLE의 경우 남녀의 성비가 동일하다고 가정하고(uniform prior), likelihood만을 고려해 분류를 수행한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://darkpgmr.tistory.com/62&quot;&gt;베이즈 정리, ML과 MAP, 그리고 영상처리&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bdhammel.com/mle-map/&quot;&gt;Maximum Likelihood Estimation and Maximum A Posterior Estimation&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.</summary></entry><entry><title type="html">명제(Proposition)</title><link href="http://localhost:4000/posts/2020/07/30/proposition" rel="alternate" type="text/html" title="명제(Proposition)" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/proposition</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/proposition">&lt;h2 id=&quot;명제와-조건&quot;&gt;명제와 조건&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">함수($f:X\rightarrow Y$) 대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것</summary></entry><entry><title type="html">명제(Proposition)</title><link href="http://localhost:4000/posts/2020/07/30/proposition" rel="alternate" type="text/html" title="명제(Proposition)" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/proposition</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/proposition">&lt;h2 id=&quot;명제와-조건&quot;&gt;명제와 조건&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;명제 : 참, 거짓을 판별할 수 있는 문장 또는 식
     &lt;ul&gt;
@@ -348,7 +871,37 @@ f(x)=
       &lt;li&gt;$P\subset Q, Q\subset R$이면 $P\subset R$이다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">명제와 조건 명제 : 참, 거짓을 판별할 수 있는 문장 또는 식 2는 홀수이다. (거짓인 명제) 3은 홀수이다. (참인 명제) 나는 잘생겼다. (명제 아님)</summary></entry><entry><title type="html">집합(Set)</title><link href="http://localhost:4000/posts/2020/07/29/set" rel="alternate" type="text/html" title="집합(Set)" /><published>2020-07-29T00:00:00-07:00</published><updated>2020-07-29T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/29/set</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/29/set">&lt;h2 id=&quot;1-정의&quot;&gt;1. 정의&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">명제와 조건 명제 : 참, 거짓을 판별할 수 있는 문장 또는 식 2는 홀수이다. (거짓인 명제) 3은 홀수이다. (참인 명제) 나는 잘생겼다. (명제 아님)</summary></entry><entry><title type="html">MLE, MAP</title><link href="http://localhost:4000/posts/2020/07/30/mle_map" rel="alternate" type="text/html" title="MLE, MAP" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/mle_map</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/mle_map">&lt;p&gt;MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.&lt;/p&gt;
+
+&lt;p&gt;이런 목표를 달성하기 위해 보통 베이즈 정리를 사용한다.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\underbrace{P(Y|X)}_{\rm posterior} = \frac{\overbrace{P(X|Y)}^{\rm likelihood} \overbrace{P(Y)}^{\rm prior}}{\underbrace{P(X)}_\text{probability of seeing the data}}&lt;/script&gt;
+
+&lt;p&gt;MAP는 위 수식을 충실히 수행한다.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)P(Y)&lt;/script&gt;
+
+&lt;p&gt;반면, MLE는 &lt;strong&gt;uniform prior&lt;/strong&gt;를 가정한다. 따라서 위 수식을 아래와 같이 줄일 수 있다.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)&lt;/script&gt;
+
+&lt;p&gt;따라서 MLE는 uniform prior를 가정한 MAP의 특수한 케이스다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어보자.&lt;/p&gt;
+
+&lt;p&gt;어떤 마을에서 바닥에 떨어진 머리카락의 길이를 보고 그 머리카락이 남자의 것인지 여자의 것인지 분류하는 문제를 푼다고 하자.&lt;/p&gt;
+
+&lt;p&gt;이 경우, $X$는 머리카락의 길이, $Y$는 성별이다.&lt;/p&gt;
+
+&lt;p&gt;MAP의 경우 likelihood 뿐만 아니라 마을의 남녀 성비도 고려해 분류를 수행한다.&lt;/p&gt;
+
+&lt;p&gt;반면, MLE의 경우 남녀의 성비가 동일하다고 가정하고(uniform prior), likelihood만을 고려해 분류를 수행한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://darkpgmr.tistory.com/62&quot;&gt;베이즈 정리, ML과 MAP, 그리고 영상처리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bdhammel.com/mle-map/&quot;&gt;Maximum Likelihood Estimation and Maximum A Posterior Estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.</summary></entry><entry><title type="html">집합(Set)</title><link href="http://localhost:4000/posts/2020/07/29/set" rel="alternate" type="text/html" title="집합(Set)" /><published>2020-07-29T00:00:00-07:00</published><updated>2020-07-29T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/29/set</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/29/set">&lt;h2 id=&quot;1-정의&quot;&gt;1. 정의&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;기준에 대해서 명화가게 구분할 수 있는 대상들의 모임
     &lt;ul&gt;
@@ -652,847 +1205,4 @@ f(x)=
     &lt;p&gt;Incorrect Probability Estimation
 압정을 세 번 던져서 모두 앞면이 나왔다면, 뒤면이 나올 확률은 분명히 존재함에도 $P(뒷면)=0$이 된다(MLE).&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Optimal Classification</summary></entry><entry><title type="html">Bayes Theroem</title><link href="http://localhost:4000/posts/2020/07/27/bayes_theorem" rel="alternate" type="text/html" title="Bayes Theroem" /><published>2020-07-27T00:00:00-07:00</published><updated>2020-07-27T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/27/bayes_theorem</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/27/bayes_theorem">&lt;h1 id=&quot;베이즈-정리bayes-theorem&quot;&gt;베이즈 정리(Bayes Theorem)&lt;/h1&gt;
-&lt;p&gt;머신러닝을 공부하면서 베이즈 정리에 대해 각잡고 정리한 적이 없었다. 여러 리소스에서 나오는 내용들을 보며 파편적으로 베이즈 정리를 이해하고 있었다. 그런데 베이즈 정리라는게 참 특이하게 자료마다 다르게 설명한다. 크게 두 가지 정도 설명이 기억이 난다.&lt;/p&gt;
-
-&lt;p&gt;1&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;$P(B|A)$를 구하는 것이 불가능할 때, $P(A|B)$와 $P(B)$를 활용하여 $P(B|A)$를 구하기 위한 것&lt;/p&gt;
-
-  &lt;p&gt;한양대학교 이상화 교수님 확률 및 통계 수업 1강&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;2&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;우리가 가지는 견해(예를 들어, 북극의 얼음은 a속도로 녹는다)에 관측 데이터를 추가하여 우리의 견해를 수정해나갈 수 있도록 해주는 것&lt;/p&gt;
-
-  &lt;p&gt;PRML&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;위 두 내용이 같은 개념을 설명하기 위한 것임을 이해하기는 쉽지 않다. 그래서 베이즈 정리는 볼 때 마다 새롭고, 처음 보는 기분이 들었다.&lt;/p&gt;
-
-&lt;p&gt;이런 애매모호함을 타파하기 위해 베이즈 정리를 정리해봤다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;베이즈 정리는 &lt;strong&gt;사후확률(posterior probability)을 사전확률(prior probability)과 likelihood를 이용해서 계산할 수 있도록 해주는 확률 변환식&lt;/strong&gt;이다.&lt;/p&gt;
-
-&lt;p&gt;수식으로 표현하면 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)={P(X|Y)P(Y)\over P(X)}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$P(Y|X)$ : 사후확률. 사건이 발생한 후 그 사건이 특정 모델에서 발생했을 확률&lt;/li&gt;
-  &lt;li&gt;$P(X|Y)$ : likelihood. 어떤 모델에서 해당 데이터(관측치)가 나올 확률&lt;/li&gt;
-  &lt;li&gt;$P(Y)$ : 사전확률. 관측자가 관측을 하기 전에 시스템 또는 모델에 대해 가지고 있는 선험적 확률&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;베이즈 정리를 이해했고, 나를 헷갈리게 했던 두 가지 설명도 명확히 이해했는지 확인하기 위해 예를 들어 보자.&lt;/p&gt;
-
-&lt;p&gt;당신은 압정을 던져 어떤 면이 나오는지 맞추는 도박에 참가하였다. 이 도박에서 이기기 위해서는 앞면이 나올 확률을 정확히 파악해야 한다. 당신은 믿을만한 도박 전문가로부터 앞, 뒤가 나올 확률은 동등하게 0.5라는 조언을 얻었으며, 5회의 실험을 통해 앞면이 3번 나왔고, 뒷면이 2번 나왔다. 이 때, 앞면이 나올 확률은 얼마인가?&lt;/p&gt;
-
-&lt;p&gt;우리가 구하고자 하는 것은 앞면이 나올 확률인 $\theta$다. 도박 전문가에게 얻은 조언은 사전확률이라고 할 수 있으며, 실험 $D$의 결과로 likelihood를 계산해낼 수 있다. 이 두 가지 정보를 바탕으로 우리는 사후확률 $P(\theta|D)$를 계산할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;1번 설명은 앞면이 나올 확률인 $\theta$를 알 수 없으니 관측을 통한 결과로부터 likelihood를 구하고, 도박 전문가로부터 조언을 얻어(사전확률) $\theta$를 계산해낼 수 있다는 내용이다.&lt;/p&gt;
-
-&lt;p&gt;2번 설명은 사전확률에 조금 더 초점을 맞춰 설명한다. 도박 전문가에게 앞면이 나올 확률(사전확률)이 0.5라는 조언을 얻었지만 이 내용을 완전히 믿을 수는 없으므로, 관측치를 기반으로 해당 확률을 수정해나간다는 내용이다.&lt;/p&gt;
-
-&lt;p&gt;결국 1번, 2번 설명이 사실은 같은 개념에 대한 것이지만 다르게 느껴졌던 이유는 서로 다른 부분에 집중해 설명했기 때문이다. 사후확률, 사전확률, likelihood의 관계를 명확히 파악하면 앞으로 이 개념 때문에 헷갈릴 일은 없을 것 같다.&lt;/p&gt;
-
-&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://darkpgmr.tistory.com/119&quot;&gt;다크프로그래머 베이지언 확률(Bayesian Probability)&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">베이즈 정리(Bayes Theorem) 머신러닝을 공부하면서 베이즈 정리에 대해 각잡고 정리한 적이 없었다. 여러 리소스에서 나오는 내용들을 보며 파편적으로 베이즈 정리를 이해하고 있었다. 그런데 베이즈 정리라는게 참 특이하게 자료마다 다르게 설명한다. 크게 두 가지 정도 설명이 기억이 난다.</summary></entry><entry><title type="html">02 Fundamentals of Machine Learning</title><link href="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning" rel="alternate" type="text/html" title="02 Fundamentals of Machine Learning" /><published>2020-07-26T00:00:00-07:00</published><updated>2020-07-26T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/26/02_Fundamentals_of_Machine_Learning">&lt;h1 id=&quot;rule-based-learning&quot;&gt;Rule-based Learning&lt;/h1&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/oNTXMgqCv6E&quot;&gt; &lt;/iframe&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/gmKvXBBawmk&quot;&gt; &lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;완벽한 세상&lt;/strong&gt;에서만 잘 작동된다.
-    &lt;ol&gt;
-      &lt;li&gt;관측 에러가 없으며, 일관적이지 않은 관측 또한 없다.&lt;/li&gt;
-      &lt;li&gt;랜덤(stochastic) 이벤트가 발생하지 않는다.&lt;/li&gt;
-      &lt;li&gt;모든 경우의 수를 다 설명할 수 있는 수준의 많은 데이터를 확보했다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;decision-tree&quot;&gt;Decision Tree&lt;/h1&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/dPP60RSEBek&quot;&gt; &lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;error가 있는 데이터에 통계적 기법을 가미해 학습을 할 수 있는 가장 간단한 방법이 Decision Tree&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;기준이 되는 피처를 정해 데이터셋을 나누고, 나눠진 각각에 대해 다시 피처를 정해 데이터셋을 나누는 작업을 반복해 분류 작업을 수행&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;어떤 피처를 선택할지 결정하기 위해 &lt;strong&gt;Entropy, Information Gain&lt;/strong&gt; 개념 도입&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;entropy&quot;&gt;Entropy&lt;/h2&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/kG-IVxyUAUM&quot;&gt; &lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;확률 변수의 불확실성을 측정하기 위한 지표
-    &lt;ul&gt;
-      &lt;li&gt;ex 1) 압정 A를 반복해서 던졌는데, 계속 Head만 나왔다 -&amp;gt; 불확실성이 낮다.&lt;/li&gt;
-      &lt;li&gt;ex 2) 압정 B를 반복해서 던졌는데, Head와 Tail이 반씩 나왔다. -&amp;gt; 불확실성이 높다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;높은 엔트로피는 그 확률 변수가 높은 불확실성을 지니고 있음을 뜻한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;H(X)=-\sum_xP(X=x)log_2P(X=x)&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;압정 던지기 게임의 경우 $x$는 Head, Tail이 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;conditional-entropy&quot;&gt;Conditional Entropy&lt;/h3&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-H(Y|X) &amp;=&amp; -\sum_xP(X=x)log_2H(Y|X=x)\\
-	        &amp;=&amp; -\sum_xP(X=x)\{-\sum_yP(Y=y|X=x)log_2P(Y=y|X=x)\}
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;information-gain&quot;&gt;Information Gain&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475631-b9de6980-cf6c-11ea-828f-b28eb23260f5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;먼저 전체 엔트로피를 측정해보자.
-    &lt;ul&gt;
-      &lt;li&gt;위에서 정의한 엔트로피 공식을 그대로 사용하면 된다.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-          H(Y) &amp;=&amp; -\sum_{y\in\{+, -\}}P(Y=y)log_2P(Y=y)\\
-          &amp;=&amp; -{307\over307+383}log_2{307\over307+383}-{383\over307+383}log_2{383\over307+383}
-\end{matrix} %]]&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이번에는 A1, A9이라는 조건을 주고 엔트로피를 측정해보자.
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Conditional Entropy 공식을 사용하면 된다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;$H(Y|A_1)=-\sum_{x\in{a, b, ?}}\sum_{y\in{+, -}}P(A_1=x|Y=y)log_2{P(A_1=x)\over P(A_1=x|Y=y)}$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;$H(Y|A_9)=-\sum_{x\in{t,f}}\sum_{y\in{+, -}}P(A_9=x|Y=y)log_2{P(A_9=x)\over P(A_9=x|Y=y)}$&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;우리는 각 노드들의 엔트로피를 구할 수 있으며, 이를 통해 불확실성이 얼마나 개선되었는지를 측정할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$IG(Y, A_i)=H(Y)-H(Y|A_i)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$IG(Y, A_9)&amp;gt;IG(Y, A_1)$ 임을 알 수 있다. 즉, $A_9$를 기준으로 나눌 때 불확실성이 더 많이 개선된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;size-of-tree&quot;&gt;Size of Tree&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;분기 작업을 반복하면 거대한 트리를 만들 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;하지만 트리가 너무 거대해지면 학습 데이터셋에는 잘 작동하지만 테스트 데이터셋에서는 잘 작동하지 않는 오버피팅 문제가 발생한다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475630-b8ad3c80-cf6c-11ea-8e6b-778e3f5054d3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;강의에서는 Decision Tree를 Rule-based 기법의 하나로 소개하며, 오버피팅 문제 때문에 실제 상황에서는 많이 사용하지 않는다고 소개함.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;linear-regression&quot;&gt;Linear Regression&lt;/h1&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/70tDiv30WrM&quot;&gt; &lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;이제부터 본격적으로 통계를 활용한 머신러닝 기법들이 나옴&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Linear Regression은 많은 머신러닝 기법들에 영향을 미친 중요한 기법&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;강의에서는 주택 가격 예측 데이터셋을 활용한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;가정 : 주택 가격은 feature values의 linearly weighted sum으로 표현할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}(x;\theta)=\sum_{i=0}^{n}\theta_ix_i&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n$ : feature의 수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;결국 Linear Regression은 $\theta$를 잘 조정해서 좋은 결과를 내도록 하는 것&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;수식을 행렬로 표현할 수 있다.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-X=\begin{bmatrix}
-          1 &amp; \cdots &amp; x_n^1 \\
-          \vdots &amp; \ddots &amp; \vdots \\
-          1 &amp; \cdots &amp; x_n^D
-          \end{bmatrix}, 
-      \theta=\begin{bmatrix}
-                  \theta_0 \\
-                  \vdots \\
-                  \theta_n 
-                  \end{bmatrix} %]]&gt;&lt;/script&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}=X\theta&lt;/script&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\hat{f}$는 예측값이고, 실제값은 다음과 같이 노이즈를 포함시켜 정의한다.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;$f=X\theta+e=Y$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Linear Regression의 목표는 실제값과 예측값의 차이를 최소화하는 것이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-\hat{\theta} &amp;=&amp; argmin_\theta(f-\hat{f})^2 \\
-	        &amp;=&amp; argmin_\theta(Y-X\theta)^2 \\
-	        &amp;=&amp; argmin_\theta(Y-X\theta)^T(Y-X\theta) \\
-	        &amp;=&amp; argmin_\theta (\theta^TX^TX\theta-2\theta^TX^TY+Y^TY) \\
-	        &amp;=&amp; argmin_\theta (\theta^TX^TX\theta-2\theta^TX^TY)
-\end{matrix} %]]&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;미분을 통해 극점을 찾는 방식으로 최적화시킬 것이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla_\theta(\theta^TX^TX\theta-2\theta^TX^TY)=0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2X^TX\theta-2X^TY=0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta=(X^TX)^{-1}X^TY&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$X, Y$ 모두 아는 값이므로 $\theta$를 구할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아래 그림은 feature를 하나만 사용하여 예측을 해본 것이다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475629-b814a600-cf6c-11ea-8365-2b819a6c3bfb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;non-linearity&quot;&gt;Non-Linearity&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Linear Regression은 선형이라는 한계 때문에 표현할 수 없는 부분이 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x$값에 non linearity를 부여해 조금 더 표현력이 높은 모델을 만들 수도 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;h:\hat{f}(x;\theta)=\sum_{i=0}^n\sum_{j=1}^m\theta_{i,j}\Phi_j(x_i)&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;위 식에서는 $\Phi$라는 non-linear function을 사용해 $x_i$를 변형시킨다. $\Phi$로 $x^2, x^3, x^4, …$ 등을 사용할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88475627-b4811f00-cf6c-11ea-80b4-4fbfacf068c6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;위 그림은 $x^2, x^3, …, x^9$까지 포함하여 나타낸 것이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;주어진 데이터를 더 잘 표현한 것으로 볼 수도 있으나, Decision Tree에서 주어진 데이터를 잘 표현하기 위해 노드를 늘리는 것이 오버피팅 문제를 일으키듯이, 무작정 non-linearity를 부여하는 것도 오버피팅 문제를 일으킬 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Rule-based Learning</summary></entry><entry><title type="html">01 Motivations and Basics</title><link href="http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics" rel="alternate" type="text/html" title="01 Motivations and Basics" /><published>2020-07-25T00:00:00-07:00</published><updated>2020-07-25T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/25/01_Motivations_and_Basics">&lt;iframe src=&quot;https://www.youtube.com/embed/3AwO0O6hWBI&quot;&gt; &lt;/iframe&gt;
-
-&lt;h1 id=&quot;thumbtack-question&quot;&gt;Thumbtack Question&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;당신은 백만장자에게 고용되었다. 백만장자는 압정을 던져 앞면이 나오는가 뒷면이 나오는가를 맞추는 도박을 하려고 하는데, 이것을 해도 손해는 보지 않을지 고민이 되어 당신을 고용하였다. 백만장자를 위해 &lt;strong&gt;압정 던지기 게임&lt;/strong&gt;과 그와 관련된 &lt;strong&gt;확률 이론&lt;/strong&gt;을 공부해보자.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;압정 던지기 게임에서 이기기 위해서는 앞면, 뒷면이 나올 확률을 정확하게 알아야 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;압정은 앞, 뒤가 다르게 생겨 각각이 나올 확률이 p, 1-p이다.  p=0.5가 아니라는 점에서 동전 던지기 게임과는 다르다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;1-tossing&quot;&gt;1. Tossing&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;이러한 문제를 해결하기 위해 가장 쉽게 떠올릴 수 있는 방법은 압정을 던져보는 것이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;당신은 백만장자 앞에서 압정을 다섯 번 던졌다. 그 결과 앞면이 세 번 나왔고, 뒷면이 두 번 나왔다.(HHTHT)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;실험의 결과에 따르면, 앞면이 나올 확률은 0.6이고, 뒷면이 나올 확률은 0.4이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;결과는 다음 두 이론을 바탕으로 하고 있다.&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;https://blanik00.github.io/posts/2020/05/21/bern_bin&quot;&gt;Binomial Distribution&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://blanik00.github.io/posts/2020/05/03/maximum_likelihood_estimation&quot;&gt;MLE(Maximum Likelihood Estimation)&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;p&gt;우리는 압정 던지기 게임의 결과가 Binomial Distribution을 따른다는 것을 가정한다. 이 때, 압정의 특이한 모양에 의해 형성된 앞면이 나올 확률을 $\theta$라고 하자.&lt;/p&gt;
-
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;P(HHTHT)=\theta\theta(1-\theta)\theta(1-\theta)=\theta^3(1-\theta)^2&lt;/script&gt;
-
-    &lt;p&gt;이를 일반화 시켜 확률 $\theta$가 주어졌을 때 데이터 $D$가 나올 확률은 다음과 같다.&lt;/p&gt;
-
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;P(D|\theta)=\theta^{a_H}(1-\theta)^{a_T}&lt;/script&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;$a_H$ : $D$에서 앞면이 나온 횟수&lt;/li&gt;
-      &lt;li&gt;$a_T$ : $D$에서 뒷면이 나온 횟수&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;우리는 앞서 압정 던지기 게임의 결과가 Binomial Distribution을 따른다는 것을 가정했다. 그렇다면 어떻게 하면 이 가정을 더 강화할 수 있을까?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-mle&quot;&gt;2. MLE&lt;/h2&gt;
-
-&lt;p&gt;우리는 가정을 강화하기 위해  데이터의 분포를 가장 잘 설명하는 $\theta$를 찾는 것에 집중할 것이다.&lt;/p&gt;
-
-&lt;p&gt;이 목적을 위해 고려할 수 있는 방법이 MLE이다. 이 방법은 관측된 데이터가 등장할 확률을 최대화하는 $\hat{\theta}$를 찾는다. 수식으로 표현하면 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-\hat{\theta} &amp;=&amp; argmax_{\theta}P(D|\theta) \\
-       &amp;=&amp; argmax_{\theta}\theta^{a_H}(1-\theta)^{a_T} \\
-       &amp;=&amp; argmax_{\theta}ln\{\theta^{a_H}(1-\theta)^{a_T}\} \\
-       &amp;=&amp; argmax_{\theta}\{a_Hln\theta+a_Tln(1-\theta)\} \\
-\end{matrix} %]]&gt;&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;{d\over d\theta}\{a_Hln\theta+a_Tln(1-\theta)\}=0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;{a_H\over\theta}-{a_T\over 1-\theta}=0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta={a_H\over a_T+a_H}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\theta}={a_H\over a_T+a_H}&lt;/script&gt;
-
-&lt;h2 id=&quot;3-more-tossing&quot;&gt;3. More Tossing&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;당신이 이 내용을 백만장자에게 설명하는 동안 백만장자는 압정을 50번 더 던졌다. 그 결과 앞면이 30번, 뒷면이 20번 나왔다. 호기심이 많은 백만장자는 5번을 던져서 3번 앞면이 나온 것과 50번을 던져서 30번 앞면이 나온 것이 동일한 것인지 물어봤다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;우리가 MLE를 통해서 한 것은 결국 모수인 $\theta$를 추정하는 $\hat{\theta}$을 구한 것이다. 추정값은 어쩔 수 없이 오차를 가지고 있는데, 여러 번 실험을 해보는 백만장자의 시도로 추정의 오차를 줄일 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;오차를 측정하는 방법으로 Hoeffding’s Inequaility를 사용한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Hoeffding’s Inequaility
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;$P(|\hat{\theta}-\theta^* |\ge \epsilon)\le2e^{-2N\epsilon^2}$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;즉, 추정값과 실제값의 차이가 $\epsilon$보다 작을 확률은 $2e^{-2N\epsilon^2}$보다 작거나 같다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;수식에 영향을 미치는 변수는 두 가지가 있다.&lt;/p&gt;
-
-        &lt;ol&gt;
-          &lt;li&gt;
-            &lt;p&gt;$\epsilon$ : error bound인 $\epsilon$이 커지면 우변의 값이 작아져 추정값과 실제값의 차이가 error bound보다 커질 확률은 적어진다. 당연한 얘기다.&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;$N$ : 마찬가지로 시행 횟수인 $N$이 커지면 우변의 값이 작아져 추정값과 실제값의 차이가 error bound보다 커질 확률은 적어진다.&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;이 원리를 이용하면 error bound를 0.1로 잡았을 때, 몇 번의 시행을 해야 에러가 발생할 확률이 0.01% 이하로 떨어지는가? 등과 같은 계산을 할 수 있다. (error bound를 0.1로 고정시키고 우변이 0.01 이하로 떨어질 때 까지 $N$을 늘리면 된다)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;이러한 것을 PAC(Probably Approximate Correct) learning이라고 한다.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;그렇기 때문에 시행 횟수인 $N$을 늘린 백만장자의 시도는 에러가 발생할 확률을 줄여준다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/LbYCQxKAv2E&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;4-bayes&quot;&gt;4. Bayes&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bayes라는 사람이 찾아왔다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그는 지금까지의 실험을 보며 앞면이 나올 확률이 정말로 60%일 것인지 의심해봐야 한다고 주장했다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그러면서 앞면과 뒷면이 나올 확률이 동등하게 0.5가 아닐까하며 백만장자를 설득했다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;백만장자는 처음엔 0.5일 것이라고 생각은 했었는데, 실험을 해보니 그게 아니었다고 말한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;베이즈는 때를 놓치지 않고 백만장자의 사전 정보(앞뒤 확률이 같을 것이라는 것)를 파라미터를 추정하는 과정에 반영시킬 수 있다고 말한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;베이즈는 다음과 같은 공식을 제안했다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(\theta|D)={P(D|\theta)P(\theta) \over P(D)}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;다음과 같이  표현할 수도 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Posterior={Likelihood \times Prior\;Knowledge \over Normalizing\;Constant}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;앞과 뒤가 나올 확률이 나올 확률이 0.5로 동일할 것이라는 백만장자의 생각은 Prior Knowledge에 들어간다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$P(D|\theta)=\theta^{a_H}(1-\theta)^{a_T}$로 이미 구해두었으며, Prior Knowledge는 사전 지식이므로 $P(\theta|D)$를 바로 계산할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;사실 $P(D)$는 이미 주어진 사실이므로, 이것이 발생할 확률은 정해져 있다. 즉, $\theta$에 영향을 받지 않는다. 그래서 보통 $P(D)$를 빼고 다음과 같은 식을 계산한다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(D)\propto P(D|\theta)P(\theta)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(D|\theta)=\theta^{a_H}(1-\theta)^{a_T}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(\theta)=???&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;그렇다면 $P(\theta)$는 어떻게 표현할 수 있을까?
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;$P(D|\theta)$는 Binomial Distribution을 따른다고 가정하고 계산했다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;이처럼 $P(\theta)$도 특정 분포를 따른다고 가정하고 계산해야 한다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;여러가지 방법이 있는데 베이즈는 베타 분포를 제안했다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;베타 분포는 특정 범위에 있는 값을 0과 1 사이의 실수로 만들어 주기 때문에 확률로 사용하기 좋다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;베타 분포에 따르면 $P(\theta)$는 다음과 같이 표현할 수 있다.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(\theta)={\theta^{\alpha-1}(1-\theta)^{\beta-1} \over B(\alpha, \beta)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;B(\alpha, \beta)={\Gamma(\alpha)\Gamma(\beta)\over \Gamma(\alpha+\beta)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma(\alpha)=(\alpha-1)!&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(D)\propto P(D|\theta)P(\theta)\propto \theta^{a_H}(1-\theta)^{a_T}\theta^{\alpha-1}(1-\theta)^{\beta-1}&lt;/script&gt;
-
-&lt;p&gt;($P(\theta|D)={P(D|\theta)P(\theta) \over P(D)}$의 $P(D)$, $P(\theta)={\theta^{\alpha-1}(1-\theta)^{\beta-1} \over B(\alpha, \beta)}$의 $B(\alpha, \beta)$는 $\theta$에 영향을 받는 요소가 아니라서 제거하였다.)&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;=\theta^{a_T\alpha-1}(1-\theta)^{a_T+\beta-1}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;MLE에서는 $\hat{\theta}=argmax_{\theta}P(D|\theta)$를 찾는 것이 문제였다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이번에 할 것은 MAP이며, $\hat{\theta}=argmax_{\theta}P(\theta|D)$를 구하는 문제이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;앞에서 $P(D)\propto \theta^{a_H}(1-\theta)^{a_T}\theta^{\alpha-1}(1-\theta)^{\beta-1}$인 것을 배웠다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;MLE에서 최적값을 구했던 것과 같은 방법으로 구해보면 $\hat{\theta}$은 다음과 같다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\theta}={a_H+\alpha-1\over a_H+\alpha+a_T+\beta-2}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;문제를 바라보는 관점에서 차이가 있는 것이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mle-vs-map&quot;&gt;MLE vs MAP&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;그렇다면 어떤 방법이 더 좋은 것일까?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;사실 두 방법은 시행 횟수가 아주 많을 때 같아진다. MAP에 있는 $\alpha$, $\beta$는 $a_T$, $a_H$가 커짐에 따라 그 영향력이 작아지기 때문이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;반대로 시행 횟수가 적은 상황에서는 사전 정보가 중요한 영향을 미치게 된다. 사전 정보인 $\alpha$, $\beta$을 어떻게 설정하느냐에 따라 MAP의 성능이 MLE보다 좋을 수도 있고, 나쁠 수도 있다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Chi Square, T, F Distribution</title><link href="http://localhost:4000/posts/2020/07/05/chisq_t_f" rel="alternate" type="text/html" title="Chi Square, T, F Distribution" /><published>2020-07-05T00:00:00-07:00</published><updated>2020-07-05T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/05/chisq_t_f</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/05/chisq_t_f">&lt;iframe src=&quot;https://www.youtube.com/embed/DyBxYsCow9k&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;chi-square-distribution&quot;&gt;Chi-Square Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;iid인 표준 정규 분포가 n개 있다.($Z_1, Z_2, …, Z_n$)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Z=Z_1^2+ Z_2^2+ …+ Z_n^2$는 카이제곱 분포를 따른다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Z\sim \chi^2(v)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;파라미터인 $v$는 자유도를 뜻하며, 카이제곱 분포를 형성할 때 더한 표준 정규 분포의 갯수를 뜻한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;카이제곱 분포의 PDF&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525674-3e395180-bec5-11ea-9a1c-78a13c8d4c3a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$E[X]=v,\;V[X]=2v$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\alpha=v/2, \lambda=2$인 특별한 형태의 감마분포이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;표준 정규 분포가 표준 정규 분포표를 가지고 있듯이, 카이제곱 분포도 카이제곱 분포표를 가지고 있다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sampling-distribution-of-sample-variance&quot;&gt;Sampling Distribution of Sample Variance&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\mu$는 모평균이다.
- $\chi^2(n)=\sum_{i=1}^{n}(X_i-\mu)^2/\sigma^2$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\bar{X}$는 표본 평균이다. 표본 평균으로 추정을 했으므로 알고 있는 것이다. 그래서 $n$개 중에서 하나(표본 평균)는 이미 정해진 값이고, 나머지 $n-1$개는 자유롭게 정해질 수 있는 값이다. 그래서 자유도가 $n-1$이다.
- $\chi^2(n-1)=\sum_{i=1}^{n}(X_i-\bar{X})^2/\sigma^2$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;자유도보충설명&quot;&gt;자유도(보충설명)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;자유도를 명확하게 배우기는 쉽지 않다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;많이 접하면서 감을 잡을 수 밖에 없다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$X_1=2, X_2=3, X_3=4, X_4=5, X_5=?$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sum_{i=1}^{5}X_i=20$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;위 두 조건을 만족할 때, $X_5$는 얼마인가?&lt;/p&gt;
-
-&lt;p&gt;$\sum_{i=1}^{4}X_i=14$이므로 $X_5$는 6이 될 수 밖에 없다.&lt;/p&gt;
-
-&lt;p&gt;이 문제에서 자유도는 얼마일까?&lt;/p&gt;
-
-&lt;p&gt;문제에서 자유롭게 정해질 수 있는 값은 $X_1, X_2, X_3, X_4$이며, $X_5$는 나머지 값들에게 종속된다. 그러므로 자유도는 4이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;sampling-distribution-of-sample-variance---example&quot;&gt;Sampling Distribution of Sample Variance - Example&lt;/h2&gt;
-&lt;p&gt;$N(\mu=15,\mu^2=100)$인 모집단으로부터 독립적이고 동일하게(iid) 25개의 샘플을 뽑았다($X_1, X_2, …, X_{25}$). 이 때 $Y=(n-1)S^2/\sigma^2$는 $\chi^2(24)$를 따른다(자유도는 24). 즉, $P[Y&amp;gt;\chi^2_{\alpha,24}]=\alpha$라고 할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;$P[S^2&amp;gt;c]=0.95$일 때 c의 값을 구하라.&lt;/p&gt;
-
-&lt;p&gt;$S^2$의 분포를 바로 파악하기 힘드므로 양 변에 $(n-1)$을 곱하고, $\sigma^2$으로 나눈다. 즉, $P[(n-1)S^2/\sigma^2&amp;gt;(n-1)c/\sigma^2]=0.95$을 만족하는 c를 찾으면 된다.&lt;/p&gt;
-
-&lt;p&gt;$P[Y&amp;gt;24c/100]=0.95$&lt;/p&gt;
-
-&lt;p&gt;카이제곱 분포표에서 $n$ 24이고, $\alpha$가 0.95인 것을 찾으면 $24c/100=13.848$이 된다. $c=57.7$&lt;/p&gt;
-
-&lt;h2 id=&quot;t-distribution&quot;&gt;t Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Z\sim N(0,1)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Y\sim \chi^2(v)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;T={Z\over\sqrt{Y/v}}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$T$ 통계량은 자유도가 $v$인 t-분포(t-distribution)를 따른다.($t(v)$로 표기)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;카이제곱 분포의 자유도가 그대로 t-분포의 자유도가 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;t-분포의 기댓값은 0이고, 이를 기준으로 좌우 대칭이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;표준정규분포보다 긴 꼬리를 가지고 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기댓값을 기준으로 좌우 대칭이라는 특성 때문에 아래 수식을 만족한다.
-$P[T&amp;lt;-t_{\alpha, v}]=P[T&amp;gt;t_{\alpha, v}]=\alpha$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525673-3d082480-bec5-11ea-8154-a9d041a0a4df.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;오른쪽 그림에서 알 수 있듯이 표준 정규 분포보다 긴 꼬리를 가지고 있다.&lt;/p&gt;
-
-&lt;p&gt;왼쪽 그림에서 알 수 있듯이 자유도가 작을수록 긴 꼬리를 가진다.&lt;/p&gt;
-
-&lt;h3 id=&quot;t-분포-조금-더-자세히&quot;&gt;t-분포 조금 더 자세히&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$N(\mu,\sigma^2)$에서 표본 $n$개를 추출한다($X_1, X_2, …, X_n$).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Z=\bar{X}-\mu/(\sigma/\sqrt{n})$이므로 $N(0,1)$을 따른다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Y=(n-1)S^2/\sigma^2$이므로 $\chi^2(n-1)$을 따른다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;T={Z\over\sqrt{Y/v}}={\bar{X}-\mu/(\sigma/\sqrt{n})\over\sqrt{((n-1)S^2/\sigma^2)/(n-1)}}={\bar{X}-\mu\over S/\sqrt{n}}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이 때, $T$는 자유도가 $n-1$인 t-분포를 따른다.($T\sim t(n-1)$)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;신기하게도 $T$ 통계량과 표준 정규 분포는 매우 닮았다. 다른 점이 있다면 표준 정규 분포에서는 $\sigma$(모표준편차)가 사용되고, $T$ 통계량에서는 $S$(표본표준편차)가 사용된다는 점이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;그래서 모집단의 표준편차를 알고 있을 때는 표준 정규 분포로 표현하면 되고, 모집단의 표준 편차를 모른다면 t-분포로 표현하면 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;t-distribution---example&quot;&gt;t Distribution - Example&lt;/h2&gt;
-&lt;p&gt;$N(\mu=15,\mu^2=100)$인 모집단으로부터 독립적이고 동일하게(iid) 25개의 샘플을 뽑았다($X_1, X_2, …, X_{25}$).&lt;/p&gt;
-
-&lt;p&gt;$T={\bar{X}-\mu\over S/\sqrt{n}}$이고, 이는 $t(v=24)$를 따른다.&lt;/p&gt;
-
-&lt;p&gt;$P[T&amp;lt;-t_{\alpha, 24}]=P[T&amp;gt;t_{\alpha, 24}]=\alpha$&lt;/p&gt;
-
-&lt;p&gt;$P[T &amp;lt; c]=0.05$인 $c$를 구하라.&lt;/p&gt;
-
-&lt;p&gt;$t$분포 테이블에서 자유도가 24이고, $\alpha$가 0.05인 것을 찾으면 1.711이다. $c$보다 작을 확률이므로 $c=-1.711$이 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;f-distribution&quot;&gt;F Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Y_1=\chi^2(v_1)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Y_2=\chi^2(v_2)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;F={Y_1/v_1\over Y_2/v_2}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이렇게 정의되는 것을 F통계량이라고 하고, 이는 F 분포를 따른다. F분포는 $v_1, v_2$ 두 개의 자유도를 가지며, $F(v_1, v_2)$로 표기한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;F 테이블이 있어 확률값을 쉽게 구할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$P[F&amp;gt;f_a(v_1,v_2)]=f_{1-\alpha}(v_1, v_2)={1\over f_{\alpha}(v_2,v_1)}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/86525671-39749d80-bec5-11ea-9663-a8bc3cacb227.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;f-distribution---example&quot;&gt;F Distribution - Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;모집단 1 : $N(\mu_1=4,\sigma_1^2=16)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;모집단 2 : $N(\mu_2=12,\sigma_2^2=48)$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;모집단 1로부터 동일하고 독립적인 $n_1=15$개의 샘플을 추출하고, 모집단 2로부터 동일하고 독립적인 $n_2=10$개의 샘플을 추출한다.&lt;/p&gt;
-
-&lt;p&gt;$F={S_1^2/\sigma_1^2\over S_2^2/\sigma_2^2}$는 $F(14,9)$를 따른다.&lt;/p&gt;
-
-&lt;p&gt;이 때 $P[S_1^2/S_2^2\le c]=0.05$일 때, c를 구하라.&lt;/p&gt;
-
-&lt;p&gt;$P[S_1^2/S_2^2\le c]=P[S_1^2\sigma_2^2/S_2^2\sigma_1^2\le (\sigma_2^2/\sigma_1^2)c]=P(F&amp;lt;3c)=0.05$&lt;/p&gt;
-
-&lt;p&gt;$P[F&amp;gt;f_{0.95}(14,9)]=0.95$&lt;/p&gt;
-
-&lt;p&gt;$P[F\le f_{0.95}(14,9)]=0.05$&lt;/p&gt;
-
-&lt;p&gt;$3c=f_{0.95}(14,9)=1/f_{0.05}(9,14)=1/2.65$&lt;/p&gt;
-
-&lt;p&gt;$c=0.1258$&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Sample Distribution</title><link href="http://localhost:4000/posts/2020/06/27/sample_distribution" rel="alternate" type="text/html" title="Sample Distribution" /><published>2020-06-28T00:00:00-07:00</published><updated>2020-06-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/06/27/Sample%20Distribution</id><content type="html" xml:base="http://localhost:4000/posts/2020/06/27/sample_distribution">&lt;iframe src=&quot;https://www.youtube.com/embed/EjQq2s9C9Sc&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;population-sample&quot;&gt;Population, Sample&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Population : 전체(모집단)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sample : 부분(모집단의 부분집합, 표본)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sampling&quot;&gt;Sampling&lt;/h2&gt;
-&lt;p&gt;모집단에서 표본을 추출하는 작업을 의미&lt;/p&gt;
-
-&lt;h3 id=&quot;표기&quot;&gt;표기&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Mean&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Variance&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Population&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\mu$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sigma^2$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Sample&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\bar{X}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$S^2$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;statistic통계량&quot;&gt;Statistic(통계량)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Statistic : 샘플들의 함수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;통계량의 복수형인 Statistics를 통계학을 의미하는 Statistics와 혼동하기 쉽다. 문맥을 보고 파악하면 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;통계학에서 배우는 가장 중요한 함수가 세 가지 있다.
-    &lt;ul&gt;
-      &lt;li&gt;확률 변수(Random Variable)&lt;/li&gt;
-      &lt;li&gt;확률 함수(Probability Function)&lt;/li&gt;
-      &lt;li&gt;통계량(Statistic)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;대표적인 통계량은 다음과 같다.
-    &lt;ul&gt;
-      &lt;li&gt;$\bar{X}=(x_1+x_2+…+x_n)/n$&lt;/li&gt;
-      &lt;li&gt;$S^2={1\over n-1}\sum_{i=1}^{n}(x_1-\bar{X})^2$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sampling-distribution&quot;&gt;Sampling Distribution&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sampling Distribution : 통계량의 분포&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그렇다면 Sampling Distribution은 $\bar{X}$, $S^2$의 분포를 말한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;여기서 Sampling된 것들은 서로 독립이다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sampling-distribution-of-sample-mean&quot;&gt;Sampling Distribution of Sample Mean&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\bar{X}=(x_1+x_2+…+x_n)/n$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그렇다면 $\bar{X}$의 기댓값은 얼마일까&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$E[\bar{X}]=E[(x_1+x_2+…+x_n)/n]$&lt;/p&gt;
-
-&lt;p&gt;$=E[x_1]/n+E[x_2]/n+…+E[x_n]/n$&lt;/p&gt;
-
-&lt;p&gt;$=\mu/n+\mu/n+…+\mu/n$&lt;/p&gt;
-
-&lt;p&gt;$=n(\mu/n)=\mu$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;또한 $\bar{X}$의 분산은 얼마일까&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;$V[\bar{X}]=V[(x_1+x_2+…+x_n)/n]$&lt;/p&gt;
-
-&lt;p&gt;$=V[x_1]/n^2+V[x_2]/n^2+…+V[x_n]/n^2$&lt;/p&gt;
-
-&lt;p&gt;$=\sigma^2/n^2+\sigma^2/n^2+…+\sigma^2/n^2$&lt;/p&gt;
-
-&lt;p&gt;$=n(\sigma^2/n^2)=\sigma^2/n$&lt;/p&gt;
-
-&lt;h3 id=&quot;정규-분포를-예로-들어보자&quot;&gt;정규 분포를 예로 들어보자.&lt;/h3&gt;
-&lt;p&gt;모집단이 $N(\mu, \sigma^2)$를 따른다고 하자. 여기서 iid인 샘플 n개를 추출했다.($X_1$, $X_2$, …, $X_n$) 그렇다면 $\bar{X}$는 $N(\mu, \sigma^2/n)$를 따른다. 표준정규분포로 바꾸려면 $Z=(\bar{X}-\mu)/(\sigma/\sqrt{n})$로 두면 된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;central-limit-theorem중심극한정리&quot;&gt;Central Limit Theorem(중심극한정리)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;평균이 $\mu$이고 분산이 $\sigma^2$인 임의의 모집단에서 표본의 크기인 $n$이 충분히 크면($n\ge 30$), 표본 평균 $\bar{X}$는 근사적으로 정규분포 $N(\mu, \sigma^2/n)$를 따른다. (여기서 n은 한 표본 안에 들어있는 원소의 수를 뜻한다.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sampling-distribution-of-sample-mean---two-population&quot;&gt;Sampling Distribution of Sample Mean - Two Population&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;두 개의 독립적인 모집단의 평균의 차이를 알고 싶다. 하지만 모집단을 모두 파악하는 것은 불가능하다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;두 개의 모집단(어떤 분포를 따르든 상관 없다.)으로부터 샘플을 추출해 비교하는 방법을 취한다.
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Pop1. ($\mu_1$, $\sigma_1^2$) $\rightarrow$ $n_1$개 샘플링 $\rightarrow$ $\bar{X_1}$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Pop2. ($\mu_2$, $\sigma_2^2$) $\rightarrow$ $n_2$개 샘플링 $\rightarrow$ $\bar{X_2}$&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$\bar{X_1}-\bar{X_2}$의 기댓값과 분산을 보고 두 모집단의 차이를 확인할 수 있다.
-    &lt;ul&gt;
-      &lt;li&gt;$E[\bar{X_1}-\bar{X_2}]=E[\bar{X_1}]-E[\bar{X_2}]=\mu_1-\mu_2$&lt;/li&gt;
-      &lt;li&gt;$V[\bar{X_1}-\bar{X_2}]=V[\bar{X_1}]+V[\bar{X_2}]=\sigma_1^2/n_1+\sigma_2^2/n_2$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;즉, $\bar{X_1}-\bar{X_2}$는 $N(\mu_1-\mu_2, \sigma_1^2/n_1+\sigma_2^2/n_2)$를 따른다.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Optimal Classification</summary></entry></feed>
