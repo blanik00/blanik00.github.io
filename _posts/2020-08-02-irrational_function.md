@@ -1,9 +1,11 @@
 ---
 title: '무리함수(Irrational Function)'
 date: 2020-08-02
-permalink: /posts/2020/08/02/irrational_function
+permalink: /lecture/2020/08/02/irrational_function
 category:
-  - posts
+  - lecture
+tags:
+  - 수2
 ---
 
 ## 무리함수

@@ -1,4 +1,304 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-01T08:07:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">수학적 귀납법</title><link href="http://localhost:4000/posts/2020/08/05/mathematical_induction" rel="alternate" type="text/html" title="수학적 귀납법" /><published>2020-08-05T00:00:00-07:00</published><updated>2020-08-05T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/05/mathematical_induction</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/05/mathematical_induction">&lt;h2 id=&quot;수열의-귀납적-정의&quot;&gt;수열의 귀납적 정의&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-02T05:04:43-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">수열의 극한</title><link href="http://localhost:4000/lecture/2020/08/08/limit" rel="alternate" type="text/html" title="수열의 극한" /><published>2020-08-08T00:00:00-07:00</published><updated>2020-08-08T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/08/limit</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/08/limit">&lt;h2 id=&quot;infty-무한대&quot;&gt;$\infty$ 무한대&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;한없이 커지는 상태&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“상태”이기 때문에 숫자는 아님&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;$\infty\pm(숫자)=\infty$&lt;/li&gt;
+      &lt;li&gt;$\infty+\infty=\infty$&lt;/li&gt;
+      &lt;li&gt;$\infty\cdot (숫자)=\pm\infty$&lt;/li&gt;
+      &lt;li&gt;$\infty\cdot\infty=\infty$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;수렴&quot;&gt;수렴&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;수열 $a_n$의 $n$을 무한으로 만들 때, $a_n$이 무한이 되면 이를 발산한다고 한다. 반대로 특정 숫자가 되거나 아주 가까워지면 수렴한다고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}a_n=\alpha$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}c=c$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}{c\over n}=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}n^k=\infty$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;수열의-극한의-성질&quot;&gt;수열의 극한의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}a_n=\alpha, lim_{n\rightarrow \infty}b_n=\beta$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}ka_n=k\cdot lim_{n\rightarrow \infty}a_n=k\alpha$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}(a_n\pm b_n)=lim_{n\rightarrow \infty}a_n\pm lim_{n\rightarrow \infty}b_n=\alpha\pm\beta$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}(a_nb_n)=lim_{n\rightarrow \infty}a_nlim_{n\rightarrow \infty}b_n=\alpha\beta$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{n\rightarrow \infty}{a_n\over b_n}={lim_{n\rightarrow \infty}a_n\over lim_{n\rightarrow \infty}b_n}={\alpha\over\beta}\qquad(b_n\neq0,\beta\neq0)$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inftyoverinfty&quot;&gt;${\infty\over\infty}$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;(분자의 차수) = (분모의 차수)
+    &lt;ul&gt;
+      &lt;li&gt;최고차항의 계수의 비&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(분자의 차수) &amp;gt; (분모의 차수)
+    &lt;ul&gt;
+      &lt;li&gt;0(수렴)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(분자의 차수) &amp;lt; (분모의 차수)
+    &lt;ul&gt;
+      &lt;li&gt;발산&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;infty-infty&quot;&gt;$\infty-\infty$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;근호가 있는 부분을 유리화해 ${\infty\over\infty}$꼴로 만들어 해결&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;수열의-극한의-대소관계&quot;&gt;수열의 극한의 대소관계&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$a_n &amp;lt; c_n &amp;lt; b_n, lim_{n\rightarrow \infty}a_n=0, lim_{n\rightarrow \infty}b_n=0$이면 $lim_{n\rightarrow \infty}c_n=0$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열의-극한&quot;&gt;등비수열의 극한&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;공비($r$)만 잘 알고 있으면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$r=1\Rightarrow lim_{n\rightarrow \infty}r^n=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$-1 &amp;lt; r &amp;lt; 1\Rightarrow lim_{n\rightarrow \infty}r^n=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$r\le -1 \;또는\; r\ge 1\Rightarrow lim_{n\rightarrow \infty}r^n은\; 발산$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;등비수열의-일반항이-포함된-극한-inftyoverinfty&quot;&gt;등비수열의 일반항이 포함된 극한 ${\infty\over\infty}$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;거듭제곱의 절대값이 가장 큰 항 비교
+    &lt;ul&gt;
+      &lt;li&gt;$lim_{n\rightarrow \infty}{2\cdot3^n-2^n\over 3^n+2^n}=2$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;수렴-조건&quot;&gt;수렴 조건&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$r^n\Rightarrow -1 &amp;lt; r\le 1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ar^n\Rightarrow -1 &amp;lt; r\le 1, a=0$&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;$a=0$인 경우는 $-1 &amp;lt; r\le 1$이 아니더라도 반드시 0으로 수렴하므로 수렴 조건에 포함시켜야 함.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">$\infty$ 무한대 한없이 커지는 상태</summary></entry><entry><title type="html">로그</title><link href="http://localhost:4000/lecture/2020/08/07/log" rel="alternate" type="text/html" title="로그" /><published>2020-08-07T00:00:00-07:00</published><updated>2020-08-07T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/07/log</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/07/log">&lt;h2 id=&quot;로그의-정의&quot;&gt;로그의 정의&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a&amp;gt;0, a\neq 0,b&amp;gt;0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^x=b\Leftrightarrow x=log_ab$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a$를 밑, $b$를 진수라고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;로그의-성질&quot;&gt;로그의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_a1=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_aa=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_a(MN)=log_aM+log_aN$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_a{M\over N}=log_aM-log_aN$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_aM^r=rlog_aM$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_{a^x}M^y={y\over x}log_aM$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;로그의-밑의-변환&quot;&gt;로그의 밑의 변환&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$log_ab={log_cb\over log_ca}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;로그의-밑의-변환의-활용&quot;&gt;로그의 밑의 변환의 활용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_ab={1\over log_ba}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_ab\cdot log_ba=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_ab\cdot log_bc=log_ac$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^{log_bc}=c^{log_ba}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상용로그&quot;&gt;상용로그&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;밑이 10인 로그&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log_{10}N=logN$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log10^x=x$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log10=log2+log5$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log2=1-log5$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$log5=1-log2$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">로그의 정의 $a&amp;gt;0, a\neq 0,b&amp;gt;0$</summary></entry><entry><title type="html">지수</title><link href="http://localhost:4000/lecture/2020/08/06/exponent" rel="alternate" type="text/html" title="지수" /><published>2020-08-06T00:00:00-07:00</published><updated>2020-08-06T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/06/exponent</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/06/exponent">&lt;h2 id=&quot;a의-n제곱근-x&quot;&gt;a의 n제곱근 x&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a$ : 실수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$n$ : 2 이상의 자연수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x$ : $n$번 거듭 제곱하여 $a$가 되는 수($a$의 $n$제곱근)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x^n=a$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x^2=a$일 때 $x$는 $a$의 제곱근이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x^3=a$일 때 $x$는 $a$의 세제곱근이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x^5=a$일 때 $x$는 $a$의 5제곱근이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;근이-실수인-것&quot;&gt;근이 실수인 것&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=x^n, y=a$의 교점의 $x$좌표&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;$n$이 짝수일 때 다음과 같은 모양이다.
+  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89114145-3664d100-d4b4-11ea-96fd-28798e2d50b8.png&quot; alt=&quot;&quot; /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;$a&amp;gt;0$일 때 두 개의 해를 가진다.($\sqrt[n]{a}, -\sqrt[n]{a}$)&lt;/li&gt;
+          &lt;li&gt;$a=0$일 때 한 개의 해를 가진다.($0$)&lt;/li&gt;
+          &lt;li&gt;$a&amp;lt;0$일 때 해가 없다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$n$이 홀수일 때 다음과 같은 모양이다.($\sqrt[n]{-a}=-\sqrt[n]{a}\;\;(a&amp;gt;0)$)
+  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89114146-36fd6780-d4b4-11ea-89f8-fda5ba49c36b.png&quot; alt=&quot;&quot; /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;$a&amp;gt;0$일 때 한 개의 해를 가진다.($\sqrt[n]{a}$)&lt;/li&gt;
+          &lt;li&gt;$a=0$일 때 한 개의 해를 가진다.($0$)&lt;/li&gt;
+          &lt;li&gt;$a&amp;lt;0$일 때 한 개의 해를 가진다.($-\sqrt[n]{a}$)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;거듭제곱근의-성질&quot;&gt;거듭제곱근의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a&amp;gt;0,b&amp;gt;0$, $n,m$은 2 이상의 자연수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(\sqrt[n]{a})^n=\sqrt[n]{a^n}=a$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(\sqrt[n]{a})^m=\sqrt[n]{a^m}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sqrt[n]{a}\sqrt[n]{b}=\sqrt[n]{ab}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;${\sqrt[n]{a}\over \sqrt[n]{b}}=\sqrt[n]{a\over b}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sqrt[m]{\sqrt[n]{a}}=\sqrt[mn]{a}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sqrt[np]{a^{mp}}=\sqrt[n]{a^m}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;지수법칙&quot;&gt;지수법칙&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^x$에서 $a$는 밑, $x$는 지수다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^xa^y=a^{x+y}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^x\div a^y=a^{x-y}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(ab)^x=a^xb^x$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(a^x)^y=a^{xy}=a^{yx}=(a^y)^x$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$({a\over b})^x={a^x\over b^x}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^0=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^{-n}={1\over a^n}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$a^=\sqrt[n]{a^m}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">a의 n제곱근 x $a$ : 실수</summary></entry><entry><title type="html">수학적 귀납법</title><link href="http://localhost:4000/lecture/2020/08/05/mathematical_induction" rel="alternate" type="text/html" title="수학적 귀납법" /><published>2020-08-05T00:00:00-07:00</published><updated>2020-08-05T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/05/mathematical_induction</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/05/mathematical_induction">&lt;h2 id=&quot;수열의-귀납적-정의&quot;&gt;수열의 귀납적 정의&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;수열의 일부분을 알려준다. 이 이웃하는 항들의 관계로 수열을 정의하는 것&lt;/li&gt;
 &lt;/ul&gt;
@@ -52,7 +352,7 @@
   &lt;li&gt;
     &lt;p&gt;실제 문제에서는 $n\ge2$ 혹은 $n\ge3$ 등의 조건이 있을 수 있는데 이럴 때는 첫째 항을 2 혹은 3으로 잡아주면 된다.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">수열의 귀납적 정의 수열의 일부분을 알려준다. 이 이웃하는 항들의 관계로 수열을 정의하는 것</summary></entry><entry><title type="html">수열의 합</title><link href="http://localhost:4000/posts/2020/08/04/sigma" rel="alternate" type="text/html" title="수열의 합" /><published>2020-08-04T00:00:00-07:00</published><updated>2020-08-04T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/04/sigma</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/04/sigma">&lt;h2 id=&quot;합의-기호&quot;&gt;합의 기호&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">수열의 귀납적 정의 수열의 일부분을 알려준다. 이 이웃하는 항들의 관계로 수열을 정의하는 것</summary></entry><entry><title type="html">수열의 합</title><link href="http://localhost:4000/lecture/2020/08/04/sigma" rel="alternate" type="text/html" title="수열의 합" /><published>2020-08-04T00:00:00-07:00</published><updated>2020-08-04T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/04/sigma</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/04/sigma">&lt;h2 id=&quot;합의-기호&quot;&gt;합의 기호&lt;/h2&gt;
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=1}^na_k=S_n&lt;/script&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -100,7 +400,7 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;무리식의 합이 계산이 바로 안될 때는 주로 근호가 문제가 된다. 근호를 유리화하면 문제를 쉽게 해결할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">합의 기호</summary></entry><entry><title type="html">등차수열, 등비수열</title><link href="http://localhost:4000/posts/2020/08/03/deungcha_deungbi" rel="alternate" type="text/html" title="등차수열, 등비수열" /><published>2020-08-03T00:00:00-07:00</published><updated>2020-08-03T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/03/deungcha_deungbi</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/03/deungcha_deungbi">&lt;h2 id=&quot;등차수열&quot;&gt;등차수열&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">합의 기호</summary></entry><entry><title type="html">등차수열, 등비수열</title><link href="http://localhost:4000/lecture/2020/08/03/deungcha_deungbi" rel="alternate" type="text/html" title="등차수열, 등비수열" /><published>2020-08-03T00:00:00-07:00</published><updated>2020-08-03T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/03/deungcha_deungbi</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/03/deungcha_deungbi">&lt;h2 id=&quot;등차수열&quot;&gt;등차수열&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;첫째항부터 차례로 일정한 수를 더하여 얻은 수열&lt;/p&gt;
@@ -234,7 +534,7 @@
   &lt;li&gt;
     &lt;p&gt;$a_m+a_{m+1}+…+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 0)$&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry><entry><title type="html">무리함수(Irrational Function)</title><link href="http://localhost:4000/posts/2020/08/02/irrational_function" rel="alternate" type="text/html" title="무리함수(Irrational Function)" /><published>2020-08-02T00:00:00-07:00</published><updated>2020-08-02T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/02/irrational_function</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/02/irrational_function">&lt;h2 id=&quot;무리함수&quot;&gt;무리함수&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry><entry><title type="html">무리함수(Irrational Function)</title><link href="http://localhost:4000/lecture/2020/08/02/irrational_function" rel="alternate" type="text/html" title="무리함수(Irrational Function)" /><published>2020-08-02T00:00:00-07:00</published><updated>2020-08-02T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/02/irrational_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/02/irrational_function">&lt;h2 id=&quot;무리함수&quot;&gt;무리함수&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;무리수 : 분수로 나타낼 수 없는 수
     &lt;ul&gt;
@@ -428,7 +728,7 @@
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;무리함수들 또한 유리함수와 역함수 관계를 가진다는 것을 기억해야 한다.&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">무리함수 무리수 : 분수로 나타낼 수 없는 수 $\sqrt{2}, \sqrt{3}, \pi$ $\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.</summary></entry><entry><title type="html">유리함수(Rational Function)</title><link href="http://localhost:4000/posts/2020/08/01/rational_function" rel="alternate" type="text/html" title="유리함수(Rational Function)" /><published>2020-08-01T00:00:00-07:00</published><updated>2020-08-01T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/01/rational_function</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/01/rational_function">&lt;h2 id=&quot;평행이동&quot;&gt;평행이동&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">무리함수 무리수 : 분수로 나타낼 수 없는 수 $\sqrt{2}, \sqrt{3}, \pi$ $\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.</summary></entry><entry><title type="html">유리함수(Rational Function)</title><link href="http://localhost:4000/lecture/2020/08/01/rational_function" rel="alternate" type="text/html" title="유리함수(Rational Function)" /><published>2020-08-01T00:00:00-07:00</published><updated>2020-08-01T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/01/rational_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/01/rational_function">&lt;h2 id=&quot;평행이동&quot;&gt;평행이동&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;점이나 도형을 일정한 거리만큼 움직이는 것&lt;/p&gt;
@@ -551,7 +851,7 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;유리함수는 $p, q$를 알아내는 것이 가장 중요&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">평행이동 점이나 도형을 일정한 거리만큼 움직이는 것</summary></entry><entry><title type="html">함수(Function)</title><link href="http://localhost:4000/posts/2020/07/31/function" rel="alternate" type="text/html" title="함수(Function)" /><published>2020-07-31T00:00:00-07:00</published><updated>2020-07-31T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/31/function</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/31/function">&lt;h2 id=&quot;함수fxrightarrow-y&quot;&gt;함수($f:X\rightarrow Y$)&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">평행이동 점이나 도형을 일정한 거리만큼 움직이는 것</summary></entry><entry><title type="html">함수(Function)</title><link href="http://localhost:4000/lecture/2020/07/31/function" rel="alternate" type="text/html" title="함수(Function)" /><published>2020-07-31T00:00:00-07:00</published><updated>2020-07-31T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/07/31/function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/07/31/function">&lt;h2 id=&quot;함수fxrightarrow-y&quot;&gt;함수($f:X\rightarrow Y$)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것&lt;/p&gt;
@@ -728,7 +1028,7 @@ f(x)=
 
     &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88946310-0c4fbb00-d2ca-11ea-967a-6b5efde36285.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">함수($f:X\rightarrow Y$) 대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것</summary></entry><entry><title type="html">명제(Proposition)</title><link href="http://localhost:4000/posts/2020/07/30/proposition" rel="alternate" type="text/html" title="명제(Proposition)" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/proposition</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/proposition">&lt;h2 id=&quot;명제와-조건&quot;&gt;명제와 조건&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">함수($f:X\rightarrow Y$) 대응 : $X$의 원소 $x$와 $Y$의 원소 $y$를 짝지어주는 것</summary></entry><entry><title type="html">명제(Proposition)</title><link href="http://localhost:4000/lecture/2020/07/30/proposition" rel="alternate" type="text/html" title="명제(Proposition)" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/07/30/proposition</id><content type="html" xml:base="http://localhost:4000/lecture/2020/07/30/proposition">&lt;h2 id=&quot;명제와-조건&quot;&gt;명제와 조건&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;명제 : 참, 거짓을 판별할 수 있는 문장 또는 식
     &lt;ul&gt;
@@ -871,338 +1171,4 @@ f(x)=
       &lt;li&gt;$P\subset Q, Q\subset R$이면 $P\subset R$이다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">명제와 조건 명제 : 참, 거짓을 판별할 수 있는 문장 또는 식 2는 홀수이다. (거짓인 명제) 3은 홀수이다. (참인 명제) 나는 잘생겼다. (명제 아님)</summary></entry><entry><title type="html">MLE, MAP</title><link href="http://localhost:4000/posts/2020/07/30/mle_map" rel="alternate" type="text/html" title="MLE, MAP" /><published>2020-07-30T00:00:00-07:00</published><updated>2020-07-30T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/30/mle_map</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/30/mle_map">&lt;p&gt;MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.&lt;/p&gt;
-
-&lt;p&gt;이런 목표를 달성하기 위해 보통 베이즈 정리를 사용한다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\underbrace{P(Y|X)}_{\rm posterior} = \frac{\overbrace{P(X|Y)}^{\rm likelihood} \overbrace{P(Y)}^{\rm prior}}{\underbrace{P(X)}_\text{probability of seeing the data}}&lt;/script&gt;
-
-&lt;p&gt;MAP는 위 수식을 충실히 수행한다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)P(Y)&lt;/script&gt;
-
-&lt;p&gt;반면, MLE는 &lt;strong&gt;uniform prior&lt;/strong&gt;를 가정한다. 따라서 위 수식을 아래와 같이 줄일 수 있다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(Y|X)\propto P(X|Y)&lt;/script&gt;
-
-&lt;p&gt;따라서 MLE는 uniform prior를 가정한 MAP의 특수한 케이스다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어보자.&lt;/p&gt;
-
-&lt;p&gt;어떤 마을에서 바닥에 떨어진 머리카락의 길이를 보고 그 머리카락이 남자의 것인지 여자의 것인지 분류하는 문제를 푼다고 하자.&lt;/p&gt;
-
-&lt;p&gt;이 경우, $X$는 머리카락의 길이, $Y$는 성별이다.&lt;/p&gt;
-
-&lt;p&gt;MAP의 경우 likelihood 뿐만 아니라 마을의 남녀 성비도 고려해 분류를 수행한다.&lt;/p&gt;
-
-&lt;p&gt;반면, MLE의 경우 남녀의 성비가 동일하다고 가정하고(uniform prior), likelihood만을 고려해 분류를 수행한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://darkpgmr.tistory.com/62&quot;&gt;베이즈 정리, ML과 MAP, 그리고 영상처리&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bdhammel.com/mle-map/&quot;&gt;Maximum Likelihood Estimation and Maximum A Posterior Estimation&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">MLE와 MAP는 모두 “데이터셋 $X$가 주어졌을 때 $Y$일 확률, 즉, $P(Y|X)$를 구하는 것”을 목표로 한다.</summary></entry><entry><title type="html">집합(Set)</title><link href="http://localhost:4000/posts/2020/07/29/set" rel="alternate" type="text/html" title="집합(Set)" /><published>2020-07-29T00:00:00-07:00</published><updated>2020-07-29T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/29/set</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/29/set">&lt;h2 id=&quot;1-정의&quot;&gt;1. 정의&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;기준에 대해서 명화가게 구분할 수 있는 대상들의 모임
-    &lt;ul&gt;
-      &lt;li&gt;ex. 짝수의 집합, 홀수의 집합&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;대문자로 나타냄
-    &lt;ul&gt;
-      &lt;li&gt;ex. $A$, $B$, …&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;대상 하나하나를 원소라고 함
-    &lt;ul&gt;
-      &lt;li&gt;소문자로 나타냄&lt;/li&gt;
-      &lt;li&gt;ex. $a\in A$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-부분집합&quot;&gt;2. 부분집합&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$A\subset B$ : $A$의 모든 원소가 $B$에 포함되어 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$A=B$인 경우도 $A\subset B$이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\emptyset$은 모든 집합의 부분집합이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$A\subset B, B\subset C \Rightarrow A\subset C$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;“$A\subset B$”를 다음과 같이 표현할 수도 있다.
-    &lt;ol&gt;
-      &lt;li&gt;$A\cap B=A$&lt;/li&gt;
-      &lt;li&gt;$A\cup B=B$&lt;/li&gt;
-      &lt;li&gt;$A-B=\emptyset$&lt;/li&gt;
-      &lt;li&gt;$A\cup B^c=\emptyset\;\;$(3번과 같은 표현)&lt;/li&gt;
-      &lt;li&gt;$A^c\supset B^c$&lt;/li&gt;
-      &lt;li&gt;$A^c\cup B=U$&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$A=B\Leftrightarrow A\subset B, B\subset A$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$B$의 진부분집합 $A$ : $A\subset B \And A\neq B$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-부분집합의-갯수nan&quot;&gt;3. 부분집합의 갯수($n(A)=n$)&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;부분집합 : $2^n$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;진부분집합 : $2^n-1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$k$개의 특정 원소를 포함 / k개의 특정 원소를 포함하지 않음 : $2^{n-k}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$k$개의 특정 원소 중 적어도 한 개를 포함 / $k$개의 특정 원소 중 아무것도 포함하지 않음 : $2^n-2^{n-k}$&lt;br /&gt;
- ex. $A=\{1,2,3\}$&lt;br /&gt;
- 1, 2 중 적어도 한 개를 포함해야 한다고 하자. 가능한 경우는 다음과 같다.&lt;br /&gt;
- $\{1\},\{2\},\{1,2\}$&lt;br /&gt;
- $\{1,3\},\{2,3\},\{1,2,3\}$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;4-집합의-연산&quot;&gt;4. 집합의 연산&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$A\cup B=\{x|x\in A\;\;or\;\;x\in B \}$
-    &lt;ul&gt;
-      &lt;li&gt;$A\cup B=A$&lt;/li&gt;
-      &lt;li&gt;$A\cup\emptyset=A$&lt;/li&gt;
-      &lt;li&gt;$A\cup U=U$&lt;/li&gt;
-      &lt;li&gt;$A\cup A^c=U$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$A\cap B=\{x|x\in A\;\;and\;\;x\in B \}$
-    &lt;ul&gt;
-      &lt;li&gt;$A\cap A=A$&lt;/li&gt;
-      &lt;li&gt;$A\cap\emptyset=\emptyset$&lt;/li&gt;
-      &lt;li&gt;$A\cap U=A$&lt;/li&gt;
-      &lt;li&gt;$A\cap A^c=\emptyset$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$A-B=\{x|x\in A\;\;and\;\;x\notin B \}$
-    &lt;ul&gt;
-      &lt;li&gt;$A-B$의 다른 표현
-        &lt;ul&gt;
-          &lt;li&gt;$A\cap B^c$&lt;/li&gt;
-          &lt;li&gt;$A-(A\cap B)$&lt;/li&gt;
-          &lt;li&gt;$(A\cup B)-B$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$A^c=\{x|x\in U\;\;and\;\;x\notin A \}$
-    &lt;ul&gt;
-      &lt;li&gt;$A^c=U-A$&lt;/li&gt;
-      &lt;li&gt;$U^c=\emptyset$&lt;/li&gt;
-      &lt;li&gt;$\emptyset^c=U$&lt;/li&gt;
-      &lt;li&gt;$(A^c)^c=A$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;서로소 : $A\cap B=\emptyset$
-    &lt;ul&gt;
-      &lt;li&gt;서로소의 다른 표현
-        &lt;ul&gt;
-          &lt;li&gt;$A-B=A$&lt;/li&gt;
-          &lt;li&gt;$B-A=B$&lt;/li&gt;
-          &lt;li&gt;$A\subset B^c$&lt;/li&gt;
-          &lt;li&gt;$B\subset A^c$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;5-교환-결합-분배-법칙&quot;&gt;5. 교환, 결합, 분배 법칙&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;교환 법칙
-    &lt;ul&gt;
-      &lt;li&gt;$A\cap B=B\cap A$&lt;/li&gt;
-      &lt;li&gt;$A\cup B=B\cup A$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;결합 법칙 : 같은 연산에 대해 괄호의 위치가 바뀌어도 성립
-    &lt;ul&gt;
-      &lt;li&gt;$A\cap(B\cap C)=(A\cap B)\cap C$&lt;/li&gt;
-      &lt;li&gt;$A\cup(B\cup C)=(A\cup B)\cup C$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;분배 법칙 : 서로 다른 연산에 적용. 역연산도 할줄 알아야 한다.
-    &lt;ul&gt;
-      &lt;li&gt;$A\cap(B\cup C)=(A\cap B)\cup (A\cap C)$&lt;/li&gt;
-      &lt;li&gt;$A\cup(B\cap C)=(A\cup B)\cap (A\cup C)$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;드모르간 법칙
-    &lt;ul&gt;
-      &lt;li&gt;$(A\cap B)^c=A^c\cup B^c$&lt;/li&gt;
-      &lt;li&gt;$(A\cup B)^c=A^c\cap B^c$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6-집합의-원소의-갯수&quot;&gt;6. 집합의 원소의 갯수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A\cup B)=n(A)+n(B)-n(A\cap B)$
-  $n(A\cap B)=\emptyset \Rightarrow n(A\cup B)=n(A)+n(B)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A^c)=n(U)-n(A)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A-B)=n(A)-n(A\cap B)$&lt;br /&gt;
-  $\qquad\qquad=n(A\cup B)-n(B)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A^c\cap B^c)=n(U)-n(A\cup B)\;\;$(드모르간 법칙 활용)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A^c\cup B^c)=n(U)-n(A\cap B)\;\;$(드모르간 법칙 활용)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A\cup B)\le n(U)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A\cap B)\le n(A) \le n(A\cup B)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n(A\cap B)\le n(B) \le n(A\cup B)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;** 마지막 세 가지는 부등호가 들어있어 최대 / 최소 문제에 많이 나옴&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">1. 정의 기준에 대해서 명화가게 구분할 수 있는 대상들의 모임 ex. 짝수의 집합, 홀수의 집합</summary></entry><entry><title type="html">03 Naive Bayes Classifier</title><link href="http://localhost:4000/posts/2020/07/28/03_naive_bayes_classifier" rel="alternate" type="text/html" title="03 Naive Bayes Classifier" /><published>2020-07-28T00:00:00-07:00</published><updated>2020-07-28T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/07/28/03_naive_bayes_classifier</id><content type="html" xml:base="http://localhost:4000/posts/2020/07/28/03_naive_bayes_classifier">&lt;h1 id=&quot;optimal-classification&quot;&gt;Optimal Classification&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88505879-a4704a80-d013-11ea-99f7-ccfb65aec413.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;$X=x_1, x_2, …$이 주어지고, $x_i$이 $y_1$으로 분류될 확률이 $P(Y=y_1|X=x_i)$(초록색 선)이고, $y_2$으로 분류될 확률이 $P(Y=y_2|X=x_i)$(빨간색 선)이다.&lt;/p&gt;
-
-&lt;p&gt;$x_i$가 그림의 왼쪽에 위치해 있다고 가정하자. 그렇다면 $P(Y=y_1|X=x_i)&amp;gt;P(Y=y_2|X=x_i)$이므로 $x_i$는 $y_1$으로 분류된다.&lt;/p&gt;
-
-&lt;p&gt;마찬가지로 $x_i$가 그림의 오른쪽에 위치해 있다고 가정하자. 그렇다면 $P(Y=y_1|X=x_i)&amp;lt;P(Y=y_2|X=x_i)$이므로 $x_i$는 $y_2$으로 분류된다.&lt;/p&gt;
-
-&lt;p&gt;이처럼 분류를 하기 위해서는 데이터($X$)가 주어졌을 때 target class에 대한 확률을 계산해야 한다.&lt;/p&gt;
-
-&lt;h1 id=&quot;bayes-classifier&quot;&gt;Bayes Classifier&lt;/h1&gt;
-&lt;p&gt;bayes classifier는 다음과 같이 정의할 수 있다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f^*=argmin_fP(f(X)\neq Y)&lt;/script&gt;
-
-&lt;p&gt;즉, 예측치와 관측치가 같지 않을 확률을 최소화하는 $f$를 $f^*$라고 한다.&lt;/p&gt;
-
-&lt;p&gt;두 개의 클래스를 분류하는 문제에서는 다음과 같이 표현할 수도 있다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f^*(x)=argmax_{Y=y}P(Y=y|X=x)&lt;/script&gt;
-
-&lt;p&gt;$x_1$의 클래스가 $y_1$이라고 한다면 위 수식을 통해 $y_1$으로 분류될 확률을 최대화할 수 있다. 즉, $y_2$로 오분류될 확률을 최소화할 수 있다.&lt;/p&gt;
-
-&lt;h1 id=&quot;optimal-classification-and-bayes-risk&quot;&gt;Optimal Classification and Bayes Risk&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88509759-b99da700-d01c-11ea-8249-0a5d434b0f8b.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 그림에는 점선 classifier, 실선 classifier가 있다.&lt;/p&gt;
-
-&lt;p&gt;$x_i$에서 점선 classifier의 두 확률값을 더하면 1이 된다. $x_1$이라는 입력값이 들어왔을 때, 이것을 빨간색 혹은 초록색으로 만들어줘야 하기 때문이다. 같은 논리도 $x_i$에서 실선 classifier의 두 확률값을 더해도 1이 된다. classifier가 교차하는 부분(decision boundary)에서의 확률은 0.5이다.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 점선 classifier와 실선 classifier 중 어떤 것이 더 나은 classifier일까?&lt;/p&gt;
-
-&lt;p&gt;실선이 더 나은 classifier다.&lt;/p&gt;
-
-&lt;p&gt;Decision boundary보다 살짝 왼쪽에 있는 $x_j$를 생각해보자. 점선 classifier는 선형이기 때문에 $x_j$가 빨간색인지 초록색인지 명확하게 구분하지 못할 가능성이 있다. 반면 실선 classifier는 점선 classifier보다는 명확하게 둘을 구분한다.&lt;/p&gt;
-
-&lt;p&gt;실선이 더 나은 이유를 좀 더 formal하게 설명해 보겠다.&lt;/p&gt;
-
-&lt;p&gt;위 그림에서 Decision Boundary의 왼쪽 부분을 보자. 이 부분에서도 분명히 $X$가 빨간 색으로 분류될 확률이 존재한다. 그런데 초록색으로 분류될 확률이 더 높기 때문에 이를 무시하는 것이다. 우리는 이 부분을 &lt;strong&gt;Bayes Risk&lt;/strong&gt;라고 한다.&lt;/p&gt;
-
-&lt;p&gt;Bayes Risk의 측면에서 봤을 때, 점선 classifier의 risk가 실선 classifier의 risk보다 반달 모양만큼 더 크다. 그러므로 실선 classifier가 더 좋은 classifier다.&lt;/p&gt;
-
-&lt;p&gt;우리의 목표는 작은 Bayes Risk를 가지는 classifier를 만드는 것이다.&lt;/p&gt;
-
-&lt;h1 id=&quot;learning-the-optimal-classifier&quot;&gt;Learning the Optimal Classifier&lt;/h1&gt;
-&lt;p&gt;앞서 배웠던 Optimal Classifier는 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f^*(x)=argmax_{Y=y}P(Y=y|X=x)&lt;/script&gt;
-
-&lt;p&gt;이를 사전확률을 사용할 수 있는 형태로 바꾸면 다음과 같다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f^*(x)=argmax_{Y=y}P(X=x|Y=y)P(Y=y)&lt;/script&gt;
-
-&lt;p&gt;이 경우 $P(Y=y)$는 경험적으로 알아내거나, 데이터셋에서도 알아낼 수도 있다. 데이터셋 전체에서 $y_1$는 a%, $y_2$는 (1-a)%와 같이 알아낸다.&lt;/p&gt;
-
-&lt;p&gt;$P(X=x|Y=y)$도 conditional density를 만들 수 있다. 그런데 이 경우 문제가 되는 것은 X에 여러 개의 Random Variable이 있는 경우이다. 이 때 여러 Random Variable의 상호작용을 고려해 prediction을 해야 하는데, Random Variable의 수가 많아질수록 고려해야 할 상호작용의 수도 많아진다.&lt;/p&gt;
-
-&lt;p&gt;이 문제를 해결해주는 것이 Naive Bayes classifier다. Naive Bayes는 Random Variable 간의 상호작용을 무시한다.&lt;/p&gt;
-
-&lt;h1 id=&quot;dataset-for-optimal-classifier-learning&quot;&gt;Dataset for Optimal Classifier Learning&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88513569-7c88e300-d023-11ea-9567-516b56a9dcf4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;앞서 $f^*(x)=argmax_{Y=y}P(X=x|Y=y)P(Y=y)$를 구할 때, 고려해야 할 X가 여러개 있을 때의 상황에 대한 문제를 제기를 했었다. 여기서는 그에 부합하는 데이터셋을 소개한다.&lt;/p&gt;
-
-&lt;p&gt;$X=x_1, x_2, x_3, x_4, x_5, x_6$이며, 각각 “Sky”, “Temp”, “Humid”, “Wind”, “Water”, “Forecst”를 의미한다.&lt;/p&gt;
-
-&lt;p&gt;$P(Y=y)$를 구하는 것은 쉽다. 데이터셋을 보면 $P(y=yes)=3/4$, $P(y=yes)=1/4$이다.&lt;/p&gt;
-
-&lt;p&gt;반면, P(X=x|Y=y)를 구하는 것은 까다로운데, 1번 row를 대입해보면 다음과 같아진다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_1=sunny, x_2=warm, x_3=normal, x_4=strong, x_5=warm, x_6=same|y=yes)&lt;/script&gt;
-
-&lt;p&gt;$x_1, x_2, …x_d$은 두 개의 값만 가지고, $Y$는 $k$개의 값을 가진다고 가정하면, $(2^d-1)k$개 만큼의 확률값을 알아야 이 문제를 해결할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;문제는 고려해야할 확률값의 수가 $X$의 수에 따라 기하급수적으로 증가한다는 점이다.&lt;/p&gt;
-
-&lt;h1 id=&quot;conditional-independence&quot;&gt;Conditional Independence&lt;/h1&gt;
-&lt;p&gt;이 문제를 해결하기 위해 도입한 것이 Conditional Independence다. 다음과 같이 정의할 수 있다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_1,x_2|y)=P(x_1|y)P(x_2|y)&lt;/script&gt;
-
-&lt;p&gt;이것을 $P(X=&amp;lt; x_1, x_2, …, x_d &amp;gt;|Y=y)$에 적용시키면 $\prod_{i}^d P(X=x_i|Y=y)$으로 바뀐다.&lt;/p&gt;
-
-&lt;p&gt;이 때 필요한 확률값의 수는 $(2-1)dk$개이다.&lt;/p&gt;
-
-&lt;p&gt;사실 모든 입력 변수들이 서로 독립이라는 조건은 현실적이지 않다. 하지만 모델을 단순화시키고, 연산량을 줄이기 위해 마지못해 하는 것이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;naive-bayes-classifier-function&quot;&gt;Naive Bayes Classifier Function&lt;/h3&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f_{NB}(x)=argmax_{Y=y}P(Y=y)\prod_{1\le i \le d}P(X=x_i|Y=y)&lt;/script&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;conditional-independence-vs-marginal-independence&quot;&gt;Conditional Independence vs Marginal Independence&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/88601092-cf59ad80-d0aa-11ea-908e-b4a37ea62058.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Commander가 지시를 내렸는데 Officer A는 그 지시를 잘 듣지 못했다. 그 상황에서 Officer B가 앞으로 전진한다면 Officer A는 지시가 무엇이었는지 잘 알지도 못한 채로 Officer B를 따라 전진할 가능성이 크다. Officer B가 가지고 있는 정보가 Officer A에게 영향을 주는 것이다. 즉, 이 둘은 독립적이지 않다.&lt;/p&gt;
-
-&lt;p&gt;반면, Commander의 지시를 명확하게 들었다면 Officer B가 앞으로 가든, 뒤로 가든 상관 없이 들은대로 수행한다. Officer B가 가지고 있는 정보가 Officer A에게 영향을 주지 못하는 것이다. 즉, 이 둘은 독립적이다.&lt;/p&gt;
-
-&lt;p&gt;$Y$라는 변수가 Commander이고, $X_1$, $X_2$가 각각 Officer A, B라고 해보자.&lt;/p&gt;
-
-&lt;p&gt;$Y$에 대한 관측이 없다면, $X_2$의 정보가 $X_1$에 영향을 미친다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X_1=Go|X_2=Go, Commander=Go)\neq P(X_1=Go, Commander=Go)&lt;/script&gt;
-
-&lt;p&gt;반면에 $Y$에 대한 관측이 있다면, $X_2$의 정보가 $X_1$에 영향을 미치지 않는다.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(X_1=Go|X_2=Go, Commander=Go)= P(X_1=Go, Commander=Go)&lt;/script&gt;
-
-&lt;p&gt;즉, $Y$가 관측되었기 때문에 우리는 Conditional Independence를 정의할 수 있다.&lt;/p&gt;
-
-&lt;h1 id=&quot;problems-of-naive-bayes-classifier&quot;&gt;Problems of Naive Bayes Classifier&lt;/h1&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Naive Assumption
-변수들이 conditionally independence하다는 가정 자체가 현실적이지 않음.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Incorrect Probability Estimation
-압정을 세 번 던져서 모두 앞면이 나왔다면, 뒤면이 나올 확률은 분명히 존재함에도 $P(뒷면)=0$이 된다(MLE).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">Optimal Classification</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">명제와 조건 명제 : 참, 거짓을 판별할 수 있는 문장 또는 식 2는 홀수이다. (거짓인 명제) 3은 홀수이다. (참인 명제) 나는 잘생겼다. (명제 아님)</summary></entry></feed>

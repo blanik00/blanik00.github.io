@@ -1,9 +1,11 @@
 ---
 title: '등차수열, 등비수열'
 date: 2020-08-03
-permalink: /posts/2020/08/03/deungcha_deungbi
+permalink: /lecture/2020/08/03/deungcha_deungbi
 category:
-  - posts
+  - lecture
+tags:
+  - 수2
 ---
 
 ## 등차수열

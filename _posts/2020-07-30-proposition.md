@@ -1,9 +1,11 @@
 ---
 title: '명제(Proposition)'
 date: 2020-07-30
-permalink: /posts/2020/07/30/proposition
+permalink: /lecture/2020/07/30/proposition
 category:
-  - posts
+  - lecture
+tags:
+  - 수2
 ---
 
 ## 명제와 조건

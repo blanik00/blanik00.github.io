@@ -1,9 +1,11 @@
 ---
 title: '유리함수(Rational Function)'
 date: 2020-08-01
-permalink: /posts/2020/08/01/rational_function
+permalink: /lecture/2020/08/01/rational_function
 category:
-  - posts
+  - lecture
+tags:
+  - 수2
 ---
 
 ## 평행이동

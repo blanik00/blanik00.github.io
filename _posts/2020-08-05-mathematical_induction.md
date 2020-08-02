@@ -1,9 +1,11 @@
 ---
 title: '수학적 귀납법'
 date: 2020-08-05
-permalink: /posts/2020/08/05/mathematical_induction
+permalink: /lecture/2020/08/05/mathematical_induction
 category:
-  - posts
+  - lecture
+tags:
+  - 수2
 ---
 
 ## 수열의 귀납적 정의
