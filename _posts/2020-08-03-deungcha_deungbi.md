@@ -84,8 +84,8 @@ tags:
 	- $S_n=a_1+a_2+...+a_n$
 	- $rS_n=a_2+a_3+...+a_{n+1}$
 	- $(1-r)S_n=a_1-a_{n+1}$
-	- $S_n={a_1-a_{n+1}\over (1-r)}={a_1(1-r^n)\over (1-r)}={a_1(r^n-1)\over (r-1)}(r\neq 0)$
+	- $S_n={a_1-a_{n+1}\over (1-r)}={a_1(1-r^n)\over (1-r)}={a_1(r^n-1)\over (r-1)}(r\neq 1)$
 
 - $r=1$인 경우 $S_n=na_1$
 
-- $a_m+a_{m+1}+...+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 0)$
+- $a_m+a_{m+1}+...+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 1)$
