@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-09T07:08:49-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">함수의 극한</title><link href="http://localhost:4000/lecture/2020/08/11/limit_of_a_function" rel="alternate" type="text/html" title="함수의 극한" /><published>2020-08-11T00:00:00-07:00</published><updated>2020-08-11T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/11/limit_of_a_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/11/limit_of_a_function">&lt;h2 id=&quot;우극한과-좌극한&quot;&gt;우극한과 좌극한&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-10T08:06:09-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">함수의 연속</title><link href="http://localhost:4000/lecture/2020/08/12/continous_function" rel="alternate" type="text/html" title="함수의 연속" /><published>2020-08-12T00:00:00-07:00</published><updated>2020-08-12T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/12/continous_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/12/continous_function">&lt;h2 id=&quot;구간&quot;&gt;구간&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89797417-e2b64f80-db65-11ea-8772-bbe9b4d1f42b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;xa에서-연속&quot;&gt;$x=a$에서 연속&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;함수값 $f(a)$가 존재해야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;극한값 $lim_{x\rightarrow a}f(x)$가 존재해야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$lim_{x\rightarrow a}f(x)=f(a)$를 만족해야 한다.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;$lim_{x\rightarrow a}f(x)$은 극한값&lt;/li&gt;
+      &lt;li&gt;$f(a)$은 함숫값&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;구간에서의-연속&quot;&gt;구간에서의 연속&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$y=f(x)$가 어떤 구간에 속하는 모든 점에서 &lt;strong&gt;연속&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;연속함수의-성질&quot;&gt;연속함수의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;실수배, 덧셈, 뺄셈, 곱셈, 나눗셈(분모가 0이 아닌 경우)에 대해 자유롭다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f(x), g(x)$는 연속함수다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$cf(x), f(x)\pm g(x), f(x)\cdot g(x), {f(x)\over g(x)}(g(x)\neq0)$ 모두 연속함수다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;상수함수도 연속함수다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;다항함수도 연속함수이다.
+    &lt;ul&gt;
+      &lt;li&gt;다항함수는 $f(x)=c, g(x)=x$의 조합으로 표현할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f(x), g(x)$가 다항함수일 때, $g(x)\neq0$이라는 조건만 만족하면 ${f(x)\over g(x)}$도 다항함수다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;극한으로-나타낸-함수의-연속성&quot;&gt;극한으로 나타낸 함수의 연속성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$|x|&amp;lt;1, x=1, x=-1, |x|&amp;gt;1$ 네 가지로 나누어 계산&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-xn&quot;&gt;1. $x^n$&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;lt;1\Rightarrow lim_{x\rightarrow\infty}x^n=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=1\Rightarrow lim_{x\rightarrow\infty}1^n=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;gt;1\Rightarrow lim_{x\rightarrow\infty}x^n=발산$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=-1\Rightarrow lim_{x\rightarrow\infty}(-1)^n=발산(진동)$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-x2n&quot;&gt;2. $x^{2n}$&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;lt;1\Rightarrow lim_{x\rightarrow\infty}x^{2n}=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=1\Rightarrow lim_{x\rightarrow\infty}1^{2n}=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;gt;1\Rightarrow lim_{x\rightarrow\infty}x^{2n}=발산$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=-1\Rightarrow lim_{x\rightarrow\infty}(-1)^{2n}=1$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-x2n-1&quot;&gt;3. $x^{2n-1}$&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;lt;1\Rightarrow lim_{x\rightarrow\infty}x^{2n-1}=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=1\Rightarrow lim_{x\rightarrow\infty}1^{2n-1}=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$|x|&amp;gt;1\Rightarrow lim_{x\rightarrow\infty}x^{2n-1}=발산$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$x=-1\Rightarrow lim_{x\rightarrow\infty}(-1)^{2n-1}=-1$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;최대-최소의-정리&quot;&gt;최대, 최소의 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f(x)$가 $[a,b]$에서 연속일 때, $f(x)$는 $[a,b]$	에서 반드시 최댓값, 최솟값을 가진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;사이값-정리&quot;&gt;사이값 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f(x)$가 $[a,b]$에서 연속이며, $f(a)\neq f(b)$이라면 $f(c)=k$가 적어도 하나 이상 존재한다. ($k$는 $f(a), f(b)$ 사이에 존재)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">구간</summary></entry><entry><title type="html">함수의 극한</title><link href="http://localhost:4000/lecture/2020/08/11/limit_of_a_function" rel="alternate" type="text/html" title="함수의 극한" /><published>2020-08-11T00:00:00-07:00</published><updated>2020-08-11T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/11/limit_of_a_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/11/limit_of_a_function">&lt;h2 id=&quot;우극한과-좌극한&quot;&gt;우극한과 좌극한&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;우극한 : $lim_{x\rightarrow a+}f(x)$
     &lt;ul&gt;
@@ -1156,108 +1264,4 @@
   &lt;li&gt;
     &lt;p&gt;$a_m+a_{m+1}+…+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 1)$&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry><entry><title type="html">무리함수(Irrational Function)</title><link href="http://localhost:4000/lecture/2020/08/02/irrational_function" rel="alternate" type="text/html" title="무리함수(Irrational Function)" /><published>2020-08-02T00:00:00-07:00</published><updated>2020-08-02T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/02/irrational_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/02/irrational_function">&lt;h2 id=&quot;무리함수&quot;&gt;무리함수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;무리수 : 분수로 나타낼 수 없는 수
-    &lt;ul&gt;
-      &lt;li&gt;$\sqrt{2}, \sqrt{3}, \pi$&lt;/li&gt;
-      &lt;li&gt;$\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;무리식 : 근호 안에 문자가 포함된 식 중 유리식이 아닌 것(&lt;strong&gt;근호 안에 있는 것은 0보다 크거나 같다.&lt;/strong&gt;)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;무리함수 : $y=f(x)$, $f(x)$는 $x$에 관한 무리식이다.(&lt;strong&gt;근호 안에 있는 것은 0보다 크거나 같다.&lt;/strong&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ysqrtaxa0-xge-0&quot;&gt;$y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093644-3d79d980-d3f7-11ea-8783-39c4a17ad189.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;무리함수의 정의역은 근호 안을 보면 알 수 있다.&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;근호 안은 0크거나 같아야 한다.&lt;/li&gt;
-      &lt;li&gt;$a&amp;gt;0$이면 $x\ge 0$이 정의역이 된다.&lt;/li&gt;
-      &lt;li&gt;$a&amp;lt;0$이면 $x\le 0$이 정의역이 된다.&lt;/li&gt;
-      &lt;li&gt;이 경우는 $a&amp;gt;0$이므로, 정의역은 $x\ge 0$이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$y={1\over a}x^2(a&amp;gt;0,x\ge 0)$의 역함수이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;위 그래프는 $a=2$를 넣어 그린 것&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;즉, 이들의 관계는 다음과 같다.
-    &lt;ol&gt;
-      &lt;li&gt;역함수&lt;/li&gt;
-      &lt;li&gt;$y=x$를 기준으로 대칭&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ysqrtax-y-sqrtaxaneq-0&quot;&gt;$y=\sqrt{ax}, y=-\sqrt{ax}(a\neq 0)$&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093646-3eab0680-d3f7-11ea-8b2d-669854408622.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;두 함수는 $a&amp;gt;0$, $a&amp;lt;0$으로 나눠볼 수 있다. 즉 총 네 개의 그래프가 나오며, 각각은 사분면을 하나씩 차지한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;모든 그래프는 원점을 지난다.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;4사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 x축 대칭한 것($y$에 $-y$ 대입)&lt;/li&gt;
-      &lt;li&gt;2사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 y축 대칭한 것($x$에 $-x$ 대입)&lt;/li&gt;
-      &lt;li&gt;3사분면에 있는 것은 $y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$를 원점 대칭한 것($x$에 $-x$, $y$에 $-y$ 대입)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;그래프의 모양을 생각해보면 정의역과 치역을 쉽게 구할 수 있다.
-    &lt;ul&gt;
-      &lt;li&gt;1사분면($y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$)
-        &lt;ul&gt;
-          &lt;li&gt;정의역 : $\{x|x\ge 0\}$&lt;/li&gt;
-          &lt;li&gt;치역 : $\{y|y\ge 0\}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4사분면($y=\sqrt{ax}(a&amp;gt;0, x\ge 0)$)
-        &lt;ul&gt;
-          &lt;li&gt;정의역 : $\{x|x\ge 0\}$&lt;/li&gt;
-          &lt;li&gt;치역 : $\{y|y\le 0\}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2사분면($y=\sqrt{ax}(a&amp;lt;0, x\le 0)$)
-        &lt;ul&gt;
-          &lt;li&gt;정의역 : $\{x|x\le 0\}$&lt;/li&gt;
-          &lt;li&gt;치역 : $\{y|y\ge 0\}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;4사분면($y=\sqrt{ax}(a&amp;lt;0, x\le 0)$)
-        &lt;ul&gt;
-          &lt;li&gt;정의역 : $\{x|x\le 0\}$&lt;/li&gt;
-          &lt;li&gt;치역 : $\{y|y\le 0\}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;근호는 반드시 양수이기 때문에 치역은 근호 앞의 부호가 결정한다.&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;부호가 +이면 치역은 $\{y|y\ge 0\}$&lt;/li&gt;
-      &lt;li&gt;부호가 -이면 치역은 $\{y|y\le 0\}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ysqrtax-pq-y-sqrtax-pqaneq-0&quot;&gt;$y=\sqrt{a(x-p)}+q, y=-\sqrt{a(x-p)}+q(a\neq 0)$&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89093647-3f439d00-d3f7-11ea-8f20-d2910fb75482.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$y=\sqrt{ax}, y=-\sqrt{ax}(a\neq 0)$을 $x$축으로 $p$만큼, $y$축으로 $q$만큼 평행 이동시킨 것이다.($x$에 $x-p$ 대입, $y$에 $y-q$ 대입)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;정의역과 치역도 그에 맞게 변경시키면 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;무리함수들 또한 유리함수와 역함수 관계를 가진다는 것을 기억해야 한다.&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">무리함수 무리수 : 분수로 나타낼 수 없는 수 $\sqrt{2}, \sqrt{3}, \pi$ $\pi$와 같은 특수한 수를 제외하고는 $\sqrt{}$가 있다.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry></feed>
