@@ -52,7 +52,7 @@ $$P(a\le X\le b)=\int_{a}^{b}f(x)\;dx$$
 
 $$f(x)=
 \begin{cases}
-\lambda e^{{-x\over 100}} \qquad x\ge 0 \\
+\lambda e^{-x\over 100} \qquad x\ge 0 \\
 0 \qquad\;\;\;\;\;\; x<0
 \end{cases}$$
 

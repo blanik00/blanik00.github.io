@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-10T08:06:09-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">함수의 연속</title><link href="http://localhost:4000/lecture/2020/08/12/continous_function" rel="alternate" type="text/html" title="함수의 연속" /><published>2020-08-12T00:00:00-07:00</published><updated>2020-08-12T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/12/continous_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/12/continous_function">&lt;h2 id=&quot;구간&quot;&gt;구간&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-11T07:40:32-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">미분계수와 도함수</title><link href="http://localhost:4000/lecture/2020/08/13/derivative" rel="alternate" type="text/html" title="미분계수와 도함수" /><published>2020-08-13T00:00:00-07:00</published><updated>2020-08-13T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/13/derivative</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/13/derivative">&lt;h2 id=&quot;평균변화율&quot;&gt;평균변화율&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;두 점을 지나는 직선의 기울기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;lt;그림 1&amp;gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;{\triangle y\over\triangle x}={f(b)-f(a)\over b-a}={f(a+\triangle x)-f(a)\over \triangle x}&lt;/script&gt;
+
+&lt;h2 id=&quot;순간변화율-미분계수&quot;&gt;순간변화율, 미분계수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;접선의 기울기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+f'(a) &amp;=&amp; lim_{\triangle x\rightarrow\infty}{\triangle y\over\triangle x} \\
+       &amp;=&amp; lim_{\triangle x\rightarrow\infty}{f(a+\triangle x)-f(a)\over \triangle x} \\
+       &amp;=&amp; lim_{h\rightarrow0}{f(a+h)-f(a)\over h} \\
+       &amp;=&amp; lim_{x\rightarrow a}{f(x)-f(a)\over x-a} \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;도함수&quot;&gt;도함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f’(x), y’, {dy\over dx}, {d\over dx}f(x)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f’(x)=lim_{\triangle x\rightarrow\infty}{f(x+\triangle x)-f(x)\over \triangle x}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;미분법&quot;&gt;미분법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리가 자주 사용하는 함수의 도함수를 만들어 놓는 것을 미분이라고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;미분법은 미분을 하는 방법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=x^n\Rightarrow y’=nx^{n-1}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=c\Rightarrow y’=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=f(x)\pm g(x)\Rightarrow y’=f’(x)\pm g’(x)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$y=cf(x)\Rightarrow y’=cf’(x)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위 내용만 알고 있으면 우리가 알고 있는 모든 다항함수를 미분할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ex. $y=x^2+2x+3\Rightarrow y’=2x+2$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;곱의-미분법&quot;&gt;곱의 미분법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$y=f(x)g(x)\Rightarrow y’=f’(x)g(x)+f(x)g’(x)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;미분가능성과-연속성&quot;&gt;미분가능성과 연속성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f(x)$가 $x=a$에서
+    &lt;ol&gt;
+      &lt;li&gt;미분가능 $\rightarrow$ 연속&lt;/li&gt;
+      &lt;li&gt;연속 $\nrightarrow$ 미분가능&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;예를 들어, $f(x)=|x|$는 $x=0$에서 연속이지만, 미분 가능하지는 않음.($lim_{ x\rightarrow0+}$에서의 접선의 기울기는 1이고, $lim_{ x\rightarrow0-}$에서의 접선의 기울기는 -1이다.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;미분가능성의-활용&quot;&gt;미분가능성의 활용&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;$g(x), h(x)$는 다항함수이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+f(x)=
+\begin{cases}
+g(x) &amp; (x\ge a) \\
+h(x) &amp; (x &lt; a)
+\end{cases} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;실수 전체에서 미분 가능하려면 어떤 조건을 만족해야 할까?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$g(a)=h(a)$&lt;/li&gt;
+  &lt;li&gt;$g’(a)=h’(a)$&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">평균변화율 두 점을 지나는 직선의 기울기</summary></entry><entry><title type="html">함수의 연속</title><link href="http://localhost:4000/lecture/2020/08/12/continous_function" rel="alternate" type="text/html" title="함수의 연속" /><published>2020-08-12T00:00:00-07:00</published><updated>2020-08-12T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/12/continous_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/12/continous_function">&lt;h2 id=&quot;구간&quot;&gt;구간&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89797417-e2b64f80-db65-11ea-8772-bbe9b4d1f42b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;xa에서-연속&quot;&gt;$x=a$에서 연속&lt;/h2&gt;
@@ -1130,138 +1222,4 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;무리식의 합이 계산이 바로 안될 때는 주로 근호가 문제가 된다. 근호를 유리화하면 문제를 쉽게 해결할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">합의 기호</summary></entry><entry><title type="html">등차수열, 등비수열</title><link href="http://localhost:4000/lecture/2020/08/03/deungcha_deungbi" rel="alternate" type="text/html" title="등차수열, 등비수열" /><published>2020-08-03T00:00:00-07:00</published><updated>2020-08-03T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/03/deungcha_deungbi</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/03/deungcha_deungbi">&lt;h2 id=&quot;등차수열&quot;&gt;등차수열&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;첫째항부터 차례로 일정한 수를 더하여 얻은 수열&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;첫째항, 둘째항, 셋째항, …의 차가 모두 같다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;ex. 1,3,5,7,9&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1, a_2, a_3, …$로 표현&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등차수열에서 가장 중요한 것은 &lt;strong&gt;공차(d)&lt;/strong&gt;(정의에 나온 일정한 수, 예제에서는 2가 공차)
-    &lt;ul&gt;
-      &lt;li&gt;$d=a_{n+1}-a_n$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;일반항($a_n$)=$a_1+(n-1)d$
-    &lt;ul&gt;
-      &lt;li&gt;$a_1=1$&lt;/li&gt;
-      &lt;li&gt;$a_2=1+d$&lt;/li&gt;
-      &lt;li&gt;$a_3=1+2d$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등차중항($x$) : 세 수 $a,x,b$가 등차수열일 때, $x$를 등차중항이라고 한다.
-    &lt;ul&gt;
-      &lt;li&gt;$x={a+b\over 2}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등차수열의-특징&quot;&gt;등차수열의 특징&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_{n+k}-a_n=kd$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_{n+k}=a_n+kd$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1+a_7=a_2+a_6=a_3+a_5=2a_4$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1+a_6=a_2+a_5=a_3+a_4$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등차수열의-합&quot;&gt;등차수열의 합&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1, a_2, …, a_n$은 등차수열&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$S_n=a_1+a_2+…+a_n=?$&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;$S_n=a_1+a_2+…+a_n$&lt;/li&gt;
-      &lt;li&gt;$S_n=a_n+a_{n-1}+…+a_1$&lt;/li&gt;
-      &lt;li&gt;$2S_n=(a_1+a_n)+(a_2+a_{n-1})+…+(a_n+a_1)$&lt;/li&gt;
-      &lt;li&gt;$2S_n=n(a_1+a_n)$&lt;/li&gt;
-      &lt;li&gt;$S_n={n(a_1+a_n)\over 2}$&lt;/li&gt;
-      &lt;li&gt;첫항과 끝항을 알 때 사용할 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_n=a_1+(n-1)d$를 활용하면 위 식을 다르게 전개할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$S_n={n(2a_1+(n-1)d)\over 2}$
-    &lt;ul&gt;
-      &lt;li&gt;첫항과 공차를 알 때 사용할 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$a_m+a_{m+1}+…+a_n={(m+n-1)(a_m+a_n)\over 2}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비수열&quot;&gt;등비수열&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;첫째항부터 차례로 일정한 수를 곱하여 얻은 수열&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등비수열에서 중요한 것은 &lt;strong&gt;공비($r$)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;$r={a_{n+1}\over a_n}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;일반항($a_n$)=$ar^{n-1}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등비중항($x$) : 세 수 $a,x,b$가 등비수열일 때, $x$를 등비중항이라고 한다.
-    &lt;ul&gt;
-      &lt;li&gt;$x=\sqrt{ab}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비수열의-특징&quot;&gt;등비수열의 특징&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;${a_{n+k}\over a_n}={a_1r^{n+k-1}\over a_1r^{n-1}}=r^{n+k-1-(n-1)}=r^k$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;${a_{n+k}}=a_nr^k$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1a_7=a_2a_6=a_3a_5=a_4^2$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1a_6=a_2a_5=a_3a_4$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비수열의-합&quot;&gt;등비수열의 합&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1, a_2, …, a_n$은 등비수열&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$S_n=a_1+a_2+…+a_n=?$&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;$S_n=a_1+a_2+…+a_n$&lt;/li&gt;
-      &lt;li&gt;$rS_n=a_2+a_3+…+a_{n+1}$&lt;/li&gt;
-      &lt;li&gt;$(1-r)S_n=a_1-a_{n+1}$&lt;/li&gt;
-      &lt;li&gt;$S_n={a_1-a_{n+1}\over (1-r)}={a_1(1-r^n)\over (1-r)}={a_1(r^n-1)\over (r-1)}(r\neq 1)$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$r=1$인 경우 $S_n=na_1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_m+a_{m+1}+…+a_n={a_m(1-r^{n-m+1})\over 1-r}(r\neq 1)$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">등차수열 첫째항부터 차례로 일정한 수를 더하여 얻은 수열</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">합의 기호</summary></entry></feed>
