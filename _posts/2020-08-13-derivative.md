@@ -11,7 +11,7 @@ tags:
 ## 평균변화율
 - 두 점을 지나는 직선의 기울기
 
-<그림 1>
+![](https://user-images.githubusercontent.com/26649034/89911722-b6b1d180-dc2c-11ea-8b4c-326a906fee8d.png)
 
 $${\triangle y\over\triangle x}={f(b)-f(a)\over b-a}={f(a+\triangle x)-f(a)\over \triangle x}$$
 
