@@ -1,4 +1,538 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-13T07:15:15-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">부정적분과 정적분</title><link href="http://localhost:4000/lecture/2020/08/15/indefinite_integral" rel="alternate" type="text/html" title="부정적분과 정적분" /><published>2020-08-15T00:00:00-07:00</published><updated>2020-08-15T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/15/indefinite_integral</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/15/indefinite_integral">&lt;h2 id=&quot;부정적분&quot;&gt;부정적분&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-21T07:54:12-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.1. 명제</title><link href="http://localhost:4000/lecture/2020/10/18/set_theory_proposition" rel="alternate" type="text/html" title="1.1. 명제" /><published>2020-10-18T00:00:00-07:00</published><updated>2020-10-18T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/18/set_theory_proposition</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/18/set_theory_proposition">&lt;h2 id=&quot;명제&quot;&gt;명제&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;명제 : 참, 거짓이 분명히 판단되는 문장&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;단순 명제 : 하나의 명제
+    &lt;ul&gt;
+      &lt;li&gt;지수는 블랙핑크의 멤버이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;합성 명제 : 몇 개의 단순 명제들이 연결사에 의해 결합된 명제
+    &lt;ul&gt;
+      &lt;li&gt;지수는 블랙핑크의 멤버이고, 로제도 블랙핑크의 멤버이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;연결사 : 두 명제 $p$와 $q$에 대해&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;명칭&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;기호&lt;/th&gt;
+          &lt;th&gt;읽는 법&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;부정&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$\sim p$&lt;/td&gt;
+          &lt;td&gt;not $p$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;논리곱&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$p\land q$&lt;/td&gt;
+          &lt;td&gt;$p$ and $q$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;논리합&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$p\lor q$&lt;/td&gt;
+          &lt;td&gt;$p$ or $q$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;조건&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$p\rightarrow q$&lt;/td&gt;
+          &lt;td&gt;If $p$, then $q$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;쌍조건&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$p\leftrightarrow q$&lt;/td&gt;
+          &lt;td&gt;$p$ if and only if $q$ (iff)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;진리집합 : 해당 명제가 참이 되도록 하는 모든 원소의 집합. 명제 $p$의 진리집합은 $P$로,  $q$의 진리집합은 $Q$로 표기한다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p$ : $\sim$은 블랙핑크의 멤버이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$P$ : $\{\text{지수}, \text{로제}, \text{제니}, \text{리사}\}$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;명제 $p$가 거짓이라면, 진리집합 $P$는 공집합이 된다.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;진리표 : 명제의 진리값을 표로 나타낸 것&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$p$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$q$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$1. \sim p$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$p\land q$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$p\lor q$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$2. p\rightarrow q$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$3. p\leftrightarrow q$&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\sim p$, $p\rightarrow q$, $p\leftrightarrow q$의 경우에 추가 설명이 필요해 번호를 붙여놓았다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;나중에 배울 명제에서는 한 명제 안에서도 여러 개의 명제가 등장하게 되는데, 그 때 연산의 순서는 다음과 같다.&lt;/p&gt;
+        &lt;ol&gt;
+          &lt;li&gt;괄호가 있는 경우에는 괄호를 최우선으로 처리&lt;/li&gt;
+          &lt;li&gt;$\sim p$&lt;/li&gt;
+          &lt;li&gt;$p\land q$ or $p\lor q$&lt;/li&gt;
+          &lt;li&gt;$p\rightarrow q$ or $p\leftrightarrow q$&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;$\sim  p$  : 진리집합 $P$의 바깥 영역을 의미
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;명제 $p$가 참이다 $\rightarrow$ 진리집합 $P$의 내부에 해당한다. $\rightarrow$ 진리집한 $P$의 외부에 해당하지 않는다. $\rightarrow$ $P$의 외부는 공집합이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;명제 $p$가 거짓이다 $\rightarrow$ 진리집합 $P$는 공집합이다. $\rightarrow$ 진리집한 $P$의 외부는 전체 집합이다. $\rightarrow$ 어떤 임의의 원소는 당연히 전체 집합에 포함되므로 참이 된다.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$p\rightarrow q$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;앞의 것들과 다르게 명제가 언급되어지는 순서가 있다. 실제로 $p$와 $q$의 위치가 바뀌면 아예 다른 명제가 된다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$P\subset Q$를 만족하면 참이 된다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;&lt;strong&gt;$p$가 거짓이라면, $p\rightarrow q$는 항상 참이다.&lt;/strong&gt;($p$가 거짓이라면, $P$는 공집합이고, 공집합은 모든 집합의 부분집합이 된다.)&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$p\leftrightarrow q$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$P=Q$를 만족하면 참이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$p$, $q$가 참이어서 영역이 존재하거나, 거짓이어서 공집합이 된다면 참이 된다. 그 이외에는 거짓이 됨.(한 쪽은 참이라 영역이 존재하는데, 다른 한 쪽은 거짓이라 영역이 존재하지 않는 경우)&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;자주 쓰이는 명제들
+    &lt;ul&gt;
+      &lt;li&gt;$\equiv$는 왼쪽과 오른쪽 명제가 모든 논리적 가능성에 대해서 진리값이 같다.&lt;/li&gt;
+      &lt;li&gt;아래 내용들은 진리표를 그려 쉽게 증명할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\rightarrow q\equiv\; \sim p\lor q$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;드모르간의 법칙
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\sim(p\land q)\equiv\; \sim p\lor \sim q$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\sim(p\lor q)\equiv\; \sim p\land \sim q$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;대우법칙
+        &lt;ul&gt;
+          &lt;li&gt;$p\rightarrow q\equiv\; \sim q\rightarrow \sim p$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;결합법칙
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$(p\lor q)\lor r\equiv\; p\lor (q\lor r)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$(p\land q)\land r\equiv\; p\land (q\land r)$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;분배법칙
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$p\lor (q\land r)\equiv\; (p\lor q)\land(p\lor r)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$p\land (q\lor r)\equiv\; (p\land q)\lor(p\land r)$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;명제함수&quot;&gt;명제함수&lt;/h2&gt;
+&lt;h3 id=&quot;명제함수와-한정기호&quot;&gt;명제함수와 한정기호&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;명제함수 : 변수 $x$가 결정되어야만 참, 거짓을 판단할 수 있는 문장
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p(x), q(x), …$ 등으로 표현&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;ex) $p(x)$ : 블랙핑크의 멤버 수는 $x$명이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;명제에는 그 대상이 있고, 그 대상에는 범위가 존재한다. 예를 들어, 위에서 예로 든 $p(x)$에서 우리는 $x$에 자연수가 들어갈 것으로 예상한다. 범위가 잘못 주어지면  그 명제는 의미가 없어진다. 예를 들어, “블랙핑크의 멤버 수는 책상이다.”라는 명제는 의미가 없다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$x$의 범위를 “대상영역(Domain)” 혹은 “모집단(Universal)”이라고 한다. Universal의 앞글자를 다 $U$로 표현한다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;한정기호 : 대상영역에 대해서 &lt;strong&gt;모두를 대상&lt;/strong&gt;으로 하거나 &lt;strong&gt;일부를 대상&lt;/strong&gt;으로 하고 싶을 때 사용
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;전칭기호($\forall$) : for every&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;존재기호($\exists$) : for some&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$U$ : 1반 학생&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$p(x)$ : $x$는 블랙핑크의 팬이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\forall x, p(x)$ : 1반 학생 전원은 블랙핑크의 팬이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\exists x, p(x)$ : 1반 학생 블랙핑크의 팬인 사람이 적어도 한 명 있다.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;명제의-부정&quot;&gt;명제의 부정&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\forall\rightleftharpoons\exists$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\land\rightleftharpoons\lor$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$p\rightleftharpoons\sim p$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$&amp;lt;\rightleftharpoons\ge$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;예시-1&quot;&gt;예시 1&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;$\forall x, p(x)\rightleftharpoons \exists x, \sim p(x)$
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x, p(x)$ : 1반 학생 전원은 블랙핑크의 팬이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\exists x, \sim p(x)$ : 1반 학생 중 어떤 학생들은 블랙핑크의 팬이 아니다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시-2&quot;&gt;예시 2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$U$ : 모든 사람&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$p(x)$ : $x$는 공부를 잘한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\forall x, p(x)\rightarrow 성공\land 행복$ 을 부정해보자.&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+  \forall x, p(x)\rightarrow 성공\land 행복 &amp;amp;\equiv&amp;amp; \forall x, \sim p(x)\lor (성공\land 행복) \\
+          &amp;amp;\rightleftharpoons&amp;amp; \exists x, \sim(\sim p(x)\lor (성공\land 행복)) \\
+          &amp;amp;\equiv&amp;amp; \exists x, p(x)\land \sim(성공\land 행복)) \\
+          &amp;amp;\equiv&amp;amp; \exists x, p(x)\land (\sim성공\lor \sim행복)) \\
+  \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercise&quot;&gt;Exercise&lt;/h3&gt;
+&lt;p&gt;다음 명제들을 부정하라.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\forall x, x^2-2x+1\ge 0$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+ \forall x, x^2-2x+1\ge 0 &amp;amp;\rightleftharpoons&amp;amp; \exists x, x^2-2x+1&amp;lt; 0 \\
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\exists x, x^2=1\rightarrow x=3$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+ \exists x, x^2=1\rightarrow x=3 &amp;amp;\equiv&amp;amp; \exists x, \sim(x^2=1)\lor (x=3) \\
+ &amp;amp;\rightleftharpoons&amp;amp; \forall x, \sim(\sim(x^2=1)\lor (x=3)) \\
+ &amp;amp;\equiv&amp;amp; \forall x, (x^2=1)\land (x\neq3)) \\
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\exists x, \forall y, (p(x)\lor q(y))$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+ \exists x, \forall y, (p(x)\lor q(y)) &amp;amp;\rightleftharpoons&amp;amp; \forall x, \exists y, \sim p(x)\land \sim q(y) \\
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(\forall x, p(x))\land(\exists y, q(y))$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+ (\forall x, p(x))\land(\exists y, q(y)) &amp;amp;\rightleftharpoons&amp;amp; (\exists x, \sim p(x))\lor(\forall y, \sim q(y)) \\
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;함의와-동치&quot;&gt;함의와 동치&lt;/h2&gt;
+&lt;h3 id=&quot;함진명제와-모순명제&quot;&gt;함진명제와 모순명제&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;항진명제($t$) : 모든 논리적 가능성의 진리값들이 참인 명제&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;모순명제($c$) : 모든 논리적 가능성의 진리값들이 거짓인 명제&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;항진명제의 진리집합은 $U$이며, 모순명제의 진리집합은 $\emptyset$이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;함진명제와-모순명제의-성질&quot;&gt;함진명제와 모순명제의 성질&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;임의의 명제 $p$에 대해서
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\lor \sim p\equiv t$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\land \sim p\equiv c$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$t\lor p\equiv t$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$t\land p\equiv p$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$c\lor p\equiv p$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$c\land p\equiv c$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercise-1&quot;&gt;Exercise&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\sim p\rightarrow c\equiv p$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+         \sim p\rightarrow c &amp;amp;\equiv&amp;amp; p\lor c \\
+         &amp;amp;\equiv&amp;amp; p
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(p\rightarrow q)\land(q\rightarrow r)\rightarrow(p\rightarrow r)\equiv t$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+         (p\rightarrow q)\land(q\rightarrow r)\rightarrow(p\rightarrow r) &amp;amp;\equiv&amp;amp; (\sim p\lor q)\land(\sim q\lor r)\rightarrow(\sim p\lor r) \\
+         &amp;amp;\equiv&amp;amp; \sim(\sim p\lor r)\rightarrow \sim((\sim p\lor q)\land(\sim q\lor r)) \\
+         &amp;amp;\equiv&amp;amp; (p\land\sim r)\rightarrow (p\land \sim q)\lor(q\land \sim r) \\
+         &amp;amp;\equiv&amp;amp; \sim(p\land\sim r)\lor (p\land \sim q)\lor(q\land \sim r) \\
+         &amp;amp;\equiv&amp;amp; \sim p\lor r\lor (p\land \sim q)\lor(q\land \sim r) \\
+         &amp;amp;\equiv&amp;amp; (\sim p\lor (p\land \sim q)) \lor (r\lor (q\land \sim r)) \\
+         &amp;amp;\equiv&amp;amp; ((\sim p\lor p)\land (\sim p \lor \sim q)) \lor ((r\lor q)\land (r\lor \sim r)) \\
+         &amp;amp;\equiv&amp;amp; (\sim p \lor \sim q) \lor (r\lor q) \\
+         &amp;amp;\equiv&amp;amp; (\sim q \lor q) \lor (\sim p\lor r) \\
+         &amp;amp;\equiv&amp;amp; t \\
+ \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;함의와-동치-1&quot;&gt;함의와 동치&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;함의 : 항진인 조건문 $p\rightarrow q$를 논리적 함의라 하고, $p\Rightarrow q$로 나타내며, $p$는 $q$의 충분조건, $q$는 $p$의 필요조건이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$인간\Rightarrow 동물$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;어떤 것이 인간이라 함은 그것은 동물이기도 하다. 따라서 인간이라고 하는 것은 동물로 분류되기에 충분한 조건이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;어떤 것이 동물이라 함은 그것은 인간으로 분류되기 위해 우선적으로 필요한 조건이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;못외우겠으면, 한글 알파벳 순서로 외우면 된다. 충분의 “ㅊ”이 필요의 “ㅍ”에 우선한다.($p\Rightarrow q$의 순서와 같음)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;동치 : 항진인 쌍조건문 $p\leftrightarrow q$를 동치라 하고, $p\Leftrightarrow q$로 나타내며, $p$와 $q$는 서로의 필요충분조건이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;앞서봤던 $\equiv$는 $\Leftrightarrow$와 같다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercise-2&quot;&gt;Exercise&lt;/h3&gt;
+&lt;p&gt;두 명제함수 $p(x)$, $q(x)$의 진리집합을 각각 $P$, $Q$라 할 때, 다음 각 명제를 증명해보자.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$p(x)\Rightarrow q(x)\equiv P\subseteq Q$&lt;/p&gt;
+
+    &lt;p&gt;$\begin{matrix}
+          p(x)\Rightarrow q(x)&amp;amp;\equiv&amp;amp;\forall x, p(x)\rightarrow q(x) \\
+          &amp;amp;\equiv&amp;amp;\forall x, \sim p(x)\lor q(x) \\
+          &amp;amp;\equiv&amp;amp;\forall x\in U, x\in P^c\lor x\in Q \\
+          &amp;amp;\equiv&amp;amp;\forall x\in U, x\in P^c\cup Q \\
+          &amp;amp;\equiv&amp;amp;U\subseteq (P^c\cup Q) \\
+          &amp;amp;\equiv&amp;amp;U= (P^c\cup Q) \\
+          &amp;amp;\equiv&amp;amp;(P^c\cup Q)^c=\emptyset \\
+          &amp;amp;\equiv&amp;amp;(P\cap Q^c)=\emptyset \\
+          &amp;amp;\equiv&amp;amp;(P-Q)=\emptyset \\
+          &amp;amp;\equiv&amp;amp;P\subseteq Q \\
+  \end{matrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$p(x)\Leftrightarrow q(x)\equiv P= Q$&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p(x)\Rightarrow q(x)\equiv P\subseteq Q$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$q(x)\Rightarrow p(x)\equiv Q\subseteq P$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;homework&quot;&gt;Homework&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;다음 각 명제를 증명하시오.
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;$c\Rightarrow p\Rightarrow t$&lt;/p&gt;
+
+        &lt;p&gt;위에서 본 Exercise에서 $p(x)\Rightarrow q(x)\equiv P\subseteq Q$이 성립함을 확인했다. 그렇기 때문에 $\emptyset\subseteq P \subseteq U$를 만족한다면 $c\Rightarrow p\Rightarrow t$가 된다.&lt;/p&gt;
+
+        &lt;p&gt;$\emptyset$은 모든 집합의 부분집합이기에 $P$의 부분집합이며, 모든 집합은 $U$의 부분집합이기 때문에 $P$ 또한 $U$의 부분집합이다. 그러므로 $\emptyset\subseteq P \subseteq U$를 만족한다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\rightarrow q\equiv\sim(p\land\sim q)$&lt;/p&gt;
+
+        &lt;p&gt;$p\rightarrow q\equiv\sim p\lor q\equiv \sim(p\land\sim q)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\rightarrow(q\land r)\equiv(p\rightarrow q)\land(p\rightarrow r)$&lt;/p&gt;
+
+        &lt;p&gt;$p\rightarrow(q\land r)\equiv\sim p\lor(q\land r)\equiv(\sim p\lor q)\land(\sim p\lor r)\equiv(p\rightarrow q)\land(p\rightarrow r)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$p\rightarrow q\equiv (p\land\sim q)\rightarrow(q\land \sim q)$&lt;/p&gt;
+
+        &lt;p&gt;$(p\land\sim q)\rightarrow(q\land \sim q)\equiv(p\land\sim q)\rightarrow c=\sim(p\land\sim q)\lor c\equiv\sim(p\land\sim q)\equiv\sim p\lor q\equiv p\rightarrow q$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\{1,2,3\}$이 대상영역일 때, 다음 각 명제를 부정하고 진리값을 말하시오.
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x,x+2&amp;lt;3\rightleftharpoons \exists x,x+2\ge 3$&lt;/p&gt;
+
+        &lt;p&gt;$True(\because x=1)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\exists x,\forall y, x^2+y^2\ge12 \rightleftharpoons\forall x, \exists y, x^2+y^2&amp;lt;12$&lt;/p&gt;
+
+        &lt;p&gt;$True(\because x=3, y=1)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x, \forall y, \exists z, x^2+y^2\ge2z^2\rightleftharpoons\exists x, \exists y, \forall z, x^2+y^2&amp;lt;2z^2$&lt;/p&gt;
+
+        &lt;p&gt;$False(\because z=1)$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;이상엽Math&lt;/li&gt;
+  &lt;li&gt;수학의 즐거움, Enjoying Math&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="1. 집합론" /><summary type="html">명제 명제 : 참, 거짓이 분명히 판단되는 문장</summary></entry><entry><title type="html">부정적분과 정적분</title><link href="http://localhost:4000/lecture/2020/08/15/indefinite_integral" rel="alternate" type="text/html" title="부정적분과 정적분" /><published>2020-08-15T00:00:00-07:00</published><updated>2020-08-15T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/15/indefinite_integral</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/15/indefinite_integral">&lt;h2 id=&quot;부정적분&quot;&gt;부정적분&lt;/h2&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\int f(x)dx=F(x)+c&lt;/script&gt;
 
@@ -1168,109 +1702,4 @@ h(x) &amp; (x &lt; a)
   &lt;li&gt;
     &lt;p&gt;$log5=1-log2$&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">로그의 정의 $a&amp;gt;0, a\neq 0,b&amp;gt;0$</summary></entry><entry><title type="html">지수</title><link href="http://localhost:4000/lecture/2020/08/06/exponent" rel="alternate" type="text/html" title="지수" /><published>2020-08-06T00:00:00-07:00</published><updated>2020-08-06T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/06/exponent</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/06/exponent">&lt;h2 id=&quot;a의-n제곱근-x&quot;&gt;a의 n제곱근 x&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a$ : 실수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n$ : 2 이상의 자연수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x$ : $n$번 거듭 제곱하여 $a$가 되는 수($a$의 $n$제곱근)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x^n=a$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x^2=a$일 때 $x$는 $a$의 제곱근이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x^3=a$일 때 $x$는 $a$의 세제곱근이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$x^5=a$일 때 $x$는 $a$의 5제곱근이다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;근이-실수인-것&quot;&gt;근이 실수인 것&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$y=x^n, y=a$의 교점의 $x$좌표&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;$n$이 짝수일 때 다음과 같은 모양이다.
-  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89114145-3664d100-d4b4-11ea-96fd-28798e2d50b8.png&quot; alt=&quot;&quot; /&gt;
-        &lt;ul&gt;
-          &lt;li&gt;$a&amp;gt;0$일 때 두 개의 해를 가진다.($\sqrt[n]{a}, -\sqrt[n]{a}$)&lt;/li&gt;
-          &lt;li&gt;$a=0$일 때 한 개의 해를 가진다.($0$)&lt;/li&gt;
-          &lt;li&gt;$a&amp;lt;0$일 때 해가 없다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;$n$이 홀수일 때 다음과 같은 모양이다.($\sqrt[n]{-a}=-\sqrt[n]{a}\;\;(a&amp;gt;0)$)
-  &lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89114146-36fd6780-d4b4-11ea-89f8-fda5ba49c36b.png&quot; alt=&quot;&quot; /&gt;
-        &lt;ul&gt;
-          &lt;li&gt;$a&amp;gt;0$일 때 한 개의 해를 가진다.($\sqrt[n]{a}$)&lt;/li&gt;
-          &lt;li&gt;$a=0$일 때 한 개의 해를 가진다.($0$)&lt;/li&gt;
-          &lt;li&gt;$a&amp;lt;0$일 때 한 개의 해를 가진다.($-\sqrt[n]{a}$)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;거듭제곱근의-성질&quot;&gt;거듭제곱근의 성질&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a&amp;gt;0,b&amp;gt;0$, $n,m$은 2 이상의 자연수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$(\sqrt[n]{a})^n=\sqrt[n]{a^n}=a$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$(\sqrt[n]{a})^m=\sqrt[n]{a^m}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sqrt[n]{a}\sqrt[n]{b}=\sqrt[n]{ab}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;${\sqrt[n]{a}\over \sqrt[n]{b}}=\sqrt[n]{a\over b}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sqrt[m]{\sqrt[n]{a}}=\sqrt[mn]{a}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sqrt[np]{a^{mp}}=\sqrt[n]{a^m}$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;지수법칙&quot;&gt;지수법칙&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^x$에서 $a$는 밑, $x$는 지수다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^xa^y=a^{x+y}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^x\div a^y=a^{x-y}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$(ab)^x=a^xb^x$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$(a^x)^y=a^{xy}=a^{yx}=(a^y)^x$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$({a\over b})^x={a^x\over b^x}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^0=1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^{-n}={1\over a^n}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a^{m\over n}=\sqrt[n]{a^m}$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">a의 n제곱근 x $a$ : 실수</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="수2" /><summary type="html">로그의 정의 $a&amp;gt;0, a\neq 0,b&amp;gt;0$</summary></entry></feed>
