@@ -1,5 +1,5 @@
 ---
-title: '1.1. 명제'
+title: '1.1 명제'
 date: 2020-10-18
 permalink: /lecture/2020/10/18/set_theory_proposition
 category:
@@ -30,7 +30,7 @@ tags:
 - 진리집합 : 해당 명제가 참이 되도록 하는 모든 원소의 집합. 명제 $p$의 진리집합은 $P$로,  $q$의 진리집합은 $Q$로 표기한다.
 	- $p$ : $\sim$은 블랙핑크의 멤버이다.
 
-	- $P$ : $\\{\text{지수}, \text{로제}, \text{제니}, \text{리사}\\}$
+	- $P$ : $\\{지수, 로제, 제니, 리사\\}$
 
 	- **명제 $p$가 거짓이라면, 진리집합 $P$는 공집합이 된다.**
 
@@ -138,41 +138,41 @@ tags:
 
 - $\forall x, p(x)\rightarrow 성공\land 행복$ 을 부정해보자.
 
-	$\begin{matrix}
-	\forall x, p(x)\rightarrow 성공\land 행복 &\equiv& \forall x, \sim p(x)\lor (성공\land 행복) \\\
-			&\rightleftharpoons& \exists x, \sim(\sim p(x)\lor (성공\land 행복)) \\\
-			&\equiv& \exists x, p(x)\land \sim(성공\land 행복)) \\\
-			&\equiv& \exists x, p(x)\land (\sim성공\lor \sim행복)) \\\
-	\end{matrix}$
+	$$\begin{matrix}
+	\forall x, p(x)\rightarrow 성공\land 행복 &\equiv& \forall x, \sim p(x)\lor (성공\land 행복) \\
+			&\rightleftharpoons& \exists x, \sim(\sim p(x)\lor (성공\land 행복)) \\
+			&\equiv& \exists x, p(x)\land \sim(성공\land 행복)) \\
+			&\equiv& \exists x, p(x)\land (\sim성공\lor \sim행복)) \\
+	\end{matrix}$$
 	
 ### Exercise
 다음 명제들을 부정하라.
 
 1. $\forall x, x^2-2x+1\ge 0$
 
-	$\begin{matrix}
-	\forall x, x^2-2x+1\ge 0 &\rightleftharpoons& \exists x, x^2-2x+1< 0 \\\
-	\end{matrix}$
+	$$\begin{matrix}
+	\forall x, x^2-2x+1\ge 0 &\rightleftharpoons& \exists x, x^2-2x+1< 0 \\
+	\end{matrix}$$
 
 2. $\exists x, x^2=1\rightarrow x=3$
 
-	$\begin{matrix}
-	\exists x, x^2=1\rightarrow x=3 &\equiv& \exists x, \sim(x^2=1)\lor (x=3) \\\
-	&\rightleftharpoons& \forall x, \sim(\sim(x^2=1)\lor (x=3)) \\\
-	&\equiv& \forall x, (x^2=1)\land (x\neq3)) \\\
-	\end{matrix}$
+	$$\begin{matrix}
+	\exists x, x^2=1\rightarrow x=3 &\equiv& \exists x, \sim(x^2=1)\lor (x=3) \\
+	&\rightleftharpoons& \forall x, \sim(\sim(x^2=1)\lor (x=3)) \\
+	&\equiv& \forall x, (x^2=1)\land (x\neq3)) \\
+	\end{matrix}$$
 
 3. $\exists x, \forall y, (p(x)\lor q(y))$
 
-	$\begin{matrix}
-	\exists x, \forall y, (p(x)\lor q(y)) &\rightleftharpoons& \forall x, \exists y, \sim p(x)\land \sim q(y) \\\
-	\end{matrix}$
+	$$\begin{matrix}
+	\exists x, \forall y, (p(x)\lor q(y)) &\rightleftharpoons& \forall x, \exists y, \sim p(x)\land \sim q(y) \\
+	\end{matrix}$$
 
 4. $(\forall x, p(x))\land(\exists y, q(y))$
 
-	$\begin{matrix}
-	(\forall x, p(x))\land(\exists y, q(y)) &\rightleftharpoons& (\exists x, \sim p(x))\lor(\forall y, \sim q(y)) \\\
-	\end{matrix}$
+	$$\begin{matrix}
+	(\forall x, p(x))\land(\exists y, q(y)) &\rightleftharpoons& (\exists x, \sim p(x))\lor(\forall y, \sim q(y)) \\
+	\end{matrix}$$
 
 ## 함의와 동치
 ### 함진명제와 모순명제
@@ -199,25 +199,25 @@ tags:
 ### Exercise
 1. $\sim p\rightarrow c\equiv p$
 
-	$\begin{matrix}
-			\sim p\rightarrow c &\equiv& p\lor c \\\
+	$$\begin{matrix}
+			\sim p\rightarrow c &\equiv& p\lor c \\
 			&\equiv& p
-	\end{matrix}$
+	\end{matrix}$$
 
 2. $(p\rightarrow q)\land(q\rightarrow r)\rightarrow(p\rightarrow r)\equiv t$
 
-	$\begin{matrix}
-			(p\rightarrow q)\land(q\rightarrow r)\rightarrow(p\rightarrow r) &\equiv& (\sim p\lor q)\land(\sim q\lor r)\rightarrow(\sim p\lor r) \\\
-			&\equiv& \sim(\sim p\lor r)\rightarrow \sim((\sim p\lor q)\land(\sim q\lor r)) \\\
-			&\equiv& (p\land\sim r)\rightarrow (p\land \sim q)\lor(q\land \sim r) \\\
-			&\equiv& \sim(p\land\sim r)\lor (p\land \sim q)\lor(q\land \sim r) \\\
-			&\equiv& \sim p\lor r\lor (p\land \sim q)\lor(q\land \sim r) \\\
-			&\equiv& (\sim p\lor (p\land \sim q)) \lor (r\lor (q\land \sim r)) \\\
-			&\equiv& ((\sim p\lor p)\land (\sim p \lor \sim q)) \lor ((r\lor q)\land (r\lor \sim r)) \\\
-			&\equiv& (\sim p \lor \sim q) \lor (r\lor q) \\\
-			&\equiv& (\sim q \lor q) \lor (\sim p\lor r) \\\
-			&\equiv& t \\\
-	\end{matrix}$
+	$$\begin{matrix}
+			(p\rightarrow q)\land(q\rightarrow r)\rightarrow(p\rightarrow r) &\equiv& (\sim p\lor q)\land(\sim q\lor r)\rightarrow(\sim p\lor r) \\
+			&\equiv& \sim(\sim p\lor r)\rightarrow \sim((\sim p\lor q)\land(\sim q\lor r)) \\
+			&\equiv& (p\land\sim r)\rightarrow (p\land \sim q)\lor(q\land \sim r) \\
+			&\equiv& \sim(p\land\sim r)\lor (p\land \sim q)\lor(q\land \sim r) \\
+			&\equiv& \sim p\lor r\lor (p\land \sim q)\lor(q\land \sim r) \\
+			&\equiv& (\sim p\lor (p\land \sim q)) \lor (r\lor (q\land \sim r)) \\
+			&\equiv& ((\sim p\lor p)\land (\sim p \lor \sim q)) \lor ((r\lor q)\land (r\lor \sim r)) \\
+			&\equiv& (\sim p \lor \sim q) \lor (r\lor q) \\
+			&\equiv& (\sim q \lor q) \lor (\sim p\lor r) \\
+			&\equiv& t \\
+	\end{matrix}$$
 
 ### 함의와 동치
 - 함의 : 항진인 조건문 $p\rightarrow q$를 논리적 함의라 하고, $p\Rightarrow q$로 나타내며, $p$는 $q$의 충분조건, $q$는 $p$의 필요조건이다.
@@ -238,18 +238,18 @@ tags:
 
 - $p(x)\Rightarrow q(x)\equiv P\subseteq Q$
 
-	$\begin{matrix}
-			p(x)\Rightarrow q(x)&\equiv&\forall x, p(x)\rightarrow q(x) \\\
-			&\equiv&\forall x, \sim p(x)\lor q(x) \\\
-			&\equiv&\forall x\in U, x\in P^c\lor x\in Q \\\
-			&\equiv&\forall x\in U, x\in P^c\cup Q \\\
-			&\equiv&U\subseteq (P^c\cup Q) \\\
-			&\equiv&U= (P^c\cup Q) \\\
-			&\equiv&(P^c\cup Q)^c=\emptyset \\\
-			&\equiv&(P\cap Q^c)=\emptyset \\\
-			&\equiv&(P-Q)=\emptyset \\\
-			&\equiv&P\subseteq Q \\\
-	\end{matrix}$
+	$$\begin{matrix}
+			p(x)\Rightarrow q(x)&\equiv&\forall x, p(x)\rightarrow q(x) \\
+			&\equiv&\forall x, \sim p(x)\lor q(x) \\
+			&\equiv&\forall x\in U, x\in P^c\lor x\in Q \\
+			&\equiv&\forall x\in U, x\in P^c\cup Q \\
+			&\equiv&U\subseteq (P^c\cup Q) \\
+			&\equiv&U= (P^c\cup Q) \\
+			&\equiv&(P^c\cup Q)^c=\emptyset \\
+			&\equiv&(P\cap Q^c)=\emptyset \\
+			&\equiv&(P-Q)=\emptyset \\
+			&\equiv&P\subseteq Q \\
+	\end{matrix}$$
 
 - $p(x)\Leftrightarrow q(x)\equiv P= Q$
 
