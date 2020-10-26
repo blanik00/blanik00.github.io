@@ -1,4 +1,560 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-23T08:18:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.2 집합</title><link href="http://localhost:4000/lecture/2020/10/19/set_theory_set" rel="alternate" type="text/html" title="1.2 집합" /><published>2020-10-19T00:00:00-07:00</published><updated>2020-10-19T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/19/set_theory_set</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/19/set_theory_set">&lt;h2 id=&quot;집합set--collection--family&quot;&gt;집합(set) = collection = family&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-26T07:34:41-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.3 관계와 분할</title><link href="http://localhost:4000/lecture/2020/10/20/set_theory_relation" rel="alternate" type="text/html" title="1.3 관계와 분할" /><published>2020-10-20T00:00:00-07:00</published><updated>2020-10-20T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/20/set_theory_relation</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/20/set_theory_relation">&lt;h2 id=&quot;관계&quot;&gt;관계&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;곱집합 $A\times B$의 부분집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A$를 기준이 되는 대상, $B$를 비교가 되는 대상으로 생각하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“$A$에서 $B$로의 관계 $R$”(relation)은 다음과 같이 정의한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R=(A,B,P(x,y))&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;기준이 되는 대상과 비교가 되는 대상이 같을 경우에, 예를 들어, $A$에서 $A$로의 관계는 “$A$에서의 관계”이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P(x,y)$는 명제함수이다. 곱집합의 원소 중 이 명제함수를 만족하는 것만이 &lt;strong&gt;관계 $R$의 해집합&lt;/strong&gt;이 된다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\{(x,y)|x\in A, y\in B, P(x,y)\;is\;true\}&lt;/script&gt;
+
+&lt;h3 id=&quot;관계의-예&quot;&gt;관계의 예&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=\{2,3\}$, $B=\{4,6\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A\times B=\{(2,4), (2,6), (3,4), (3,6)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P(x,y)$ : $x$는 $y$의 약수이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$R=(A,B,P(x,y))=\{(2,4), (2,6), (3,6)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(2,4)$는 관계 $R$에 포함되는데, 이를 $(2,4)\in R$ 혹은 $_2R_4$로 표시한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;정의역&quot;&gt;정의역&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;임의의 $y\in B$에 대하여 $_xR_y$인 모든 $x\in A$의 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Dom(R)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위에서 봤던 예시에서 정의역은 $Dom(R)=\{2,3\}$이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;상&quot;&gt;상&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;임의의 $x\in A$에 대하여 $_xR_y$인 모든 $y\in B$의 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$Im(R)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위에서 봤던 예시에서 상은 $Im(R)=\{4,6\}$이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;관계의-성질&quot;&gt;관계의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합 $X=\{1,2,3\}$에서의 관계 $R$에 대하여&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;반사성(reflexive) : $\forall x\in X, _xR_x$
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$R_1=\{(1,1), (2,2)\}$은 반사적이지 않다.($(3,3)$이 없기 때문)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$R_2=\{(1,1), (2,2), (3,3), (1,3)\}$은 반사적이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;반사성을 만족시키기 위한 최소한의 원소(예시에서는 $(1,1), (2,2), (3,3)$)을 대각관계 혹은 항등관계라고 하며, $\Delta_X$라 표시한다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;대칭성(symmetric) : $_xR_y\Rightarrow _yR_x$
+    &lt;ul&gt;
+      &lt;li&gt;$R_3=\{(1,1), (1,2), (2,1)\}$은 대칭적이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;반대칭성(antisymmetric) : $_xR_y\land _yR_x\Rightarrow x=y$
+    &lt;ul&gt;
+      &lt;li&gt;$R_3$는 반대칭적이지 않다.($_1R_2\land _2R_1\rightarrow x\neq y$)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;추이성(transitive) : $_xR_y\land _yR_z\Rightarrow_xR_z$
+    &lt;ul&gt;
+      &lt;li&gt;$R_4=\{(1,1), (1,2), (2,3)\}$은 추이적이지 않다.($(1,3)$이 없기 때문)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$R_{5}=\{(1,1), (1,3), (2,2), (2,3), (3,1), (3,2)\}$는 대칭성만 만족한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-관계&quot;&gt;여러가지 관계&lt;/h2&gt;
+&lt;h3 id=&quot;역관계r-1&quot;&gt;역관계($R^{-1}$)&lt;/h3&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;R^{-1}=\{(y,x)|(x,y)\in R\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;예를 들어, $R=\{(1,1), (1,2)\}$이라면, $R^{-1}=\{(1,1), (2,1)\}$이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;합성관계&quot;&gt;합성관계&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;집합 $X$에서의 관계 $G$와 $H$에 대하여&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;H\circ G=\{(x,y)|\exists z,(x,z)\in G\land (z,y)\in H)\}&lt;/script&gt;
+
+&lt;h2 id=&quot;역관계와-합성관계에-관한-정리&quot;&gt;역관계와 합성관계에 관한 정리&lt;/h2&gt;
+&lt;p&gt;집합 $X$에서의 관계 $F, G, H$에 대하여 다음이 모두 성립한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$(F^{-1})^{-1}=F$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+	(x,y)\in (F^{-1})^{-1} &amp;\equiv&amp; (y,x)\in F^{-1} \\
+	&amp;\equiv&amp; (x,y)\in F \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$(H\circ G)\circ F=H\circ (G\circ F)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+	(x,y)\in (H\circ G)\circ F &amp;\equiv&amp; \exists z,(x,z)\in F\land (z,y)\in (H\circ G) \\
+	&amp;\equiv&amp;  \exists z,w,(x,z)\in F\land (z,w)\in G\land (w,y)\in H \\
+	&amp;\equiv&amp;  \exists w,(x,w)\in (G\circ F)\land (w,y)\in H \\
+	&amp;\equiv&amp;  (x,y)\in H\circ(G\circ F) \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$(G\circ F)^{-1}=F^{-1}\circ G^{-1}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+	(x,y)\in (G\circ F)^{-1} &amp;\equiv&amp; (y,x)\in (G\circ F) \\
+	&amp;\equiv&amp;  \exists z, (y,z)\in F\land (z,x)\in G \\
+	&amp;\equiv&amp;  \exists z, (z,y)\in F^{-1}\land (x,z)\in G^{-1} \\
+	&amp;\equiv&amp;  \exists z, (x,z)\in G^{-1}\land (z,y)\in F^{-1} \\
+	&amp;\equiv&amp;  (x,y)\in F^{-1}\circ G^{-1} \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;동치관계equivalence-relation&quot;&gt;&lt;strong&gt;동치관계(Equivalence Relation)&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$E$로 표기함&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;반사적, 대칭적, 추이적 관계&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;우리가 알고있는 수체계에서 “$=$”는 동치관계를 만족한다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;반사성 : $a=a$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;대칭성 : $a=b\Rightarrow b=a$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;추이성 : $a=b\land b=c\Rightarrow a=c$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;명제의 모든 논리적 가능성이 같음을 나타내는 “$\equiv$”도 동치관계를 만족한다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;반사성 : $p\equiv p$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;대칭성 : $p\equiv q\Rightarrow q\equiv p$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;추이성 : $p\equiv q\land q\equiv r\Rightarrow p\equiv r$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;도형의 합동도 동치관계를 만족한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;집합 $X$에서 만들 수 있는 동치관계 중 가장 큰 것은 $X^2$이고, 가장 작은 것은 대각관계(항등관계)이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;순서관계&quot;&gt;순서관계&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;반사적, 반대칭적, 추이적 관계&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;나중에 자세히 배움&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;분할&quot;&gt;분할&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;분할 : 집합 $X$에 대하여 다음 세 조건을 만족하는 집합족 $P=\{A|A\subset X\}$
+    &lt;ol&gt;
+      &lt;li&gt;공집합을 원소로 하지 않는다.
+        &lt;ul&gt;
+          &lt;li&gt;$\forall A\in P, A\neq\emptyset$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$X$를 덮는다.
+        &lt;ul&gt;
+          &lt;li&gt;$\bigcup P=X$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;서로소 집합족이다.
+        &lt;ul&gt;
+          &lt;li&gt;$\forall A_1, A_2\in P, A_1\cap A_2=\emptyset \lor A_1=A_2$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;동치관계를 만들어내기 위해 분할이 사용된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;동치와 분할의 관계는 뒤에서 살펴본다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;분할의-예시&quot;&gt;분할의 예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X=\{1,2,3,4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P=\{\{1,2\},\{3,4\},\{5\}\}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;동치류&quot;&gt;동치류&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\{y\in X| _xR_y \}$이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수학 시험 결과 “상엽”과 같은 시험 점수를 받은 학생이 “지수”, “제니”라면 $E_{상엽}=\{지수, 제니\}$이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상집합&quot;&gt;상집합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합 $X$에서의 모든 동치류의 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X / E=\{E_x|x\in X\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X/E=\{\{상엽, 지수, 제니\}, \{떡고릴라, 사나, 나연\}\}$이 될 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;동치류와-상집합의-예시&quot;&gt;동치류와 상집합의 예시&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X=\{1,2,3,4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$E=\{(1,1), (2,2), (3,3), (4,4), (5,5), (1,3), (3,1), (2,4), (4,2)\}$&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$E_1=\{1,3\}=E_3$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$E_2=\{2,4\}=E_4$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$E_5=\{5\}$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\therefore X/E=\{\{1,3\},\{2,4\},\{5\}\}$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리는 동치관계 $E$에 대한 상집합을 구했다. 그런데 우리가 만들어낸 상집합이 분할이기도 한 점을 확인할 수 있다. 즉, 우리는 &lt;strong&gt;동치관계로부터 분할을 만들어냈다.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;r_pxp&quot;&gt;$R_P(X/P)$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;분할 $P$에 의한 관계&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위에서 배운 상집합과 표기가 비슷한데, / 뒤에 관계가 오면 집합족을 의미($X/E$)하고, 집합족이 오면 관계를 의미($X/P$)하는 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\{(x,y)|\exists A\in P, x,y\in A\}&lt;/script&gt;
+
+&lt;h2 id=&quot;xe와-xp-정리&quot;&gt;$X/E$와 $X/P$ 정리&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;$X/E$&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;$X/P$&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;X 뒤에 오는 것&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;관계&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;분할(집합족)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;정의&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$\{E_x|x\in X\}$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$\{(x,y)|\exists A\in P,(x,y)\in A\}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;의미&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;집합 X에서의 모든 동치류의 집합(&lt;strong&gt;집합족&lt;/strong&gt;)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;분할 P에 의한 &lt;strong&gt;관계&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;예시-1&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X=\{1,2,3,4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P=\{A_1, A_2, A_3\}=\{\{1,2\},\{3,4\},\{5\}\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A_1$으로 만들어낼 수 있는 순서쌍 : $\{(1,1), (1,2), (2,1), (2,2)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A_2$으로 만들어낼 수 있는 순서쌍 : $\{(3,3), (3,4), (4,3), (4,4)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A_3$으로 만들어낼 수 있는 순서쌍 : $\{(5,5)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\therefore R_P=\{(1,1), (1,2), (2,1), (2,2), (3,3), (3,4), (4,3), (4,4), (5,5)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$R_P$는 동치관계임을 알 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리는 집합 $X$의 &lt;strong&gt;분할로부터 동치관계를 만들어냈다.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;앞선 예시에서는 동치관계로부터 분할을 만들어냈고, 이번 예시에서는 분할로부터 동치관계를 만들어냈다. 이 둘 사이에 밀접한 관계가 있음을 알 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-정리&quot;&gt;여러가지 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;공집합이 아닌 집합 $X$ 위의 동치관계 $E$에 대하여 다음이 모두 성립한다.
+    &lt;ul&gt;
+      &lt;li&gt;$E_x\neq\emptyset$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$X\neq\emptyset\Rightarrow\exists x\in X$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$E\;\;is\;\;reflexive\Rightarrow _xR_x$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$x\in E_x$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\therefore E_x\neq\emptyset$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$E_x=E_y\Leftrightarrow_xR_y$
+        &lt;ul&gt;
+          &lt;li&gt;$E_x=E_y\rightarrow_xR_y$
+            &lt;ul&gt;
+              &lt;li&gt;$x\in E_x(\because reflexive)\Rightarrow x\in E_y(\because E_x=E_y)\Leftrightarrow _yR_x\Rightarrow _xR_y$&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;$_xR_y\rightarrow E_x=E_y$
+            &lt;ul&gt;
+              &lt;li&gt;NTS : $E_x\subset E_y, E_y\subset E_x$
+                &lt;ol&gt;
+                  &lt;li&gt;
+                    &lt;p&gt;$z\in E_x\Leftrightarrow_xR_z\Rightarrow _yR_z(\because _yR_x\land_xR_z\Rightarrow_yR_z)\Leftrightarrow z\in E_y$&lt;/p&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;p&gt;$z\in E_y\Leftrightarrow_yE_z\Rightarrow_xE_z(\because _xR_y\land_yR_z\Rightarrow_xR_z)\Leftrightarrow z\in E_x$&lt;/p&gt;
+                  &lt;/li&gt;
+                &lt;/ol&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$E_x\cap E_y\neq\emptyset\Leftrightarrow _xR_y$
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+     E_x\cap E_y\neq\emptyset &amp;\Leftrightarrow&amp; \exists z,z\in E_x\land z\in E_y \\
+     &amp;\Leftrightarrow&amp;  \exists z,  _xR_z\land _yR_z \\
+     &amp;\Rightarrow&amp; \exists z, _xR_z\land _zR_y \\
+     &amp;\Rightarrow&amp; _xR_y(\because transitive) \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+     _xR_y &amp;\Rightarrow&amp; E_x=E_y (\because 위에서 증명함)\\
+     &amp;\Rightarrow&amp;  E_x\cap E_y\neq\emptyset \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;동치와-분할이-사실-같은-것임을-증명&quot;&gt;동치와 분할이 사실 같은 것임을 증명&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X$ : 공집합이 아닌 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$E$ : $X$ 위의 동치관계&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;xe는-x의-분할이다&quot;&gt;$X/E$는 $X$의 분할이다.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;분할임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$X/E$는 공집합을 원소로 갖지 않는다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;동치류는 공집합을 가지지 않는다.($\because reflexive and\;X\;is\;not\;empty$)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\emptyset\notin X/E$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$X/E$는 서로소 집합족이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$if\;E_x\cap E_y\neq\emptyset \Rightarrow _xR_y \Rightarrow E_x=E_y$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$if\;E_x\neq E_y \Rightarrow E_x\cap E_y=\emptyset$(대우)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\bigcup X/E=X$
+    &lt;ul&gt;
+      &lt;li&gt;NTS : $\bigcup X/E\subset X, X\subset \bigcup X/E$
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\bigcup X/E\subset X$(자명함)&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\forall x\in X,\exists E_x\in X/E, s.t.\;x\in E_x$&lt;br /&gt;
+ ($X$의 모든 원소 $x$는 $X/E$의 어떤 원소에 반드시 포함된다.)
+ $\therefore X\subseteq X/E$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X$ : 공집합이 아닌 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$P$ : 분할&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;r_pxp는-x-상의-동치관계이다&quot;&gt;$R_P(X/P)$는 $X$ 상의 동치관계이다.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;동치관계임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$R_P$는 반사적이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x\in X, \exists A\in P\;s.t.\;x\in A$($\because$ $P$는 $X$를 덮는다)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\therefore _x{R_P}_x$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$R_P$는 대칭적이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$(x,y)\in R_P\Rightarrow\exists A\in P\;s.t.\;x,y\in A$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\therefore (y,x)\in R_P$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$R_P$는 추이적이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x,y,z\in X, _xR_y\land _yR_z$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\Rightarrow \exists A,B\in P,\;s.t.\; x,y\in A, y,z\in B$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$A=B$(분할은 서로소 집합이므로, $A, B$ 모두 $y$를 원소로 갖는다면, $A=B$이다)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$_xR_z$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;이상엽Math&lt;/li&gt;
+  &lt;li&gt;수학의 즐거움, Enjoying Math&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="1. 집합론" /><summary type="html">관계 곱집합 $A\times B$의 부분집합</summary></entry><entry><title type="html">1.2 집합</title><link href="http://localhost:4000/lecture/2020/10/19/set_theory_set" rel="alternate" type="text/html" title="1.2 집합" /><published>2020-10-19T00:00:00-07:00</published><updated>2020-10-19T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/19/set_theory_set</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/19/set_theory_set">&lt;h2 id=&quot;집합set--collection--family&quot;&gt;집합(set) = collection = family&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;기준을 만족하는 서로 다른 대상을 모아놓은 것&lt;/p&gt;
@@ -510,6 +1066,32 @@
 &lt;ul&gt;
   &lt;li&gt;이 예제를 일반화 시킨 것이 위에 있는 식이다.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;exercise-3&quot;&gt;Exercise 3&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$B\subseteq A$인 두 집합 $A$, $B$에 대하여 $A\star B=\{X\in P(A)|B\subseteq X\}$이라고 하자. $A=\{a,b,c,d\}$, $B=\{a,b\}$일 때, $A\star B$를 원소나열법으로 구하시오.
+ &lt;script type=&quot;math/tex&quot;&gt;A\star B=\{\{a,b\},\{a,b,c\},\{a,b,d\},\{a,b,c,d\}\}&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;집합족 $F$가 $\{\{a,b,c,d,e\},\{c,d,e\},\{b,c,d\},\{a,b,c\}\}$일 때, 다음을 구하시오.
+    &lt;ol&gt;
+      &lt;li&gt;$\bigcup F=\{a,b,c,d,e\}$&lt;/li&gt;
+      &lt;li&gt;$\bigcap F=\{c\}$&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;원소가 모두 9개인 곱집합 $A^2$에는 $\{(1,2), (2,3)\}$이 포함된다고 한다. 이 때 집합 $A$와 $A^2$을 각각 구하시오.
+    &lt;ol&gt;
+      &lt;li&gt;$A=\{1,2,3\}$&lt;/li&gt;
+      &lt;li&gt;$A^2=\{(1,1), (1,2), (1,3), (2,1), (2,2), (2,3), (3,1), (3,2), (3,3)\}$&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;두 집합 $A, B$에 대하여 $A\times B=B\times A$가 성립하기 위한 조건은 무엇일지 탐구하고 서술하시오.
+    &lt;ol&gt;
+      &lt;li&gt;$A=B$&lt;/li&gt;
+      &lt;li&gt;$A=\emptyset \lor B=\emptyset$&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&quot;출처&quot;&gt;출처&lt;/h2&gt;
 &lt;ol&gt;
@@ -2032,123 +2614,4 @@ h(x) &amp; (x &lt; a)
       &lt;li&gt;$S={r(a+b+c)\over 2}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">급수 수열의 합에서는 $a_1$부터 $a_n$까지의 합을 구했다. 즉, $S_n=\sum_{i=0}^{n}a_i$를 구했다.</summary></entry><entry><title type="html">수열의 극한</title><link href="http://localhost:4000/lecture/2020/08/08/limit" rel="alternate" type="text/html" title="수열의 극한" /><published>2020-08-08T00:00:00-07:00</published><updated>2020-08-08T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/08/limit</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/08/limit">&lt;h2 id=&quot;infty-무한대&quot;&gt;$\infty$ 무한대&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;한없이 커지는 상태&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;“상태”이기 때문에 숫자는 아님&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;$\infty\pm(숫자)=\infty$&lt;/li&gt;
-      &lt;li&gt;$\infty+\infty=\infty$&lt;/li&gt;
-      &lt;li&gt;$\infty\cdot (숫자)=\pm\infty$&lt;/li&gt;
-      &lt;li&gt;$\infty\cdot\infty=\infty$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;수렴&quot;&gt;수렴&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;수열 $a_n$의 $n$을 무한으로 만들 때, $a_n$이 무한이 되면 이를 발산한다고 한다. 반대로 특정 숫자가 되거나 아주 가까워지면 수렴한다고 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}a_n=\alpha$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}c=c$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}{c\over n}=0$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}n^k=\infty$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;수열의-극한의-성질&quot;&gt;수열의 극한의 성질&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}a_n=\alpha, lim_{n\rightarrow \infty}b_n=\beta$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}ka_n=k\cdot lim_{n\rightarrow \infty}a_n=k\alpha$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}(a_n\pm b_n)=lim_{n\rightarrow \infty}a_n\pm lim_{n\rightarrow \infty}b_n=\alpha\pm\beta$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}(a_nb_n)=lim_{n\rightarrow \infty}a_nlim_{n\rightarrow \infty}b_n=\alpha\beta$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow \infty}{a_n\over b_n}={lim_{n\rightarrow \infty}a_n\over lim_{n\rightarrow \infty}b_n}={\alpha\over\beta}\qquad(b_n\neq0,\beta\neq0)$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;inftyoverinfty&quot;&gt;${\infty\over\infty}$&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;(분자의 차수) = (분모의 차수)
-    &lt;ul&gt;
-      &lt;li&gt;최고차항의 계수의 비&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;(분자의 차수) &amp;gt; (분모의 차수)
-    &lt;ul&gt;
-      &lt;li&gt;0(수렴)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;(분자의 차수) &amp;lt; (분모의 차수)
-    &lt;ul&gt;
-      &lt;li&gt;발산&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;infty-infty&quot;&gt;$\infty-\infty$&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;근호가 있는 부분을 유리화해 ${\infty\over\infty}$꼴로 만들어 해결&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;수열의-극한의-대소관계&quot;&gt;수열의 극한의 대소관계&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$a_n &amp;lt; c_n &amp;lt; b_n, lim_{n\rightarrow \infty}a_n=0, lim_{n\rightarrow \infty}b_n=0$이면 $lim_{n\rightarrow \infty}c_n=0$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비수열의-극한&quot;&gt;등비수열의 극한&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;공비($r$)만 잘 알고 있으면 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$r=1\Rightarrow lim_{n\rightarrow \infty}r^n=1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$-1 &amp;lt; r &amp;lt; 1\Rightarrow lim_{n\rightarrow \infty}r^n=0$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$r\le -1 \;또는\; r\ge 1\Rightarrow lim_{n\rightarrow \infty}r^n은\; 발산$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비수열의-일반항이-포함된-극한-inftyoverinfty&quot;&gt;등비수열의 일반항이 포함된 극한 ${\infty\over\infty}$&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;거듭제곱의 절대값이 가장 큰 항 비교
-    &lt;ul&gt;
-      &lt;li&gt;$lim_{n\rightarrow \infty}{2\cdot3^n-2^n\over 3^n+2^n}=2$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;수렴-조건&quot;&gt;수렴 조건&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$r^n\Rightarrow -1 &amp;lt; r\le 1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ar^n\Rightarrow -1 &amp;lt; r\le 1, a=0$&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;$a=0$인 경우는 $-1 &amp;lt; r\le 1$이 아니더라도 반드시 0으로 수렴하므로 수렴 조건에 포함시켜야 함.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">$\infty$ 무한대 한없이 커지는 상태</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">급수 수열의 합에서는 $a_1$부터 $a_n$까지의 합을 구했다. 즉, $S_n=\sum_{i=0}^{n}a_i$를 구했다.</summary></entry></feed>
