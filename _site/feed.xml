@@ -1,4 +1,541 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-26T07:34:41-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.3 관계와 분할</title><link href="http://localhost:4000/lecture/2020/10/20/set_theory_relation" rel="alternate" type="text/html" title="1.3 관계와 분할" /><published>2020-10-20T00:00:00-07:00</published><updated>2020-10-20T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/20/set_theory_relation</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/20/set_theory_relation">&lt;h2 id=&quot;관계&quot;&gt;관계&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T05:51:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;관계의 특수한 케이스&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정의 : 다음을 만족하는 $X$ $Y$로의 관계 $f:X\rightarrow Y$
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x\in X, \exists y\in Y, s.t.\;(x,y)\in f$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$(x,y_1)\in f, (x,y_2)\in f\Rightarrow y_1=y_2$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$(x,y)\in f$는 $y=f(x)$로도 쓴다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;p&gt;$X=\{1,2,3\}, Y=\{a,b,c\}$일 때, 다음 관계가 함수인지 확인하라.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$f_1=\{(1,a), (1,b), (2,b), (3,c)\}$
+    &lt;ul&gt;
+      &lt;li&gt;2번 조건을 위반&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f_1=\{(1,a), (2,b)\}$
+    &lt;ul&gt;
+      &lt;li&gt;1번 조건을 위반&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f_1=\{(1,a), (2,a), (3,b)\}$
+    &lt;ul&gt;
+      &lt;li&gt;함수&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;함수 $f:X\rightarrow Y$에서 $y=f(x)$일 때,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$y$를 $f$에 의한 $x$의 상&lt;/li&gt;
+  &lt;li&gt;$x$를 $f$에 의한 $y$의 원상&lt;/li&gt;
+  &lt;li&gt;$X$를 $f$의 정의역 : $Dom(f)$&lt;/li&gt;
+  &lt;li&gt;$Y$를 $f$의 공역&lt;/li&gt;
+  &lt;li&gt;$\{f(x)| x\in X\}=f(X)$를 $X$의 치역 : $Rng(f)$
+라 한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;위에서 들었떤 예에서,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$Dom(f_3)=\{1,2,3\}=X$&lt;/li&gt;
+  &lt;li&gt;$Rng(f_3)=\{a,b\}\subset Y$&lt;/li&gt;
+  &lt;li&gt;1의 상 : $a$&lt;/li&gt;
+  &lt;li&gt;a의 원상 : $1,2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;함수식이-같아도-정의역이-다르면-다른-함수다&quot;&gt;함수식이 같아도 정의역이 다르면 다른 함수다.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f(x)=x^2, Dom(f)=\mathbb{R}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$g(x)=x^2, Dom(g)=\mathbb{C}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f\neq g$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;참고
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{N}$ : 자연수&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{Z}$ : 정수&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{Q}$ : 유리수&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{R}$ : 실수&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{C}$ : 복소수&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그러므로 정의역을 조절해서(범위 줄이기 혹은 늘리기) 다른 함수를 만드는 것도 얼마든지 가능하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;함수 $f:X\rightarrow Y$에 대하여 $A\subset X$일 때,
+    &lt;ul&gt;
+      &lt;li&gt;$f|_A$는 $X$를 $A$로 축소한 함수
+        &lt;ul&gt;
+          &lt;li&gt;$\{(x,y)\in f|x\in A\}$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$g=f|_A$이면 $g$는 $f$의 $A$에서의 확대함수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시-1&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=\{1,2\}, B=\{1,2,3\}, Y=\{a,b,c\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f=\{(1,a), (2,b), (3,c)\}$
+    &lt;ul&gt;
+      &lt;li&gt;$f:A\rightarrow Y$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$g=\{(1,a), (2,b)\}$
+    &lt;ul&gt;
+      &lt;li&gt;$g:B\rightarrow Y$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$g=f|_A$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;함수의-성질&quot;&gt;함수의 성질&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f:X\rightarrow Y$에 대하여&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;전사(onto, surjective) : $Rng(f)=Y$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;단사(one-to-one, injective) : $x_1\neq x_2\in X\Rightarrow f(x_1)\neq f(x_2)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;전단사(=&lt;strong&gt;일대일대응&lt;/strong&gt;) : 전사이고 단사인 함수&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/97255251-8b19ad00-1853-11eb-9be1-4e441bdcaf05.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;여러가지-함수&quot;&gt;여러가지 함수&lt;/h2&gt;
+&lt;h3 id=&quot;고등학교-교육과정-내&quot;&gt;고등학교 교육과정 내&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;항등함수 : $\forall x\in X, I_X(x)=x$
+    &lt;ul&gt;
+      &lt;li&gt;관계에서 배운 대각관계가 항등함수다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;상수함수 : $\exists y_0\in Y, f(X)=y_0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;역함수&lt;/strong&gt; : &lt;strong&gt;전단사&lt;/strong&gt;인 $f:X\rightarrow Y$에 대해 $f^{-1}:Y\rightarrow X$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;두 함수 $f:X\rightarrow Y,g:Y\rightarrow Z$일 때, 합성함수 $(g\circ f)(x)=g(f(x))$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;합성함수의-성질&quot;&gt;합성함수의 성질&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$g\circ f\neq f\circ g$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(h\circ g)\circ f=h\circ(g\circ f)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f^{-1}\circ f=I_X$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f\circ f^{-1}=I_Y$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f, g$가 모두 단사$\Rightarrow g\circ f$는 단사&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$g\circ f$는 단사 $\Rightarrow f$는 단사&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f, g$가 모두 전사$\Rightarrow g\circ f$는 전사&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$g\circ f$는 전사 $\Rightarrow g$는 전사&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;고등학교-교육과정-외&quot;&gt;고등학교 교육과정 외&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;집합 $A(\neq\emptyset)$가 $A\subset X$일 때,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;포함함수
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;항등함수의 축소함수($I_X|_A$)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x\in A, i:A\rightarrow X$가 $i(x)=x(\in A)$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;특성함수(characteristic function, indicator function)
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;하나의 값이 특정 집합에 포함되는지 안되는지를 알려주는 함수&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall x\in X, \chi_A:X\rightarrow \{0,1\}$가&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\chi_A=
+\begin{cases}
+1, &amp; x\in A \\
+0, &amp; x\notin A
+\end{cases} %]]&gt;&lt;/script&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;조합론, 확률론, 해석학 등 많은 분야에서 사용된다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;선택함수
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;집합 $X(\neq\emptyset)$의 부분집합들의 집합족을 $\{A_i\}$이라할 때, 모든 $i\in I$에 대하여 $f(A_i)\in A_i$로 정의되는 함수 $f:\{A_i\}\rightarrow X$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;선택공리 배울 때 중요&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;선택함수-예시&quot;&gt;선택함수 예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X=\{1,2,3,4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A_1=\{1,2,3\}, A_2=\{2,3,4\}, A_3=\{4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f_1=\{(A_1,2), (A_2, 4), (A_3,5)\}$
+    &lt;ul&gt;
+      &lt;li&gt;집합족 $A_i$ 모두 함수에 포함되며, $2,\in A_1, 4\in A_4, 5\in A_3$이기 때문에 선택함수가 맞다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f_2=\{(A_1,1), (A_2, 2), (A_3,3)\}$
+    &lt;ul&gt;
+      &lt;li&gt;집합족 $A_i$ 모두 함수에 포함되지만, $2,\in A_1, 4\in A_4, 5\notin A_3$이기 때문에 선택함수가 아니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-정리&quot;&gt;여러가지 정리&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;함수 $f$에 대하여 역함수 $f^{-1}$가 존재하면 $f$는 전단사이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;함수 $f$는 전단사이면 역함수 $f^{-1}$가 존재한다는 사실을 위에서 배웠다. 이번에는 그 반대를 보일 것이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f$는 전사
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+    f^{-1}이\; 존재 &amp;\Rightarrow&amp; \forall y\in Y, \exists x, s.t. (y,x)\in f^{-1} \\
+    &amp;\Rightarrow&amp; \forall y\in Y, \exists x, s.t. (x,y)\in f \\
+    &amp;\Rightarrow&amp; \forall y\in Rng(f) \\
+    &amp;\Rightarrow&amp; Y\subset Rng(f) \\
+    &amp;\Rightarrow&amp; Y=Rng(f)(\because Rng(f)\subset Y) \\
+ \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f$는 단사&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;$f(x_1)=f(x_2)\Rightarrow x_1=x_2$를 보이고, 그 대우($x_1\neq x_2\Rightarrow f(x_1)\neq f(x_2)$) 또한 참임을 통해 증명&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   f(x_1)=f(x_2)=y &amp;\Rightarrow&amp; (x_1,y)\in f\land  (x_2,y)\in f \\
+   &amp;\Rightarrow&amp; (y, x_1)\in f^{-1}\land  (y, x_2)\in f^{-1} \\
+   &amp;\Rightarrow&amp; x_1=x_2
+\end{matrix} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;합성함수 $g\circ f$가 단사이면 $f$는 단사이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f:X\rightarrow Y, g:Y\rightarrow Z$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$x_1, x_2\in X, f(x_1)=f(x_2)$라 하자.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   &amp;\Rightarrow&amp; g(f(x_1))=g(f(x_2)) \\
+   &amp;\Rightarrow&amp; (g\circ f)(x_1)=(g\circ f)(x_2) \\
+   &amp;\Rightarrow&amp; x_1=x_2(\because g\circ f\;is\; one-to-one;)
+\end{matrix} %]]&gt;&lt;/script&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;즉, $f(x_1)=f(x_2)\Rightarrow x_1=x_2$이므로 $f$는 단사이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;함성함수 $g\circ f$가 전사이면 $g$는 전사이다.
+    &lt;ul&gt;
+      &lt;li&gt;$f:X\rightarrow Y, g:Y\rightarrow Z$&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   &amp;\Rightarrow&amp; \forall z\in Z, \exists x\in X s.t.\;(g\circ f)(x)=z \\
+   &amp;\Rightarrow&amp; \forall z\in Z, \exists f(x)\in Y s.t.\;g(f((x))=z \\
+   &amp;\Rightarrow&amp; g\;is\;onto
+\end{matrix} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;정수집합 $\mathbb{Z}$과 자연수집합 $\mathbb{N}$ 사이에는 일대일 대응이 존재한다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;일대일 대응을 만들기 위한 함수 $f$를 어떻게 설정하는지가 중요. 특히나 이 경우에는 정의역은 양의 정수, 0, 음의 정수를 포함하고 있기 때문에 어떻게 해야 양의 정수와 일대일 대응을 만들지 고민해야 한다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;이를 위해 $f:\mathbb{Z}\rightarrow \mathbb{N}$를 &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt;/script&gt;이라 하자.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;$f$는 단사이다.
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Case 1) 
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+ f(x_1)=f(x_2) &amp;\Rightarrow&amp; 2x_1+1=2x_2+1 \\
+ &amp;\Rightarrow&amp; x_1=x_2 \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Case 2) 
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+ f(x_1)=f(x_2) &amp;\Rightarrow&amp; -2x_1=-2x_2 \\
+ &amp;\Rightarrow&amp; x_1=x_2 \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$f$는 전사이다.
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\mathbb{N}_e$ : 양의 짝수 집합&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\mathbb{N}_o$ : 양의 홀수 집합&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\{\mathbb{N}_e, \mathbb{N}_o\}$는 $\mathbb{N}$의 분할이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Case 1) $\forall 2n+1 \in \mathbb{N}_o, \exists n\in \mathbb{Z}\;s.t.\;f(n)=2n+1$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Case 2) $\forall -2m \in \mathbb{N}_e, \exists m\in \mathbb{Z}\;s.t.\;f(m)=-2n$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;집합의-함수&quot;&gt;집합의 함수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리는 지금까지 정의역 $X$의 원소를 대응시키는 함수를 봐왔다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;지금부터는 정의역 $X$의 부분집합을 대응시키는 함수를 배운다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;함수 $f:X\rightarrow Y$에서 $A\subset X$이고, $B\subset Y$일 때 다음이 성립한다.&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;$f$에 대한 $A$의 상
+        &lt;ul&gt;
+          &lt;li&gt;$f(A)=\{f(x)\in Y| x\in A\}\subset Y$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$f$에 대한 $B$의 역상
+        &lt;ul&gt;
+          &lt;li&gt;$f^{-1}(B)=\{x\in X| f(x) \in B\}\subset X$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f:\mathbb{R}\rightarrow \mathbb{R}$가 $f(x)=x^2$이라 하자.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=\{-1,0,1,2\}\Rightarrow f(A)=\{0,1,4\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$B=\{0,1,4\}\Rightarrow f^{-1}(B)=\{-2,-1, 0,1,2\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A$의 상은 $\{0,1,4\}$이다. 이것은 $B$와 같다. 그 $B$에 대해 역상을 만든 결과 $\{-2,-1, 0,1,2\}$이 나왔다. 그런데 $A$와 $f^{-1}(B)$의 관계를 보면 $A\subset f^{-1}(B)$임을 알 수 있다.(일반적으로 상의 원소의 갯수는 원래 집합보다 작아지고, 역상의 원소의 갯수는 원래 집합보다 커지기 때문이다.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그렇다면 $A=f^{-1}(B)$를 만족하려면 추가적으로 어떤 조건이 필요할까? 뒤에서 배운다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-정리-1&quot;&gt;여러가지 정리&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f:X\rightarrow Y$에서 $A\subset X$이고 $B\subset Y$일 때, 다음이 성립한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;$f(\emptyset_X)=\emptyset_Y$
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;귀류법&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f(\emptyset_X)\neq\emptyset_Y$이라 하자.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall y\in f(\emptyset_X), \exists x\in\emptyset_X\;s.t.\;f(x)=y$를 만족해야 한다. 하지만 $x\in \emptyset_X$를 만족할 수 없으므로 모순됨.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\forall x\in X, f(\{x\})=\{f(x)\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f^{-1}(f(A))=A\Leftrightarrow f는\;단사$
+    &lt;ul&gt;
+      &lt;li&gt;$f^{-1}(f(A))=A\Rightarrow f는\;단사$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$f$가 단사라는 것을 보이면 되므로, $f(x_1)=f(x_2)\Rightarrow x_1=x_2$임을 보이면 된다.&lt;/p&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   A=\{x_1\} &amp;\Rightarrow&amp; f^{-1}(f(\{x_1\})) \\
+   &amp;\Rightarrow&amp; f^{-1}(\{f(x_1)\}) &amp;(\because (2)) \\
+   &amp;\Rightarrow&amp; f^{-1}(\{f(x_2)\}) \\
+   &amp;\Rightarrow&amp; f^{-1}(f(\{x_2\})) \\
+   &amp;\Rightarrow&amp; \{x_2\} &amp; (\because f^{-1}(f(A))=A) \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$f^{-1}(f(A))=A\Leftarrow f는\;단사$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$f$는 단사라는 조건을 활용해 $f^{-1}(f(A))\subset A, A\subset f^{-1}(f(A))$임을 보이면 된다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$A$ 집합이 $B$ 집합의 부분집합이 된다는 것을 증명하기 위해서는 $A$의 모든 원소들이 $B$에도 표함된다는 것을 보이면 된다.&lt;/p&gt;
+
+            &lt;ol&gt;
+              &lt;li&gt;
+                &lt;p&gt;$f^{-1}(f(A))\subset A$
+  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+  \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) &amp; (\because x\in A) \\
+  &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x')\\
+  &amp;\Rightarrow&amp; x=x' &amp; (\because f는\;단사) \\
+  &amp;\Rightarrow&amp; x\in A
+    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;$A\subset f^{-1}(f(A))$
+  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+  &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
+  &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
+    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$f(f^{-1}(B))=B\Leftrightarrow g는\;전사$
+    &lt;ul&gt;
+      &lt;li&gt;$f(f^{-1}(B))=B\Rightarrow g는\;전사$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$g$가 단사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.&lt;/p&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   Y=f(f^{-1}(Y)) &amp;\Rightarrow&amp; Y=f(X)&amp;(\because f^{-1}(Y)=X) \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$f(f^{-1}(B))=B\Leftarrow g는\;전사$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$g$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.&lt;/p&gt;
+
+            &lt;ol&gt;
+              &lt;li&gt;
+                &lt;p&gt;$f(f^{-1}(B))\subset B$
+  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   &amp;\Rightarrow&amp; \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
+   &amp;\Rightarrow&amp; y\in B&amp;(\because f(x)=y\land f(x)\in B) \\
+    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;$B\subset f(f^{-1}(B))$
+  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+  &amp;\Rightarrow&amp; \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
+  &amp;\Rightarrow&amp; f(x)\in f(f^{-1}(B)) \\
+  &amp;\Rightarrow&amp; y\in f(f^{-1}(B)) \\
+    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="1. 집합론" /><summary type="html">함수 관계의 특수한 케이스</summary></entry><entry><title type="html">1.3 관계와 분할</title><link href="http://localhost:4000/lecture/2020/10/20/set_theory_relation" rel="alternate" type="text/html" title="1.3 관계와 분할" /><published>2020-10-20T00:00:00-07:00</published><updated>2020-10-20T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/20/set_theory_relation</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/20/set_theory_relation">&lt;h2 id=&quot;관계&quot;&gt;관계&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;곱집합 $A\times B$의 부분집합&lt;/p&gt;
@@ -2454,164 +2991,4 @@ h(x) &amp; (x &lt; a)
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://danbi-ncsoft.github.io/study/2018/05/04/study-regression_model_summary.html&quot;&gt;회귀 모델의 종류와 특징&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4Yo297HQyAk&amp;amp;list=PLpIPLT0Pf7IoTxTCi2MEQ94MZnHaxrP0j&amp;amp;index=23&quot;&gt;선형회귀모델&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">변수 사이의 관계 확정적 관계 : X변수만으로 Y를 100% 표현(오차항 없음) 힘=f(질량, 가속도), 주행거리=f(속도, 시간)</summary></entry><entry><title type="html">급수</title><link href="http://localhost:4000/lecture/2020/08/09/series" rel="alternate" type="text/html" title="급수" /><published>2020-08-09T00:00:00-07:00</published><updated>2020-08-09T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/08/09/series</id><content type="html" xml:base="http://localhost:4000/lecture/2020/08/09/series">&lt;h2 id=&quot;급수&quot;&gt;급수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;수열의 합에서는 $a_1$부터 $a_n$까지의 합을 구했다. 즉, $S_n=\sum_{i=0}^{n}a_i$를 구했다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;급수는 $a_1$부터 나올 수 있는 모든 항을 더하는 것이다. 즉, $\sum_{i=0}^{\infty}a_i$를 구한다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=0}^{\infty}a_i&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;우리가 이전에 배웠던 수열의 합 $S_n=\sum_{i=0}^{n}a_i$은 여기서는 부분합이라고 부른다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;급수가 수렴하기 위해서는 어떤 조건이 필요할까?(급수는 수렴할 때 중요함)&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;부분합 $S_n$이 $S$로 수렴하면 급수가 수렴한다. 즉, $lim_{n\rightarrow\infty}S_n=lim_{n\rightarrow\infty}\sum_{i=0}^{n}a_i=S$를 만족하면 급수가 수렴한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;급수의-성질&quot;&gt;급수의 성질&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;급수는 결국 수열의 극한과 수열의 합을 합친 것이다.
-    &lt;ul&gt;
-      &lt;li&gt;수열의 극한 : 실수배, 덧셈, 뺄셈, 곱셈, 나눗셈(분모 $\neq$ 0)에 대해 자유로움&lt;/li&gt;
-      &lt;li&gt;수열의 합 : 실수배, 덧셈, 뺄셈에 대해 자유로움&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그러므로 급수는 이 모든 것을 만족시키기 위해 실수배, 덧셈, 뺄셈에 대해 자유롭다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;단, 연산의 대상이 되는 두 수열이 특정 값에 수렴해야 연산을 할 수 있다.
-    &lt;ul&gt;
-      &lt;li&gt;$\sum_{i=0}^{\infty}a_i=S, \sum_{i=0}^{\infty}b_i=T$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sum_{i=0}^{\infty}ka_i=k\sum_{i=0}^{\infty}a_i=kS$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sum_{i=0}^{\infty}(a_i+b_i)=\sum_{i=0}^{\infty}a_i+\sum_{i=0}^{\infty}b_i=S+T$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$\sum_{i=0}^{\infty}(a_i-b_i)=\sum_{i=0}^{\infty}a_i-\sum_{i=0}^{\infty}b_i=S-T$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;급수와-수열의-극한-사이의-관계&quot;&gt;급수와 수열의 극한 사이의 관계&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_1=S_1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$a_n=S_n-S_{n-1}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow\infty}a_n=\alpha$이면 $lim_{n\rightarrow\infty}a_{n-1}=lim_{n\rightarrow\infty}a_{n+1}=lim_{n\rightarrow\infty}a_{2n}=\alpha$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$\sum_{i=0}^{\infty}a_i$가 수렴한다면 $lim_{n\rightarrow\infty}a_n=0$이다.
-    &lt;ul&gt;
-      &lt;li&gt;$lim_{n\rightarrow\infty}a_n=lim_{n\rightarrow\infty}(S_n-S_{n-1})=S-S=0$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;위 명제가 참이라면 그 대우 명제도 참이다. 즉, $lim_{n\rightarrow\infty}a_n\neq0$이라면, 급수는 발산한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;명제 수업에서 배웠듯이 명제가 참이라고 해서 역인 명제도 참인 것은 아니다. 즉, $lim_{n\rightarrow\infty}a_n=0$이라고 해서 급수가 수렴한다고 말할 수는 없다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;등비급수&quot;&gt;등비급수&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;등비수열로 이루어진 급수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sum_{n=1}^{\infty}ar^{n-1}=a+ar+ar^2+…+ar^{n-1}+…$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;등비급수가 수렴하기 위해서는 공비 $r$이 $-1&amp;lt; r &amp;lt;1$이어야 한다.(-1과 1을 포함하면 안된다는 점을 주의)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$S_n=\sum_{k=1}^{n}ar^{k-1}={a(1-r^n)\over 1-r}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$lim_{n\rightarrow\infty}S_n=lim_{n\rightarrow\infty}{a(1-r^n)\over 1-r}={a\over 1-r}$($r^n$이 0으로 수렴하기 때문)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등비급수의 수렴 조건
-    &lt;ul&gt;
-      &lt;li&gt;$-1 &amp;lt; r &amp;lt; 1$&lt;/li&gt;
-      &lt;li&gt;$a = 0$
-        &lt;ul&gt;
-          &lt;li&gt;(두 조건 중 하나만 만족하면 된다.)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;등비급수의 성질
-    &lt;ul&gt;
-      &lt;li&gt;$ar^{n-1}$
-        &lt;ul&gt;
-          &lt;li&gt;첫째항이 $a$이고, 공비가 $r$인 등비수열&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;$(a_n)^2=(ar^{n-1})^2=a^2(r^2)^{n-1}$
-        &lt;ul&gt;
-          &lt;li&gt;첫째항이 $a^2$이고, 공비가 $r^2$인 등비수열&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;$(a_{2n})=ar^{2n-1}=ar(r^2)^{n-1}$
-        &lt;ul&gt;
-          &lt;li&gt;첫째항이 $ar$이고, 공비가 $r^2$인 등비수열&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;$(a_{2n-1})=ar^{2n-2}=a(r^2)^{n-1}$
-        &lt;ul&gt;
-          &lt;li&gt;첫째항이 $a$이고, 공비가 $r^2$인 등비수열&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$\sum_{n=m}^{\infty}ar^{n-1}={ar^{m-1}\over 1-r}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;도형의-성질&quot;&gt;도형의 성질&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89308539-56131980-d6ad-11ea-8205-7276cb6c22d7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;원과-부채꼴&quot;&gt;원과 부채꼴&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;원의 반지름 : $r$&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;원의 둘레($l$) : $2\pi r$&lt;/li&gt;
-      &lt;li&gt;원의 넓이($S$) : $\pi r^2$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;부채꼴의 중심각 : $x$&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;호의 길이($l$) : $2\pi r{x\over 360}$&lt;/li&gt;
-      &lt;li&gt;호의 넓이($S$) : $\pi r^2{x\over 360}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;내접원의-성질&quot;&gt;내접원의 성질&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89308423-33810080-d6ad-11ea-869b-df28e2a374f1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;중심에서 각각의 변에 수선의 발을 내리면 그것이 반지름($r$)이 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;삼각형의 넓이&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;$S={r(a+b+c)\over 2}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">급수 수열의 합에서는 $a_1$부터 $a_n$까지의 합을 구했다. 즉, $S_n=\sum_{i=0}^{n}a_i$를 구했다.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">변수 사이의 관계 확정적 관계 : X변수만으로 Y를 100% 표현(오차항 없음) 힘=f(질량, 가속도), 주행거리=f(속도, 시간)</summary></entry></feed>
