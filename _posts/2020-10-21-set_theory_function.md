@@ -11,10 +11,10 @@ tags:
 ## 함수
 - 관계의 특수한 케이스
 
-- 정의 : 다음을 만족하는 $X$ $Y$로의 관계 $f:X\rightarrow Y$
-	1. $\forall x\in X, \exists y\in Y, s.t.\;(x,y)\in f$
+- 정의 : 다음을 만족하는 $X$에서 $Y$로의 관계 $f:X\rightarrow Y$
+   1. $\forall x\in X, \exists y\in Y, s.t.\;(x,y)\in f$
 
-	2. $(x,y_1)\in f, (x,y_2)\in f\Rightarrow y_1=y_2$
+   2. $(x,y_1)\in f, (x,y_2)\in f\Rightarrow y_1=y_2$
 
 - $(x,y)\in f$는 $y=f(x)$로도 쓴다.
 
@@ -22,13 +22,13 @@ tags:
 $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하라.
 
 1. $f_1=\\{(1,a), (1,b), (2,b), (3,c)\\}$
-	- 2번 조건을 위반
+   - 2번 조건을 위반
 
 2. $f_1=\\{(1,a), (2,b)\\}$
-	- 1번 조건을 위반
+   - 1번 조건을 위반
 
 3. $f_1=\\{(1,a), (2,a), (3,b)\\}$
-	- 함수
+   - 함수
 
 함수 $f:X\rightarrow Y$에서 $y=f(x)$일 때,
 1. $y$를 $f$에 의한 $x$의 상
@@ -161,6 +161,7 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
    - 함수 $f$는 전단사이면 역함수 $f^{-1}$가 존재한다는 사실을 위에서 배웠다. 이번에는 그 반대를 보일 것이다.
 
    - $f$는 전사
+
       $$\begin{matrix}
          f^{-1}이\; 존재 &\Rightarrow& \forall y\in Y, \exists x, s.t. (y,x)\in f^{-1} \\
          &\Rightarrow& \forall y\in Y, \exists x, s.t. (x,y)\in f \\
@@ -172,11 +173,11 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
    - $f$는 단사
       - $f(x_1)=f(x_2)\Rightarrow x_1=x_2$를 보이고, 그 대우($x_1\neq x_2\Rightarrow f(x_1)\neq f(x_2)$) 또한 참임을 통해 증명
 
-   $$\begin{matrix}
-      f(x_1)=f(x_2)=y &\Rightarrow& (x_1,y)\in f\land  (x_2,y)\in f \\
-      &\Rightarrow& (y, x_1)\in f^{-1}\land  (y, x_2)\in f^{-1} \\
-      &\Rightarrow& x_1=x_2
-   \end{matrix}$$
+      $$\begin{matrix}
+         f(x_1)=f(x_2)=y &\Rightarrow& (x_1,y)\in f\land  (x_2,y)\in f \\
+         &\Rightarrow& (y, x_1)\in f^{-1}\land  (y, x_2)\in f^{-1} \\
+         &\Rightarrow& x_1=x_2
+      \end{matrix}$$
 
 2. 합성함수 $g\circ f$가 단사이면 $f$는 단사이다.
    - $f:X\rightarrow Y, g:Y\rightarrow Z$
@@ -196,7 +197,7 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
 
    $$\begin{matrix}
       &\Rightarrow& \forall z\in Z, \exists x\in X s.t.\;(g\circ f)(x)=z \\
-      &\Rightarrow& \forall z\in Z, \exists f(x)\in Y s.t.\;g(f((x))=z \\
+      &\Rightarrow& \forall z\in Z, \exists f(x)\in Y s.t.\;g(f(x))=z \\
       &\Rightarrow& g\;is\;onto
    \end{matrix}$$
 
@@ -207,16 +208,18 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
 
    1. $f$는 단사이다.
       - Case 1) 
-      $$\begin{matrix}
-         f(x_1)=f(x_2) &\Rightarrow& 2x_1+1=2x_2+1 \\
-         &\Rightarrow& x_1=x_2 \\
-      \end{matrix}$$
+
+         $$\begin{matrix}
+            f(x_1)=f(x_2) &\Rightarrow& 2x_1+1=2x_2+1 \\
+            &\Rightarrow& x_1=x_2 \\
+         \end{matrix}$$
 
       - Case 2) 
-      $$\begin{matrix}
-         f(x_1)=f(x_2) &\Rightarrow& -2x_1=-2x_2 \\
-         &\Rightarrow& x_1=x_2 \\
-      \end{matrix}$$
+
+         $$\begin{matrix}
+            f(x_1)=f(x_2) &\Rightarrow& -2x_1=-2x_2 \\
+            &\Rightarrow& x_1=x_2 \\
+         \end{matrix}$$
 
    2. $f$는 전사이다.
       - $\mathbb{N}_e$ : 양의 짝수 집합
@@ -265,56 +268,86 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
 2. $\forall x\in X, f(\\{x\\})=\\{f(x)\\}$
 
 3. $f^{-1}(f(A))=A\Leftrightarrow f는\;단사$
-	- $f^{-1}(f(A))=A\Rightarrow f는\;단사$
-		- $f$가 단사라는 것을 보이면 되므로, $f(x_1)=f(x_2)\Rightarrow x_1=x_2$임을 보이면 된다.
+   - $f^{-1}(f(A))=A\Rightarrow f는\;단사$
+      - $f$가 단사라는 것을 보이면 되므로, $f(x_1)=f(x_2)\Rightarrow x_1=x_2$임을 보이면 된다.
 
-	      $$\begin{matrix}
-	         A=\{x_1\} &\Rightarrow& f^{-1}(f(\{x_1\})) \\
-	         &\Rightarrow& f^{-1}(\{f(x_1)\}) &(\because (2)) \\
-	         &\Rightarrow& f^{-1}(\{f(x_2)\}) \\
-	         &\Rightarrow& f^{-1}(f(\{x_2\})) \\
-	         &\Rightarrow& \{x_2\} & (\because f^{-1}(f(A))=A) \\
-	      \end{matrix}$$
+         $$\begin{matrix}
+            A=\{x_1\} &\Rightarrow& f^{-1}(f(\{x_1\})) \\
+            &\Rightarrow& f^{-1}(\{f(x_1)\}) &(\because (2)) \\
+            &\Rightarrow& f^{-1}(\{f(x_2)\}) \\
+            &\Rightarrow& f^{-1}(f(\{x_2\})) \\
+            &\Rightarrow& \{x_2\} & (\because f^{-1}(f(A))=A) \\
+         \end{matrix}$$
 
-	- $f^{-1}(f(A))=A\Leftarrow f는\;단사$
-		- $f$는 단사라는 조건을 활용해 $f^{-1}(f(A))\subset A, A\subset f^{-1}(f(A))$임을 보이면 된다.
+   - $f^{-1}(f(A))=A\Leftarrow f는\;단사$
+      - $f$는 단사라는 조건을 활용해 $f^{-1}(f(A))\subset A, A\subset f^{-1}(f(A))$임을 보이면 된다.
 
-		- $A$ 집합이 $B$ 집합의 부분집합이 된다는 것을 증명하기 위해서는 $A$의 모든 원소들이 $B$에도 표함된다는 것을 보이면 된다.
+      - $A$ 집합이 $B$ 집합의 부분집합이 된다는 것을 증명하기 위해서는 $A$의 모든 원소들이 $B$에도 표함된다는 것을 보이면 된다.
 
-			1. $f^{-1}(f(A))\subset A$
-			$$\begin{matrix}
-		         \forall x\in f^{-1}(f(A)) &\Rightarrow& f(x)\in f(A) & (\because x\in A) \\
-		         &\Rightarrow& \exists x'\in A\;s.t.\;f(x)=f(x')\\
-		         &\Rightarrow& x=x' & (\because f는\;단사) \\
-		         &\Rightarrow& x\in A
-		      \end{matrix}$$
+         1. $f^{-1}(f(A))\subset A$
+         $$\begin{matrix}
+               \forall x\in f^{-1}(f(A)) &\Rightarrow& f(x)\in f(A) & (\because x\in A) \\
+               &\Rightarrow& \exists x'\in A\;s.t.\;f(x)=f(x')\\
+               &\Rightarrow& x=x' & (\because f는\;단사) \\
+               &\Rightarrow& x\in A
+            \end{matrix}$$
 
-			2. $A\subset f^{-1}(f(A))$
-			$$\begin{matrix}
-		         &\Rightarrow& \forall x\in A,f(x)\in f(A) & (\because x\in A) \\
-		         &\Rightarrow& x\in f^{-1}(f(A)) & (\because A\subset f^{-1}(f(A)))\\
-		      \end{matrix}$$
+         2. $A\subset f^{-1}(f(A))$
+         $$\begin{matrix}
+               &\Rightarrow& \forall x\in A,f(x)\in f(A) & (\because x\in A) \\
+               &\Rightarrow& x\in f^{-1}(f(A)) & (\because A\subset f^{-1}(f(A)))\\
+            \end{matrix}$$
 
 4. $f(f^{-1}(B))=B\Leftrightarrow g는\;전사$
-	- $f(f^{-1}(B))=B\Rightarrow g는\;전사$
-		- $g$가 단사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.
+   - $f(f^{-1}(B))=B\Rightarrow g는\;전사$
+      - $g$가 단사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.
 
-	      $$\begin{matrix}
-	         Y=f(f^{-1}(Y)) &\Rightarrow& Y=f(X)&(\because f^{-1}(Y)=X) \\
-	      \end{matrix}$$
+         $$\begin{matrix}
+            Y=f(f^{-1}(Y)) &\Rightarrow& Y=f(X)&(\because f^{-1}(Y)=X) \\
+         \end{matrix}$$
 
-	- $f(f^{-1}(B))=B\Leftarrow g는\;전사$
-		- $g$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.
+   - $f(f^{-1}(B))=B\Leftarrow g는\;전사$
+      - $g$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.
 
-			1. $f(f^{-1}(B))\subset B$
-			$$\begin{matrix}
-		          &\Rightarrow& \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
-		          &\Rightarrow& y\in B&(\because f(x)=y\land f(x)\in B) \\
-		      \end{matrix}$$
+         1. $f(f^{-1}(B))\subset B$
+         $$\begin{matrix}
+                &\Rightarrow& \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
+                &\Rightarrow& y\in B&(\because f(x)=y\land f(x)\in B) \\
+            \end{matrix}$$
 
-			2. $B\subset f(f^{-1}(B))$
-			$$\begin{matrix}
-		         &\Rightarrow& \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
-		         &\Rightarrow& f(x)\in f(f^{-1}(B)) \\
-		         &\Rightarrow& y\in f(f^{-1}(B)) \\
-		      \end{matrix}$$
+         2. $B\subset f(f^{-1}(B))$
+         $$\begin{matrix}
+               &\Rightarrow& \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
+               &\Rightarrow& f(x)\in f(f^{-1}(B)) \\
+               &\Rightarrow& y\in f(f^{-1}(B)) \\
+            \end{matrix}$$
+
+## 집합의 함수의 확장
+- 함수 $f:X\rightarrow Y$에 대하여 $\\{A_a\|a\in I\\}$를 $X$의 부분집합족이라 하면 다음이 성립한다.
+
+1. $f(\bigcup\limits_{a\in I}A_a)=\bigcup\limits_{a\in I}f(A_a)$
+
+   $$\begin{matrix}
+      y\in f(\bigcup\limits_{a\in I}A_a)&\Leftrightarrow& \exists x\in  \bigcup\limits_{a\in I}A_a, y=f(x) \\
+      &\Leftrightarrow& \exists a\in I, x\in A_a\land y=f(x) \\
+      &\Leftrightarrow& \exists a\in I, f(x)\in f(A_a) \\
+      &\Leftrightarrow& \exists a\in I, y\in f(A_a) \\
+      &\Leftrightarrow& y\in \bigcup\limits_{a\in I}f(A_a) \\
+   \end{matrix}$$
+
+2. $f(\bigcap\limits_{a\in I}A_a)\subseteq\bigcap\limits_{a\in I}f(A_a)$
+
+   $$\begin{matrix}
+      \forall a\in I, \bigcap\limits_{a\in I}A_a\subseteq A_a&\Leftrightarrow& f(\bigcap\limits_{a\in I}A_a)\subseteq f(A_a) \\
+      &\Leftrightarrow& f(\bigcap\limits_{a\in I}A_a)\subseteq \bigcap\limits_{a\in I}f(A_a) \\
+   \end{matrix}$$
+
+3. $f$가 단사이면 $f(\bigcap\limits_{a\in I}A_a)=\bigcap\limits_{a\in I}f(A_a)$
+
+   $$\begin{matrix}
+      y\in \bigcap\limits_{a\in I}f(A_a) &\Leftrightarrow& \forall a\in I, y\in f(A_a) \\
+      &\Leftrightarrow& \forall a\in I, \exists x_a\in A_a, y\in f(x_a) \\
+      &\Leftrightarrow& y=f(x_1)=f(x_2)=f(x_3)=\cdots&(\because f\;is\;injective) \\
+      &\Leftrightarrow& \exists x_0\in \bigcap\limits_{a\in I}A_a, y=f(x_0) \\
+      &\Leftrightarrow& y\in f(\bigcap\limits_{a\in I}A_a)
+   \end{matrix}$$

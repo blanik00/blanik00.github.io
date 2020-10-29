@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T05:51:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-29T06:43:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;관계의 특수한 케이스&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;정의 : 다음을 만족하는 $X$ $Y$로의 관계 $f:X\rightarrow Y$
+  &lt;li&gt;정의 : 다음을 만족하는 $X$에서 $Y$로의 관계 $f:X\rightarrow Y$
     &lt;ol&gt;
       &lt;li&gt;
         &lt;p&gt;$\forall x\in X, \exists y\in Y, s.t.\;(x,y)\in f$&lt;/p&gt;
@@ -262,30 +262,31 @@
         &lt;p&gt;함수 $f$는 전단사이면 역함수 $f^{-1}$가 존재한다는 사실을 위에서 배웠다. 이번에는 그 반대를 보일 것이다.&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;$f$는 전사
- &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+        &lt;p&gt;$f$는 전사&lt;/p&gt;
+
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
     f^{-1}이\; 존재 &amp;\Rightarrow&amp; \forall y\in Y, \exists x, s.t. (y,x)\in f^{-1} \\
     &amp;\Rightarrow&amp; \forall y\in Y, \exists x, s.t. (x,y)\in f \\
     &amp;\Rightarrow&amp; \forall y\in Rng(f) \\
     &amp;\Rightarrow&amp; Y\subset Rng(f) \\
     &amp;\Rightarrow&amp; Y=Rng(f)(\because Rng(f)\subset Y) \\
- \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+ \end{matrix} %]]&gt;&lt;/script&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;$f$는 단사&lt;/p&gt;
         &lt;ul&gt;
           &lt;li&gt;$f(x_1)=f(x_2)\Rightarrow x_1=x_2$를 보이고, 그 대우($x_1\neq x_2\Rightarrow f(x_1)\neq f(x_2)$) 또한 참임을 통해 증명&lt;/li&gt;
         &lt;/ul&gt;
+
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+    f(x_1)=f(x_2)=y &amp;\Rightarrow&amp; (x_1,y)\in f\land  (x_2,y)\in f \\
+    &amp;\Rightarrow&amp; (y, x_1)\in f^{-1}\land  (y, x_2)\in f^{-1} \\
+    &amp;\Rightarrow&amp; x_1=x_2
+ \end{matrix} %]]&gt;&lt;/script&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
-
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-   f(x_1)=f(x_2)=y &amp;\Rightarrow&amp; (x_1,y)\in f\land  (x_2,y)\in f \\
-   &amp;\Rightarrow&amp; (y, x_1)\in f^{-1}\land  (y, x_2)\in f^{-1} \\
-   &amp;\Rightarrow&amp; x_1=x_2
-\end{matrix} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
   &lt;li&gt;합성함수 $g\circ f$가 단사이면 $f$는 단사이다.
     &lt;ul&gt;
@@ -316,7 +317,7 @@
     &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
    &amp;\Rightarrow&amp; \forall z\in Z, \exists x\in X s.t.\;(g\circ f)(x)=z \\
-   &amp;\Rightarrow&amp; \forall z\in Z, \exists f(x)\in Y s.t.\;g(f((x))=z \\
+   &amp;\Rightarrow&amp; \forall z\in Z, \exists f(x)\in Y s.t.\;g(f(x))=z \\
    &amp;\Rightarrow&amp; g\;is\;onto
 \end{matrix} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
@@ -335,20 +336,22 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
       &lt;li&gt;$f$는 단사이다.
         &lt;ul&gt;
           &lt;li&gt;
-            &lt;p&gt;Case 1) 
-&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+            &lt;p&gt;Case 1)&lt;/p&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
- f(x_1)=f(x_2) &amp;\Rightarrow&amp; 2x_1+1=2x_2+1 \\
- &amp;\Rightarrow&amp; x_1=x_2 \\
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    f(x_1)=f(x_2) &amp;\Rightarrow&amp; 2x_1+1=2x_2+1 \\
+    &amp;\Rightarrow&amp; x_1=x_2 \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
           &lt;li&gt;
-            &lt;p&gt;Case 2) 
-&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+            &lt;p&gt;Case 2)&lt;/p&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
- f(x_1)=f(x_2) &amp;\Rightarrow&amp; -2x_1=-2x_2 \\
- &amp;\Rightarrow&amp; x_1=x_2 \\
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    f(x_1)=f(x_2) &amp;\Rightarrow&amp; -2x_1=-2x_2 \\
+    &amp;\Rightarrow&amp; x_1=x_2 \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -450,12 +453,12 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-   A=\{x_1\} &amp;\Rightarrow&amp; f^{-1}(f(\{x_1\})) \\
-   &amp;\Rightarrow&amp; f^{-1}(\{f(x_1)\}) &amp;(\because (2)) \\
-   &amp;\Rightarrow&amp; f^{-1}(\{f(x_2)\}) \\
-   &amp;\Rightarrow&amp; f^{-1}(f(\{x_2\})) \\
-   &amp;\Rightarrow&amp; \{x_2\} &amp; (\because f^{-1}(f(A))=A) \\
-\end{matrix} %]]&gt;&lt;/script&gt;
+    A=\{x_1\} &amp;\Rightarrow&amp; f^{-1}(f(\{x_1\})) \\
+    &amp;\Rightarrow&amp; f^{-1}(\{f(x_1)\}) &amp;(\because (2)) \\
+    &amp;\Rightarrow&amp; f^{-1}(\{f(x_2)\}) \\
+    &amp;\Rightarrow&amp; f^{-1}(f(\{x_2\})) \\
+    &amp;\Rightarrow&amp; \{x_2\} &amp; (\because f^{-1}(f(A))=A) \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -470,21 +473,21 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
             &lt;ol&gt;
               &lt;li&gt;
                 &lt;p&gt;$f^{-1}(f(A))\subset A$
-  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-  \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) &amp; (\because x\in A) \\
-  &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x')\\
-  &amp;\Rightarrow&amp; x=x' &amp; (\because f는\;단사) \\
-  &amp;\Rightarrow&amp; x\in A
-    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+   \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) &amp; (\because x\in A) \\
+   &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x')\\
+   &amp;\Rightarrow&amp; x=x' &amp; (\because f는\;단사) \\
+   &amp;\Rightarrow&amp; x\in A
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
               &lt;/li&gt;
               &lt;li&gt;
                 &lt;p&gt;$A\subset f^{-1}(f(A))$
-  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-  &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
-  &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
-    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+   &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
+   &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
               &lt;/li&gt;
             &lt;/ol&gt;
           &lt;/li&gt;
@@ -501,8 +504,8 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-   Y=f(f^{-1}(Y)) &amp;\Rightarrow&amp; Y=f(X)&amp;(\because f^{-1}(Y)=X) \\
-\end{matrix} %]]&gt;&lt;/script&gt;
+    Y=f(f^{-1}(Y)) &amp;\Rightarrow&amp; Y=f(X)&amp;(\because f^{-1}(Y)=X) \\
+ \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -514,26 +517,67 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
             &lt;ol&gt;
               &lt;li&gt;
                 &lt;p&gt;$f(f^{-1}(B))\subset B$
-  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-   &amp;\Rightarrow&amp; \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
-   &amp;\Rightarrow&amp; y\in B&amp;(\because f(x)=y\land f(x)\in B) \\
-    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    &amp;\Rightarrow&amp; \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
+    &amp;\Rightarrow&amp; y\in B&amp;(\because f(x)=y\land f(x)\in B) \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
               &lt;/li&gt;
               &lt;li&gt;
                 &lt;p&gt;$B\subset f(f^{-1}(B))$
-  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-  &amp;\Rightarrow&amp; \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
-  &amp;\Rightarrow&amp; f(x)\in f(f^{-1}(B)) \\
-  &amp;\Rightarrow&amp; y\in f(f^{-1}(B)) \\
-    \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+   &amp;\Rightarrow&amp; \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
+   &amp;\Rightarrow&amp; f(x)\in f(f^{-1}(B)) \\
+   &amp;\Rightarrow&amp; y\in f(f^{-1}(B)) \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
               &lt;/li&gt;
             &lt;/ol&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;집합의-함수의-확장&quot;&gt;집합의 함수의 확장&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;함수 $f:X\rightarrow Y$에 대하여 $\{A_a|a\in I\}$를 $X$의 부분집합족이라 하면 다음이 성립한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f(\bigcup\limits_{a\in I}A_a)=\bigcup\limits_{a\in I}f(A_a)$&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   y\in f(\bigcup\limits_{a\in I}A_a)&amp;\Leftrightarrow&amp; \exists x\in  \bigcup\limits_{a\in I}A_a, y=f(x) \\
+   &amp;\Leftrightarrow&amp; \exists a\in I, x\in A_a\land y=f(x) \\
+   &amp;\Leftrightarrow&amp; \exists a\in I, f(x)\in f(A_a) \\
+   &amp;\Leftrightarrow&amp; \exists a\in I, y\in f(A_a) \\
+   &amp;\Leftrightarrow&amp; y\in \bigcup\limits_{a\in I}f(A_a) \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f(\bigcap\limits_{a\in I}A_a)\subseteq\bigcap\limits_{a\in I}f(A_a)$&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   \forall a\in I, \bigcap\limits_{a\in I}A_a\subseteq A_a&amp;\Leftrightarrow&amp; f(\bigcap\limits_{a\in I}A_a)\subseteq f(A_a) \\
+   &amp;\Leftrightarrow&amp; f(\bigcap\limits_{a\in I}A_a)\subseteq \bigcap\limits_{a\in I}f(A_a) \\
+\end{matrix} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f$가 단사이면 $f(\bigcap\limits_{a\in I}A_a)=\bigcap\limits_{a\in I}f(A_a)$&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   y\in \bigcap\limits_{a\in I}f(A_a) &amp;\Leftrightarrow&amp; \forall a\in I, y\in f(A_a) \\
+   &amp;\Leftrightarrow&amp; \forall a\in I, \exists x_a\in A_a, y\in f(x_a) \\
+   &amp;\Leftrightarrow&amp; y=f(x_1)=f(x_2)=f(x_3)=\cdots&amp;(\because f\;is\;injective) \\
+   &amp;\Leftrightarrow&amp; \exists x_0\in \bigcap\limits_{a\in I}A_a, y=f(x_0) \\
+   &amp;\Leftrightarrow&amp; y\in f(\bigcap\limits_{a\in I}A_a)
+\end{matrix} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="1. 집합론" /><summary type="html">함수 관계의 특수한 케이스</summary></entry><entry><title type="html">1.3 관계와 분할</title><link href="http://localhost:4000/lecture/2020/10/20/set_theory_relation" rel="alternate" type="text/html" title="1.3 관계와 분할" /><published>2020-10-20T00:00:00-07:00</published><updated>2020-10-20T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/20/set_theory_relation</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/20/set_theory_relation">&lt;h2 id=&quot;관계&quot;&gt;관계&lt;/h2&gt;
 &lt;ul&gt;
