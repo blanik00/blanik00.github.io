@@ -68,7 +68,7 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
    - $f\|_A$는 $X$를 $A$로 축소한 함수
       - $\\{(x,y)\in f\|x\in A\\}$
 
-- $g=f\|_A$이면 $g$는 $f$의 $A$에서의 확대함수
+- $g=f\|_A$이면 $f$는 $g$의 $A$에서의 확대함수
 
 ### 예시
 - $A=\\{1,2\\}, B=\\{1,2,3\\}, Y=\\{a,b,c\\}$
@@ -286,38 +286,41 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
 
          1. $f^{-1}(f(A))\subset A$
          $$\begin{matrix}
-               \forall x\in f^{-1}(f(A)) &\Rightarrow& f(x)\in f(A) & (\because x\in A) \\
-               &\Rightarrow& \exists x'\in A\;s.t.\;f(x)=f(x')\\
+               \forall x\in f^{-1}(f(A)) &\Rightarrow& f(x)\in f(A) \\
+               &\Rightarrow& \exists x'\in A\;s.t.\;f(x)=f(x') (x'는\;x에\;대응되는\;A의\;원소)\\
                &\Rightarrow& x=x' & (\because f는\;단사) \\
                &\Rightarrow& x\in A
             \end{matrix}$$
 
          2. $A\subset f^{-1}(f(A))$
+
          $$\begin{matrix}
                &\Rightarrow& \forall x\in A,f(x)\in f(A) & (\because x\in A) \\
                &\Rightarrow& x\in f^{-1}(f(A)) & (\because A\subset f^{-1}(f(A)))\\
             \end{matrix}$$
 
-4. $f(f^{-1}(B))=B\Leftrightarrow g는\;전사$
-   - $f(f^{-1}(B))=B\Rightarrow g는\;전사$
-      - $g$가 단사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.
+4. $f(f^{-1}(B))=B\Leftrightarrow f는\;전사$
+   - $f(f^{-1}(B))=B\Rightarrow f는\;전사$
+      - $f$가 전사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.
 
          $$\begin{matrix}
             Y=f(f^{-1}(Y)) &\Rightarrow& Y=f(X)&(\because f^{-1}(Y)=X) \\
          \end{matrix}$$
 
-   - $f(f^{-1}(B))=B\Leftarrow g는\;전사$
-      - $g$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.
+   - $f(f^{-1}(B))=B\Leftarrow f는\;전사$
+      - $f$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.
 
          1. $f(f^{-1}(B))\subset B$
+
          $$\begin{matrix}
                 &\Rightarrow& \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
                 &\Rightarrow& y\in B&(\because f(x)=y\land f(x)\in B) \\
             \end{matrix}$$
 
-         2. $B\subset f(f^{-1}(B))$
+         3. $B\subset f(f^{-1}(B))$
+
          $$\begin{matrix}
-               &\Rightarrow& \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
+               &\Rightarrow& \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y&(\because f는\;전사) \\
                &\Rightarrow& f(x)\in f(f^{-1}(B)) \\
                &\Rightarrow& y\in f(f^{-1}(B)) \\
             \end{matrix}$$
@@ -347,7 +350,10 @@ $X=\\{1,2,3\\}, Y=\\{a,b,c\\}$일 때, 다음 관계가 함수인지 확인하�
    $$\begin{matrix}
       y\in \bigcap\limits_{a\in I}f(A_a) &\Leftrightarrow& \forall a\in I, y\in f(A_a) \\
       &\Leftrightarrow& \forall a\in I, \exists x_a\in A_a, y\in f(x_a) \\
-      &\Leftrightarrow& y=f(x_1)=f(x_2)=f(x_3)=\cdots&(\because f\;is\;injective) \\
+      &\Leftrightarrow& y=f(x_1)=f(x_2)=f(x_3)=\cdots \\
+      &\Leftrightarrow& x_1=x_2=x_3=\cdots&(\because f\;is\;injective) \\
+      && set\;x_0=x_1=x_2=x_3=\cdots \\
+      &\Leftrightarrow& \forall a\in I, \exists x_0\in A_a, y=f(x_0) \\
       &\Leftrightarrow& \exists x_0\in \bigcap\limits_{a\in I}A_a, y=f(x_0) \\
       &\Leftrightarrow& y\in f(\bigcap\limits_{a\in I}A_a)
    \end{matrix}$$
