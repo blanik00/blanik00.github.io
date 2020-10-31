@@ -115,6 +115,8 @@ $$\begin{matrix}
 
 - 반사적, 대칭적, 추이적 관계
 
+- 관계가 있다는 것을 $_xR_y$와 같이 표현했던 것 처럼, 동치관계가 있다는 것을 $_xE_y$로 표현하면 된다.
+
 ### 예시
 - 우리가 알고있는 수체계에서 "$=$"는 동치관계를 만족한다.
 	- 반사성 : $a=a$
@@ -159,7 +161,7 @@ $$\begin{matrix}
 - $P=\\{\\{1,2\\},\\{3,4\\},\\{5\\}\\}$
 
 ## 동치류
-- 집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\\{y\in X\| _xR_y \\}$이다.
+- 집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\\{y\in X\| _xE_y \\}$이다.
 
 - 수학 시험 결과 "상엽"과 같은 시험 점수를 받은 학생이 "지수", "제니"라면 $E_{상엽}=\\{지수, 제니\\}$이다.
 
@@ -225,32 +227,32 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 	- $E_x\neq\emptyset$
 		- $X\neq\emptyset\Rightarrow\exists x\in X$
 
-		- $E\;\;is\;\;reflexive\Rightarrow _xR_x$
+		- $E\;\;is\;\;reflexive\Rightarrow _xE_x$
 
 		- $x\in E_x$
 
 		- $\therefore E_x\neq\emptyset$
 
-	- $E_x=E_y\Leftrightarrow_xR_y$
-		- $E_x=E_y\rightarrow_xR_y$
-			- $x\in E_x(\because reflexive)\Rightarrow x\in E_y(\because E_x=E_y)\Leftrightarrow _yR_x\Rightarrow _xR_y$
+	- $E_x=E_y\Leftrightarrow_xE_y$
+		- $E_x=E_y\rightarrow_xE_y$
+			- $x\in E_x(\because reflexive)\Rightarrow x\in E_y(\because E_x=E_y)\Leftrightarrow _yE_x\Rightarrow _xE_y$
 
-		- $_xR_y\rightarrow E_x=E_y$
+		- $_xE_y\rightarrow E_x=E_y$
 			- NTS : $E_x\subset E_y, E_y\subset E_x$
-				1. $z\in E_x\Leftrightarrow_xR_z\Rightarrow _yR_z(\because _yR_x\land_xR_z\Rightarrow_yR_z)\Leftrightarrow z\in E_y$
+				1. $z\in E_x\Leftrightarrow_xE_z\Rightarrow _yE_z(\because _yE_x\land_xE_z\Rightarrow_yE_z)\Leftrightarrow z\in E_y$
 
-				2. $z\in E_y\Leftrightarrow_yE_z\Rightarrow_xE_z(\because _xR_y\land_yR_z\Rightarrow_xR_z)\Leftrightarrow z\in E_x$
+				2. $z\in E_y\Leftrightarrow_yE_z\Rightarrow_xE_z(\because _xE_y\land_yE_z\Rightarrow_xE_z)\Leftrightarrow z\in E_x$
 
-	- $E_x\cap E_y\neq\emptyset\Leftrightarrow _xR_y$
+	- $E_x\cap E_y\neq\emptyset\Leftrightarrow _xE_y$
 		1. $$\begin{matrix}
 				E_x\cap E_y\neq\emptyset &\Leftrightarrow& \exists z,z\in E_x\land z\in E_y \\
-				&\Leftrightarrow&  \exists z,  _xR_z\land _yR_z \\
-				&\Rightarrow& \exists z, _xR_z\land _zR_y \\
-				&\Rightarrow& _xR_y(\because transitive) \\
+				&\Leftrightarrow&  \exists z,  _xE_z\land _yE_z \\
+				&\Rightarrow& \exists z, _xE_z\land _zE_y \\
+				&\Rightarrow& _xE_y(\because transitive) \\
 			\end{matrix}$$
 
 		2. $$\begin{matrix}
-				_xR_y &\Rightarrow& E_x=E_y (\because 위에서 증명함)\\
+				_xE_y &\Rightarrow& E_x=E_y (\because 위에서 증명함)\\
 				&\Rightarrow&  E_x\cap E_y\neq\emptyset \\
 			\end{matrix}$$
 
@@ -264,12 +266,12 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 - 분할임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.
 
 1. $X/E$는 공집합을 원소로 갖지 않는다.
-	- 동치류는 공집합을 가지지 않는다.($\because reflexive and\;X\;is\;not\;empty$)
+	- 동치류는 공집합을 가지지 않는다.($\because reflexive\;and\;X\;is\;not\;empty$)
 
 	- $\emptyset\notin X/E$
 
 2. $X/E$는 서로소 집합족이다.
-	- $if\;E_x\cap E_y\neq\emptyset \Rightarrow _xR_y \Rightarrow E_x=E_y$
+	- $if\;E_x\cap E_y\neq\emptyset \Rightarrow _xE_y \Rightarrow E_x=E_y$
 
 	- $if\;E_x\neq E_y \Rightarrow E_x\cap E_y=\emptyset$(대우)
 
@@ -292,7 +294,7 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 1. $R_P$는 반사적이다.
 	- $\forall x\in X, \exists A\in P\;s.t.\;x\in A$($\because$ $P$는 $X$를 덮는다)
 
-	- $\therefore _x{R_P}_x$
+	- $\therefore _x{E_P}_x$
 
 2. $R_P$는 대칭적이다.
 	- $(x,y)\in R_P\Rightarrow\exists A\in P\;s.t.\;x,y\in A$
@@ -300,13 +302,13 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 	- $\therefore (y,x)\in R_P$
 
 3. $R_P$는 추이적이다.
-	- $\forall x,y,z\in X, _xR_y\land _yR_z$
+	- $\forall x,y,z\in X, _xE_y\land _yE_z$
 
 	- $\Rightarrow \exists A,B\in P,\;s.t.\; x,y\in A, y,z\in B$
 
 	- $A=B$(분할은 서로소 집합이므로, $A, B$ 모두 $y$를 원소로 갖는다면, $A=B$이다)
 
-	- $_xR_z$
+	- $_xE_z$
 
 
 ## 출처
