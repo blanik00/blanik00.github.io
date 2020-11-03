@@ -62,7 +62,7 @@ $$\{(x,y)|x\in A, y\in B, P(x,y)\;is\;true\}$$
 	- $R_3=\\{(1,1), (1,2), (2,1)\\}$은 대칭적이다.
 
 - 반대칭성(antisymmetric) : $_xR_y\land _yR_x\Rightarrow x=y$
-	- $R_3$는 반대칭적이지 않다.($_1R_2\land _2R_1\rightarrow x\neq y$)
+	- $R_3$는 반대칭적이지 않다.($_1R_2\land _2R_1\rightarrow 1\neq 2$)
 
 - 추이성(transitive) : $_xR_y\land _yR_z\Rightarrow_xR_z$
 	- $R_4=\\{(1,1), (1,2), (2,3)\\}$은 추이적이지 않다.($(1,3)$이 없기 때문)
@@ -71,6 +71,7 @@ $$\{(x,y)|x\in A, y\in B, P(x,y)\;is\;true\}$$
 
 ## 여러가지 관계
 ### 역관계($R^{-1}$)  
+
 $$R^{-1}=\{(y,x)|(x,y)\in R\}$$
 
 - 예를 들어, $R=\\{(1,1), (1,2)\\}$이라면, $R^{-1}=\\{(1,1), (2,1)\\}$이다.
@@ -117,7 +118,9 @@ $$\begin{matrix}
 
 - 관계가 있다는 것을 $_xR_y$와 같이 표현했던 것 처럼, 동치관계가 있다는 것을 $_xE_y$로 표현하면 된다.
 
-### 예시
+- 여기서 주의할 점은 반사적 관계는 필수적으로 포함되어야 하지만, 대칭적, 추이적 관계는 그렇지 않다는 것이다. 예를 들어, $X=\\{1,2,3\\}$일 때, $E=\\{(1,1), (2,2), (3,3), (1,2), (2,1)\\}$에서 $(1,1), (2,2), (3,3)$은 필수적이지만, $(1,2), (2,1)$은 없어도 된다.
+
+### 동치관계의 예시
 - 우리가 알고있는 수체계에서 "$=$"는 동치관계를 만족한다.
 	- 반사성 : $a=a$
 
@@ -125,7 +128,7 @@ $$\begin{matrix}
 
 	- 추이성 : $a=b\land b=c\Rightarrow a=c$
 
-- 명제의 모든 논리적 가능성이 같음을 나타내는 "$\equiv$"도 동치관계를 만족한다.
+- 명제의 모든 논리적 가능성이 같음을 나타내는 "$\equiv$"도 동치관계를 만족한다.
 	- 반사성 : $p\equiv p$
 
 	- 대칭성 : $p\equiv q\Rightarrow q\equiv p$
@@ -143,15 +146,17 @@ $$\begin{matrix}
 
 ## 분할
 
-- 분할 : 집합 $X$에 대하여 다음 세 조건을 만족하는 집합족 $P=\\{A\|A\subset X\\}$
+- 분할 : 집합 $X$에 대하여 다음 세 조건을 만족하는 **집합족 $P=\\{A\|A\subset X\\}$**
 	1. 공집합을 원소로 하지 않는다.
 		- $\forall A\in P, A\neq\emptyset$
 	2. $X$를 덮는다.
 		- $\bigcup P=X$
 	3. 서로소 집합족이다.
-		- $\forall A_1, A_2\in P, A_1\cap A_2=\emptyset \lor A_1=A_2$
+		- $\forall A_1, A_2\in P, (A_1\cap A_2=\emptyset) \lor (A_1=A_2)$
 
-- 동치관계를 만들어내기 위해 분할이 사용된다.
+		- 즉, $A_1=A_2$가 아닌 이상 $A_1\cap A_2=\emptyset$
+
+- **동치관계를 만들어내기 위해 분할이 사용된다.**
 
 - 동치와 분할의 관계는 뒤에서 살펴본다.
 
@@ -160,13 +165,15 @@ $$\begin{matrix}
 
 - $P=\\{\\{1,2\\},\\{3,4\\},\\{5\\}\\}$
 
-## 동치류
+## 동치류(Equivalence Class)
 - 집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\\{y\in X\| _xE_y \\}$이다.
 
 - 수학 시험 결과 "상엽"과 같은 시험 점수를 받은 학생이 "지수", "제니"라면 $E_{상엽}=\\{지수, 제니\\}$이다.
 
-## 상집합
+## 상집합($X/E$)
 - 집합 $X$에서의 모든 동치류의 집합
+
+- (동치)관계 $E$에 의한 분할
 
 - $X / E=\\{E_x\|x\in X\\}$
 
@@ -190,17 +197,15 @@ $$\begin{matrix}
 ## $R_P(X/P)$
 - 분할 $P$에 의한 관계
 
-- 위에서 배운 상집합과 표기가 비슷한데, / 뒤에 관계가 오면 집합족을 의미($X/E$)하고, 집합족이 오면 관계를 의미($X/P$)하는 것이다. 
-
 $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 
 ## $X/E$와 $X/P$ 정리
 
 |  | $X/E$ | $X/P$ |
 |:--:|:--:|:--:|
-| X 뒤에 오는 것 | 관계 | 분할(집합족) |
+| X 뒤에 오는 것 | (동치)관계 | 분할 |
 | 정의 | $\\{E_x\|x\in X\\}$ | $\\{(x,y)\|\exists A\in P,(x,y)\in A\\}$ |
-| 의미 | 집합 X에서의 모든 동치류의 집합(**집합족**) | 분할 P에 의한 **관계** |
+| 의미 | 집합 X에서의 모든 동치류의 집합(**분할**) | 분할 P에 의한 **(동치)관계** |
 
 
 ### 예시
@@ -245,23 +250,22 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 
 	- $E_x\cap E_y\neq\emptyset\Leftrightarrow _xE_y$
 		1. $$\begin{matrix}
-				E_x\cap E_y\neq\emptyset &\Leftrightarrow& \exists z,z\in E_x\land z\in E_y \\
+				E_x\cap E_y\neq\emptyset &\Leftrightarrow& \exists z,\;\;z\in E_x\land z\in E_y \\
 				&\Leftrightarrow&  \exists z,  _xE_z\land _yE_z \\
 				&\Rightarrow& \exists z, _xE_z\land _zE_y \\
 				&\Rightarrow& _xE_y(\because transitive) \\
 			\end{matrix}$$
 
 		2. $$\begin{matrix}
-				_xE_y &\Rightarrow& E_x=E_y (\because 위에서 증명함)\\
-				&\Rightarrow&  E_x\cap E_y\neq\emptyset \\
+				_xE_y &\Rightarrow& E_x=E_y &(\because 위에서\;증명함)\\
+				&\Rightarrow&  E_x\cap E_y\neq\emptyset &(\because E_x\neq\emptyset\land E_y\neq\emptyset)\\
 			\end{matrix}$$
 
 ## 동치와 분할이 사실 같은 것임을 증명
+### $X/E$는 $X$의 분할이다.
 - $X$ : 공집합이 아닌 집합 
 
 - $E$ : $X$ 위의 동치관계
-
-### $X/E$는 $X$의 분할이다.
 
 - 분할임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.
 
@@ -279,15 +283,16 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 	- NTS : $\bigcup X/E\subset X, X\subset \bigcup X/E$
 		1. $\bigcup X/E\subset X$(자명함)
 
-		2. $\forall x\in X,\exists E_x\in X/E, s.t.\;x\in E_x$  
+		2. $\forall x\in X,\exists E_x\in X/E, s.t.\;x\in E_x(\because symmetric)$  
+			
 			($X$의 모든 원소 $x$는 $X/E$의 어떤 원소에 반드시 포함된다.)
-			$\therefore X\subseteq X/E$
+			
+			$\therefore X\subseteq \bigcup X/E$
 
+### $R_P(X/P)$는 $X$ 상의 동치관계이다.
 - $X$ : 공집합이 아닌 집합 
 
 - $P$ : 분할
-
-### $R_P(X/P)$는 $X$ 상의 동치관계이다.
 
 - 동치관계임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.
 
@@ -297,6 +302,8 @@ $$\{(x,y)|\exists A\in P, x,y\in A\}$$
 	- $\therefore _x{E_P}_x$
 
 2. $R_P$는 대칭적이다.
+	- $R_P$의 정의에 의해 자명
+
 	- $(x,y)\in R_P\Rightarrow\exists A\in P\;s.t.\;x,y\in A$
 
 	- $\therefore (y,x)\in R_P$

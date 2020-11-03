@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-29T06:43:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-03T06:37:45-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;관계의 특수한 케이스&lt;/p&gt;
@@ -97,7 +97,7 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;$g=f|_A$이면 $g$는 $f$의 $A$에서의 확대함수&lt;/li&gt;
+  &lt;li&gt;$g=f|_A$이면 $f$는 $g$의 $A$에서의 확대함수&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;예시-1&quot;&gt;예시&lt;/h3&gt;
@@ -475,32 +475,33 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
                 &lt;p&gt;$f^{-1}(f(A))\subset A$
  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-   \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) &amp; (\because x\in A) \\
-   &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x')\\
+   \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) \\
+   &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x') (x'는\;x에\;대응되는\;A의\;원소)\\
    &amp;\Rightarrow&amp; x=x' &amp; (\because f는\;단사) \\
    &amp;\Rightarrow&amp; x\in A
 \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
               &lt;/li&gt;
               &lt;li&gt;
-                &lt;p&gt;$A\subset f^{-1}(f(A))$
- &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-   &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
-   &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+                &lt;p&gt;$A\subset f^{-1}(f(A))$&lt;/p&gt;
               &lt;/li&gt;
             &lt;/ol&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+       &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
+       &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
+    \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;$f(f^{-1}(B))=B\Leftrightarrow g는\;전사$
+  &lt;li&gt;$f(f^{-1}(B))=B\Leftrightarrow f는\;전사$
     &lt;ul&gt;
-      &lt;li&gt;$f(f^{-1}(B))=B\Rightarrow g는\;전사$
+      &lt;li&gt;$f(f^{-1}(B))=B\Rightarrow f는\;전사$
         &lt;ul&gt;
           &lt;li&gt;
-            &lt;p&gt;$g$가 단사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.&lt;/p&gt;
+            &lt;p&gt;$f$가 전사라는 것을 보이면 되므로 치역과 공역이 같음을 보여야 한다.즉, $f(X)=Y$를 만족해야 한다.&lt;/p&gt;
 
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
@@ -509,30 +510,31 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;$f(f^{-1}(B))=B\Leftarrow g는\;전사$
+      &lt;li&gt;$f(f^{-1}(B))=B\Leftarrow f는\;전사$
         &lt;ul&gt;
           &lt;li&gt;
-            &lt;p&gt;$g$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.&lt;/p&gt;
+            &lt;p&gt;$f$는 전사라는 조건을 활용해 $f(f^{-1}(B))\subset B, B\subset f(f^{-1}(B))$임을 보이면 된다.&lt;/p&gt;
 
             &lt;ol&gt;
-              &lt;li&gt;
-                &lt;p&gt;$f(f^{-1}(B))\subset B$
- &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-    &amp;\Rightarrow&amp; \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
-    &amp;\Rightarrow&amp; y\in B&amp;(\because f(x)=y\land f(x)\in B) \\
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
-              &lt;/li&gt;
-              &lt;li&gt;
-                &lt;p&gt;$B\subset f(f^{-1}(B))$
- &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\begin{matrix}
-   &amp;\Rightarrow&amp; \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y \\
-   &amp;\Rightarrow&amp; f(x)\in f(f^{-1}(B)) \\
-   &amp;\Rightarrow&amp; y\in f(f^{-1}(B)) \\
-\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
-              &lt;/li&gt;
+              &lt;li&gt;$f(f^{-1}(B))\subset B$&lt;/li&gt;
             &lt;/ol&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+        &amp;\Rightarrow&amp; \forall y\in f(f^{-1}(B)), \exists x\in f^{-1}(B)\;s.t.\;f(x)=y\\
+        &amp;\Rightarrow&amp; y\in B&amp;(\because f(x)=y\land f(x)\in B) \\
+    \end{matrix} %]]&gt;&lt;/script&gt;
+
+            &lt;ol&gt;
+              &lt;li&gt;$B\subset f(f^{-1}(B))$&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+       &amp;\Rightarrow&amp; \forall y\in B, \exists x\in f^{-1}(B)\;s.t.\;f(x)=y&amp;(\because f는\;전사) \\
+       &amp;\Rightarrow&amp; f(x)\in f(f^{-1}(B)) \\
+       &amp;\Rightarrow&amp; y\in f(f^{-1}(B)) \\
+    \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -574,7 +576,10 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 \begin{matrix}
    y\in \bigcap\limits_{a\in I}f(A_a) &amp;\Leftrightarrow&amp; \forall a\in I, y\in f(A_a) \\
    &amp;\Leftrightarrow&amp; \forall a\in I, \exists x_a\in A_a, y\in f(x_a) \\
-   &amp;\Leftrightarrow&amp; y=f(x_1)=f(x_2)=f(x_3)=\cdots&amp;(\because f\;is\;injective) \\
+   &amp;\Leftrightarrow&amp; y=f(x_1)=f(x_2)=f(x_3)=\cdots \\
+   &amp;\Leftrightarrow&amp; x_1=x_2=x_3=\cdots&amp;(\because f\;is\;injective) \\
+   &amp;&amp; set\;x_0=x_1=x_2=x_3=\cdots \\
+   &amp;\Leftrightarrow&amp; \forall a\in I, \exists x_0\in A_a, y=f(x_0) \\
    &amp;\Leftrightarrow&amp; \exists x_0\in \bigcap\limits_{a\in I}A_a, y=f(x_0) \\
    &amp;\Leftrightarrow&amp; y\in f(\bigcap\limits_{a\in I}A_a)
 \end{matrix} %]]&gt;&lt;/script&gt;
@@ -675,7 +680,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;/li&gt;
   &lt;li&gt;반대칭성(antisymmetric) : $_xR_y\land _yR_x\Rightarrow x=y$
     &lt;ul&gt;
-      &lt;li&gt;$R_3$는 반대칭적이지 않다.($_1R_2\land _2R_1\rightarrow x\neq y$)&lt;/li&gt;
+      &lt;li&gt;$R_3$는 반대칭적이지 않다.($_1R_2\land _2R_1\rightarrow 1\neq 2$)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;추이성(transitive) : $_xR_y\land _yR_z\Rightarrow_xR_z$
@@ -688,7 +693,8 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 
 &lt;h2 id=&quot;여러가지-관계&quot;&gt;여러가지 관계&lt;/h2&gt;
 &lt;h3 id=&quot;역관계r-1&quot;&gt;역관계($R^{-1}$)&lt;/h3&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;R^{-1}=\{(y,x)|(x,y)\in R\}&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^{-1}=\{(y,x)|(x,y)\in R\}&lt;/script&gt;
 
 &lt;ul&gt;
   &lt;li&gt;예를 들어, $R=\{(1,1), (1,2)\}$이라면, $R^{-1}=\{(1,1), (2,1)\}$이다.&lt;/li&gt;
@@ -748,9 +754,15 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;li&gt;
     &lt;p&gt;반사적, 대칭적, 추이적 관계&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;관계가 있다는 것을 $_xR_y$와 같이 표현했던 것 처럼, 동치관계가 있다는 것을 $_xE_y$로 표현하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;여기서 주의할 점은 반사적 관계는 필수적으로 포함되어야 하지만, 대칭적, 추이적 관계는 그렇지 않다는 것이다. 예를 들어, $X=\{1,2,3\}$일 때, $E=\{(1,1), (2,2), (3,3), (1,2), (2,1)\}$에서 $(1,1), (2,2), (3,3)$은 필수적이지만, $(1,2), (2,1)$은 없어도 된다.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;h3 id=&quot;동치관계의-예시&quot;&gt;동치관계의 예시&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;우리가 알고있는 수체계에서 “$=$”는 동치관계를 만족한다.
     &lt;ul&gt;
@@ -765,7 +777,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;명제의 모든 논리적 가능성이 같음을 나타내는 “$\equiv$”도 동치관계를 만족한다.
+  &lt;li&gt;명제의 모든 논리적 가능성이 같음을 나타내는 “$\equiv$”도 동치관계를 만족한다.
     &lt;ul&gt;
       &lt;li&gt;
         &lt;p&gt;반사성 : $p\equiv p$&lt;/p&gt;
@@ -797,7 +809,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 &lt;h2 id=&quot;분할&quot;&gt;분할&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;분할 : 집합 $X$에 대하여 다음 세 조건을 만족하는 집합족 $P=\{A|A\subset X\}$
+  &lt;li&gt;분할 : 집합 $X$에 대하여 다음 세 조건을 만족하는 &lt;strong&gt;집합족 $P=\{A|A\subset X\}$&lt;/strong&gt;
     &lt;ol&gt;
       &lt;li&gt;공집합을 원소로 하지 않는다.
         &lt;ul&gt;
@@ -811,13 +823,18 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
       &lt;/li&gt;
       &lt;li&gt;서로소 집합족이다.
         &lt;ul&gt;
-          &lt;li&gt;$\forall A_1, A_2\in P, A_1\cap A_2=\emptyset \lor A_1=A_2$&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\forall A_1, A_2\in P, (A_1\cap A_2=\emptyset) \lor (A_1=A_2)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;즉, $A_1=A_2$가 아닌 이상 $A_1\cap A_2=\emptyset$&lt;/p&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;동치관계를 만들어내기 위해 분할이 사용된다.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;동치관계를 만들어내기 위해 분할이 사용된다.&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;동치와 분할의 관계는 뒤에서 살펴본다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -832,20 +849,23 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;동치류&quot;&gt;동치류&lt;/h2&gt;
+&lt;h2 id=&quot;동치류equivalence-class&quot;&gt;동치류(Equivalence Class)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\{y\in X| _xR_y \}$이다.&lt;/p&gt;
+    &lt;p&gt;집합 $X$ 상의 하나의 동치관계를 $E$라고 할 때, 동치류 $E_x=\{y\in X| _xE_y \}$이다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;수학 시험 결과 “상엽”과 같은 시험 점수를 받은 학생이 “지수”, “제니”라면 $E_{상엽}=\{지수, 제니\}$이다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;상집합&quot;&gt;상집합&lt;/h2&gt;
+&lt;h2 id=&quot;상집합xe&quot;&gt;상집합($X/E$)&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;집합 $X$에서의 모든 동치류의 집합&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(동치)관계 $E$에 의한 분할&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;$X / E=\{E_x|x\in X\}$&lt;/p&gt;
@@ -885,12 +905,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 
 &lt;h2 id=&quot;r_pxp&quot;&gt;$R_P(X/P)$&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;분할 $P$에 의한 관계&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;위에서 배운 상집합과 표기가 비슷한데, / 뒤에 관계가 오면 집합족을 의미($X/E$)하고, 집합족이 오면 관계를 의미($X/P$)하는 것이다.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;분할 $P$에 의한 관계&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\{(x,y)|\exists A\in P, x,y\in A\}&lt;/script&gt;
@@ -908,8 +923,8 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;X 뒤에 오는 것&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;관계&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;분할(집합족)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(동치)관계&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;분할&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;정의&lt;/td&gt;
@@ -918,13 +933,13 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;의미&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;집합 X에서의 모든 동치류의 집합(&lt;strong&gt;집합족&lt;/strong&gt;)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;분할 P에 의한 &lt;strong&gt;관계&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;집합 X에서의 모든 동치류의 집합(&lt;strong&gt;분할&lt;/strong&gt;)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;분할 P에 의한 &lt;strong&gt;(동치)관계&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;예시-1&quot;&gt;예시&lt;/h3&gt;
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;$X=\{1,2,3,4,5\}$&lt;/p&gt;
@@ -965,7 +980,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
             &lt;p&gt;$X\neq\emptyset\Rightarrow\exists x\in X$&lt;/p&gt;
           &lt;/li&gt;
           &lt;li&gt;
-            &lt;p&gt;$E\;\;is\;\;reflexive\Rightarrow _xR_x$&lt;/p&gt;
+            &lt;p&gt;$E\;\;is\;\;reflexive\Rightarrow _xE_x$&lt;/p&gt;
           &lt;/li&gt;
           &lt;li&gt;
             &lt;p&gt;$x\in E_x$&lt;/p&gt;
@@ -975,22 +990,22 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;$E_x=E_y\Leftrightarrow_xR_y$
+      &lt;li&gt;$E_x=E_y\Leftrightarrow_xE_y$
         &lt;ul&gt;
-          &lt;li&gt;$E_x=E_y\rightarrow_xR_y$
+          &lt;li&gt;$E_x=E_y\rightarrow_xE_y$
             &lt;ul&gt;
-              &lt;li&gt;$x\in E_x(\because reflexive)\Rightarrow x\in E_y(\because E_x=E_y)\Leftrightarrow _yR_x\Rightarrow _xR_y$&lt;/li&gt;
+              &lt;li&gt;$x\in E_x(\because reflexive)\Rightarrow x\in E_y(\because E_x=E_y)\Leftrightarrow _yE_x\Rightarrow _xE_y$&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;$_xR_y\rightarrow E_x=E_y$
+          &lt;li&gt;$_xE_y\rightarrow E_x=E_y$
             &lt;ul&gt;
               &lt;li&gt;NTS : $E_x\subset E_y, E_y\subset E_x$
                 &lt;ol&gt;
                   &lt;li&gt;
-                    &lt;p&gt;$z\in E_x\Leftrightarrow_xR_z\Rightarrow _yR_z(\because _yR_x\land_xR_z\Rightarrow_yR_z)\Leftrightarrow z\in E_y$&lt;/p&gt;
+                    &lt;p&gt;$z\in E_x\Leftrightarrow_xE_z\Rightarrow _yE_z(\because _yE_x\land_xE_z\Rightarrow_yE_z)\Leftrightarrow z\in E_y$&lt;/p&gt;
                   &lt;/li&gt;
                   &lt;li&gt;
-                    &lt;p&gt;$z\in E_y\Leftrightarrow_yE_z\Rightarrow_xE_z(\because _xR_y\land_yR_z\Rightarrow_xR_z)\Leftrightarrow z\in E_x$&lt;/p&gt;
+                    &lt;p&gt;$z\in E_y\Leftrightarrow_yE_z\Rightarrow_xE_z(\because _xE_y\land_yE_z\Rightarrow_xE_z)\Leftrightarrow z\in E_x$&lt;/p&gt;
                   &lt;/li&gt;
                 &lt;/ol&gt;
               &lt;/li&gt;
@@ -998,22 +1013,22 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;$E_x\cap E_y\neq\emptyset\Leftrightarrow _xR_y$
+      &lt;li&gt;$E_x\cap E_y\neq\emptyset\Leftrightarrow _xE_y$
         &lt;ol&gt;
           &lt;li&gt;
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-     E_x\cap E_y\neq\emptyset &amp;\Leftrightarrow&amp; \exists z,z\in E_x\land z\in E_y \\
-     &amp;\Leftrightarrow&amp;  \exists z,  _xR_z\land _yR_z \\
-     &amp;\Rightarrow&amp; \exists z, _xR_z\land _zR_y \\
-     &amp;\Rightarrow&amp; _xR_y(\because transitive) \\
+     E_x\cap E_y\neq\emptyset &amp;\Leftrightarrow&amp; \exists z,\;\;z\in E_x\land z\in E_y \\
+     &amp;\Leftrightarrow&amp;  \exists z,  _xE_z\land _yE_z \\
+     &amp;\Rightarrow&amp; \exists z, _xE_z\land _zE_y \\
+     &amp;\Rightarrow&amp; _xE_y(\because transitive) \\
  \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
           &lt;li&gt;
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
-     _xR_y &amp;\Rightarrow&amp; E_x=E_y (\because 위에서 증명함)\\
-     &amp;\Rightarrow&amp;  E_x\cap E_y\neq\emptyset \\
+     _xE_y &amp;\Rightarrow&amp; E_x=E_y &amp;(\because 위에서\;증명함)\\
+     &amp;\Rightarrow&amp;  E_x\cap E_y\neq\emptyset &amp;(\because E_x\neq\emptyset\land E_y\neq\emptyset)\\
  \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ol&gt;
@@ -1023,6 +1038,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;동치와-분할이-사실-같은-것임을-증명&quot;&gt;동치와 분할이 사실 같은 것임을 증명&lt;/h2&gt;
+&lt;h3 id=&quot;xe는-x의-분할이다&quot;&gt;$X/E$는 $X$의 분할이다.&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;$X$ : 공집합이 아닌 집합&lt;/p&gt;
@@ -1030,19 +1046,16 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;li&gt;
     &lt;p&gt;$E$ : $X$ 위의 동치관계&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;xe는-x의-분할이다&quot;&gt;$X/E$는 $X$의 분할이다.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;분할임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;분할임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ol&gt;
   &lt;li&gt;$X/E$는 공집합을 원소로 갖지 않는다.
     &lt;ul&gt;
       &lt;li&gt;
-        &lt;p&gt;동치류는 공집합을 가지지 않는다.($\because reflexive and\;X\;is\;not\;empty$)&lt;/p&gt;
+        &lt;p&gt;동치류는 공집합을 가지지 않는다.($\because reflexive\;and\;X\;is\;not\;empty$)&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;$\emptyset\notin X/E$&lt;/p&gt;
@@ -1052,7 +1065,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;li&gt;$X/E$는 서로소 집합족이다.
     &lt;ul&gt;
       &lt;li&gt;
-        &lt;p&gt;$if\;E_x\cap E_y\neq\emptyset \Rightarrow _xR_y \Rightarrow E_x=E_y$&lt;/p&gt;
+        &lt;p&gt;$if\;E_x\cap E_y\neq\emptyset \Rightarrow _xE_y \Rightarrow E_x=E_y$&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;$if\;E_x\neq E_y \Rightarrow E_x\cap E_y=\emptyset$(대우)&lt;/p&gt;
@@ -1067,9 +1080,11 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
             &lt;p&gt;$\bigcup X/E\subset X$(자명함)&lt;/p&gt;
           &lt;/li&gt;
           &lt;li&gt;
-            &lt;p&gt;$\forall x\in X,\exists E_x\in X/E, s.t.\;x\in E_x$&lt;br /&gt;
- ($X$의 모든 원소 $x$는 $X/E$의 어떤 원소에 반드시 포함된다.)
- $\therefore X\subseteq X/E$&lt;/p&gt;
+            &lt;p&gt;$\forall x\in X,\exists E_x\in X/E, s.t.\;x\in E_x(\because symmetric)$&lt;/p&gt;
+
+            &lt;p&gt;($X$의 모든 원소 $x$는 $X/E$의 어떤 원소에 반드시 포함된다.)&lt;/p&gt;
+
+            &lt;p&gt;$\therefore X\subseteq \bigcup X/E$&lt;/p&gt;
           &lt;/li&gt;
         &lt;/ol&gt;
       &lt;/li&gt;
@@ -1077,6 +1092,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;h3 id=&quot;r_pxp는-x-상의-동치관계이다&quot;&gt;$R_P(X/P)$는 $X$ 상의 동치관계이다.&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;$X$ : 공집합이 아닌 집합&lt;/p&gt;
@@ -1084,12 +1100,9 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;li&gt;
     &lt;p&gt;$P$ : 분할&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;r_pxp는-x-상의-동치관계이다&quot;&gt;$R_P(X/P)$는 $X$ 상의 동치관계이다.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;동치관계임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;동치관계임을 증명하기 위해서는 아래 세 가지 조건을 만족하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ol&gt;
@@ -1099,12 +1112,15 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
         &lt;p&gt;$\forall x\in X, \exists A\in P\;s.t.\;x\in A$($\because$ $P$는 $X$를 덮는다)&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;$\therefore _x{R_P}_x$&lt;/p&gt;
+        &lt;p&gt;$\therefore _x{E_P}_x$&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;$R_P$는 대칭적이다.
     &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$R_P$의 정의에 의해 자명&lt;/p&gt;
+      &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;$(x,y)\in R_P\Rightarrow\exists A\in P\;s.t.\;x,y\in A$&lt;/p&gt;
       &lt;/li&gt;
@@ -1116,7 +1132,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
   &lt;li&gt;$R_P$는 추이적이다.
     &lt;ul&gt;
       &lt;li&gt;
-        &lt;p&gt;$\forall x,y,z\in X, _xR_y\land _yR_z$&lt;/p&gt;
+        &lt;p&gt;$\forall x,y,z\in X, _xE_y\land _yE_z$&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;$\Rightarrow \exists A,B\in P,\;s.t.\; x,y\in A, y,z\in B$&lt;/p&gt;
@@ -1125,7 +1141,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
         &lt;p&gt;$A=B$(분할은 서로소 집합이므로, $A, B$ 모두 $y$를 원소로 갖는다면, $A=B$이다)&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;$_xR_z$&lt;/p&gt;
+        &lt;p&gt;$_xE_z$&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -1363,34 +1379,34 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
     &lt;table&gt;
       &lt;thead&gt;
         &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$i\in I$&lt;/th&gt;
           &lt;th style=&quot;text-align: center&quot;&gt;$A_i$&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;$I$&lt;/th&gt;
           &lt;th style=&quot;text-align: center&quot;&gt;$\rightarrow$&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;$F$&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;$A_i\in F$&lt;/th&gt;
         &lt;/tr&gt;
       &lt;/thead&gt;
       &lt;tbody&gt;
         &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;$A_1$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$A_1$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\rightarrow$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\emptyset$&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;$A_2$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$A_2$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\rightarrow$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\{1\}$&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;$A_3$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$A_3$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\rightarrow$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\{2\}$&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;$A_4$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;$A_4$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\rightarrow$&lt;/td&gt;
           &lt;td style=&quot;text-align: center&quot;&gt;$\{1,2\}$&lt;/td&gt;
         &lt;/tr&gt;
@@ -1554,13 +1570,13 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
     &lt;p&gt;곱집합을 배우기 전에 곱집합을 이루는 순서쌍에 대해 좀 더 자세히 알아야 한다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;순서쌍 (a, b)는 a와 b의 순서가 중요하다. 그래서 “순서쌍이 같다”고 말하기 위해서는 원소가 같을 뿐만 아니라, 그들의 순서도 같아야 한다.&lt;/p&gt;
+    &lt;p&gt;우리가 배웠던 집합은 원소들 간의 순서가 무의미하다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;하지만 집합이라는 것은 원소들 간의 순서가 무의미하다.&lt;/p&gt;
+    &lt;p&gt;하지만 순서쌍 (a, b)는 a와 b의 순서가 중요하다. 그래서 “순서쌍이 같다”고 말하기 위해서는 원소가 같을 뿐만 아니라, 그들의 순서도 같아야 한다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;그렇기 때문에 순서가 중요한 순서쌍과 순서가 무의미한 집합을 함께 사용하는 것은 힘들다. 그래서 우리는 순서쌍을 집합의 영역역에 끌어들이기 위해 순서쌍을 집합으로 재정의해보는 과정이 필요했다.&lt;/p&gt;
+    &lt;p&gt;그렇기 때문에 순서가 중요한 순서쌍과 순서가 무의미한 집합을 함께 사용하는 것은 힘들다. 그래서 우리는 순서쌍을 집합의 영역에 끌어들이기 위해 순서쌍을 집합으로 재정의해보는 과정이 필요하다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;두 개의 집합 $A,B$가 있을 때, 곱집합은 다음과 같이 정의한다.&lt;/p&gt;
@@ -1570,7 +1586,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;A\times B=\{(a,b)|a\in A\land b\in B\}&lt;/script&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;$\mathbb{R}\times \mathbb{R}=\mathbb{R}^2$는 데카르트 평면 혹은 카테시안 평면이라고 한다. 이는 우리가 아는 좌표 평면을 의미한다.&lt;/li&gt;
+  &lt;li&gt;참고로 $\mathbb{R}\times \mathbb{R}=\mathbb{R}^2$는 데카르트 평면 혹은 카테시안 평면이라고 한다. 이는 우리가 아는 좌표 평면을 의미한다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;곱집합의-연산&quot;&gt;곱집합의 연산&lt;/h2&gt;
@@ -1626,11 +1642,11 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
 	\prod A_i &amp;\equiv&amp; A_1\times A_2\times\cdots \\
-	&amp;\equiv&amp; \{(a_i)_{i\in I}|\forall i\in I, a_i\in A_i\} \\
+	&amp;\equiv&amp; \{(a_i)_{i\in I}|\forall i\in I, a_i\in A_i\}
 \end{matrix} %]]&gt;&lt;/script&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;예를 들어보자.
+  &lt;li&gt;아래 예를 보는 것이 이해하기 쉬울 것이다.
     &lt;ul&gt;
       &lt;li&gt;$I=\{1,2\},F=\{\{a,b\},\{c,d\}\}$라고 할 때, $\prod F$를 구하라.&lt;/li&gt;
     &lt;/ul&gt;
