@@ -1,4 +1,658 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-04T05:19:39-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-06T23:31:50-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JeongUk Jang</title><subtitle>Github Pages template for academic personal websites, forked from mmistakes/minimal-mistakes</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><entry><title type="html">1.5 집합의 크기</title><link href="http://localhost:4000/lecture/2020/10/22/set_theory_cardinality" rel="alternate" type="text/html" title="1.5 집합의 크기" /><published>2020-10-22T00:00:00-07:00</published><updated>2020-10-22T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/22/set_theory_size_of_set</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/22/set_theory_cardinality">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합의 크기를 탐구함에 있어서, 대상이 되는 집합의 크기를 파악하는 것은 기초 중의 기초&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합의 크기를 파악할 때 함수의 전사, 단사, 전단사를 유용하게 사용&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유한-무한집합&quot;&gt;유한, 무한집합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;무한집합이 수학사에서 조명을 받은 것은 비교적 최근의 일이다. 기존의 상식에서는 “전체는 그것의 부분 보다는 크다”는 것이 있었다. 하지만 “긴 선분에 포함된 점의 갯수가 결코 짧은 선분에 포함된 점의 갯수보다 많다고 할 수 없다”는 의문이 제시되었다. 이처럼 무한집합은 갯수를 파악해서 집합의 크기를 논한다는 것이 비효과적이다. 그 후로 수학자들은 집합의 크기를 갯수를 세는 방법 말고 어떻게 표현할 것인가를 고민하기 시작했다. 200년이 지난 후, 수학자 데데킨트에 의해 전단사 함수를 이용한 집합의 크기 측정 방법이 제시되었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$f:X\rightarrow Y$가 전단사 함수&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;집합 $X,Y$는 유한집합 : 집합 $X,Y$의 원소의 갯수가 같다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;집합 $X,Y$는 무한집합 : 집합 $X,Y$의 집합의 크기가 같다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-동등equipotent&quot;&gt;1. 동등(Equipotent)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 집합 $X$, $Y$에 대하여 전단사함수 $f:X\rightarrow Y$가 존재하면 $X$와 $Y$는 동등이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$X\approx Y$ 또는 $f:X\approx Y$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;동등은 동치 관계의 특수한 케이스&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;유한집합에서 동등은 원소의 갯수가 같다고, 무한집합에서는 집합의 크기가 같다고 해석할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-유한-무한집합&quot;&gt;2. 유한, 무한집합&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;집합 $X$의 적당한 진부분집합 $Y$가 $X$와 동등하다면 $X$는 무한집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;그리고 무한집합이 아닌 집합을 유한집합이라고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;예시&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(0,1)\approx \mathbb{R}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 단계에 거쳐 증명할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(0,1)\approx(-1,1)$
+&lt;script type=&quot;math/tex&quot;&gt;f:(0,1)\rightarrow(-1,1), f(x)=2x-1&lt;/script&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;함수 $f$는 전단사(동등하다)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$(-1,1)\approx\mathbb{R}$
+&lt;script type=&quot;math/tex&quot;&gt;f:(-1,1)\rightarrow\mathbb{R}, f(x)={x\over 1-x^2}&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;-1을 대입하면 음의 무한대로, 1을 대입하면 양의 무한대로 발산한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;여러가지-정리&quot;&gt;여러가지 정리&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;공집합 $\emptyset$은 유한집합이다.
+    &lt;ul&gt;
+      &lt;li&gt;무한집합은 진부분집합이 있어야 만들 수 있는데, 공집합은 진부분집합이 없다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;무한집합을 포함하는 집합은 무한집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;유한집합의 모든 부분집합은 유한집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;전단사함수 $f:X\rightarrow Y$에 대하여(동등)
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$X$가 무한함수이면 $Y$도 무한함수이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$X$가 유한함수이면 $Y$도 유한함수이다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;무한집합 $X$의 부분집합 $Y$가 유한하면, $X-Y$는 무한집합이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;가부번-비가부번집합&quot;&gt;가부번, 비가부번집합&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;무한집합에서도 급이 있는데, 이 내용은 집합의 급을 나누는 첫 번째 기준이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;가부번집합(denumerable set)
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;가(가능하다), 부(붙이다), 번(번호)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;집합 $X$가 $X\approx \mathbb{N}$일 때, $X$를 가부번집합이라고 한다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;즉, 번호를 붙일 수 있는 집합&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{N}$(자연수)가 대표적인 가부번집합이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;자연수는 원소들에 숫자를 부여할 수 있다.($1\rightarrow1, 2\rightarrow2, 3\rightarrow3$)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;비가부번집합(nondenumerable set)
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;집합 $X$가 $X\approx \mathbb{R}$일 때, $X$를 비가부번집합이라고 한다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;번호를 붙일 수 없는 집합&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\mathbb{R}$(실수)가 대표적인 비가부번집합이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;실수는 원소들에 숫자를 부여할 수 없다. 예를 들어, 1.0에 1이라는 숫자를 부여한다면 2라는 숫자는 어떤 숫자에게 부여할 수 있을까? 어떤 숫자에 2를 부여하든, 1.0과 그 숫자 사이에 다른 실수가 있기 때문에 숫자를 부여하는 작업이 불가능하다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가산집합(countable set)
+    &lt;ul&gt;
+      &lt;li&gt;유한집합이나 가부번집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;여러가지-정리-1&quot;&gt;여러가지 정리&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;가산집합의 부분집합은 가산집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;가부번집합의 합집합은 가부번집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\mathbb{N}\times\mathbb{N}$은 가부번집합이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f:\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}, f(n,m)=2^n3^m((n,m)\in \mathbb{N}\times\mathbb{N})$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f$가 전단사이면 $\mathbb{N}\times\mathbb{N}$과 $\mathbb{N}$는 동등하다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f$는 단사이다.
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+    f(n_1,m_1)=f(n_2,m_2) &amp;\Rightarrow&amp; 2^{n_1}3^{m_1}=2^{n_2}3^{m_2} \\
+    &amp;\Rightarrow&amp; 2^{n_1-n_2}=3^{m_2-m_1} \\
+    &amp;\Rightarrow&amp; n_1-n_2=m_2-m_1=0 \\
+    &amp;\Rightarrow&amp; n_1=n_2\land m_1=m_2 \\
+    &amp;\Rightarrow&amp; (n_1,m_1)=(n_2,m_2) \\
+ \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f$는 전사이다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\mathbb{Q}$는 가부번집합이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\mathbb{R}$의 부분집합 $(0,1)$은 비가부번집합이다.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;귀류법을 이용해서 증명한다. (가부번집합이라고 가정했다가, 이것이 모순이 있음을 밝혀 증명)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$(0,1)$이 가부번집합이라 하자.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f:\mathbb{N}\rightarrow(0,1),f(n)=0.a_{n1}a_{n2}a_{n3}a_{n4}\cdots(a_{nm}\in\{0,1,2,…9\},m\in \mathbb{N})$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;즉, $f(1)$은 $0.a_{11}a_{12}a_{13}\cdots$이라는 소수에 대응되며, $f(2)$은 $0.a_{21}a_{22}a_{23}\cdots$이라는 소수에 대응된다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;우리는 $f$에 대응되지 않는 것이 존재한다는 것을 보일 것이다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Let $z\in(0,1), z=0.z_1z_2z_3\cdots with\;z_k\neq a_{kk}, \forall k\in \mathbb{N}$ (즉, $z_k\neq a_{kk}, \forall k\in \mathbb{N}$가 되도록 $z$를 잡는다. 예를 들면, $k=1$일 때는 $z_1\neq a_{11}$이기 때문에 $z\neq f(1)$이고, $z_2\neq a_{22}$이기 때문에 $z\neq f(2)$이다.)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\forall k\in\mathbb{N},f(k)\neq z$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$z\notin \mathbb{N}$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;모든 무리수 집합($\mathbb{I}$)은 비가부번집합이다.
+    &lt;ul&gt;
+      &lt;li&gt;$\mathbb{R}=\mathbb{Q}\cup\mathbb{I}$인데, $\mathbb{R}$은 비가부번집합이고, $\mathbb{Q}$는 가부번집합이다. 그러므로 $\mathbb{I}$는 비가부번집합이어야 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\mathbb{C}$는 비가부번집합이다.
+    &lt;ul&gt;
+      &lt;li&gt;$\mathbb{R}\subset\mathbb{C}$인데, $\mathbb{R}$이 비가부번집합이므로 $\mathbb{C}$도 비가부번집합이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;자연수, 정수, 유리수 집합은 가부번집합이고, 실수, 무리수, 복소수 집합은 비가부번집합이다. 가부번집합과 가부번집합의 연산 결과는 대부분 가부번집합이다.(여기서 대부분이라고 말하는 이유는 예외가 있기 때문) 하지만 비가부번집합이 그 연산에 끼어들면 비가부번집합이 된다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;기수&quot;&gt;기수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;우리는 집합의 크기에 대해 다루고 있다. 지금까지는 우리가 이미 알고 있는 집합 $\mathbb{N}, \mathbb{R}$과 동등한가 동등하지 않은가를 기준으로 간접적으로 집합의 크기를 가늠해봤다. 하지만 집합의 크기를 기호 혹은 숫자로 표현하고자 하는 욕구가 사라지는 것은 아니다. 유한집합에서는 집합의 크기를 그 집합에 포함된 원소의 갯수로 나타낼 수 있다. 즉, 자연수에 대응시킬 수 있다. 무한집합도 그렇게 할 수 있지 않을까라는 발상에서 이 개념이 생겨났다. 그렇다고 무한집합에서만 쓰이는 것은 아니고, 유한집합과 무한집합 모두에서 사용할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;기수 : 집합의 크기를 나타내는 기호 혹은 숫자&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$card\;A$ 또는 $\#A$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기수의-성질&quot;&gt;기수의 성질&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;각 집합 $A$에 대하여 $\#A$는 유일하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\#A$에 해당하는 집합 $A$는 항상 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=\emptyset\Leftrightarrow\#A=0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A\approx\{1,2,3,\cdots\}\Rightarrow\#A=k(k\in \mathbb{N})$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A\approx B\Leftrightarrow \#A=\#B$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;유한기수와-초한기수&quot;&gt;유한기수와 초한기수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;유한기수 : 유한집합의 기수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;무한기수 : 무한집합의 기수&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;대표적인-초한기수&quot;&gt;대표적인 초한기수&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\#\mathbb{N}=\aleph_0$ : 가부번집합의 기수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\#\mathbb{R}=\varsigma$ : 연속체의 기수&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ab&quot;&gt;$\#A&amp;lt;\#B$&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A$는 $B$의 한 부분집합과 동등이고, $B$는 $A$의 어떠한 부분집합과도 동등이지 않다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이는 임의의 두 초한기수의 순서에 대한 정의와도 같다(???)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\#A\le\#A$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$\star$칸토어 번슈타인 정리$\star$&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$A$가 $B$의 부분집합과 동등이고, $B$가 $A$의 부분집합과 동등이면 $A$와 $B$는 동등이다.($\#A=\#B$)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;즉, $\#A\le\#B\land\#A\ge\#B\Rightarrow\#A=\#B$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\#A\le\#B$이고 $\#B\le\#C$이면 $\#A\le\#C$이다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;기수의-연산&quot;&gt;기수의 연산&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;기수와 자연수는 닮은 점이 있어 자연수를 연산하듯이 기수를 연산하는 것이 어느정도 가능하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기수-합&quot;&gt;기수 합&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;서로소인 두 집합 $A,B$의 기수를 각각 $a,b$라고 할 때, $a+b=\#(A\cup B)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기수-곱&quot;&gt;기수 곱&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;집합 $A,B$의 기수를 각각 $a,b$라고 할 때, $ab=\#(A\times B)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;연산법칙&quot;&gt;연산법칙&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;임의의 기수 $x,y,z$에 대하여 다음이 성립한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;교환법칙
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$x+y=y+x$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$xy=yx$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;결합법칙
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;$(x+y)+z=x+(y+z)$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$(xy)z=x(yz)$&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;분배법칙
+    &lt;ul&gt;
+      &lt;li&gt;$x(y+z)=xy+xz$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;여러가지-정리-2&quot;&gt;여러가지 정리&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;$\aleph_0+\aleph_0=\aleph_0$
+    &lt;ul&gt;
+      &lt;li&gt;첫 번째 $\aleph_0$에 해당하는 집합을 $\mathbb{N}_e$로 잡고, 두 번째 $\aleph_0$에 해당하는 집합을 $\mathbb{N}_o$로 잡으면 이 둘은 서로소이고, 기수의 합에 의해 $\mathbb{N}_e\cup\mathbb{N}_o$의 기수는 $\mathbb{N}$의 기수와 같다. $\mathbb{N}$의 기수는 $\aleph_0$이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\varsigma+\varsigma=\varsigma$
+    &lt;ol&gt;
+      &lt;li&gt;$\varsigma+\varsigma\le\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$(0,1)\cup(1,2)\subseteq(0,2)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$(0,2)\approx(0,1)$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$\varsigma+\varsigma\ge\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;자명&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\aleph_0+\varsigma=\varsigma$
+    &lt;ol&gt;
+      &lt;li&gt;$\aleph_0+\varsigma\le\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;$\aleph_0$에 해당하는 집합을 $\mathbb{N}$로 잡고, $\varsigma$에 해당하는 집합을 $(0,1)$로 잡으면, 이 둘은 서로소이고, 합집합을 하면 $\mathbb{N}\cup(0,1)\subseteq \mathbb{R}$이다. $\mathbb{R}\approx (0,1)$이므로 위 수식은 참이다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$\aleph_0+\varsigma\ge\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;자명&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\aleph_0\aleph_0=\aleph_0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\varsigma\varsigma=\varsigma$
+    &lt;ol&gt;
+      &lt;li&gt;$\varsigma\varsigma\le\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$f:(0,1)\times(0,1)\rightarrow(0,1)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$f(0.x_1x_2x_3\cdots,0,y_1y_2y_3\dots)=0.x_1y_1x_2y_2x_3y_3\cdots$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\Rightarrow f는\;단사$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\therefore(0,1)\times(0,1)\subseteq(0,1)$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$\varsigma\le\varsigma\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$g:(0,1)\rightarrow(0,1)\times(0,1),g(x)=(x,0.5)\in(0.1,0.1)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;ex) $g(0.1)=(0.1,0.5)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\therefore(0,1)\subseteq(0,1)\times(0,1)$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$\aleph_0\varsigma=\varsigma$
+    &lt;ol&gt;
+      &lt;li&gt;$\aleph_0\varsigma\le\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;$\aleph_0\varsigma\le\varsigma\varsigma\le\varsigma$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$\aleph_0\varsigma\ge\varsigma$
+        &lt;ul&gt;
+          &lt;li&gt;자명&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;주의&quot;&gt;주의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\aleph_0+\aleph_0=\aleph_0=\aleph_0+1\Rightarrow \aleph_0\neq q$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\aleph_0\aleph_0=\aleph_0=\aleph_0\cdot1\Rightarrow \aleph_0\neq1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;즉, 기수의 연산이 자연수와 닮은 점이 있지만, 다른 점도 있다는 사실에 주의해야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;기수의-지수&quot;&gt;기수의 지수&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;집합 $A,B$에 대하여 $\#A=m,\#B=n$일 때,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;$B^A=\{f|f:A\rightarrow B\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\#(B^A)=n^m$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;예시-1&quot;&gt;예시&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A=\{1,2,3\}, B=\{4,5\}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$B^A=f:A\rightarrow B$의 총 갯수$\Rightarrow 2\times 2\times 2=2^3=8=\#B^{\#A}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;특수한-축양형&quot;&gt;특수한 축양형&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;$B=\{0,1\}$일 때, $B^A=\{0,1\}^A$이다. 이를 축약하여 $2^A$로 표기하기도 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;여러가지-정리-3&quot;&gt;여러가지 정리&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;집합 $X$에 대하여 $\#X=x$일 때, $\#P(X)=2^x$이다.
+    &lt;ul&gt;
+      &lt;li&gt;$\{0,1\}^X=2^x$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기수 $x,y,z$에 대하여
+    &lt;ol&gt;
+      &lt;li&gt;$x^yx^z=x^{y+z}$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$X=\{1,2\},Y=\{3\},Z=\{4,5,6\}$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\#X=2,\#Y=1,\#Z=3$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\#X^Y=2$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\#X^Z=2^3=8$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\#X^{Y\cup Z}=2^4=16$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$(x^y)^z=x^{yz}$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$(x^y)=2, (x^y)^z=2^3=8$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$x^{yz}=2^3=8$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$(xy)^z=x^zy^z$
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$xy=2,(xy)^z=8$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$x^z=8,y^z=1,x^zy^z=8$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$\varsigma=\aleph_0^{\aleph_0}=\varsigma^{\aleph_0}$&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;앞에서 $\aleph_0$를 $\varsigma$로 바꾸는 것은 거의 불가능하다고 했었는데, 이렇게 지수로 올려주면 $\varsigma$로 바꿀 수 있다.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$\varsigma=2^{\aleph_0}=\aleph_0^{\aleph_0}$임을 보이고, $\varsigma=\varsigma^{\aleph_0}$임을 통해서 증명할 것이다.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;$\varsigma=2^{\aleph_0}$
+        &lt;ul&gt;
+          &lt;li&gt;$2^{\aleph_0}$는 자연수 집합의 멱집합의 기수와 같다.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;$\varsigma\le2^{\aleph_0}(=\#(P(\mathbb{N})))$&lt;/p&gt;
+
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;p&gt;$f:(0,1)\rightarrow P(\mathbb{N})$&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;$f(0.a_1a_2a_3\cdots)=\{a_n\times 10^n| n,a_n\in \mathbb{N}\}$&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;ex) $f(0.109372)=\{10, 9000, 30000, 700000, 2000000\}\in P(\mathbb{N})$&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;$f$는 단사이기 때문에 $\varsigma\le2^{\aleph_0}$임이 증명된다.&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$2^{\aleph_0}\le\varsigma$&lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;$g:\{0,1\}^\mathbb{N}\rightarrow(0,1)$&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$g(f)=0.f(1)f(2)f(3)\cdots\in(0,1)$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$g$는 단사&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$2^{\aleph_0}=\aleph_0^{\aleph_0}$
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   &amp;=&amp; \{f\|f:\mathbb{N}\rightarrow\{0,1\}\}\subseteq\{f\|f:\mathbb{N}\rightarrow\mathbb{N}\} \\
+   &amp;&amp; (\{f\|f:\mathbb{N}\rightarrow\mathbb{N}\}의\;기수는\; \aleph_0^{\aleph_0}) \\
+   &amp;=&amp; \{f\|f:\mathbb{N}\rightarrow\mathbb{N}\}\subseteq \{f\|f:\mathbb{N}\times\mathbb{N}\} \\
+   &amp;=&amp; \{f\|f:\mathbb{N}\times\mathbb{N}\}\subseteq P(\mathbb{N}\times\mathbb{N}) \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;$P(\mathbb{N}\times\mathbb{N})$의 기수는 $2^{\aleph_0\aleph_0}$이며, $2^{\aleph_0\aleph_0}=2^{\aleph_0}$이다.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$2^{\aleph_0}\le\aleph_0^{\aleph_0}\le2^{\aleph_0}$&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;$2^{\aleph_0}=\aleph_0^{\aleph_0}$&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$\varsigma=\varsigma^{\aleph_0}$
+ &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   s^{\aleph_0} &amp;=&amp;  (2^{\aleph_0})^{\aleph_0}(\because \varsigma=2^{\aleph_0}) \\
+   &amp;=&amp;  2^{\aleph_0\aleph_0} \\
+   &amp;=&amp;  2^{\aleph_0} \\
+   &amp;=&amp;  \varsigma \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$2^\varsigma=\aleph_0^\varsigma=\varsigma^\varsigma$
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;$2^\varsigma=\aleph_0^\varsigma$
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   \{f|f:\mathbb{R}\rightarrow \{0,1\}\} (기수는\;2^{\varsigma}) &amp;\subseteq&amp;  \{f|f:\mathbb{R}\rightarrow \mathbb{N}\} (기수는\;\aleph_0^{\varsigma}) \\
+   &amp;\subseteq&amp; \{f|f:\mathbb{R}\times\mathbb{N}\}  \\
+   &amp;\subseteq&amp; P(\mathbb{R},\mathbb{N}) (기수는\;2^{\varsigma\aleph_0}) \\
+   &amp;&amp; 2^{\varsigma\aleph_0}=2^\varsigma \\
+   &amp;&amp; 2^\varsigma\le\aleph_0^\varsigma\le2^\varsigma \\
+   &amp;\therefore&amp; 2^\varsigma=\aleph_0^\varsigma \\
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$2^\varsigma=\varsigma^\varsigma$
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{matrix}
+   \varsigma^\varsigma &amp;=&amp; (2^{\aleph_0})^\varsigma \\
+   &amp;=&amp; 2^{\aleph_0\varsigma}
+   &amp;=&amp; 2^{\varsigma}
+\end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="1. 집합론" /><summary type="html">Intro 집합의 크기를 탐구함에 있어서, 대상이 되는 집합의 크기를 파악하는 것은 기초 중의 기초</summary></entry><entry><title type="html">1.4 함수</title><link href="http://localhost:4000/lecture/2020/10/21/set_theory_function" rel="alternate" type="text/html" title="1.4 함수" /><published>2020-10-21T00:00:00-07:00</published><updated>2020-10-21T00:00:00-07:00</updated><id>http://localhost:4000/lecture/2020/10/21/set_theory_function</id><content type="html" xml:base="http://localhost:4000/lecture/2020/10/21/set_theory_function">&lt;h2 id=&quot;함수&quot;&gt;함수&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;관계의 특수한 케이스&lt;/p&gt;
@@ -25,12 +679,12 @@
       &lt;li&gt;2번 조건을 위반&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;$f_1=\{(1,a), (2,b)\}$
+  &lt;li&gt;$f_2=\{(1,a), (2,b)\}$
     &lt;ul&gt;
       &lt;li&gt;1번 조건을 위반&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;$f_1=\{(1,a), (2,a), (3,b)\}$
+  &lt;li&gt;$f_3=\{(1,a), (2,a), (3,b)\}$
     &lt;ul&gt;
       &lt;li&gt;함수&lt;/li&gt;
     &lt;/ul&gt;
@@ -39,11 +693,11 @@
 
 &lt;p&gt;함수 $f:X\rightarrow Y$에서 $y=f(x)$일 때,&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;$y$를 $f$에 의한 $x$의 상&lt;/li&gt;
-  &lt;li&gt;$x$를 $f$에 의한 $y$의 원상&lt;/li&gt;
-  &lt;li&gt;$X$를 $f$의 정의역 : $Dom(f)$&lt;/li&gt;
-  &lt;li&gt;$Y$를 $f$의 공역&lt;/li&gt;
-  &lt;li&gt;$\{f(x)| x\in X\}=f(X)$를 $X$의 치역 : $Rng(f)$
+  &lt;li&gt;$y$를 $f$에 의한 $x$의 상(Image)&lt;/li&gt;
+  &lt;li&gt;$x$를 $f$에 의한 $y$의 원상(Preimage)&lt;/li&gt;
+  &lt;li&gt;$X$를 $f$의 정의역 : $Dom(f)$(Domain)&lt;/li&gt;
+  &lt;li&gt;$Y$를 $f$의 공역(Codomain)&lt;/li&gt;
+  &lt;li&gt;$\{f(x)| x\in X\}=f(X)$를 $X$의 치역 : $Rng(f)$(Range)
 라 한다.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -107,12 +761,12 @@
   &lt;/li&gt;
   &lt;li&gt;$f=\{(1,a), (2,b), (3,c)\}$
     &lt;ul&gt;
-      &lt;li&gt;$f:A\rightarrow Y$&lt;/li&gt;
+      &lt;li&gt;$f:B\rightarrow Y$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;$g=\{(1,a), (2,b)\}$
     &lt;ul&gt;
-      &lt;li&gt;$g:B\rightarrow Y$&lt;/li&gt;
+      &lt;li&gt;$g:A\rightarrow Y$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;$g=f|_A$&lt;/li&gt;
@@ -148,8 +802,10 @@
   &lt;li&gt;
     &lt;p&gt;상수함수 : $\exists y_0\in Y, f(X)=y_0$&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;역함수&lt;/strong&gt; : &lt;strong&gt;전단사&lt;/strong&gt;인 $f:X\rightarrow Y$에 대해 $f^{-1}:Y\rightarrow X$&lt;/p&gt;
+  &lt;li&gt;&lt;strong&gt;역함수&lt;/strong&gt; : &lt;strong&gt;전단사&lt;/strong&gt;인 $f:X\rightarrow Y$에 대해 $f^{-1}:Y\rightarrow X$
+    &lt;ul&gt;
+      &lt;li&gt;함수 $f$의 역함수가 존재한다는 사실이 주어지면, 별다른 언급이 없더라도 $f$는 전단사이다.&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;두 함수 $f:X\rightarrow Y,g:Y\rightarrow Z$일 때, 합성함수 $(g\circ f)(x)=g(f(x))$&lt;/li&gt;
 &lt;/ol&gt;
@@ -172,13 +828,13 @@
     &lt;p&gt;$f, g$가 모두 단사$\Rightarrow g\circ f$는 단사&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;$g\circ f$는 단사 $\Rightarrow f$는 단사&lt;/p&gt;
+    &lt;p&gt;$g\circ f$는 단사 $\Rightarrow f$는 단사(뒤에서 증명)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;$f, g$가 모두 전사$\Rightarrow g\circ f$는 전사&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;$g\circ f$는 전사 $\Rightarrow g$는 전사&lt;/p&gt;
+    &lt;p&gt;$g\circ f$는 전사 $\Rightarrow g$는 전사(뒤에서 증명)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -291,6 +947,9 @@
   &lt;li&gt;합성함수 $g\circ f$가 단사이면 $f$는 단사이다.
     &lt;ul&gt;
       &lt;li&gt;
+        &lt;p&gt;NTS : $\forall x_1,x_2\in X,f(x_1)=f(x_2)\Rightarrow x_1=x_2$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
         &lt;p&gt;$f:X\rightarrow Y, g:Y\rightarrow Z$&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
@@ -311,7 +970,12 @@
   &lt;/li&gt;
   &lt;li&gt;함성함수 $g\circ f$가 전사이면 $g$는 전사이다.
     &lt;ul&gt;
-      &lt;li&gt;$f:X\rightarrow Y, g:Y\rightarrow Z$&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;NTS : $g(Y)=Z$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;$f:X\rightarrow Y, g:Y\rightarrow Z$&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
 
     &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
@@ -476,7 +1140,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
  &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
    \forall x\in f^{-1}(f(A)) &amp;\Rightarrow&amp; f(x)\in f(A) \\
-   &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x') (x'는\;x에\;대응되는\;A의\;원소)\\
+   &amp;\Rightarrow&amp; \exists x'\in A\;s.t.\;f(x)=f(x') (x'는\;x에\;대응되는\;A의\;원소) &amp; (x'는\;x에\;대응되는\;A의\;원소)\\
    &amp;\Rightarrow&amp; x=x' &amp; (\because f는\;단사) \\
    &amp;\Rightarrow&amp; x\in A
 \end{matrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
@@ -489,7 +1153,7 @@ f(x)=\begin{cases}2x+1, &amp; x\ge 0 \\ -2x, &amp; x&lt; 0\end{cases} %]]&gt;&lt
             &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{matrix}
        &amp;\Rightarrow&amp; \forall x\in A,f(x)\in f(A) &amp; (\because x\in A) \\
-       &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because A\subset f^{-1}(f(A)))\\
+       &amp;\Rightarrow&amp; x\in f^{-1}(f(A)) &amp; (\because 역상은\;일반적으로\;더\;커지므로)\\
     \end{matrix} %]]&gt;&lt;/script&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
@@ -2679,376 +3343,4 @@ h(x) &amp; (x &lt; a)
     &lt;p&gt;$lim_{x\rightarrow a}f(x)=0$은 $f(x)=(x-a)Q_1(x)$로 표현할 수 있음을 뜻한다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;$lim_{x\rightarrow a}g(x)=0$은 $g(x)=(x-a)Q_2(x)$로 표현할 수 있음을 뜻한다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">우극한과 좌극한 우극한 : $lim_{x\rightarrow a+}f(x)$ a보다 큰 쪽에서 a로 다가가는 것</summary></entry><entry><title type="html">Linear Regression</title><link href="http://localhost:4000/posts/2020/08/10/linear_regression" rel="alternate" type="text/html" title="Linear Regression" /><published>2020-08-10T00:00:00-07:00</published><updated>2020-08-10T00:00:00-07:00</updated><id>http://localhost:4000/posts/2020/08/10/linear_regression</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/10/linear_regression">&lt;h2 id=&quot;변수-사이의-관계&quot;&gt;변수 사이의 관계&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;확정적 관계 : X변수만으로 Y를 100% 표현(오차항 없음)
-    &lt;ul&gt;
-      &lt;li&gt;힘=f(질량, 가속도), 주행거리=f(속도, 시간)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;확률적 관계 : X변수와 오차항이 Y를 표현(오차항 있음)
-    &lt;ul&gt;
-      &lt;li&gt;반도체 수율=f(설비 파라미터들의 상태, 온도, 습도)+$\epsilon$&lt;/li&gt;
-      &lt;li&gt;포도주 가격 = f(강우량, 온도, 포도품종) + $\epsilon$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;선형회귀모델&quot;&gt;선형회귀모델&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;출력변수 Y를 입력변수 X들의 &lt;strong&gt;선형결합&lt;/strong&gt;으로 표현한 모델
-    &lt;ul&gt;
-      &lt;li&gt;예 : $y=\beta_0+\beta_1x_1+\epsilon$&lt;/li&gt;
-      &lt;li&gt;$\beta_0$는 y절편이고, $\beta_1$은 기울기이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;선형회귀모델에서 $y$는 $x$로 설명할 수 있는 부분($\beta_0+\beta_1x_1$)과 $x$로 설명할 수 없는 부분($\epsilon$)으로 나뉘어진다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;선형회귀모델의-목적&quot;&gt;선형회귀모델의 목적&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;X변수와 Y변수 사이의 관계를 수치로 &lt;strong&gt;설명&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;미래의 반응변수 (Y)값을 &lt;strong&gt;예측&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;선형회귀모델-분류&quot;&gt;선형회귀모델 분류&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89372557-6cf35380-d721-11ea-96e4-fbee46bb6a3b.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89550459-98bb2a00-d844-11ea-8ea1-23cba28af765.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;선형회귀-모델의-가정&quot;&gt;선형회귀 모델의 가정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;아래 조건을 만족하지 못하면 선형회귀 모델의 신빙성이 떨어짐&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;확률오차 가정
-    &lt;ul&gt;
-      &lt;li&gt;오차항 $\epsilon$은 평균이 0이고, 분산이 $\sigma^2$인 정규분포를 따른다.&lt;/li&gt;
-      &lt;li&gt;$\epsilon\sim N(0,\sigma^2)$&lt;/li&gt;
-      &lt;li&gt;$Y_i=\beta_0+\beta_1x_1+\epsilon$인데, $\epsilon$이 정규 분포를 따르므로 $Y_i$ 또한 어떤 분포를 따르게 된다. 즉, $Y_i$도 확률 변수다.&lt;/li&gt;
-      &lt;li&gt;$Y_i$가 어떤 확률 변수인지 파악하기 위해 평균과 분산을 구해보자.&lt;/li&gt;
-      &lt;li&gt;$E[Y_i]=E[\beta_0+\beta_1x_1]+E[\epsilon]=\beta_0+\beta_1x_1(\because \beta_0+\beta_1x_1\;is\;constant, E[\epsilon]=0)$&lt;/li&gt;
-      &lt;li&gt;$V[Y_i]=V[\beta_0+\beta_1x_1]+V[\epsilon]=\sigma^2(\because \beta_0+\beta_1x_1\;is\;constant, V[\beta_0+\beta_1x_1]=0)$&lt;/li&gt;
-      &lt;li&gt;즉, $Y_i\sim N(\beta_0+\beta_1x_i, \sigma^2)$&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89374522-8e0a7300-d726-11ea-9723-495acf1edfe1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;엄밀히 정의하자면, 선형회귀는 입력변수 X와 출력변수 Y의 평균과의 관계를 설명하는 선형식을 찾는 것이다.
-    &lt;ul&gt;
-      &lt;li&gt;$Y=\beta_0+\beta_1x_1+\beta_2x_2+…+\beta_px_p+\epsilon$&lt;/li&gt;
-      &lt;li&gt;$E[Y]=\beta_0+\beta_1x_1+\beta_2x_2+…+\beta_px_p$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;파라미터-추정&quot;&gt;파라미터 추정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;$C(\beta_0, \beta_1)=\sum_{i=1}^{n}(Y_i-(\beta_0+\beta_1x_i))^2$을 최소화하는 파라미터 $\beta_0,\beta_1$을 찾으면 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;파라미터-추정-알고리즘&quot;&gt;파라미터 추정 알고리즘&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;만약 cost function이 convex하다면, 전역 최적해가 존재한다. 선형회귀 모델의 cost function은 convex하다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이 때는 미분값이 0이 되는 지점을 찾으면 된다.
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;${\partial C(\beta_0, \beta_1)\over \partial\beta_0}-2\sum_{i=1}^{n}Y_i-(\beta_0+ \beta_1x_i)=0$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;${\partial C(\beta_0, \beta_1)\over \partial\beta_1}-2\sum_{i=1}^{n}Y_i-(\beta_0+ \beta_1x_i)x_i=0$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;$\hat{\beta_0}=\bar{Y}-\hat{\beta_1}\bar{X}$&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;$\hat{\beta_1}={\sigma_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})\over \sum_{i=1}^{n}(X_i-\bar{X})^2}$&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$f(X)=\hat{Y}=\hat{\beta_0}+\hat{\beta_1}X$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;잔차residual&quot;&gt;잔차(Residual)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89378545-f8271600-d72e-11ea-9579-96dafeacaf94.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;최소 제곱법으로 구해진 직선과 실제 y값의 차이를 잔차라고 한다.(왼쪽 그림)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;확률 오차와는 다른 개념이다.(오른쪽 그림)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;확률 오차는 확정되기 이전의 직선을 기반으로 한다. 그렇기 때문에 확률 오차는 확률 분포를 따른다. 반면 잔차는 확률 분포가 아니라 정해진 값이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;즉, 잔차 $e$는 확률 오차 $\epsilon$이 실제로 구현된 값이라고 볼 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;추정&quot;&gt;추정&lt;/h1&gt;
-&lt;h2 id=&quot;least-square-estimator&quot;&gt;Least Square Estimator&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\hat{\beta_0}=\bar{Y}-\hat{\beta_1}\bar{X}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\hat{\beta_1}={\sigma_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})\over \sum_{i=1}^{n}(X_i-\bar{X})^2}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Estimator(추정량) : 샘플의 함수(a function of the samples)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;추정량의 용도 : 알려지지 않은 파라미터를 추정($\beta_0, \beta_1$)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;추정량의 종류&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;점추정(point estimator)&lt;/li&gt;
-      &lt;li&gt;구간추정(interval estimator)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;least-square-estimator의-성질&quot;&gt;Least Square Estimator의 성질&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gauss-Markov Theorem에 따르면 Least Square Estimator는 best linear unbiased estimator(BLUE)이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;BLUE를 만족하려면 다음 조건을 만족해야 한다.&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;불편 추정량(unbiased estimator)이다.&lt;/li&gt;
-      &lt;li&gt;우리가 구한 불편 추정량이 다른 추정량보다 작은 분산을 가지고 있다.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;unbiased estimator
-    &lt;ul&gt;
-      &lt;li&gt;불편추정량 : 추정량의 기대값이 모수와 같아진다면 이 추정량을 불편추정량이라고 한다.&lt;/li&gt;
-      &lt;li&gt;$E[\hat{\beta_0}]=\beta_0$&lt;/li&gt;
-      &lt;li&gt;$E[\hat{\beta_1}]=\beta_1$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;smallest variance estimator
-    &lt;ul&gt;
-      &lt;li&gt;$\hat{\theta}$ : any other unbiased estimators&lt;/li&gt;
-      &lt;li&gt;$V[a\hat{\beta_0}]\le V[b\hat{\theta}]$&lt;/li&gt;
-      &lt;li&gt;$V[a\hat{\beta_1}]\le V[b\hat{\theta}]$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;파라미터에-대한-점추정&quot;&gt;파라미터에 대한 점추정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;점추정은 우리가 이미 한 것이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$Y_i=\beta_0+\beta_1x_1+\epsilon$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\epsilon\sim N(0,\sigma^2)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\beta_0$에 대한 점추정 식 : $\hat{\beta_0}=\bar{Y}-\hat{\beta_1}\bar{X}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\beta_1$에 대한 점추정 식 : $\hat{\beta_1}={\sigma_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})\over \sum_{i=1}^{n}(X_i-\bar{X})^2}$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\sigma^2$에 대한 점추정 식 : $\sigma^2=({1\over n-2})\sum_{i=1}^{n}e_i^2$($n$ : 샘플의 수, $e_i$: 잔차)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;파라미터에-대한-구간추정&quot;&gt;파라미터에 대한 구간추정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;앞에서 배운 점추정은 알려지지 않은 파라미터를 추정할 때 하나의 값으로 추정하는 방법이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;구간추정은 하나의 값으로 추정하는 것이 아니라 lower bound와 upper bound를 가지는 구간으로 추정하기 때문에 보다 유연한 정보를 제공할 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\theta$(파라미터)에 대한 구간추정의 기본 형태&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;$\hat{\theta}-상수값\cdot \hat{\theta}의 표준편차\le\theta\le\hat{\theta}+상수값\cdot \hat{\theta}의 표준편차$&lt;/li&gt;
-      &lt;li&gt;즉, 점추정량, 점추정량의 표준편차, 상수값을 알아야 한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;기울기에-대한-신뢰구간&quot;&gt;기울기에 대한 신뢰구간&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$\beta_1$에 대한 $100(1-\alpha)\%$의 신뢰구간을 구하자. (신뢰구간을 구하자=구간 추정을 해보자)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n$ : 관측치 수&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\beta}_1-t_{ {\alpha\over 2},n-2}\cdot sd\{\hat{\beta}_1\}\le\beta_1\le \hat{\beta}_1+t_{ {\alpha\over 2},n-2}\cdot sd\{\hat{\beta}_1\}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$\hat{\beta_1}={\sigma_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})\over \sum_{i=1}^{n}(X_i-\bar{X})^2}$
-    &lt;ul&gt;
-      &lt;li&gt;$\beta_1$의 점추정량&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$t_{ {\alpha\over 2},n-2}$ : 유의수준 $1-\alpha$ 하에서 자유도가 $n-2$인 t분포의 값&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$sd{\hat{\beta}&lt;em&gt;1}=\sqrt{ {\hat{\sigma} }^2\over \sum&lt;/em&gt;{i=1}^{n}(X_i-\bar{X})^2}$ : $\hat{\beta}_1$의 표준편차&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;y절편에-대한-신뢰구간&quot;&gt;Y절편에 대한 신뢰구간&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89478449-f90d8580-d7ca-11ea-91a0-789b593170d0.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;가설-검정&quot;&gt;가설 검정&lt;/h1&gt;
-&lt;h2 id=&quot;기울기에-대한-가설검정&quot;&gt;기울기에 대한 가설검정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;가설검정 : 알려지지 않은 파라미터에 대한 가설을 세우고 이를 검정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;선형회귀에서는 기울기에 대한 가설검정이 중요&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$H_0:\beta_0=0\;\;vs\;\;H_1:\beta_1\neq0$
-    &lt;ul&gt;
-      &lt;li&gt;귀무가설 : $\beta_0=0$이다.&lt;/li&gt;
-      &lt;li&gt;대립가설 : $\beta_0\neq0$이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;이 가설에 대한 검정이 중요한 이유는 기울기가 0이라면 X변수와 Y변수는 서로 관계가 없는 것이기 때문이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;결정계수coefficient-of-determination-r2&quot;&gt;결정계수(Coefficient of Determination: $R^2$)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/26649034/89480745-19404300-d7d1-11ea-8d9a-b8f843967f03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$SST=\sum_{i=1}^{n}(Y_i-\bar{Y})^2$, Y의 총 변동량&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$SSR=\sum_{i=1}^{n}(\hat{Y_i}-\bar{Y})^2$, X변수에 의해 설명된 양&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$SST=\sum_{i=1}^{n}(Y_i-\hat{Y_i})^2$, 에러에 의해 설명된 양&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$SST=SSR+SSE$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;${SSR\over SST}=1$ : 직선 위에 모든 점이 있다. 에러가 없다. 확정적인 관계이다. (ex. $f=ma$)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;${SSR\over SST}=0$ : 직선 위에 점이 하나도 없다. $Y$의 평균으로 예측한 것과 비교해서 $X$에 대한 정보를 추가해도 변한 것이 아무것도 없다.(현재 가지고 있는 X변수는 Y의 예측에 아무런 도움이 되지 않는다.)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^2={SSR\over SST}=1-{SSE\over SST}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;결정 계수는 다음과 같이 해석할 수 있다.
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;사용하고 있는 X변수가 Y변수의 분산을 얼마나 줄였는지 정도를 나타낸다. 예를 들어, 결정계수가 1이라면 분산을 100% 줄인 것이며, 0.2라면 20% 줄인 것이다.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;단순히 Y의 평균값을 사용했을 때 대비 X 정보를 사용함으로써 얻는 성능 향상 정도&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;사용하고 있는 X변수의 품질&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;수정-결정계수adjusted-r2&quot;&gt;수정 결정계수(Adjusted $R^2$)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;결정계수는 유의하지 않은 변수가 추가되어도 항상 증가한다는 문제점이 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^2_{adj}=1-[{n-1\over n-(p+1)}]{SSE\over SST}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;$n$ : 관측치의 수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$p$ : 변수의 수&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;수정 결정계수는 앞에 특정 계수를 곱해줌으로써 보정한다. 즉, 유의하지 않은 변수가 추가될 경우 값이 증가되지 않게 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;설명변수가 서로 다른 회귀모형의 설명력을 비교할 때 사용한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그러므로 수정 결정계수는 결정계수보다 작거나 같다. 즉, $R_{adj}^{2}\le R^2$를 만족한다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;선형회귀모델에서의-분산-분석&quot;&gt;선형회귀모델에서의 분산 분석&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;분산분석 : Analysis of Variance(ANOVA)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;분산 정보를 이용하여 분석&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;궁극적으로는 가설 검정을 행하는 용도로 사용됨&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;앞에서 배웠던 SST, SSR, SSE는 모두 분산이다. 예를 들어, SST는 평균을 기준으로 $Y_i$가 얼마나 퍼져있는가를 보여준다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이 세가지를 활용해 분석하는 것이 분산 분석이다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;{SSR\over SSE}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;${SSR\over SSE}&amp;gt;1$
-    &lt;ul&gt;
-      &lt;li&gt;X변수에 의해 설명된 양 &amp;gt; 에러에 의해 설명된 양&lt;/li&gt;
-      &lt;li&gt;X변수가 Y설명(예측)에 유의미한 영향&lt;/li&gt;
-      &lt;li&gt;X변수의 계수(기울기)가 0이 아님&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;$0\le {SSR\over SSE}\le1$
-    &lt;ul&gt;
-      &lt;li&gt;X변수에 의해 설명된 양 &amp;lt; 에러에 의해 설명된 양&lt;/li&gt;
-      &lt;li&gt;X변수가 Y설명(예측)에 영향을 끼치지 못함&lt;/li&gt;
-      &lt;li&gt;X변수의 계수(기울기)가 0이라고 할 수 있다&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이 값이 얼마나 커야 큰 값일까? 값의 분포를 알면 통계적으로 판단할 수 있다. 안타깝게도 직접적으로 분포를 정의할 수는 없다. 하지만 SSR과 SSE는 각각 카이제곱 분포를 따른다. 그러므로 값이 F분포를 따른다는 것을 알 수 있다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;단순선형회귀모델의 경우, $SSR\sim\chi^2(v_1=1), SSE\sim\chi^2(v_2=n-2)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$F^*={SSR/1\over SSE/n-2}={MSR\over MSE}\sim F(1,n-2)$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$P-value=P(Y\ge F^*)$로 정의할 수 있으며 $Y\sim F(1,n-2)$이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;X변수에 의해 설명된 양이 에러에 의해 설명된 양보다 통계적으로 충분히 크면 $F^*$의 값은 커지게 되고, P-value는 작아진다. 이 값이 0에 가까우면 귀무가설을 기각하고, X 변수는 중요하므로 기울기가 0이 아니게 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;출처&quot;&gt;출처&lt;/h1&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://danbi-ncsoft.github.io/study/2018/05/04/study-regression_model_summary.html&quot;&gt;회귀 모델의 종류와 특징&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4Yo297HQyAk&amp;amp;list=PLpIPLT0Pf7IoTxTCi2MEQ94MZnHaxrP0j&amp;amp;index=23&quot;&gt;선형회귀모델&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;posts&quot;]" /><summary type="html">변수 사이의 관계 확정적 관계 : X변수만으로 Y를 100% 표현(오차항 없음) 힘=f(질량, 가속도), 주행거리=f(속도, 시간)</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;employer&quot;=&gt;nil, &quot;pubmed&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;blanik00@gmail.com&quot;, &quot;researchgate&quot;=&gt;nil, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;impactstory&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil, &quot;wikipedia&quot;=&gt;nil}</name><email>blanik00@gmail.com</email></author><category term="[&quot;lecture&quot;]" /><category term="미적분" /><summary type="html">우극한과 좌극한 우극한 : $lim_{x\rightarrow a+}f(x)$ a보다 큰 쪽에서 a로 다가가는 것</summary></entry></feed>
